@@ -1,0 +1,3240 @@
+1
+00:00:00,000 --> 00:00:02,600
+ Hej och välkomna till Säkerhetsprodukosten.
+
+2
+00:00:02,600 --> 00:00:05,799
+ Jag som talar heter Mattias Jihlåge. Med mig har jag Jesper Larsson.
+
+3
+00:00:05,799 --> 00:00:06,759
+ Jajamen.
+
+4
+00:00:06,759 --> 00:00:07,799
+ Bort. Peter Magnusson.
+
+5
+00:00:07,799 --> 00:00:09,800
+ Hålet i din mikrokod.
+
+6
+00:00:09,800 --> 00:00:16,519
+ Så pass. Johan Rydbemöller är sjuk och Rickard Bodfors är anorstädesupptagen.
+
+7
+00:00:16,519 --> 00:00:22,140
+ Idag är det onsdagen den 19 februari.
+
+8
+00:00:22,399 --> 00:00:24,199
+ Februari tror jag det är.
+
+9
+00:00:25,480 --> 00:00:27,000
+ Vi är sponsrade av Asshoord.
+
+10
+00:00:27,000 --> 00:00:29,000
+ Du kan läsa mer av dem på arechord.se.
+
+11
+00:00:29,000 --> 00:00:31,000
+ Vi är även sponsrade av Bodfors konstalting.
+
+12
+00:00:31,000 --> 00:00:34,000
+ Du kan läsa mer av dem på Bodfors.se.
+
+13
+00:00:34,000 --> 00:00:36,000
+ Och vi är sponsrade av Nolex 4A.
+
+14
+00:00:36,000 --> 00:00:40,000
+ som är av Nollexera A på nollexeraa.se
+
+15
+00:00:40,000 --> 00:00:42,000
+ Kanon!
+
+16
+00:00:42,000 --> 00:00:45,000
+ Har vi några pluggs denna vackra dag?
+
+17
+00:00:45,000 --> 00:00:48,000
+ Ja, vi har Securit-fest.
+
+18
+00:00:48,000 --> 00:00:49,000
+ Securitfest.
+
+19
+00:01:00,000 --> 00:01:05,659
+ Götefest går ju av stapeln 4-5 juni detta året.
+
+20
+00:01:05,659 --> 00:01:10,620
+ Och om ni har tur så kanske ni kan skoja lite biljetter idag när det här släpps.
+
+21
+00:01:10,620 --> 00:01:13,359
+ För då tror jag att vårt andra släpp kommer vara.
+
+22
+00:01:30,000 --> 00:01:39,000
+ Jag var långsam. Men de är slut och när vi pratar nu så tror jag att det är ett hundratal biljetter som släpps för allmänheten att handla.
+
+23
+00:01:39,000 --> 00:01:42,000
+ Det är den 10-11 juni.
+
+24
+00:01:42,000 --> 00:01:46,000
+ Det kan vara så att Cold for Papers fortfarande är uppe.
+
+25
+00:01:46,000 --> 00:01:51,000
+ Det var det när vi fick ett mejl den 13 januari, så det kanske är det fortfarande.
+
+26
+00:02:00,000 --> 00:02:06,000
+ Så har du bra idéer på tåg och så annat så hör av dig.
+
+27
+00:02:06,000 --> 00:02:09,000
+ Och kolla gärna om du kan få en biljett dit.
+
+28
+00:02:10,000 --> 00:02:12,000
+ Vältalat.
+
+29
+00:02:12,000 --> 00:02:20,680
+ Parflume Constrant med hur du kan kringgå en säkerhetsfunktion, eller rättare sagt
+
+30
+00:02:20,680 --> 00:02:23,680
+ Det utnyttjar att säkerhetsfunktionen avsiktligt är lite trasig.
+
+31
+00:02:30,000 --> 00:02:39,000
+ om att self-issured-C kringgår Paul Flamf Constrantes.
+
+32
+00:02:39,000 --> 00:02:45,000
+ Vilket i vissa hotmodeller gör sönder hela funktionen.
+
+33
+00:02:45,000 --> 00:02:50,000
+ Och så tar jag upp också lite andra roliga lustigheter och begränsningar runt Paulum Constant.
+
+34
+00:02:50,000 --> 00:02:52,000
+ Är det min favorit RF-serie 52 80?
+
+35
+00:02:52,000 --> 00:02:53,000
+ Är det vi pratar om?
+
+36
+00:02:53,000 --> 00:02:54,000
+ Jajamensan.
+
+37
+00:02:54,000 --> 00:02:55,000
+ Fan vad bra.
+
+38
+00:03:00,000 --> 00:03:03,000
+ Liggar alls ihop med lite KKI-läsning sådär på.
+
+39
+00:03:03,000 --> 00:03:04,000
+ Yes.
+
+40
+00:03:04,000 --> 00:03:08,000
+ Den har svarat på alla de frågorna som man inte ens visste att man ville ställa.
+
+41
+00:03:08,000 --> 00:03:10,000
+ Mycket sant. Mycket klokt sagt.
+
+42
+00:03:10,000 --> 00:03:16,139
+ Försöka spontanbygga på det Peter sa, var har svaret på alla frågor vi inte visste vi borde ställa.
+
+43
+00:03:16,139 --> 00:03:18,139
+ Men jag kommer inte på den bryggan.
+
+44
+00:03:18,139 --> 00:03:22,139
+ bryggan. Jag tänkte ta den on the fly, men jag löser den inte.
+
+45
+00:03:22,139 --> 00:03:25,139
+ Jag tror att det är 19 februari.
+
+46
+00:03:25,139 --> 00:03:26,139
+ Det har jag sagt.
+
+47
+00:03:26,139 --> 00:03:28,139
+ Har du gjort det?
+
+48
+00:03:28,139 --> 00:03:30,139
+ Ja, nådens år 2025.
+
+49
+00:03:30,139 --> 00:03:31,139
+ Har jag också sagt.
+
+50
+00:03:31,139 --> 00:03:34,379
+ Vi kan också då säga att om vi spelat in ett avsnitt...
+
+51
+00:03:34,379 --> 00:03:39,860
+ Om vi är grötiga i huvudet så får ni ett långt avsnitt där vi pratar om...
+
+52
+00:03:39,860 --> 00:03:41,379
+ Vad pratar vi om i nästa avsnitt?
+
+53
+00:03:41,379 --> 00:03:42,819
+ Actions och workflows.
+
+54
+00:03:42,819 --> 00:03:44,819
+ Precis. Och pipelines.
+
+55
+00:03:44,819 --> 00:03:48,819
+ Det får ni vänta i två veckor till det kommer.
+
+56
+00:03:48,819 --> 00:03:53,819
+ Det bästa övergången jag kom på var att vi pratade om...
+
+57
+00:03:53,840 --> 00:03:55,840
+ Nice Segway Sam.
+
+58
+00:03:55,840 --> 00:03:57,840
+ What?
+
+59
+00:03:57,840 --> 00:03:59,840
+ Peter Pajal, det är fullständigt.
+
+60
+00:03:59,840 --> 00:04:06,840
+ Jag tänkte vi skulle prata om flera signaler. Boom! Inte vilka signaler som helst, utan krypterade signaler.
+
+61
+00:04:06,840 --> 00:04:10,840
+ och appen Signal för att vara riktigt specifika.
+
+62
+00:04:10,840 --> 00:04:15,840
+ Den har varit lite i, jag vill inte säga hetluften, den har varit snarare ett hot topic det senaste.
+
+63
+00:04:30,000 --> 00:04:41,000
+ Och det hela började i alla fall kronologiskt med att Försvarsmakten gick ut och i ett remissvar till, jag tror det var
+
+64
+00:04:41,000 --> 00:04:47,000
+ Chet Control, Next Gen of Chet Control så gick de ut och var oerhört tydliga och sa att de tyckte det var en jävla dålig idé.
+
+65
+00:04:47,000 --> 00:04:52,120
+ Så där är Försvarsmakten, den svenska, min brygga då.
+
+66
+00:05:00,000 --> 00:05:12,000
+ Så vi börjar med att de ränner remissvar och säger, vi gillar inte chattkontroll för det är, eller rättare sagt, vi gillar inte begränsning av totalstreckskryptering.
+
+67
+00:05:12,000 --> 00:05:16,000
+ För att det kommer skapa bakdörrar hur vi än gör.
+
+68
+00:05:16,000 --> 00:05:20,000
+ Sen följer vi upp med Försvarsmakten igen då, apropå signal.
+
+69
+00:05:20,000 --> 00:05:26,139
+ Så det var bryggan mellan de två nyheterna och fortsätter vi då på
+
+70
+00:05:26,399 --> 00:05:30,480
+ Signal och totalstreckskryptering.
+
+71
+00:05:30,740 --> 00:05:33,040
+ Så i...
+
+72
+00:05:33,040 --> 00:05:39,180
+ Det är igår, det visar den artonde, så kom det ut en serie riktigt bra bloggposer
+
+73
+00:05:39,439 --> 00:05:42,500
+ Från en kille som heter Suatoc
+
+74
+00:05:42,550 --> 00:05:46,550
+ Jag vet inte om han uttalar sitt namn som men det stavas S-O-A-T-O-K.
+
+75
+00:05:46,550 --> 00:05:48,550
+ Och Suatoc Punkt Blogg.
+
+76
+00:05:48,550 --> 00:05:52,629
+ Där finns det alltså ett flertal bloggposter som gör en
+
+77
+00:05:52,889 --> 00:05:56,990
+ ordigt på signals och specifikt signals kryptoimplementation.
+
+78
+00:05:57,750 --> 00:05:58,790
+ Så jag tyckte det var superbra.
+
+79
+00:05:59,029 --> 00:06:01,589
+ Han säger själv att han inte är en
+
+80
+00:06:01,589 --> 00:06:05,670
+ En fullärd kryptolog, alltså matematisk, kunnig, utan han är självlärd.
+
+81
+00:06:05,930 --> 00:06:09,269
+ Men han är bättre än mig, så kan vi säga.
+
+82
+00:06:09,269 --> 00:06:15,410
+ Jag tyckte det var en väldigt pedagogisk genomgång av hur han jobbar med Ordits.
+
+83
+00:06:15,670 --> 00:06:20,269
+ Och vad han tycker om signal, implementation av kryptering.
+
+84
+00:06:20,449 --> 00:06:23,449
+ För att göra det hela ännu roligare.
+
+85
+00:06:23,449 --> 00:06:27,449
+ Så är det så att dock inte vem som helst.
+
+86
+00:06:27,449 --> 00:06:29,449
+ Nämligen en Ferry.
+
+87
+00:06:29,449 --> 00:06:33,050
+ Så han har en Firsona.
+
+88
+00:06:33,050 --> 00:06:37,129
+ Han är väldigt öppen med detta. Han har en frizona som heter Dole.
+
+89
+00:06:37,129 --> 00:06:41,470
+ Och det är då en sydostasiatisk vildhund
+
+90
+00:06:41,990 --> 00:06:43,009
+ Specifikt
+
+91
+00:06:43,269 --> 00:06:47,870
+ Ja han är väldigt, det är väldigt uppfriskande att det är liksom
+
+92
+00:06:48,129 --> 00:06:50,949
+ Han säger själv att han gör det här med mening lite grann att han
+
+93
+00:07:00,000 --> 00:07:04,000
+ Han vill visa att Ferries är också vanliga människor.
+
+94
+00:07:04,000 --> 00:07:05,000
+ På något sätt.
+
+95
+00:07:05,000 --> 00:07:06,000
+ Vill han avdramatisera det hela.
+
+96
+00:07:06,000 --> 00:07:08,000
+ Det blir Ferris i alla fall.
+
+97
+00:07:08,000 --> 00:07:10,000
+ Ja, det är onekligen.
+
+98
+00:07:10,000 --> 00:07:12,000
+ Men sagt va, superbra bloggserie.
+
+99
+00:07:12,000 --> 00:07:14,000
+ Jag kan verkligen rekommendera den.
+
+100
+00:07:14,000 --> 00:07:18,100
+ mer konfidens än sekunden av signal, det är cool, men jag tror inte att flest människor
+
+101
+00:07:18,100 --> 00:07:22,100
+ Valgetter Security Advise från med Gay Ferry blogger.
+
+102
+00:07:22,100 --> 00:07:24,100
+ Sant.
+
+103
+00:07:24,100 --> 00:07:26,100
+ Det är riktigt, riktigt roligt.
+
+104
+00:07:26,100 --> 00:07:30,699
+ För att följa upp på det då, apropå signal och dess säkerhet,
+
+105
+00:07:30,699 --> 00:07:38,439
+ så har ryssarna meckat med signal nyligen och de har fokuserat på Ukraina.
+
+106
+00:07:38,439 --> 00:07:43,199
+ Givetvis, det är tydligen så de jobbar, att de nästan alla sina attacker skickar dem mot Ukraina först
+
+107
+00:07:43,199 --> 00:07:45,600
+ och sen så sprider de den ut i resten av världen.
+
+108
+00:07:45,600 --> 00:07:52,360
+ Den här gången så var det via en QR-kod som ska användas för, jag tror det är en ganska ny funktion i sin general,
+
+109
+00:07:52,360 --> 00:07:54,360
+ Det vill säga du kan para devices.
+
+110
+00:07:54,360 --> 00:07:57,360
+ Jag tror det är bland annat om du vill migrera från en gammal tenny till exempel.
+
+111
+00:07:57,360 --> 00:08:01,360
+ Så kan du på något sätt koppla kontot till båda devices.
+
+112
+00:08:01,360 --> 00:08:02,360
+ Så kan du enkelt migrera över.
+
+113
+00:08:02,360 --> 00:08:05,160
+ Men det möjliggör även att du kanske kan jobba
+
+114
+00:08:05,680 --> 00:08:08,240
+ med samma ID från två olika diverser samtidigt.
+
+115
+00:08:09,519 --> 00:08:12,079
+ Det görs via en QR-kod till exempel.
+
+116
+00:08:12,079 --> 00:08:13,360
+ Jag tror det kan göras på andra sätt också.
+
+117
+00:08:13,360 --> 00:08:16,680
+ Men den här QE-koden gjorde ryssarna ondska med då.
+
+118
+00:08:16,939 --> 00:08:20,259
+ Så på något sätt så lyckades de, ja han har inte lyckats läsa mig till hur.
+
+119
+00:08:20,519 --> 00:08:23,600
+ Men de lyckades bädda Javaskript i QR-koden på något sätt.
+
+120
+00:08:23,839 --> 00:08:24,360
+ Så att...
+
+121
+00:08:24,360 --> 00:08:26,360
+ Eller vänta, gjorde de verkligen det?
+
+122
+00:08:26,360 --> 00:08:29,360
+ Jag tror de bara använde QR-koden rätt upp och ner.
+
+123
+00:08:29,360 --> 00:08:33,360
+ De skickade ut QR-koden på olika sätt till ukrainare.
+
+124
+00:08:33,360 --> 00:08:36,360
+ Som då trodde de skulle joina i en chattkanal.
+
+125
+00:08:36,360 --> 00:08:39,360
+ Men det de gjorde var att parade sin telefon.
+
+126
+00:08:39,360 --> 00:08:41,360
+ Med en ordskefull telefon.
+
+127
+00:08:41,360 --> 00:08:44,360
+ Kunde avlyssna allting som sades för de var ju parade.
+
+128
+00:08:44,360 --> 00:08:46,360
+ Det var ju samma.
+
+129
+00:08:46,360 --> 00:08:48,360
+ Det här heter ju någonting.
+
+130
+00:08:48,360 --> 00:08:52,360
+ Simkloning till exempel. Motsvarande det fast bara för...
+
+131
+00:08:52,700 --> 00:08:54,700
+ Det har ni ju redan på era signaler.
+
+132
+00:08:54,700 --> 00:08:58,700
+ Om ni går in och tittar så kan ni se om datorn är en klient.
+
+133
+00:08:58,700 --> 00:09:00,700
+ Ja, eller en klient.
+
+134
+00:09:00,700 --> 00:09:05,200
+ Det här har ju då signal vetat om att det här kanske inte var perfekt, inte byggt.
+
+135
+00:09:05,200 --> 00:09:08,700
+ Men det är en ganska ny funktion och de har precis patchat den.
+
+136
+00:09:08,700 --> 00:09:11,700
+ Det kom en patch den 12 februari.
+
+137
+00:09:11,700 --> 00:09:14,419
+ Så har ni gjort den, så är det väldigt mycket,
+
+138
+00:09:14,419 --> 00:09:17,700
+ då kommer det upp regelbunden pop-up som säger by the way.
+
+139
+00:09:17,700 --> 00:09:20,919
+ Du har parat ditt konto till den här också, är det verkligen okej?
+
+140
+00:09:20,919 --> 00:09:24,320
+ Så att det blir tydligare vad det är som händer.
+
+141
+00:09:24,320 --> 00:09:27,460
+ Jag gissar på att innan så var det så att det bara hände automatiskt
+
+142
+00:09:27,460 --> 00:09:29,360
+ i bakgrunden och man visste inte om det.
+
+143
+00:09:30,000 --> 00:09:33,320
+ Nu har de då löst genom att det poppar upp lite tydligare.
+
+144
+00:09:34,340 --> 00:09:37,419
+ Så det om signal det senaste.
+
+145
+00:09:37,419 --> 00:09:42,799
+ Jag kan även nämna förresten att det är inte bara Försvarsmakten som rekommenderar signal, utan även Europaparlamentet.
+
+146
+00:09:42,799 --> 00:09:48,940
+ Vilket är extra roligt eftersom det är ju på EU-nivå den har chattkontroll har sprungit omkring en hel del.
+
+147
+00:09:49,179 --> 00:09:51,740
+ Jag vet inte riktigt hur man ska tolka det här om
+
+148
+00:09:52,000 --> 00:09:53,539
+ det är så att alla är överens om
+
+149
+00:09:53,799 --> 00:09:56,100
+ att signal är en bra app och säkerhet är viktigt.
+
+150
+00:10:00,000 --> 00:10:05,000
+ Men det är bara för oss, de andra vill vi kunna lyssna på, de dumma eller någonting.
+
+151
+00:10:05,000 --> 00:10:06,000
+ Jag vet inte.
+
+152
+00:10:06,000 --> 00:10:07,000
+ Ja, det är knasboll är det.
+
+153
+00:10:07,000 --> 00:10:11,000
+ Framförallt är det väl så att EU är stort och det finns många olika intressen.
+
+154
+00:10:30,000 --> 00:10:45,820
+ Men alltså, det är ju polis och rättsutredande myndigheter som vill få bort säkerhet eftersom att det försvårar brottsutredningar och försvårar massa grejer.
+
+155
+00:10:45,820 --> 00:10:50,820
+ tillbaks till 90-talet. Yes, yes.
+
+156
+00:10:50,820 --> 00:10:56,139
+ På tal om konstigheter, höll jag på att säga, så kan vi prata om
+
+157
+00:10:56,139 --> 00:10:57,159
+ Shrems
+
+158
+00:10:57,659 --> 00:11:01,259
+ Vi har faktiskt ett helt avsnitt om det här. Jag vet inte om vi hade flera topics
+
+159
+00:11:01,259 --> 00:11:05,259
+ 61 gånger, men vi pratar i alla fall om Shems som är en del.
+
+160
+00:11:05,259 --> 00:11:06,259
+ Shems 1 och Shems 2.
+
+161
+00:11:06,259 --> 00:11:08,299
+ Det är en snubbe. Jag tror han heter Martin Schrems.
+
+162
+00:11:08,820 --> 00:11:10,340
+ Som är en sån
+
+163
+00:11:11,379 --> 00:11:14,440
+ Privacy-fighter kan jag väl kalla det.
+
+164
+00:11:14,440 --> 00:11:21,440
+ Han har ifrågasatt massa saker. Detaljer i avsnittet som skäms som vi förhoppningsvis kan leta upp någonstans.
+
+165
+00:11:21,440 --> 00:11:25,899
+ Någonstans. Men nu är det i alla fall
+
+166
+00:11:25,899 --> 00:11:30,659
+ GDPR och kopplingen mot USA till exempel som är intressant.
+
+167
+00:11:31,350 --> 00:11:33,909
+ För att ta en jävligt lång historia kort
+
+168
+00:11:34,149 --> 00:11:39,029
+ så griperar jag tydligt med att persondata ska inte lämna EU, punkt.
+
+169
+00:11:39,029 --> 00:11:49,509
+ Den får lämna EU i undantagsfall och det är om den landar i ett land där det finns Escentily equivalent lås
+
+170
+00:11:49,509 --> 00:11:59,509
+ Det vill säga att det finns lagar i det landet som skyddar EU:s persondata på ett likvärdigt sätt så att det finns rättigheter även för den datan där.
+
+171
+00:12:00,000 --> 00:12:05,620
+ Och för att se till att det finns i USA som ju är extra viktigt eftersom det finns alla våra moln
+
+172
+00:12:30,000 --> 00:12:36,139
+ Så för att lagligen kunna använda de här målen så måste vi få till en konstruktion så att USA
+
+173
+00:12:36,399 --> 00:12:44,080
+ följer GDPR eller iallafall kan garantera att EU-data inte missbrukas kan vi väl kalla det.
+
+174
+00:12:44,320 --> 00:12:46,639
+ Vilket är ett litet problem just USA för de har ju då
+
+175
+00:12:46,639 --> 00:12:49,080
+ Men jag får för mig det dessutom är så att
+
+176
+00:13:00,000 --> 00:13:06,399
+ Om du till exempel har någon form av stämning eller någonting i USA
+
+177
+00:13:06,639 --> 00:13:09,720
+ Och redan under skafferifasen så vill du
+
+178
+00:13:09,980 --> 00:13:14,320
+ komma åt data som kanske röras EU-medborgare
+
+179
+00:13:14,320 --> 00:13:21,659
+ Men överenskommelser som gjorde att EU-lagarna respekterades, eller EU-datas rättigheter respekterades.
+
+180
+00:13:21,659 --> 00:13:25,299
+ EU vill ju kunna skicka data till USA, för där finns de coola molnen.
+
+181
+00:13:25,299 --> 00:13:28,879
+ De coola molnen ville enas, vi hade dem som kund, för då tjänade de pengar.
+
+182
+00:13:30,429 --> 00:13:32,429
+ Så då kom ju Safe Harbour.
+
+183
+00:13:32,429 --> 00:13:37,429
+ Det här fantastiska dokumentet eller överenskommelsen för en kassör sen.
+
+184
+00:13:37,429 --> 00:13:39,429
+ Som styrde upp det här.
+
+185
+00:13:39,429 --> 00:13:43,429
+ Så att all vår data var i Safe Harbour i USA.
+
+186
+00:13:43,429 --> 00:13:46,429
+ Och här tror jag främst att 1 kom in.
+
+187
+00:13:46,429 --> 00:13:51,970
+ drog upp det här hela vägen upp i någon EU-domstol och de kom fram till att
+
+188
+00:13:51,970 --> 00:13:54,970
+ Nej, säger farber håller inte och så gick farber sönder.
+
+189
+00:13:54,970 --> 00:13:58,049
+ Så bråkar de ett tag och så kom de fram till
+
+190
+00:13:58,049 --> 00:14:00,490
+ Privacy Shield, som var det nya, säger farber.
+
+191
+00:14:00,490 --> 00:14:04,970
+ Nytt fint avtal och så var då jag tror Shrems 2 kom farande.
+
+192
+00:14:04,970 --> 00:14:08,830
+ Vi ser samma snubbe tog upp det igen och det blev återigen tydligt bevisat att
+
+193
+00:14:08,830 --> 00:14:17,029
+ Nej, Provercy Shield håller inte så att helt plötsligt satt vi i ett osäkert läge igen eller vi kunde inte egentligen lagligt skicka data dit.
+
+194
+00:14:17,169 --> 00:14:26,169
+ Nu då alldeles nyligen, 2023, så kom då The Trans-Antlantic Data Privacy Framework på plats.
+
+195
+00:14:30,000 --> 00:14:36,000
+ Och där var två stycken intressanta mekanismer.
+
+196
+00:14:36,000 --> 00:14:41,000
+ Det finns någonting som då heter Privacy and Civil Liberties Ovisite Board på USA sidan.
+
+197
+00:14:41,000 --> 00:14:45,899
+ ägde den här frågan. Alltså vad hade som uppgift att övervaka att
+
+198
+00:14:45,899 --> 00:14:52,039
+ Transent Lentic Data Privacy Framework, TADPF som det hette, att det verkligen sköttes.
+
+199
+00:14:52,039 --> 00:14:58,179
+ Så det fanns en instans dit EU kunde vända sig om någonting inte gick som det skulle, lite grann.
+
+200
+00:15:00,000 --> 00:15:11,000
+ Och den bestämdes, den sattes i lag den här via Bidens executive order 14086.
+
+201
+00:15:11,000 --> 00:15:13,519
+ möjligt för oss att använda amerikanska moln.
+
+202
+00:15:13,519 --> 00:15:16,840
+ Fan vad bra, men nu kom Trump.
+
+203
+00:15:17,860 --> 00:15:22,220
+ Och det har gått så bra och oproblematiskt under hans första dagar.
+
+204
+00:15:22,480 --> 00:15:25,279
+ Och allt som Biden gör, det är ju dåligt per definition.
+
+205
+00:15:30,000 --> 00:15:32,500
+ Så att det var på gång att den här Executive Ordern
+
+206
+00:15:32,500 --> 00:15:35,500
+ som egentligen stöttade allt det här, att den skulle tas bort då.
+
+207
+00:15:35,500 --> 00:15:37,500
+ Men han har inte tagit bort den än.
+
+208
+00:15:37,500 --> 00:15:42,500
+ Däremot har han kickat tre av fem medarbetare i
+
+209
+00:15:42,500 --> 00:15:45,000
+ Privacy and Civil Liberties overside Board.
+
+210
+00:15:45,000 --> 00:15:47,000
+ Alltså, de är icke-funktionella just nu.
+
+211
+00:15:47,000 --> 00:15:51,000
+ Och då kom ju, känn hem svarande, nu vrider han morgonluft.
+
+212
+00:15:51,000 --> 00:15:56,559
+ Han gillade inte Transatlantic Data Privitsy Framework, för han tyckte att den är byggd på sand som man sa.
+
+213
+00:15:56,559 --> 00:15:57,440
+ Det här håller inte.
+
+214
+00:15:57,440 --> 00:16:02,480
+ Vi kan skriva de papprena hur mycket vi vill och den här libertyboarden kan jag agera hur mycket jag vill.
+
+215
+00:16:02,480 --> 00:16:07,840
+ Amerikansk lagstiftning är inte förenlig med det vi vill göra här i EU.
+
+216
+00:16:08,100 --> 00:16:11,940
+ Och den här jävla X säkert i vården är inte rätt sätt att bygga det på för att den blir jättekänslig.
+
+217
+00:16:11,940 --> 00:16:15,340
+ Sliffers så fort Biden inte är president längre så har vi problem.
+
+218
+00:16:15,340 --> 00:16:19,940
+ Och nu när detta har hänt så vädrar de ju morgonluft via den.
+
+219
+00:16:19,940 --> 00:16:25,940
+ Det finns något för Profit-organisationen som heter Noub som kämpar med just detta.
+
+220
+00:16:25,940 --> 00:16:28,360
+ När då
+
+221
+00:16:28,620 --> 00:16:32,080
+ den här Liberties Overside Board inte är operationell längre
+
+222
+00:16:32,080 --> 00:16:35,399
+ Alltså samma dag så skrev de en bloggpost med en gång i nyjobb.
+
+223
+00:16:35,659 --> 00:16:38,480
+ Att nu har vi inte någon funktionell
+
+224
+00:16:38,480 --> 00:16:41,279
+ sådan här Transatlantic Greement längre.
+
+225
+00:16:41,299 --> 00:16:47,299
+ Vilken dag som helst så är det förmodligen så att nya går upp igen i EU-domstolarna.
+
+226
+00:16:47,299 --> 00:16:51,899
+ Och förmodligen så kommer det här, om inte Trump river det på egen hand
+
+227
+00:16:51,899 --> 00:16:53,940
+ Så kommer det förmodligen rivas från EU-sidan då.
+
+228
+00:16:53,940 --> 00:16:57,259
+ Nu tar det väl ett, en kasse månader eller till och med år innan vi kommer så långt.
+
+229
+00:16:57,259 --> 00:17:02,259
+ Återigen så ser det sjukt osäkert ut om vi överhuvudtaget får använda amerikanska moln.
+
+230
+00:17:02,259 --> 00:17:06,259
+ Vilket ju sätter oss i en lite av en klika.
+
+231
+00:17:06,259 --> 00:17:08,259
+ Det känns i situationen.
+
+232
+00:17:08,259 --> 00:17:09,259
+ Exakt.
+
+233
+00:17:09,259 --> 00:17:15,259
+ Det är förmodligen olagligt att förflytta persondata till USA och de amerikanska molnen.
+
+234
+00:17:15,259 --> 00:17:22,240
+ Vilket för mig är så här ett gyllene tillfälle och har varit fan i 5-10 år nu för en EU-spelare på den här marknaden.
+
+235
+00:17:22,240 --> 00:17:23,240
+ Exakt.
+
+236
+00:17:23,240 --> 00:17:28,480
+ Med tanke på de problemen vi har haft med de amerikanska molnen ur ett lagstiftningsperspektiv här nu.
+
+237
+00:17:30,000 --> 00:17:35,000
+ Du behöver inte ens ha samma kvalitet på din tjänst som de stora i USA har.
+
+238
+00:17:35,000 --> 00:17:40,000
+ Jag menar bara det att du finns i EU och kan ge en rudimentär tjänst måste vara värt hur mycket som helst.
+
+239
+00:17:40,000 --> 00:17:46,140
+ De andra problemet tänkte jag säga det.
+
+240
+00:17:46,400 --> 00:17:48,440
+ Det finns förhoppningsvis alternativ i alla fall.
+
+241
+00:18:00,000 --> 00:18:05,359
+ Det kan ju inte bara vara TV och donator som ser det här marknadsfönstret.
+
+242
+00:18:06,900 --> 00:18:12,019
+ På EU-nivå finns det definitivt behov och jag kan tänka mig på svensk nivå finns det också behov.
+
+243
+00:18:12,279 --> 00:18:17,140
+ Det finns data som inte ens får lämna Sveriges gränser, typ patientdatalagen och sånt.
+
+244
+00:18:17,140 --> 00:18:19,700
+ på homeclouding eller vad man vill kalla det.
+
+245
+00:18:19,700 --> 00:18:26,599
+ Och då framförallt sådana här grejer där du har stora datamängder där de konstaterar att om du har egna driftcentraler
+
+246
+00:18:30,180 --> 00:18:35,180
+ Så kan du hosta data mycket billigare än till exempel Amazon S3?
+
+247
+00:18:35,180 --> 00:18:40,180
+ Det kan väl omöjligt vara en nyhet.
+
+248
+00:19:00,000 --> 00:19:08,000
+ Ja, men tydligen så påstås det att om du båda har en...
+
+249
+00:19:08,000 --> 00:19:12,000
+ Nej, slitely off topic.
+
+250
+00:19:12,000 --> 00:19:18,000
+ Men folk har kunnat göra klaudliknande tjänster och göra det.
+
+251
+00:19:18,000 --> 00:19:24,000
+ Vad de uppfattar det som lika billigt och kostnadseffektivt.
+
+252
+00:19:24,000 --> 00:19:27,000
+ www.säkerhetspodcasten.se
+
+253
+00:19:30,000 --> 00:19:37,000
+ På tal om tokigheter som händer i den amerikanska myndighetssidan.
+
+254
+00:19:37,000 --> 00:19:40,000
+ Har du någonting som du vill delge Jesper?
+
+255
+00:19:40,000 --> 00:19:46,079
+ Government efficiency, efficiency officioonsy, ecklesiast-dogge, ecklesiast-vagonskåd.
+
+256
+00:20:00,000 --> 00:20:04,440
+ Alltså, är det bara jag som tycker att hela USA:s...
+
+257
+00:20:04,440 --> 00:20:10,680
+ Hela USA är som en dålig sittcom, man blir förvånad.
+
+258
+00:20:10,680 --> 00:20:15,359
+ Det är förvånande hur borta fakta i våra flygplan har börjat falla från himlen.
+
+259
+00:20:15,359 --> 00:20:18,160
+ Är det inte konstigt vad det är som pågår?
+
+260
+00:20:18,160 --> 00:20:22,160
+ Att den här sajten doge.ove blir ju defasad.
+
+261
+00:20:30,140 --> 00:20:39,140
+ Och det här har vi försökt lägga ihop lite här, men det verkar som att den hålstas av Cloudfronts...
+
+262
+00:20:39,140 --> 00:20:43,140
+ Inte Cloud Front, Cloud Fear Patries eller vad fan heter.
+
+263
+00:20:43,140 --> 00:20:48,980
+ Så två webbexperter, oklart vilka, de vill vara anonyma,
+
+264
+00:20:48,980 --> 00:20:50,099
+ 'cause of reasons'.
+
+265
+00:20:50,099 --> 00:20:51,779
+ Ja, jag är smart, skulle jag säga.
+
+266
+00:20:51,779 --> 00:20:53,779
+ Det känns rimligt va?
+
+267
+00:20:53,779 --> 00:20:55,779
+ De brukar se från det laget eller olagligt.
+
+268
+00:20:55,779 --> 00:20:59,779
+ Ja, den politiska stämningen i USA just nu.
+
+269
+00:21:00,000 --> 00:21:02,000
+ Lite tryggt kan man tänka sig.
+
+270
+00:21:02,000 --> 00:21:04,000
+ Men det de gjorde var att de skickade ihop.
+
+271
+00:21:04,000 --> 00:21:06,000
+ De lade upp en bild mer eller mindre i mitten.
+
+272
+00:21:06,000 --> 00:21:09,000
+ Som sa att ni har ingen aning om vad ni håller på med.
+
+273
+00:21:09,000 --> 00:21:18,500
+ Den försvann ganska snabbt men deras idé var att det var i stort sett helt vidöppet för vem som helst och posta förmodligen
+
+274
+00:21:18,500 --> 00:21:22,000
+ assets till det som renderades på sajten.
+
+275
+00:21:22,000 --> 00:21:25,000
+ Så den var sloppig uppsatt helt enkelt.
+
+276
+00:21:25,000 --> 00:21:27,119
+ Vilket är lite pinsamt kan man tycka.
+
+277
+00:21:27,119 --> 00:21:29,000
+ Pinsamt för en guvernmental sajt.
+
+278
+00:21:29,000 --> 00:21:31,000
+ Eller hur, men ganska cool skall på ha.
+
+279
+00:21:31,000 --> 00:21:32,000
+ Ja.
+
+280
+00:21:32,000 --> 00:21:34,000
+ Nej, det är fast.
+
+281
+00:21:34,000 --> 00:21:37,000
+ Du har bra koll som instår i massavsnittet.
+
+282
+00:21:37,000 --> 00:21:42,680
+ Jag har pratat om webbsajter med vidöppna databaser där man kan ansluta och göra ondska.
+
+283
+00:22:00,000 --> 00:22:05,119
+ Ja exakt, men i det här fallet så ser det ut som att det är bara hur sajtens
+
+284
+00:22:05,619 --> 00:22:11,519
+ resurser populerat, det vill säga CDN och Assets, hur Assets läses in på sajten för det som
+
+285
+00:22:11,759 --> 00:22:14,839
+ man ska säga är att den här sajten har varit tom väldigt länge.
+
+286
+00:22:14,839 --> 00:22:18,420
+ Ja, jag crawlar helt enkelt så de plockar bara ut det som står där.
+
+287
+00:22:18,599 --> 00:22:22,599
+ Och då kanske man inte har lagt så mycket tid på sin backen då.
+
+288
+00:22:22,599 --> 00:22:25,599
+ Uppenbarligen inte för där kunde man manipulera innehållet.
+
+289
+00:22:30,000 --> 00:22:35,119
+ På tal om IT-säkerhet och det som händer i USA just nu så har jag två stycken
+
+290
+00:22:35,619 --> 00:22:38,180
+ Direkta påverkningar på
+
+291
+00:22:38,700 --> 00:22:40,740
+ Kanske inte mitt jobb men indirekt då
+
+292
+00:22:40,740 --> 00:22:41,740
+ och förbättra.
+
+293
+00:22:42,200 --> 00:22:44,240
+ Alltså CVSS har ju sina brister.
+
+294
+00:22:44,759 --> 00:22:47,559
+ Om
+
+295
+00:23:00,000 --> 00:23:05,000
+ Om saker exploateras eller inte det är inte med i CVSS-ratingen egentligen.
+
+296
+00:23:05,000 --> 00:23:06,000
+ Det vill säga.
+
+297
+00:23:06,000 --> 00:23:10,000
+ Vad är status just nu på den här egentligen?
+
+298
+00:23:10,000 --> 00:23:12,000
+ Det är liksom exploatered in the while.
+
+299
+00:23:12,000 --> 00:23:13,000
+ Exakt det är inte med.
+
+300
+00:23:13,000 --> 00:23:16,000
+ Så då har ju Sisas Kev är en jävla bra lista.
+
+301
+00:23:16,000 --> 00:23:18,559
+ för att de exploateras in the bile just nu.
+
+302
+00:23:18,559 --> 00:23:21,640
+ Så mitt förslag var att man skulle integrera med den
+
+303
+00:23:21,640 --> 00:23:23,920
+ för att highlighta vissa CVSS.
+
+304
+00:23:23,920 --> 00:23:24,440
+ Får jag med det?
+
+305
+00:23:24,440 --> 00:23:25,200
+ Vad är det?
+
+306
+00:23:30,000 --> 00:23:33,200
+ 2,5% av alla CVSS eller någonting som någonsin exploitas.
+
+307
+00:23:33,200 --> 00:23:34,400
+ Det kanske till och med är färre än så.
+
+308
+00:23:34,400 --> 00:23:36,000
+ Kanske var det en halv procent.
+
+309
+00:23:36,000 --> 00:23:38,000
+ Och highlighta dem då för de är ju rätt viktiga att patcha.
+
+310
+00:23:38,000 --> 00:23:41,000
+ I nästan oavsett kvalitetsgrad.
+
+311
+00:23:41,000 --> 00:23:43,000
+ Alltså det är inte alls många, lika många som jobbar där längre.
+
+312
+00:23:43,000 --> 00:23:46,000
+ Och kommer vi ens ha kvar Sisa Kev av ett tag.
+
+313
+00:23:46,000 --> 00:23:53,000
+ Vilket jag är några kunder som har fått funding via Grands då från USA.
+
+314
+00:23:53,000 --> 00:23:56,000
+ Och vi har ju fått ett ifrån Tor bland annat.
+
+315
+00:23:56,000 --> 00:23:59,000
+ Bland annat där degrantet som vi har levererat på är..
+
+316
+00:23:59,000 --> 00:24:00,000
+ Nope.
+
+317
+00:24:00,000 --> 00:24:01,000
+ Det finns inte längre.
+
+318
+00:24:01,000 --> 00:24:02,000
+ Poolt.
+
+319
+00:24:02,000 --> 00:24:04,000
+ Och det är liksom bra grejer typ.
+
+320
+00:24:04,000 --> 00:24:10,420
+ för att det är för liksom privacy och skydda uppgiftslämnare och journalister.
+
+321
+00:24:10,420 --> 00:24:11,500
+ Så jobbar vi inte längre?
+
+322
+00:24:11,500 --> 00:24:12,000
+ Borta.
+
+323
+00:24:12,000 --> 00:24:15,000
+ Och slitely of topping mot vad vi har planerat.
+
+324
+00:24:15,000 --> 00:24:18,000
+ Tänkte vi skulle prata om jordbruk.
+
+325
+00:24:18,000 --> 00:24:20,000
+ Men vad heter traktorn?
+
+326
+00:24:20,000 --> 00:24:22,000
+ Vår kölutvecklare.
+
+327
+00:24:22,000 --> 00:24:23,000
+ Daniel.
+
+328
+00:24:23,000 --> 00:24:24,000
+ Daniel, ja Stenberg.
+
+329
+00:24:30,000 --> 00:24:34,000
+ Det är väl förbannat på CVSS.
+
+330
+00:24:34,000 --> 00:24:38,000
+ Men det har jag med. Jag har några kunder där jag ska greja.
+
+331
+00:24:38,000 --> 00:24:41,059
+ Det finns ju en bra sajt. Man kan gå in och bara klicka i grejer.
+
+332
+00:24:41,579 --> 00:24:42,339
+ Är det det här?
+
+333
+00:24:42,339 --> 00:24:42,599
+ Ja.
+
+334
+00:24:42,859 --> 00:24:43,619
+ Är det det här?
+
+335
+00:24:43,619 --> 00:24:43,880
+ Ja.
+
+336
+00:24:43,880 --> 00:24:45,160
+ Men så får man det.
+
+337
+00:24:45,160 --> 00:24:46,960
+ När vi har pratat om det här ett antal gånger så
+
+338
+00:25:00,000 --> 00:25:10,000
+ Jag hävdar ju att för klienter som inte är en webbläsare så är det jättesvårt med vad det ska vara där.
+
+339
+00:25:10,000 --> 00:25:13,000
+ För att det är ofta inte relevant.
+
+340
+00:25:13,000 --> 00:25:17,000
+ Den tar inte jättestor hänsyn till kontext.
+
+341
+00:25:17,000 --> 00:25:22,000
+ Det är en hög intakt på någonting som är svårexploaterat. Det är min grundidé.
+
+342
+00:25:22,000 --> 00:25:24,000
+ Men CVSS.
+
+343
+00:25:24,000 --> 00:25:26,839
+ Det här är inte ens kontroversiellt.
+
+344
+00:25:26,839 --> 00:25:28,319
+ Finns det problem med CVSS?
+
+345
+00:25:30,000 --> 00:25:33,319
+ A. Är CVSS 4 bättre? Tveksamt.
+
+346
+00:25:33,319 --> 00:25:37,920
+ Det som är bra med den är att vi pratar om den, det vill säga det är en känd standard.
+
+347
+00:25:37,920 --> 00:25:41,500
+ Som alla vet, eller inte alla, men många vet hur den funkar.
+
+348
+00:25:41,759 --> 00:25:44,579
+ Vilket ju i alla fall bättre alternativ än att alla gör sin egen grej.
+
+349
+00:25:44,579 --> 00:25:46,579
+ För då är det ju helt omöjligt att veta.
+
+350
+00:25:46,579 --> 00:25:48,579
+ Hur allvarlig är den här sårbarheten?
+
+351
+00:25:48,579 --> 00:25:49,579
+ Grön.
+
+352
+00:25:49,579 --> 00:25:50,579
+ Ja den då? Fyra.
+
+353
+00:25:50,579 --> 00:25:52,579
+ Och den här då? 43.
+
+354
+00:25:52,579 --> 00:25:54,579
+ Och den här då? Den är varning.
+
+355
+00:25:54,579 --> 00:25:56,579
+ Jag håller med.
+
+356
+00:26:00,000 --> 00:26:03,480
+ vill ju gärna, när jag är i Pententa så vill jag gärna att kunden äger risken
+
+357
+00:26:03,480 --> 00:26:05,000
+ jag kan bara informera om den
+
+358
+00:26:05,000 --> 00:26:07,000
+ sen hur de vill kategorisera den
+
+359
+00:26:07,000 --> 00:26:08,000
+ det är lite upp till dem
+
+360
+00:26:08,000 --> 00:26:12,859
+ Då är liksom ond bråd internetdöd som liksom ingen kan komma undan
+
+361
+00:26:12,859 --> 00:26:15,680
+ Annars brukar nästan alltid jag downplaya mina airfinings
+
+362
+00:26:15,680 --> 00:26:17,980
+ Det är upp till dem att äga risken
+
+363
+00:26:17,980 --> 00:26:22,059
+ Sen tycker jag det är viss skillnad för om man beställer ett penntest då kan man vara mycket mer.
+
+364
+00:26:22,319 --> 00:26:23,859
+ Då är det en kommunikation
+
+365
+00:26:24,119 --> 00:26:25,660
+ Som är
+
+366
+00:26:25,660 --> 00:26:28,660
+ Många fler ord än bara CVSS-ratingen.
+
+367
+00:26:28,660 --> 00:26:29,059
+ Ja.
+
+368
+00:26:29,059 --> 00:26:30,660
+ Den är bara en label.
+
+369
+00:26:30,660 --> 00:26:32,660
+ Jag provar, den ser vi SS.
+
+370
+00:26:32,660 --> 00:26:39,819
+ Eller där en vida implementerad rating, oavsett var den är nästan, är bra.
+
+371
+00:26:40,079 --> 00:26:41,099
+ Det är vid automation.
+
+372
+00:26:41,099 --> 00:26:44,700
+ Det vill säga till exempel när du har sårbarhet i din tredje partsstipendiesis.
+
+373
+00:26:44,700 --> 00:26:49,819
+ När du sitter med en S-Bom och alla dina dependraces och så ska du matcha dig mot 20 olika sårbarhetskällor
+
+374
+00:26:49,819 --> 00:26:53,819
+ Att då att det är olika i alla de här. Det är fucked liksom.
+
+375
+00:26:53,819 --> 00:26:55,819
+ Så jag håller med. Det är klart vi ska göra någonting bättre.
+
+376
+00:27:00,000 --> 00:27:05,119
+ Men bara för det, kasta inte ut babyn med badvattnet som man brukar säga.
+
+377
+00:27:05,880 --> 00:27:10,240
+ Nej det finns saker som inte är bra med den men vi ska inte sluta använda den för det.
+
+378
+00:27:10,240 --> 00:27:10,480
+ Nej.
+
+379
+00:27:11,000 --> 00:27:12,799
+ Vi ska jobba på någonting bättre.
+
+380
+00:27:13,299 --> 00:27:15,359
+ Men i ett relaterat ämne då.
+
+381
+00:27:15,359 --> 00:27:17,799
+ ansvarig för att göra lite utav detta.
+
+382
+00:27:17,799 --> 00:27:23,940
+ De har ju ett flöde man kan prenumerera på som är en sån här sårbarhetsdatabasflöde.
+
+383
+00:27:23,940 --> 00:27:27,940
+ Förut så tänkte man ner hela sårbarheten som en CVS eller något där tror jag.
+
+384
+00:27:27,940 --> 00:27:31,940
+ Och så byggde man upp den om man skulle göra jämförelser i något verktyg till exempel.
+
+385
+00:27:31,940 --> 00:27:33,940
+ Det kommer massa på det här filmerna.
+
+386
+00:27:33,940 --> 00:27:39,940
+ Ja, precis. Men det var ju inte så coolt så de har gått över till ett API-anrop nu i alla fall.
+
+387
+00:27:39,940 --> 00:27:42,940
+ Och jag följer Dependency Track, ett fantastiskt verktyg från Ovas.
+
+388
+00:27:42,940 --> 00:27:47,940
+ Jag fyller deras slakttråd och då var det en bugg nyligen.
+
+389
+00:28:00,000 --> 00:28:05,119
+ Så att det var någonting i en CVE från NVD
+
+390
+00:28:05,619 --> 00:28:08,960
+ som fuckade upp decentralisering i Dependicicetrack.
+
+391
+00:28:09,200 --> 00:28:11,000
+ Så de var tvungna att snabbpatcha.
+
+392
+00:28:12,019 --> 00:28:13,819
+ Det var ju lite roligt.
+
+393
+00:28:14,079 --> 00:28:16,880
+ Men så följde någon i tråden upp med kommentaren:
+
+394
+00:28:16,880 --> 00:28:19,599
+ Helanist är ju förmodligen också under granskning.
+
+395
+00:28:19,599 --> 00:28:22,660
+ Du nämnde ju dessutom SISA. De är ju en...
+
+396
+00:28:23,940 --> 00:28:24,460
+ Vaneter är.
+
+397
+00:28:24,720 --> 00:28:28,039
+ Heter de ADPR eller vad fan heter det? De som...
+
+398
+00:28:28,039 --> 00:28:33,039
+ De som får måla i en skärmfilm.
+
+399
+00:28:33,039 --> 00:28:34,039
+ Och så får du bygga en CVE?
+
+400
+00:28:34,039 --> 00:28:39,039
+ Jag har framförallt de får lägga till CVSS
+
+401
+00:29:00,000 --> 00:29:02,559
+ Som det inte finns en CVSS från
+
+402
+00:29:03,059 --> 00:29:06,900
+ Och de har ju bland annat
+
+403
+00:29:07,920 --> 00:29:13,559
+ Gjort såna här briljanta grejer som att NULL Point Reception i ett jag var program med Reytad som
+
+404
+00:29:13,819 --> 00:29:15,599
+ Typ 10 eller någonting sånt där
+
+405
+00:29:16,119 --> 00:29:18,940
+ Ja, det var väl bland annat det som Stenberg inte var helt nöjd med
+
+406
+00:29:19,440 --> 00:29:21,240
+ Ja, han använde exemplet
+
+407
+00:29:21,240 --> 00:29:23,539
+ Ja, men han hade med just det att
+
+408
+00:29:23,539 --> 00:29:28,539
+ kunde ha fått mer och mer ansvar så har det ju blivit mer kaos och sämre
+
+409
+00:29:28,539 --> 00:29:30,539
+ vid ratingarna som går in i Nix-databasen.
+
+410
+00:29:30,539 --> 00:29:38,539
+ Och jag tror ett annat stort problem är ju just det att det finns ju inga sanity-kontroller på plats direkt när någon substmittar en CVE.
+
+411
+00:29:38,539 --> 00:29:44,539
+ Vi har haft problem med mycket sådana fastingmotorer som automatiskt har byggt hundratals CWE:er.
+
+412
+00:29:44,539 --> 00:29:46,539
+ Som inte har varit något.
+
+413
+00:30:00,000 --> 00:30:06,700
+ Det har varit lite så här, fjärde hatten om man äger en CVE, om man har skapat en CVE.
+
+414
+00:30:06,700 --> 00:30:10,500
+ Så då har man automatiserat det för att man skulle bli riktigt cool av många liksom.
+
+415
+00:30:10,500 --> 00:30:14,000
+ Och då har det blivit lite dålig kvalitet på en del.
+
+416
+00:30:14,000 --> 00:30:16,000
+ processorer.
+
+417
+00:30:16,000 --> 00:30:18,000
+ Det har de.
+
+418
+00:30:18,000 --> 00:30:20,000
+ Flera stycken har de gjort.
+
+419
+00:30:20,140 --> 00:30:22,140
+ Har ni hört talas om senne?
+
+420
+00:30:22,140 --> 00:30:23,140
+ Nej.
+
+421
+00:30:23,140 --> 00:30:24,140
+ Nähä.
+
+422
+00:30:24,140 --> 00:30:25,140
+ Är det något nytt?
+
+423
+00:30:25,140 --> 00:30:26,140
+ Inte det en...
+
+424
+00:30:26,140 --> 00:30:27,140
+ Hype avisor.
+
+425
+00:30:27,140 --> 00:30:29,660
+ Nej, inte med X med Z.
+
+426
+00:30:30,000 --> 00:30:33,839
+ Sätan såklart. Nej, jag är ingen bra poäng.
+
+427
+00:30:34,599 --> 00:30:38,680
+ Jaha, nej men det är mikro... Vad fan heter det?
+
+428
+00:30:38,680 --> 00:30:44,359
+ Processorarkitekturen som är här i rizern och i deras översipparna.
+
+429
+00:30:44,359 --> 00:30:45,119
+ Ah nej.
+
+430
+00:30:45,119 --> 00:30:48,119
+ Inte min. För långt ner.
+
+431
+00:30:48,119 --> 00:30:50,119
+ Jag tror mina kids bara gamear på sina rysen.
+
+432
+00:30:50,119 --> 00:30:52,119
+ Ja det är dom som känner av honom ändå.
+
+433
+00:30:52,119 --> 00:30:53,119
+ Coolt.
+
+434
+00:30:53,119 --> 00:30:56,119
+ Okej, det finns fördelar med det om vi ska hålla på med...
+
+435
+00:31:00,000 --> 00:31:08,079
+ Vi tar bort ordet sen. Vi säger AMD-processorer, vi förenklar det, vi säger AMD-processorer.
+
+436
+00:31:08,079 --> 00:31:10,000
+ Är det en spekulativ attack?
+
+437
+00:31:10,000 --> 00:31:18,000
+ Det är, jag vet inte vad jag ska säga, ordfärsen, men det är mer ett ordproblem.
+
+438
+00:31:18,000 --> 00:31:21,000
+ Det finns ju en funktion med...
+
+439
+00:31:21,000 --> 00:31:23,000
+ Den klassiska.
+
+440
+00:31:23,000 --> 00:31:29,000
+ Men du kan patcha mikrokoden och det här har jag läst.
+
+441
+00:31:30,000 --> 00:31:33,000
+ mikrokoden är alltså det som... Det här var Google, var det inte det?
+
+442
+00:31:33,000 --> 00:31:36,000
+ Ja precis, Google Zero...
+
+443
+00:31:36,000 --> 00:31:37,000
+ Sero...
+
+444
+00:31:37,000 --> 00:31:39,000
+ Jag tänkte säga, men det är det inte alls.
+
+445
+00:31:39,000 --> 00:31:42,000
+ Ser du dig in i köttet?
+
+446
+00:31:42,000 --> 00:31:43,000
+ Nej, det är inte det.
+
+447
+00:31:43,000 --> 00:31:44,000
+ Nej, det är inte det.
+
+448
+00:31:44,000 --> 00:31:45,000
+ Nu är du producerad.
+
+449
+00:31:45,000 --> 00:31:47,000
+ Google Producerad.
+
+450
+00:31:47,000 --> 00:31:48,000
+ Så heter de, ja.
+
+451
+00:31:48,000 --> 00:31:49,000
+ Google Producerad.
+
+452
+00:31:49,000 --> 00:31:52,000
+ Hur, alltså sessioner ni? Säljer du exemplar ut på Peter?
+
+453
+00:31:52,000 --> 00:31:56,000
+ Jag läste faktiskt den här KB:n och sen bara nopp.
+
+454
+00:32:00,000 --> 00:32:02,000
+ Prata med processorn.
+
+455
+00:32:02,000 --> 00:32:05,000
+ Då kan du säga till processorn att nu ska du göra det här.
+
+456
+00:32:05,000 --> 00:32:10,000
+ Istället för att köra den mikrokoden som du hade när du startade upp.
+
+457
+00:32:10,000 --> 00:32:12,000
+ Och som du fick från byosen och sånt.
+
+458
+00:32:12,000 --> 00:32:14,000
+ Då har vi bott upp.
+
+459
+00:32:30,000 --> 00:32:38,000
+ Så kan du inte ersätta mikrokoden och istället köra den mikrokoden som jag har skickat till det här.
+
+460
+00:32:38,000 --> 00:32:44,000
+ Är det en tillfällig ersättning eller är det typ skriva i den här nya mikrokoden istället?
+
+461
+00:32:44,000 --> 00:32:46,000
+ Hotfixaren till processorn.
+
+462
+00:32:46,000 --> 00:32:52,000
+ Så kan den slänga in dem även om det är Finton, Patchat-processorn tillräckligt väl.
+
+463
+00:32:52,000 --> 00:32:54,000
+ Okej, du svarar nästan i slutet där.
+
+464
+00:32:54,000 --> 00:32:58,000
+ Det är en tillfällig fix.
+
+465
+00:33:00,000 --> 00:33:04,000
+ Då får vi göra varje bot tills dess att vi har gjort den på riktigt i Uefi.
+
+466
+00:33:04,000 --> 00:33:06,000
+ Dumpnog tänker jag.
+
+467
+00:33:06,000 --> 00:33:09,839
+ signaturschemat för mikrokodsuppdateringar är bra.
+
+468
+00:33:09,839 --> 00:33:11,619
+ Och Google har ju inte släppt
+
+469
+00:33:11,890 --> 00:33:19,890
+ Dels nu, så de har ju inte gett oss explojdkoden för hur vi signerar våra egna managers.
+
+470
+00:33:19,890 --> 00:33:22,890
+ Små jobbar.
+
+471
+00:33:22,890 --> 00:33:23,890
+ Ja, det tycker jag var fegt.
+
+472
+00:33:23,890 --> 00:33:27,890
+ Däremot sa de släppte en exempel.
+
+473
+00:33:30,000 --> 00:33:44,000
+ Så de har gett oss en mikrokodsuppdatering som för arkitekturerna sen 1 till arkitekturen sen 4, vilket är väldigt många av de processorerna som folk har i sina maskiner hemma.
+
+474
+00:33:44,000 --> 00:33:48,599
+ När du ber processorn om ett slumptal så får du siffran fyra tillbaka
+
+475
+00:33:49,619 --> 00:33:50,400
+ Snygg
+
+476
+00:33:50,400 --> 00:33:52,400
+ Snygg patch.
+
+477
+00:34:00,019 --> 00:34:08,019
+ Jag vet inte. Jag vet inte. Är det en XKC? Är det referenser?
+
+478
+00:34:08,019 --> 00:34:11,019
+ Vad är det? Jag vet inte. Det är alltid fyra menar du?
+
+479
+00:34:11,019 --> 00:34:13,019
+ Du tänker så?
+
+480
+00:34:13,019 --> 00:34:15,019
+ Hur vet du att det är slumtal?
+
+481
+00:34:15,019 --> 00:34:17,019
+ Var inte det en exklusivhet?
+
+482
+00:34:17,019 --> 00:34:19,019
+ Det låter bekant.
+
+483
+00:34:19,019 --> 00:34:23,019
+ Men om det är det så är det ju för geni.
+
+484
+00:34:23,019 --> 00:34:24,019
+ Det är roligt, ja.
+
+485
+00:34:24,019 --> 00:34:24,384
+ Det är roligt, ja.
+
+486
+00:34:24,384 --> 00:34:26,384
+ Det är roligt, på riktigt.
+
+487
+00:34:26,384 --> 00:34:28,384
+ Fortsätt prata så ska jag googla.
+
+488
+00:34:28,384 --> 00:34:30,384
+ Jag har panik-ooglar också här, satelliter.
+
+489
+00:34:30,384 --> 00:34:33,704
+ Men ja, jag såg den där, men det var över min förmåga.
+
+490
+00:34:33,704 --> 00:34:36,384
+ Så jag tänker, Peter kommer ju nappa på det här.
+
+491
+00:34:36,384 --> 00:34:40,384
+ Ja, men en icke-persiut-instent coachning av din processor.
+
+492
+00:34:40,384 --> 00:34:44,384
+ så att den börjar göra annat än vad den skall.
+
+493
+00:34:44,384 --> 00:34:48,384
+ Ja, det är typiskt jätteobra.
+
+494
+00:34:48,384 --> 00:34:54,384
+ Sen har vi två korta om...
+
+495
+00:35:00,940 --> 00:35:02,940
+ Det är väl Google som har Gemini?
+
+496
+00:35:02,940 --> 00:35:04,940
+ Deras AI?
+
+497
+00:35:04,940 --> 00:35:05,940
+ Jag hoppas det.
+
+498
+00:35:05,940 --> 00:35:06,940
+ Jag hoppas det.
+
+499
+00:35:06,940 --> 00:35:09,940
+ Ja, men det är något AI-expert Jesper.
+
+500
+00:35:09,940 --> 00:35:12,940
+ Ja, men det är allting som har med Microsoft att göra.
+
+501
+00:35:12,940 --> 00:35:13,940
+ Liksom skyr och jag som dödar.
+
+502
+00:35:13,940 --> 00:35:15,940
+ Vi sa ju Google dock.
+
+503
+00:35:15,940 --> 00:35:16,940
+ Google är sant.
+
+504
+00:35:16,940 --> 00:35:20,400
+ Lokalt. Men, nej, det är min koll på Google.
+
+505
+00:35:20,400 --> 00:35:26,400
+ Men kan hon säga något kort, vad är en second ere prompt injection?
+
+506
+00:35:30,000 --> 00:35:38,000
+ Oj, bra fråga. Förmodligen att man har bett att det är någon resoning historia. Att den har frågat någon annan om hjälp.
+
+507
+00:35:38,000 --> 00:35:44,000
+ Det som är kraftfullt nu det är att aggregera flera AI'n.
+
+508
+00:35:44,000 --> 00:35:49,360
+ Men prompten Jack känner jag gör att du försöker göra så att du får skriva vad en ska göra.
+
+509
+00:35:49,360 --> 00:35:52,239
+ Att du blir den som promptar. Exakt.
+
+510
+00:35:52,239 --> 00:35:53,719
+ Ja, ens livsuppgift.
+
+511
+00:35:53,719 --> 00:35:57,039
+ Och det är ju klassiskt så att man, vad är en prompt?
+
+512
+00:35:57,039 --> 00:36:04,039
+ Man ber innan man har ställt första frågan så ger man AI-modellen regler om hur man vill att den ska svara.
+
+513
+00:36:04,039 --> 00:36:13,039
+ Så typiskt, kan du göra en obegränsad prompt in action så kan du väldigt mycket ta till dig av vad dess uppgift är.
+
+514
+00:36:13,039 --> 00:36:20,039
+ En sekundor, det borde ju vara då att om du har någon fråga på detta, fråga den här grejen.
+
+515
+00:36:20,039 --> 00:36:21,039
+ Ja, precis.
+
+516
+00:36:30,000 --> 00:36:33,320
+ Så en sekunder prompt in action är till exempel att du
+
+517
+00:36:33,840 --> 00:36:35,360
+ ber AI:n
+
+518
+00:36:35,880 --> 00:36:40,480
+ att gå ut med en agent och summera till exempel ett textdokument ute på internet.
+
+519
+00:36:40,480 --> 00:36:41,519
+ Och det här har vi nu
+
+520
+00:36:41,760 --> 00:36:46,119
+ nya tjänster för som har blivit mer avancerade som gör att du kan till exempel research, heter den va?
+
+521
+00:36:46,380 --> 00:36:47,139
+ I GPT.
+
+522
+00:36:47,400 --> 00:36:49,960
+ ChatGPT har släppt en som heter Research
+
+523
+00:36:49,960 --> 00:36:51,960
+ Och sen kommer den tillbaka.
+
+524
+00:36:51,960 --> 00:36:53,960
+ Det är ännu värt 2 500 i månaden.
+
+525
+00:36:53,960 --> 00:36:56,960
+ Och det blir ju kanonkul.
+
+526
+00:36:56,960 --> 00:37:02,960
+ Men second hand hade du prompt in action i dokumentet som du ber och summeras.
+
+527
+00:37:02,960 --> 00:37:08,960
+ Så har du lagt in grejer som man ändå får för sig att det här är en prompt de ska exekvera.
+
+528
+00:37:09,170 --> 00:37:17,969
+ Då har man ju kommit fram till att det var ju dumt med Sekonomorder
+
+529
+00:37:17,969 --> 00:37:19,969
+ prompt injection.
+
+530
+00:37:19,969 --> 00:37:26,969
+ Flera av de här AI-erna har byggt in olika sorters skydd
+
+531
+00:37:30,000 --> 00:37:34,440
+ som ska göra att man inte börjar exekvera instruktioner
+
+532
+00:37:34,440 --> 00:37:40,000
+ som finns i dokument
+
+533
+00:37:40,000 --> 00:37:42,199
+ som man ber ha en summerad och liknande.
+
+534
+00:37:42,199 --> 00:37:46,579
+ Då var det några glada människor som kom på att om man istället
+
+535
+00:37:47,579 --> 00:37:52,699
+ för att säga att du ska göra en massa grejer när dokumentet läses
+
+536
+00:37:52,699 --> 00:37:55,500
+ så i dokumentet står det istället att
+
+537
+00:37:56,019 --> 00:37:59,099
+ vänta tills nästa gång som användaren säger,
+
+538
+00:37:59,099 --> 00:38:00,880
+ säger yes
+
+539
+00:38:01,659 --> 00:38:03,440
+ då gör allt det här
+
+540
+00:38:03,440 --> 00:38:10,440
+ Och det visade sig att bara för att be den vänta med att göra någonting.
+
+541
+00:38:10,840 --> 00:38:12,840
+ Fan vad märkligt.
+
+542
+00:38:12,840 --> 00:38:14,840
+ Så kringgick du hela det här skyddet som var byggt liksom?
+
+543
+00:38:14,840 --> 00:38:17,840
+ Nurala nät, no one understandsen.
+
+544
+00:38:17,840 --> 00:38:20,840
+ Ja men det är, alltså...
+
+545
+00:38:30,000 --> 00:38:39,000
+ Men jag har ju en priprom som är jättelång och det är väldigt lätt att be de flesta modellerna om dumheter.
+
+546
+00:38:39,000 --> 00:38:45,000
+ Uppenbarligen är den ju ganska... Det är fortfarande ett problem att skilja.
+
+547
+00:38:45,000 --> 00:38:54,000
+ Det är fortfarande ett problem att skilja mellan vad som är ren data i kontextversus instruktion.
+
+548
+00:38:54,000 --> 00:38:57,000
+ Det är fortfarande krångligare för LVMR.
+
+549
+00:38:57,000 --> 00:39:00,000
+ Det kan jag i viss mån förstå att den tycker är jobbigt.
+
+550
+00:39:00,000 --> 00:39:02,000
+ Den jobbar ju bara med ord.
+
+551
+00:39:02,000 --> 00:39:06,000
+ Statistiskt sammansatta bokstäver.
+
+552
+00:39:06,000 --> 00:39:08,000
+ Exakt.
+
+553
+00:39:08,980 --> 00:39:16,980
+ Men Google Tag för att byta samtalsämne, det borde jag veta vad tanken stod för.
+
+554
+00:39:16,980 --> 00:39:20,980
+ Det var en frest av Cresment Group kanske.
+
+555
+00:39:20,980 --> 00:39:21,980
+ Kanske?
+
+556
+00:39:21,980 --> 00:39:25,980
+ Det är alltså ett team på Google som
+
+557
+00:39:25,980 --> 00:39:28,980
+ de försöker väl göra lite i vad Record the Future
+
+558
+00:39:30,000 --> 00:39:37,000
+ De försöker förstå vad ondskan är ute på internet och så.
+
+559
+00:39:37,000 --> 00:39:52,800
+ Det som är coolt eller unik säljning på Google Tag är att de har möjlighet att få veta grejer från Google om vad som händer och så.
+
+560
+00:39:52,800 --> 00:39:58,559
+ Så de har ju lite mer privilegierad dataåtkomst än kanske andra.
+
+561
+00:40:00,000 --> 00:40:01,519
+ Är det här kopplat till Gemini på något sätt?
+
+562
+00:40:02,039 --> 00:40:06,639
+ Ja, de har släppt en rapport om hur olika
+
+563
+00:40:07,159 --> 00:40:10,239
+ Nations State och APT-grupper och så
+
+564
+00:40:10,239 --> 00:40:13,239
+ Gemini.
+
+565
+00:40:13,239 --> 00:40:16,239
+ Det fanns ett par stycken intressanta finings.
+
+566
+00:40:16,239 --> 00:40:23,239
+ är att ryska grupper verkar jättekraftigt undvika Google Gemeneye.
+
+567
+00:40:23,289 --> 00:40:27,889
+ Vilket du antingen kan välja att tro att de är rädda för att Google ser dem.
+
+568
+00:40:30,000 --> 00:40:36,000
+ Eller att de älskar ChatGPT eller att de utvecklar sina egna AI:s istället för att...
+
+569
+00:40:36,000 --> 00:40:38,000
+ Sådär.
+
+570
+00:40:38,000 --> 00:40:41,000
+ Snor gissningsvis egna.
+
+571
+00:40:41,000 --> 00:40:42,000
+ Ja.
+
+572
+00:40:42,000 --> 00:40:50,000
+ Men ryssarna är väldigt duktiga på att undvika det.
+
+573
+00:40:50,000 --> 00:40:56,000
+ Däremot iranska hotaktörer älskar att använda Google-tjänster.
+
+574
+00:40:56,000 --> 00:41:02,000
+ Och sen så var det lite olika hotaktörer från blandade länder som använder det och så.
+
+575
+00:41:02,019 --> 00:41:11,019
+ Och de konstaterar att de inte ser att Nations Date-aktörer gör någonting som är superunikt.
+
+576
+00:41:11,019 --> 00:41:17,300
+ Du kan inte se att APT-grupperna gör banbrytande grejer inom
+
+577
+00:41:17,300 --> 00:41:18,719
+ AI-missbruk.
+
+578
+00:41:18,719 --> 00:41:22,219
+ Men det enda datan de har i Iran då?
+
+579
+00:41:22,219 --> 00:41:26,719
+ Nej, de har från flera råkarländer, men Iran är de som absolut är...
+
+580
+00:41:30,000 --> 00:41:34,000
+ De är de största Google-användarna av APT-grupperna.
+
+581
+00:41:34,000 --> 00:41:36,000
+ Vad kontentan?
+
+582
+00:41:36,000 --> 00:41:38,000
+ Svårt att köpa grafikkort i dem.
+
+583
+00:41:38,000 --> 00:41:49,000
+ för att du inte ska få skriva Exploite så blir det väldigt påtagligt att man ser att de frågar.
+
+584
+00:41:49,000 --> 00:41:55,000
+ Många ber om hjälp med att skriva phishing och sånt.
+
+585
+00:42:00,000 --> 00:42:04,000
+ Och hjälp med att skriva falska resymer ser de mycket.
+
+586
+00:42:04,000 --> 00:42:09,000
+ Men sen så är det mycket hjälp med att läsa IT-problem.
+
+587
+00:42:09,000 --> 00:42:17,000
+ Om jag har de här rättigheterna, hur ska Python-koden se ut för att läsa ut det här?
+
+588
+00:42:17,000 --> 00:42:21,000
+ och där man undviker att explicit be om att göra ondska
+
+589
+00:42:21,000 --> 00:42:26,000
+ Man istället bara ber om att läsa del på problemen till en som ska falla kod.
+
+590
+00:42:26,000 --> 00:42:30,000
+ Rimligt.
+
+591
+00:42:30,000 --> 00:42:31,000
+ Ja, varför inte?
+
+592
+00:42:31,460 --> 00:42:33,460
+ AI, bra grejer.
+
+593
+00:42:33,460 --> 00:42:37,460
+ Sen har jag två korta män invid Middel.
+
+594
+00:42:37,460 --> 00:42:41,460
+ Vi hade Open SSH och hade en man invid Middel.
+
+595
+00:42:41,460 --> 00:42:43,460
+ Jag såg den idag men jag hann inte läsa den.
+
+596
+00:42:43,460 --> 00:42:45,460
+ Den är jag nyfiken på.
+
+597
+00:42:45,460 --> 00:42:53,460
+ Vi kan börja med att den berör inte en normal standarduppsättning av SSH.
+
+598
+00:42:53,460 --> 00:42:55,460
+ Så skönt.
+
+599
+00:42:55,460 --> 00:43:00,460
+ Men om du är en SSO-användare som använder att
+
+600
+00:43:00,460 --> 00:43:03,460
+ host-nycklarna får oss från DNS:en
+
+601
+00:43:03,460 --> 00:43:07,460
+ Så att du antingen har satt...
+
+602
+00:43:07,460 --> 00:43:11,559
+ Det finns någon parametrar, jag kommer inte ihåg vad den heter, men som säger att
+
+603
+00:43:11,559 --> 00:43:16,159
+ Hostnyckelverifiering görs mot DNA:s.
+
+604
+00:43:16,920 --> 00:43:20,500
+ Så publik nyckel ligger i det som ett DNAS-rekord?
+
+605
+00:43:20,500 --> 00:43:21,780
+ Ja, coolt.
+
+606
+00:43:21,780 --> 00:43:24,340
+ DNA-säck har väl något liknande?
+
+607
+00:43:24,610 --> 00:43:30,610
+ Ja, precis. Alla grejer har jag inte kört.
+
+608
+00:43:30,610 --> 00:43:35,210
+ Så det gör ju till exempel att om du använder det här
+
+609
+00:43:35,210 --> 00:43:38,269
+ så behöver du ju inte fundera på...
+
+610
+00:43:38,269 --> 00:43:44,409
+ Du behöver inte hostfiler och sånt utan du vet ju alltid om du pratar med rätt server.
+
+611
+00:43:44,460 --> 00:43:56,460
+ Men det är två olika serier och om du kombinerar de två så blir effektivt så blir det
+
+612
+00:44:00,000 --> 00:44:12,000
+ Minnes, dina gilla servicegrunka gör att den här delen av koden som kollar att du får rätt nyckel, den bara släpper igenom.
+
+613
+00:44:12,000 --> 00:44:15,780
+ Du behövde vara DNS-man in the middle law, eller?
+
+614
+00:44:15,780 --> 00:44:17,320
+ Nej.
+
+615
+00:44:17,320 --> 00:44:21,260
+ Du kan koppla bort hela den funktionen genom att
+
+616
+00:44:21,260 --> 00:44:24,820
+ få till en minnesläcka.
+
+617
+00:44:30,000 --> 00:44:38,000
+ Så bara du faller igenom koden och vilken nyckel som helst godtas.
+
+618
+00:44:38,000 --> 00:44:44,000
+ Den andra cv:n att du kan försätta oss över i ett dåligt läge där det här felet blir sannolikt.
+
+619
+00:44:44,000 --> 00:44:51,000
+ Så båda de två, för jag läste det först och blev lite förvirrad för att de kan ju liksom inte vara samma sak.
+
+620
+00:45:00,000 --> 00:45:07,000
+ Men sen fick jag en förklaring här, okej men den ena CV-n som verkar orelaterad sen då, som är din nöjeservice.
+
+621
+00:45:07,000 --> 00:45:14,000
+ Det primära ljusgaset är att man har letat efter buggar som gör det första buggen med sannolikhet att den inträffar.
+
+622
+00:45:14,000 --> 00:45:17,000
+ Så det är lite speciella då.
+
+623
+00:45:17,000 --> 00:45:19,000
+ Ja det var en väldigt speciell setup då.
+
+624
+00:45:19,000 --> 00:45:21,000
+ Ja precis.
+
+625
+00:45:21,000 --> 00:45:23,000
+ Det är ett spel.
+
+626
+00:45:23,000 --> 00:45:26,000
+ Det är coolt och det är animerat.
+
+627
+00:45:26,000 --> 00:45:28,000
+ Det hörde jag idag.
+
+628
+00:45:37,000 --> 00:45:43,000
+ Vad säger jag? Alla de där är väl färgglada och folk springer runt och hoppar.
+
+629
+00:45:43,000 --> 00:45:45,000
+ Nej, det är min summering.
+
+630
+00:45:45,000 --> 00:45:48,000
+ Account to strike men med massa jävlaabilities.
+
+631
+00:45:48,000 --> 00:45:51,000
+ Wow.
+
+632
+00:45:51,400 --> 00:45:57,059
+ Du har en automatvapen och du är magiker samtidigt.
+
+633
+00:45:57,059 --> 00:45:57,699
+ Mäktigt.
+
+634
+00:45:57,699 --> 00:45:58,699
+ Ja, typ så.
+
+635
+00:46:00,000 --> 00:46:06,000
+ Ja, nu höll man väl Rivels i alla fall?
+
+636
+00:46:06,000 --> 00:46:08,000
+ Ja, Malmö Rivels.
+
+637
+00:46:08,000 --> 00:46:14,000
+ Men vår connection, ungdomarna är att vi vet att Move Rives existerar.
+
+638
+00:46:14,000 --> 00:46:16,000
+ Jag bär med mig bara ett spel.
+
+639
+00:46:16,000 --> 00:46:18,000
+ Okej, vilket då?
+
+640
+00:46:18,000 --> 00:46:19,000
+ Call of Duty.
+
+641
+00:46:19,000 --> 00:46:20,000
+ Det är fan inte bra längre tycker jag.
+
+642
+00:46:20,000 --> 00:46:21,380
+ Bra länge, tänker jag. Det är skit.
+
+643
+00:46:21,380 --> 00:46:22,980
+ Jag har aldrig varit bra på typ tre år.
+
+644
+00:46:22,980 --> 00:46:24,980
+ Jag blir bara arg när jag spelar den.
+
+645
+00:46:24,980 --> 00:46:26,980
+ Man får rivea iallafall.
+
+646
+00:46:26,980 --> 00:46:28,980
+ Ja.
+
+647
+00:46:29,090 --> 00:46:31,090
+ Klockan är mycket.
+
+648
+00:46:31,090 --> 00:46:34,090
+ Vi har spelat in i många timmar nu.
+
+649
+00:46:34,269 --> 00:46:39,269
+ Den har en medel där man kan vara barn.
+
+650
+00:46:39,269 --> 00:46:43,269
+ Det finns någon typ av shop där du kan välja grejer och vilka gulljinnor.
+
+651
+00:46:43,269 --> 00:46:45,269
+ Du kan göra någonting.
+
+652
+00:46:45,269 --> 00:46:47,269
+ Du kan köpa skinns garanterat.
+
+653
+00:46:47,269 --> 00:46:52,449
+ Den kommer i en halvsunkig krypterad blobba över HTTP, om jag fattat det rätt.
+
+654
+00:46:52,449 --> 00:46:52,869
+ Mm.
+
+655
+00:46:52,869 --> 00:46:54,869
+ Kan du hända priserna?
+
+656
+00:46:55,869 --> 00:46:57,869
+ Nej, men alltså...
+
+657
+00:46:57,869 --> 00:46:58,869
+ Hur är det mitt?
+
+658
+00:46:58,869 --> 00:47:00,869
+ P.M. Jag menar, Pyton. Sorry.
+
+659
+00:47:00,869 --> 00:47:03,869
+ Du sa HTTP.
+
+660
+00:47:03,869 --> 00:47:05,869
+ Ja okej, blockade över HTTP.
+
+661
+00:47:05,869 --> 00:47:09,869
+ Jättebra för mig. Blobban är iallafall en krypterad pyton-grunka.
+
+662
+00:47:09,869 --> 00:47:13,869
+ Det finns ingen signering eller säkerhet på det.
+
+663
+00:47:13,869 --> 00:47:15,869
+ Det känns också konstigt.
+
+664
+00:47:15,869 --> 00:47:19,869
+ Ja, men sitter den här jävla Piteå-interprenter någonstans gömd i inspelningen?
+
+665
+00:47:19,869 --> 00:47:20,869
+ Det är vad jag menar.
+
+666
+00:47:20,869 --> 00:47:21,869
+ Okej, vad man kan göra då.
+
+667
+00:47:21,869 --> 00:47:24,429
+ Vad kan jag göra då? Nu är jag med en ny middel så jag kan ändra på den.
+
+668
+00:47:25,190 --> 00:47:26,210
+ Vad händer då?
+
+669
+00:47:26,469 --> 00:47:28,269
+ Du byter vilken kod som exekverar.
+
+670
+00:47:28,269 --> 00:47:31,269
+ Bygga typ poppakalk eller någonting.
+
+671
+00:47:31,269 --> 00:47:31,769
+ Wow.
+
+672
+00:47:32,030 --> 00:47:36,630
+ Men var det bara shoppen det här handlade om? Det var inte hela spelet.
+
+673
+00:47:36,630 --> 00:47:41,630
+ Det centrala är ju i vart fall att den koden körs ju när du startar spelet.
+
+674
+00:47:41,630 --> 00:47:46,909
+ Ah! Så det är coolare än bara att göra bus i spelet?
+
+675
+00:47:46,909 --> 00:47:49,909
+ Du får execution på burk.
+
+676
+00:47:49,909 --> 00:47:52,909
+ Men du måste ju typ...
+
+677
+00:47:52,909 --> 00:47:55,909
+ Du måste ju typ äga ett viffel eller någonting.
+
+678
+00:47:55,909 --> 00:47:57,010
+ på något sätt tvinga folk på något sätt.
+
+679
+00:47:57,010 --> 00:47:58,769
+ Privilegierad nätverksposition.
+
+680
+00:47:58,769 --> 00:48:00,769
+ Du måste vara en privilegierad nätverksportion.
+
+681
+00:48:00,769 --> 00:48:02,769
+ Utanför fullsträckskryptering.
+
+682
+00:48:04,769 --> 00:48:06,769
+ Precis, det är inte fullsträck krypterat.
+
+683
+00:48:06,769 --> 00:48:09,769
+ Den går utanför, det är ingen HTPS-tunnel då heller.
+
+684
+00:48:09,769 --> 00:48:11,769
+ Det är det här med Securitas.
+
+685
+00:48:11,769 --> 00:48:15,769
+ Men det är en icke-standard och förskräckning.
+
+686
+00:48:30,000 --> 00:48:38,000
+ Om du kör varje körk så kan du tydligen, det blir ganska uppenbart att det kommer någon mystisk och HTTP-kommunikation.
+
+687
+00:48:38,000 --> 00:48:42,000
+ Men exakt vad som går i den är inte helt uppenbart.
+
+688
+00:48:42,000 --> 00:48:44,000
+ Den är krypterad med en snubbe.
+
+689
+00:48:44,000 --> 00:48:45,780
+ Dröjer du rent av? Om du inte är på samma maträknare?
+
+690
+00:48:45,780 --> 00:48:47,780
+ less you have sourification, love, love, love, love.
+
+691
+00:48:47,780 --> 00:48:49,780
+ Kommentar nummer två.
+
+692
+00:48:49,780 --> 00:48:51,780
+ But I have hackers in my wall.
+
+693
+00:48:51,780 --> 00:48:53,780
+ Sorry.
+
+694
+00:48:53,780 --> 00:48:55,780
+ I have hackers in my walls.
+
+695
+00:48:55,780 --> 00:48:59,780
+ Och sen spöade det ut i Go Reddit-fusion.
+
+696
+00:49:00,019 --> 00:49:09,820
+ Jag såg någon annan, någon mer etablerad säkerhets-utuber som etablerad säkerhets-utuber.
+
+697
+00:49:09,820 --> 00:49:13,480
+ Det lät som enero-diction-term. Som...
+
+698
+00:49:30,000 --> 00:49:32,000
+ Du hörde det här först.
+
+699
+00:49:32,000 --> 00:49:35,000
+ Han orkade liksom inte göra hela vägen.
+
+700
+00:49:35,000 --> 00:49:37,000
+ Men han kom så långt att han konsterade...
+
+701
+00:49:37,000 --> 00:49:40,000
+ Ja, den här processen skriver över ett bytonskript.
+
+702
+00:49:40,000 --> 00:49:44,000
+ Det verkar vara en korrekt det som sägs.
+
+703
+00:49:44,000 --> 00:49:46,000
+ This is probably bad.
+
+704
+00:49:46,000 --> 00:49:51,000
+ Men det är lite roligt med alla de här spelen och sånt.
+
+705
+00:49:51,000 --> 00:49:53,000
+ Det är massa grejer där det är ganska
+
+706
+00:49:53,000 --> 00:49:58,000
+ Fast det är ju bara lanschen, det är en ganska sunkig säkerhet kring hur du startar grejerna.
+
+707
+00:50:00,000 --> 00:50:04,000
+ Jag gillar ju, jag gillar ju de här hårdvaruhaxen som finns.
+
+708
+00:50:04,000 --> 00:50:08,000
+ Alltså det vill säga, tjoffa in en dongel, läsa alla pixlar på skärmen.
+
+709
+00:50:08,000 --> 00:50:12,000
+ Du får aimbot deluxe. Svårt att göra någonting åt det?
+
+710
+00:50:12,000 --> 00:50:15,000
+ Var det inte ett på sekund och fest och ett på sekretess tror jag?
+
+711
+00:50:15,000 --> 00:50:16,000
+ Coolt inspirerande du.
+
+712
+00:50:16,000 --> 00:50:17,000
+ Som är riktigt roligt att ha.
+
+713
+00:50:17,000 --> 00:50:18,559
+ Bara tracka pixas liksom.
+
+714
+00:50:18,559 --> 00:50:20,480
+ Det ser ut som ett tändbord och mus.
+
+715
+00:50:20,480 --> 00:50:26,480
+ Det är ju en uppförsbacke att leta reda på som gamingutvecklare.
+
+716
+00:50:26,619 --> 00:50:28,619
+ Men ja, spännande.
+
+717
+00:50:28,619 --> 00:50:30,619
+ Och det jobbiga är att nu jävlar sidospår här
+
+718
+00:50:30,619 --> 00:50:33,619
+ men det är ju på riktigt ett problem i många spel.
+
+719
+00:50:33,619 --> 00:50:35,619
+ Med wallhacks och så vidare.
+
+720
+00:50:35,619 --> 00:50:39,619
+ För det är fan inte roligt att gå in i CS cashual är det väl.
+
+721
+00:50:39,619 --> 00:50:43,619
+ Där det är så jävla många sheeters, så det är bara tråkigt liksom.
+
+722
+00:50:43,619 --> 00:50:51,460
+ Ja, alltså det är svårt nog i ett normalt game när man är pixel perfect sniper som kan banan utantill, dust2 utantill.
+
+723
+00:50:51,460 --> 00:50:54,639
+ Det var i något avslöjande pottage som...
+
+724
+00:51:00,000 --> 00:51:03,840
+ Exakt, det var ju en från Tarkov va det va? Vad var det så det var?
+
+725
+00:51:03,840 --> 00:51:06,840
+ och sprang runt med shiiter och kollade runt.
+
+726
+00:51:06,840 --> 00:51:08,840
+ Ja, just det.
+
+727
+00:51:08,840 --> 00:51:10,840
+ Wobbling.
+
+728
+00:51:10,840 --> 00:51:13,840
+ Och mer eller mindre varenda server
+
+729
+00:51:13,840 --> 00:51:16,139
+ Och sätter liksom en Armada med Cheaters liksom
+
+730
+00:51:16,900 --> 00:51:18,440
+ Jag har varit rätt sugen på Escape från Tarkov
+
+731
+00:51:18,699 --> 00:51:19,199
+ Men
+
+732
+00:51:19,460 --> 00:51:22,539
+ Två stycken stora hinder. Det ena är, jag tror det är ett ryskt spel
+
+733
+00:51:23,039 --> 00:51:24,079
+ De ska inte få mina pengar
+
+734
+00:51:24,079 --> 00:51:31,079
+ Och sen är det dessutom så att inlärningskurvan är ju brant.
+
+735
+00:51:31,079 --> 00:51:34,079
+ Det är så folk som är så sjukt duktiga i det spelet.
+
+736
+00:51:34,079 --> 00:51:36,079
+ Ducky så är det ju helt rökt länge.
+
+737
+00:51:36,079 --> 00:51:38,079
+ Och ditt skillbajs då?
+
+738
+00:51:38,079 --> 00:51:39,079
+ Jo herregud ja.
+
+739
+00:51:39,079 --> 00:51:42,079
+ Men jag menar, du behöver spela länge för att kunna alla kombinationer.
+
+740
+00:51:42,079 --> 00:51:44,079
+ Jag menar, de duktiga är ju sådana här...
+
+741
+00:51:44,079 --> 00:51:46,079
+ Nu tänker jag lite på Daisy i och för sig.
+
+742
+00:51:46,079 --> 00:51:47,079
+ Det är lite samma sak.
+
+743
+00:51:47,079 --> 00:51:49,079
+ Men de är ganska lika.
+
+744
+00:51:49,079 --> 00:51:51,079
+ Det är mycket sånt.
+
+745
+00:51:51,079 --> 00:51:57,219
+ Du behöver hämta en dieselcontainer här och ett kikarsikte här
+
+746
+00:52:00,000 --> 00:52:04,179
+ Och med hjälp utav en spik så kan du göra om dem till en motorsåg.
+
+747
+00:52:04,179 --> 00:52:06,400
+ Alltså det är en sån här kombos liksom.
+
+748
+00:52:06,400 --> 00:52:08,059
+ Ja men är det en spik och ett kikare?
+
+749
+00:52:08,059 --> 00:52:09,699
+ Nej men jag hittar ju ton till motorsåg.
+
+750
+00:52:09,699 --> 00:52:11,699
+ Annars var det ganska coolt.
+
+751
+00:52:11,699 --> 00:52:17,699
+ Men ni var på det här. Det är väldigt annorlunda specifika recept kan vi väl kalla det.
+
+752
+00:52:17,699 --> 00:52:23,699
+ Men jag har faktiskt inte spelat, varken skrivit från Turkove eller Daisy.
+
+753
+00:52:23,699 --> 00:52:25,699
+ Så jag har bara sett på YouTube filmen om det.
+
+754
+00:52:30,000 --> 00:52:31,000
+ Men om det så att jag ska inte uttala mig.
+
+755
+00:52:31,000 --> 00:52:34,000
+ Och inga av de här hade med Marmor Rivers att göra.
+
+756
+00:52:34,000 --> 00:52:36,000
+ Nej, jag har inte spelat Marmor Rivers.
+
+757
+00:52:36,000 --> 00:52:37,000
+ Inte jag heller.
+
+758
+00:52:37,000 --> 00:52:39,000
+ Jag har spelat Overwatch, jättelite.
+
+759
+00:52:39,000 --> 00:52:41,000
+ Jag har spelat Valleron ganska mycket.
+
+760
+00:52:41,000 --> 00:52:43,000
+ Det är inte Marvel Rivels det.
+
+761
+00:52:43,000 --> 00:52:45,000
+ Nej, det heter något annat.
+
+762
+00:52:45,000 --> 00:52:48,000
+ De håller på med någon beta-grej.
+
+763
+00:52:48,000 --> 00:52:50,000
+ när jag var på DreamHack i november.
+
+764
+00:52:50,000 --> 00:52:52,000
+ Men det gick inte igång på det heller.
+
+765
+00:52:52,000 --> 00:52:54,000
+ Jag är old school.
+
+766
+00:52:54,000 --> 00:52:56,000
+ CES2 är good enough.
+
+767
+00:52:56,000 --> 00:52:58,000
+ Jag skulle vilja gilla koll of Duty
+
+768
+00:52:58,000 --> 00:53:00,360
+ Men fan, jag gillar den inte riktigt.
+
+769
+00:53:00,440 --> 00:53:01,800
+ Det är för stökigt.
+
+770
+00:53:01,880 --> 00:53:03,639
+ Jag gillar den här. Vad heter den?
+
+771
+00:53:03,639 --> 00:53:05,639
+ Heter den Warszone?
+
+772
+00:53:05,639 --> 00:53:08,639
+ Den är också lite såhär survival mode.
+
+773
+00:53:08,639 --> 00:53:13,639
+ Worsom det är det jag spelar. Det är ju Batalarian. 150 pers i varje hörn och som bara dödar varandra.
+
+774
+00:53:13,639 --> 00:53:16,639
+ Ja, men det tycker jag är det enda mordet som jag tycker är okej.
+
+775
+00:53:16,639 --> 00:53:18,639
+ Tre och Researchen spelar vi.
+
+776
+00:53:18,639 --> 00:53:20,639
+ Spelar du singel eller spelar du?
+
+777
+00:53:20,639 --> 00:53:23,639
+ Ingen aldrig spelar du? Nej, det är jag och fyra kompisar.
+
+778
+00:53:23,639 --> 00:53:25,639
+ Ni kör fyra stycken i en skål.
+
+779
+00:53:25,639 --> 00:53:26,639
+ Vi är så dåliga.
+
+780
+00:53:26,639 --> 00:53:28,639
+ Men det är kul ändå.
+
+781
+00:53:28,639 --> 00:53:31,639
+ Det finns i alla fall singelmod förut.
+
+782
+00:53:31,639 --> 00:53:33,639
+ Ja, exakt.
+
+783
+00:53:33,639 --> 00:53:37,440
+ Var du singel så var du ju körd oavsett hur du mötte schwads hela tiden liksom.
+
+784
+00:53:37,440 --> 00:53:39,440
+ Men det finns ju one versus one också.
+
+785
+00:53:39,440 --> 00:53:41,440
+ Ja men det kör jag emellanåt.
+
+786
+00:53:41,440 --> 00:53:42,440
+ Worson, singelmod.
+
+787
+00:53:42,440 --> 00:53:45,440
+ Men det går så jävla fort.
+
+788
+00:53:45,440 --> 00:53:47,440
+ Så att jag hinner inte med.
+
+789
+00:53:47,440 --> 00:53:50,440
+ Och just det här liksom, det är ju medvetet.
+
+790
+00:54:00,000 --> 00:54:01,300
+ Jag är rädd om mitt liv!
+
+791
+00:54:01,300 --> 00:54:04,019
+ Dessutom är det så att om du har reaktionsbaserade grejer
+
+792
+00:54:04,019 --> 00:54:08,960
+ Även om vi antar att vi skulle köpa bästa datorn och hela kittet
+
+793
+00:54:08,960 --> 00:54:11,260
+ Så vi är ju överträdda liksom
+
+794
+00:54:11,260 --> 00:54:13,760
+ Så att vi har ju reaktionsförmågan är ju körda
+
+795
+00:54:13,760 --> 00:54:14,739
+ Go in down
+
+796
+00:54:14,739 --> 00:54:17,199
+ Min enda chans är ju att gå på skill
+
+797
+00:54:17,199 --> 00:54:18,659
+ Det vill säga försöka tänka lite
+
+798
+00:54:30,000 --> 00:54:33,000
+ Jag får bara springa, springa, springa hela tiden.
+
+799
+00:54:33,000 --> 00:54:35,000
+ Man sätter det i ögonbindeln.
+
+800
+00:54:35,000 --> 00:54:47,000
+ Jag spelade en gång typ något street fighter-aktigt eller någonting mot barnet till den person som jag och Mattias känner.
+
+801
+00:54:47,000 --> 00:54:49,400
+ Helvete vad kul, nu går det äntligen bra till mig.
+
+802
+00:54:49,400 --> 00:54:53,400
+ Och då tittade jag runt det lilla barnet och hon lade undan sin fjärrkontroll
+
+803
+00:54:53,400 --> 00:54:59,079
+ Så då kunde jag klara mig fortfarande.
+
+804
+00:55:00,000 --> 00:55:06,519
+ Jag har ju annars en spelupplevelse med Peter där Peter springer åt fel håll hela tiden, dör hela tiden
+
+805
+00:55:06,519 --> 00:55:09,079
+ Jag tycker att det går svinbra för han kollar på min gubbe.
+
+806
+00:55:10,599 --> 00:55:14,400
+ Det var inget höll du på sa du.
+
+807
+00:55:14,400 --> 00:55:22,000
+ Nej men det var första gången vi var på 60 och väldigt berusade.
+
+808
+00:55:22,000 --> 00:55:24,800
+ Peter var bra.
+
+809
+00:55:24,800 --> 00:55:28,559
+ Men de orden så tänker jag att vi summerar det här ostrukturerade avsnittet.
+
+810
+00:55:28,559 --> 00:55:30,800
+ Mycket bra sagt.
+

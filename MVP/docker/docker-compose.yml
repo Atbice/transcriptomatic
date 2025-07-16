@@ -1,0 +1,30 @@
+
+services:
+  backend:
+    build:
+      context: ./../backend
+      dockerfile: Dockerfile
+    environment:
+      - DB_PATH=/app/data/trans_agents.db
+    volumes:
+      - ./../data:/app/data
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./../frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

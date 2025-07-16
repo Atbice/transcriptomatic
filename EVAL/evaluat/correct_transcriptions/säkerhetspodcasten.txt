@@ -1,0 +1,746 @@
+Hej och välkomna till Säkerhetspodcasten. Jag som talar heter Mattias Gillage. Med mig har jag Jesper Larsson. 
+
+Jajamän. 
+
+Och Peter Magnusson. 
+
+Hålet i din mikrokod. 
+
+Så pass. Eh, Johan Ruben Möller är sjuk och Rikard Bodfors är annorstädesupptagen. Idag är det onsdagen den nittonde februari, va? 
+
+Februari tror jag att det är. 
+
+År 2025. Vi är sponsrade av Assured. Du kan läsa mer om dem på Assured punkt se. Vi är även sponsrade av Bodfors Consulting. Du kan läsa mer om dem på Bodfors punkt se. Och vi är sponsrade av 0X4A. Du kan läsa mer om 0X4A på 0X4A punkt se. 
+
+Kanon! 
+
+Eh, har vi några plugs denna vackra dag? 
+
+Ja, vi har Security Fest. Jesper? Security Fest går ju av stapeln fjärde femte juni detta året. Och om ni har tur så kanske ni kan score lite biljetter idag när det här släpps. För då tror jag att vårt andra släpp kommer att vara. Så har du inte hoppat in i kön på securityfest.com så gör det. 
+
+Första släppet åt alla upp de biljetterna antar jag. 
+
+Ja, tyvärr. Det gick ganska långsamt för vår kö var långsam. Men de är slut och när vi pratar nu så tror jag att det är ett hundratal biljetter som släpps för allmänheten att handla. 
+
+Mm, och konkurrent eller vän eller någonting annat. Vi har Umeå, BIS 2023 i Umeå. 
+
+Japp. 
+
+Som är ungefär samma tidsepok. Det är den tionde till elfte juni. Det kan vara så att Call for Papers fortfarande är öppen. Det var det när vi fick ett mail den tretton januari. Så det kanske det fortfarande. Äh, så har du bra idéer på talks och annat? Så hör av dig och kolla gärna om du kan få en biljett dit. 
+
+Vel talat. 
+
+Och sen så shameless self-promotion så skrev jag klart en bloggpost om X509 path length constraint med hur du typ kan kringgå en säkerhetsfunktion. Eller rättare sagt, du utnyttjar att säkerhetsfunktionen avsiktigt är lite trasig. Så primärt så handlar min bloggpost om att du ska vara medveten om att self-issued CAS kringgår path length constraints. Vilket i vissa hotmodeller då gör sönder hela funktionen. Och så tar vi upp också lite andra roliga lustigheter och begränsningar runt path length constraint. 
+
+Är det min favorit RFC? 5280 är det vi pratar om? 
+
+Fan vad bra. 
+
+Piggar alltid upp med lite PQI-läsning sådär på... 
+
+Yes. 
+
+Den har svaret på alla de frågorna som man inte ens visste att man ville ställa. 
+
+Mycket sant, mycket klokt sagt. Okej, eh... 
+
+Det här är ett ostrukturerat avsnitt. 
+
+Ja, jag tänkte försöka spontanbygga på det Peter sa. Var har svaret på alla frågor vi inte visste vi borde ställa? Men jag kom inte på den bryggan. Den, den, den, det lö- jag tänkte ta den on the fly, men jag löser den inte. 
+
+Om det är moss i huvudet. Jag tror att det är nitton februari. 
+
+Ja, det har jag sagt. Ja, på tal om moss i huvudet. Ja, på tal om moss i huvudet. Det har jag också sagt. 
+
+Vi kan också då säga att om vi är grötiga i huvudet så ni får ett långt avsnitt där vi pratar om, vad pratar vi om i nästa avsnitt? Actions and workflows. 
+
+Precis. 
+
+Och pipelines. 
+
+Ja, men det får ni vänta i två veckor till det kommer. 
+
+Ja. 
+
+Nu får ni nöja er med det här. Den bästa övergången jag kom på var att vi pratade om... Nu ska vi prata om- 
+
+Nice segway, Sam. 
+
+What? 
+
+Never mind. Peter pajade dig fullständigt. 
+
+Jag tänkte vi skulle prata om flera signaler. 
+
+Boom! Och inte vilka signaler som helst, utan krypterade signaler. 
+
+Ja, ja, och appens signal för att vara riktigt specifika. Den har varit lite i, jag vill inte säga hetluften, den har varit snarare ett hot topic det senaste. Eh, och det hela började i alla fall kronologiskt med att Försvarsmakten gick ut och i ett remissvar till, jag tror det var Chat Control, next gen av Chat Control, så gick de ut och var oerhört tydliga och sa att de tyckte det var en jävla dålig idé. 
+
+Började inte holländarna med att hata på det här? Jag tror att holländska försvarsmakten gick ut först. 
+
+Det är mycket möjligt, det har jag ingen koll på. Men för nu är jag i signalkontextet bara då. Och i signalkontextet så, så, det här är Försvarsmakten, den svenska, min brygga då. Så att vi börjar med att de lämnar ett remissvar och säger vi gillar inte Chat Control för det är, eller rättare sagt, vi gillar inte begränsning av totalsträckskryptering för att det kommer skapa bakdörrar hur vi än gör. Sen följer vi upp med Försvarsmakten igen då, apropå Signal, och de har gått ut med en rekommendation nu till alla sina medarbetare typ att använda Signal alltid. Som ju då är en totalstrecks krypterad, det vill säga en end-to-end encryption app. Så det var bryggan mellan de två nyheterna. Och fortsätter vi då på Signal och totalstrecks kryptering. Så i, ja nu är det, det är ju igår då, det vill säga den artonde, så kom det ut en serie riktigt bra bloggposter från en kille som heter Soatok. Jag vet inte om han uttalar sitt namn så, men det stavas S-O-A-T-O-K och Soatok.blogg. Där finns det alltså ett flertal bloggposter som gör en audit på Signals och specifikt Signals kryptoimplementation då. Som jag tyckte var superbra. Han säger själv att han inte är en fullärd kryptolog, alltså matematiskt kunnig, utan han är självlärd. Men han är bättre än mig, så kan vi säga. Och jag tyckte det var väldigt pedagogisk genomgång av hur han jobbar med audits och vad han tycker om Signals implementation av kryptering. För att göra det hela ännu roligare så är ju då Soatok inte vem som helst. Han är nämligen en furry. Han har en fursona. Han är väldigt öppen med detta. Han har en fursona som heter Dole. Det är då en sydostasiatisk vildhund. 
+
+Specifikt. 
+
+Ja, han är väldigt, det är väldigt uppfriskande att det är liksom... Han säger själv att han gör det här med mening lite grann. Att han, han vill visa att furries är också vanliga människor på något sätt. Så här vill han avdramatisera det hela. 
+
+De är furries i alla fall. 
+
+Jaha, det är onekligen. Äh, men sagt va, superbra bloggserie. Jag kan verkligen rekommendera den. Soatok.blogg. Han avslutar med att if you walk away from this blog post with more confidence in the security of signal, that's cool. But I don't think most people get their security advice from a gay furry blogger. 
+
+Sant. 
+
+Är riktigt, riktigt roligt. För att följa upp på det då. Apropå Signal och dess säkerhet så har ryssarna meckat med Signal nyligen. De har fokuserat på Ukraina givetvis. Det är tydligen så de jobbar att de nästan alla sina attacker skickar mot Ukraina först och sedan så sprider de den uti resten av världen. Den här gången så var det via en QR-kod som ska användas för... Jag tror det är en ganska ny funktion i Signal, det vill säga du kan para devices. Jag tror det är bland annat om du vill migrera från en gammal till en ny till exempel, så kan du på något sätt koppla kontot till båda devices så kan du enkelt migrera över. Men det möjliggör även att du kanske kan jobba med samma ID från två olika devices samtidigt. Och den, det görs via en QR-kod till exempel. Jag tror du kan göra det på andra sätt också. Men den här QR-koden gjorde ryssarna ondskamma med då. Så på något sätt så lyckades de, ja, har inte lyckats läsa mig till hur, men de lyckades embedda javascript i QR-koden på något sätt.Så att... Eller vänta, gjorde de verkligen det? Jag tror de bara använde QR-koden nettopp för det. Det de gjorde var att de skickade ut QR-koden på olika sätt till Ukrainare som då trodde att de skulle joina en chattkanal. Men det de gjorde var och pairade sin telefon med en ondskefull telefon som ju då kunde avlyssna allting som sa det för de var ju parade. Det var ju identiskt. De var ju liksom, eh... Det var ju samma. Vad är... Det här heter ju någonting... Cloning, sim-cloning till exempel. Motsvarande det, fast bara för, ehm... 
+
+Det har ni ju redan på eran Signal-app. Om ni går in och tittar så kan ni se lätt att datorn är ju en klient och telefonen är en klient och så vidare. 
+
+Och det här har ju Signal vetat om att det här kanske inte var perfekt byggt, men det är ganska ny funktion och de har precis patchat den. Det kom en patch 12 februari. Så har ni gjort den så är det väldigt mycket... Då kommer det upp regelbunden pop-up som säger by the way, du har pairat ditt konto till den här också. Är det verkligen okej? Ehm, så det blir tydligare vad det som händer. Jag gissar på att det innan så var det så att det bara hände automatiskt i bakgrunden och man visste inte om det. Nu har de löst igenom att det poppar upp lite tydligare. Så det om Signal, det senaste. Jag kan även nämna förresten att det inte bara Försvarsmakten som har kombinerat Signal, utan även Europaparlamentet. Vilket ju extra roligt eftersom det är ju på EU-nivå den har, Chattkontroll har sprungit omkring en hel del. Så jag vet inte riktigt hur man ska tolka det här. Om det är så att alla är överens om att Signal är en bra app och säkerhet är viktigt, men det är bara för oss. De andra vill vi kunna lyssna på, de dumma eller någonting. Jag vet inte. 
+
+Ah, det är knasbollar det. 
+
+Ja. 
+
+Framför allt är det väl så att EU är stort och det finns många olika intressen och man- 
+
+Du är så klok och nyanserad. 
+
+Men alltså det, det... Det är ju polis och rättsutredande myndigheter som vill få bort säkerhet eftersom att det försvårar brottsutredningar och försvårar en massa grejer. Sen finns ju andra myndigheter som har som uppgift att skydda nationen, medborgarna och statens hemligheter som då däremot vill ha säkerhet. Och hur de här avvägningarna ska gå och vem som vinner den här fighten är ett bråk som åtminstone går tillbaka till 90-talet. 
+
+Yes, yes. På tal om konstigheter höll jag på att säga, så kan vi prata om Schrems. Vi har faktiskt ett helt avsnitt om det här. Jag vet inte om vi hade flera topics den gången, men vi pratade i alla fall om Schrems som en del, Schrems ett och Schrems två. Det är en snubbe, jag tror han heter Martin Schrems, som är en sån privacy fighter kan vi kalla det. Han har ifrågasatt en massa saker. Detaljer i avsnitten om Schrems som vi förhoppningsvis kan leta upp någonstans. Men nu är det i alla fall GDPR och kopplingen mot USA till exempel som är intressant. För att ta en jävligt lång historia kort, så GDPR är tydlig med att persondata ska inte lämna EU punkt. Om den-- Den får lämna EU i undantagsfall och det är om den landar i ett land där det finns essentially equivalent laws, det vill säga att det finns lagar i det landet som skyddar EU:s persondata på ett likvärdigt sätt så att det finns rättigheter även för den datan där då. Och för att se till att det finns i USA som ju är extra viktigt, för där finns alla våra moln. Eh, så för att lagligen kunna använda de här molnen så måste vi få till en konstruktion så att USA följer GDPR eller i alla fall kan garantera att EU-data inte missbrukas kan vi väl kalla det. Vilket är ett litet problem i just USA för de har ju då FISA 702 och Executive Order 12333 som mer eller mindre säger att massövervakning är okej. 
+
+Ja, för alla invånare, eller alla som inte är citizens. 
+
+Ja, och man kan ju hävda att det finns bevis från Snowdens dagar som gör att de skiter lite vem de spionerar på. De läser allt. Och sedan, hade varit bra att Rickard här, för han kan ju det amerikanska lagsystemet bättre än mig, men jag har för mig att det dessutom är så att om du till exempel har en, äh, någon form av stämning eller någonting i USA och redan under discovery-fasen så vill du komma åt data som kanske råkar befinnas eller röras EU-medborgare, så måste ju då bolaget uppfylla eller följa amerikansk lag och lämna över den datan. Och här vill ju då EU och USA tillsammans komma fram med en överenskommelse som gjorde att de EU-lagarna respekterades eller EU-datas rättigheter respekterades. EU ville kunna skicka data till USA för där finns de coola molnen och de coola molnen ville gärna att vi hade dem som kund för att tjäna dem pengar. Så då kom ju Safe Harbour, det här fantastiska dokumentet eller överenskommelsen för en kasse år sedan som styrde upp det här. Så att all vår data var i Safe Harbour i USA. Det tog inte... Och här tror jag Schrems ett kom in. Han drog upp det här hela vägen upp i någon EU-domstol och de kom fram till att nej, Safe Harbour håller inte och så gick Safe Harbour sönder. Så bråkade de ett tag och så kom de fram till Privacy Shield som var det nya Safe Harbour. Nytt fint avtal. Och så, det var då jag tror Schrems två kom farande. Det vill säga samma snubbe tog upp det igen och det blev återigen tydligt bevisat att nej, Privacy Shield håller inte. Så att, helt plötsligt satt vi i ett osäkert läge igen. Eller vi kunde inte egentligen lagligt skicka data dit. Eh, och nu då alldeles nyligen, 2023, så kom då the Transatlantic Data Privacy Framework på plats. Eh, och där var två stycken intressanta mekanismer. Det finns någonting som då heter Privacy and Civil Liberties Oversight Board på USA sidan, som var då en granskande styrelse som ägde den här frågan. Alltså, vad hade som uppgift då att övervaka att Transatlantic Data Privacy Framework, TADPF som det hette, att det verkligen sköttes. Så det liksom fanns en instans dit EU kunde vända sig om någonting inte gick som det skulle, lite grann. Eh, och den bestämdes, sen sattes i lag den här via Bidens Executive Order 14086. Så det gjorde då återigen möjligt för oss att använda amerikanska moln. Fan vad bra! Men, nu kom Trump. 
+
+Och det har gått så bra och oproblematiskt under hans första dagar. 
+
+Allt som Biden gör, det är ju dåligt per definition. Så det var på gång att den här executive orden som egentligen stöttade allt det här, att den skulle tas bort då. Men han har inte tagit bort den än. Däremot har han kickat tre av fem medarbetare i Privacy and Civil Liberties Oversight Board och enligt standarderna eller deras egna reglementen då så får de inte agera. Så de är icke-funktionella just nu. Och då kom ju Schrems svarande, nu virar han morgonluft. Han gillade inte Transatlantic Data Privacy Framework för han tyckte att den är byggd på sand som han sa. Det här håller inte. Vi kan skriva de papperna hur mycket vi vill och den här Liberty Boarden, den kan agera hur mycket den vill. Amerikansk lagstiftning är inte förenlig med, med det vi vill göra här i EU. Och den här executive orden är inte rätt sätt att bygga det på för att den blir jättekänslig för så fort Biden inte är president längre så har vi problem. Och nu då när detta har hänt så vädrar de ju morgonluft via den...Det finns en not for profit-organisation som heter NOYB som kämpar med just detta. Och när då Liberty Oversight Board inte är operationell längre, så alltså samma dag så skrev de en bloggpost med en gång i ny jobb att ja, nu har vi inte någon funktionell sådan här transatlantic agreement längre. Så att vilken dag som helst så är det förmodligen så att ny jobb går upp igen i, i EU-domstolarna. Och förmodligen så kommer det här, om inte Trump river det på egen hand, så kommer det förmodligen rivas från EU-sidan då. Nu tar det väl en kasse månader eller till och med år innan vi kommer så långt. Men återigen så ser det sjukt osäkert ut om vi överhuvudtaget får använda amerikanska moln, vilket ju sätter oss i lite av en... 
+
+Prekär, prekär situation. 
+
+Exakt. Så ja, det är förmodligen olagligt att förflytta persondata till USA eller de amerikanska molnen. Vilket för mig är såhär ett gyllene tillfälle att ha vart fan i fem till tio år nu för en EU-spelare på den här marknaden. Exakt. Med tanke på de problemen vi har haft med de amerikanska molnen ur ett re-ett lagstiftningsperspektiv här nu. Du behöver inte ens ha samma kvalitet på din tjänst som de stora i USA har. Jag menar, bara det att du finns i EU och kan ge en rudimentär tjänst måste vara värt hur mycket som helst. 
+
+Det var väl det som vill göra, eller? 
+
+Kanske... 
+
+De har andra problem. 
+
+Tänkte säga det. Det finns förhoppningsvis alternativ i alla fall. Jag menar att det kan inte vara bara och som ser den här marknads, det här marknadsfönstret. Äh, jag menar-- och det är på EU-nivå finns det definitivt behov och jag kan tänka mig att på svensk nivå finns det också behov. Äh, jag menar, det finns väl data som inte ens får lämna Sveriges gränser tror jag, typ patientdatalagen och sånt. 
+
+Nu slightly off topic så har jag sett en bunt videos där det är ett par stycken företag som har börjat titta på home-clouding eller vad man vill kalla det. Och då framför allt sådana grejer där du har stora datamängder. Då de konstaterar att om du har egna driftcentraler så kan du hosta data mycket billigare än till exempel Amazon S3. 
+
+Det kan väl omö-- alltså det kan väl omöjligt vara en nyhet höll jag på att säga. De får ju betalt, eller de tar ju betalt av en anledning menar jag, AVS. 
+
+Ja, men äh... Alltså, tydligen så påstås det att om du, om du, om du både har en... Nej, nej, men vi är slightly off topic, men alltså att folk har kunnat göra cloudliknande tjänster och göra det vad de uppfattar det som lika, lika billigt och kostnadseffektivt. Eller bättre, mer kostnadseffektivt än att använda ett, för ett riktiga cloudfunktioner. 
+
+Var inte det här för övrigt en spaning för några å-å-och något år sedan från Peter Magnusson? 
+
+Ja, precis. Hade förvärv, hade förvärv. 
+
+Ja, men på, på Plugs. Nyårssidorna är jätteuppdaterade på, på våran, på säkerhetspodcasten punkt se. 
+
+Yeah, yeah. På tal om tokigheter som händer i den amerikanska myndighetssidan. Äh, har du någonting som du vill delge, Jesper? 
+
+Det är, nu pratar vi alltså om Department of Government. 
+
+Efficiency. 
+
+A.k.a Dogge, a.k.a The Goon Squad. 
+
+Alltså, är det bara jag som tycker att hela USA's, hela USA är som en dålig sitcom? Liksom, det är liksom, man blir förvånad. 
+
+Nu räknar du bort det faktan med flygplan när de börjar falla från himlen. 
+
+Ja, men är det inte konstigt vad det är som pågår? Jo, och det är då klart att man ska slänga upp en hemsida lite snabbt och lätt. Ja, och det visar sig ju vara svårt. Äh, jag har faktiskt inte alla detaljer. Jag försökte panikgoogla här, men jag hittade inte alla detaljer. Men det som hände är ju en sån klassisk nittiotalsattack. Att den här sajten doge.gov blev ju defaced. Och det här har vi försökt lägga ihop lite här, men det verkar som att den hostas av Cloudfronts... Inte Cloudfront, Cloudflare Pages. 
+
+Som i sin tur bara är en pekare till en annan domän och den domänen är inte en.gov-domän och verkar vara riktigt dåligt konfigurerad. Äh, så två webbexperter, oklart vilka, de vill vara anonyma, cause of reasons. 
+
+Ja, det var smart skulle jag säga. 
+
+Det känns rimligt, va? 
+
+Bortsett från om det är lagligt eller olagligt. 
+
+Så, ja... 
+
+Den politiska stämningen i USA just nu. 
+
+Exakt. Lite tryckt kan man tänka. Men det de gjorde var att de skickade upp, de lade upp en bild mer eller mindre i mitten som sa det att ni har ingen aning om vad ni håller på med, mer eller mindre. Äh, den försvann ganska snabbt, men deras idé var att det var i stort sett helt vidöppet för vem som helst att posta förmodligen assets då till det som renderades på sajten. Så den var sloppy uppsatt helt enkelt. Vilket är lite pinsamt kan man tycka. 
+
+Pinsamt för en government-sajt, kommer inte ifrån. 
+
+Ja, eller hur? Men ganska cool skalp att ha. 
+
+Id: faced, doge dot com. 
+
+Om våra lyssnare har bra koll så minns de ju en massa avsnitt där vi har pratat om webbsajter med vidöppna databaser där man kan ansluta och göra ondska. 
+
+Ja, exakt. Men i det här fallet så ser det ut som att det är bara hur sajtens resurser populerats, det vill säga CDN och assets, hur assets läses in, läses in på sajten. För det som, det som man ska säga är att den här sajten har varit tom väldigt länge och det den gör egentligen är att den aggregerar allting som postas på X. Så den läser bara in ett flöde ifrån givetvis då Doges X-konto. Och då kan man tänka sig att det här är ju liksom bara nån såhär jävligt snabbt ihopslängd, äh ja, crawler helt enkelt. Så den plockar bara ut det som står där. Och då kanske man inte har lagt så mycket tid på sin backend då. Uppenbarligen inte, för där kunde man ju då manipulera innehållet. 
+
+På tal om IT-säkerhet och det som händer i USA just nu, så har jag två stycken direkta påverkningar på, kanske inte mitt jobb, men indirekt. Det ena är att jag föreslog i ett kontext att för att förbättra... Alltså CVSS har ju sina brister. Exploiter, eller om saker exploitas eller inte, det är inte med i CVSS-ratingen egentligen. Det vill säga, äh, vad är status just nu på den här egentligen? 
+
+Exploited in the wild. 
+
+Exakt, det är inte med. Så då har ju CISA:s Kev är ju en jävla bra lista. CISA är ju en sån fed, jag kommer inte ihåg exakt vad de står för, Cyber, Cyber, something, something, en federal myndighet i USA i alla fall. De har en Kev, det vill säga known exploitable vulnerabilities, där de listar alla som det, det finns bevis för att de exploateras in the wild just nu. Så mitt förslag var att vi, att man skulle integrera med den för att highlighta vissa CVSS. För jag menar, vad är det? Två och en halv procent av alla CVSS eller någonting som någonsin exploitas. Det kanske till och med är färre än så, jag kommer inte ihåg, kanske en halv procent. Och highlighta dem då, för de är ju rätt viktig att patcha. Nästan oav-- oavsett kritikalitetsgrad. Men nu är frågan, CISA har ju fått en hel del cuts nu. Det är inte alls många, lika många som jobbar här längre. Och kommer vi ens att ha kvar CISA Kev om ett tag? 
+
+Vi har ju några kunder som har fått funding via grants då från US, alltså från USA. Vi har ju fått, vi fick ett ifrån Tor bland annat. Där det grantet som vi har levererat på är... Nope. 
+
+Det finns inte längre. 
+
+Pulled. Och det är liksom bra grejer. Hela det grantet är för privacy och skydda uppgiftslämnare och journalister. 
+
+Så jobbar vi inte längre. Borta. 
+
+Slightly off topic mot vad vi har planerat så... 
+
+Tänkte vi skulle prata om jordbruk. 
+
+Nej men vad heter... 
+
+Traktorbruk. 
+
+Våran kurutvecklare? 
+
+Daniel, Daniel Stenberg. 
+
+Han är väl förbannad på... 
+
+CVSS, ja. 
+
+Men det har jag med. Jag menar, jag har några kunder där jag ska liksom greja CVS-- det ska vara en CVSS-rating under rubriken liksom. Äh... 
+
+Ja, det finns ju en bra sajt man kan gå in och bara klicka i grejer. Är det det här? Ja. Är det det här? Ja. 
+
+Men, men. Så får man... När vi har pratat om det här ett antal gånger så... Jag hävdar ju att för klient- Du hävdar att det är skit. -klienter som inte är en webbläsare så är det jättesvårt med vad det ska vara där. För att det är ofta inte relevant och inte... 
+
+Det beror ju... Den tar inte jättestor hänse till kontext. Det är ett jätteproblem. 
+
+Det ska den ju inte göra, höll jag på att säga. Base scoringen är ju inte... 
+
+Många, många... 
+
+Det beror ju inte så ute efter om det kommer med kontext. 
+
+Många parametrar i base score är okända. Det är det stora problemet. 
+
+Det blir onödigt hög impact på någonting som är svårexploaterat. Det är min grundidé med CVSS. 
+
+Men såhär, det här är inte ens kontroversiellt. Finns det problem med CVSS? Ja. Är CVSS fyra bättre? Tveksamt. Men jag menar, vi har inget... Det som är bra med den är att vi pratar om den. Det vill säga, det är en känd standard som alla vet, eller inte alla, men många vet hur den funkar. Vilket ju i alla fall bättre alternativ än att alla gör sin egen grej. För då är det ju helt omöjligt att veta. Hur allvarlig är den här sårbarheten? Grön, ja den då? Fyra och den här då? fyrtiotre och den här då? Den är warning. 
+
+Ja, jag tänker, jag håller med. Jag vill ju gärna, när jag är på en testen så vill jag gärna att kunden äger risken. Jag kan bara informera om den. Sen hur de vill kategorisera den, det är lite upp till dem. Jag sätter critical och high på mina sårbarheter. Då är det ond, bråd, internetdöd som liksom ingen kan komma undan. Annars brukar nästan alltid downplaya mina findings. Det är upp till dem att äga risken. 
+
+Sen tycker jag det är viss skillnad för om man beställer ett pentest, då kan man vara mycket mer. Då är det en kommunikation som är många fler ord än bara CVSS-ratingen. Den är bara en label. Men det jag bra, där CVSS eller såhär, det är en vida implementerad rating, oavsett vad den är nästan, är bra. Det är vid automation. Det vill säga, till exempel, när du har sårbarhet till tredjeparts dependencies. När du sitter med en S-bomb och alla dina dependencies och så ska du matcha dig mot tjugo olika sårbarhetskällor. Att då att det är olika i alla de där, det är fucked liksom. Så jag håller med. Det är klart vi ska göra nånting bättre, men bara för det är skjut inte... Kasta inte ut bebisen med badvattnet som man brukar säga. Det är liksom, nej, det finns saker som inte är bra med den, men vi ska inte sluta använda den för det. Vi ska jobba på nånting bättre. Men i ett relaterat ämne då. NIST, som ju via sin NVD är ansvarig för att göra lite ut av detta. De har ju ett, eh, ett flöde man kan prenumerera på som är en sårbarhetsdatabasflöde. Förut så tankade man ner hela sårbarheten som en CVS eller något där tror jag, och så byggde man upp den om man skulle göra jämförelser i något verktyg till exempel. Komma och separera filerna? Ja, precis. Men det var ju inte så coolt, så de har gått över till ett API-anrop nu i alla fall. Och jag följer Dependency Track, ett fantastiskt verktyg från OWASP. Jag fyller deras slacktråd och då var det en bugg nyligen. Så att det var nånting i en CVE från NVD som fuckade upp deserialisering i the dependency track. Så de var tvungen att snabbpatcha. Och det var ju lite, det var ju lite roligt. Men så följde någon i tråden upp med kommentaren. Varför lägger vi ens tid på att fixa integration med NVD? Hur-- Kommer ens de finnas kvar? Apropå då nedskärningen i USA. Så jag menar, hela NIST är ju förmodligen också under granskning. Du nämnde ju dessutom SISA. De är ju en... Fan heter det? Heter de ADP eller vad fan heter det? De som, de som får måla i en- De som får bygga en CVE. -ja, de... Men framför allt, de får lägga till CVSS om det inte finns en CVSS från... Som är... Och de har ju bland annat gjort sådana här briljanta grejer som att null-point exception i ett Java-program med ratet som typ tio eller någonting sådant där. 
+
+Japp, det var väl bland annat det som Stenberg inte var helt nöjd med. 
+
+Ja, han hade med det exemplet. 
+
+Nej, men han hade med just det att han gör en viss rating och så gör de om den ratingen. 
+
+Men framförallt så har det ju blivit... Ju mindre Mitra har tid och betalt och orkar lägga tid på att underhålla CVE-databasen och ju mer andra random internet-puckorna har fått mer och mer ansvar, så har det ju blivit mer kaos och sämre ratingarna som går in i NIS-databasen. 
+
+Och jag tror att det är ett annat stort problem är ju just det att det finns ju inga sanity-kontroller på plats direkt när någon submit:ar en CVE. Vi har ju haft problem med mycket sådana fuzzingmotorer som automatiskt har byggt hundratals CVE: er som inte har varit något liksom. Så det har varit-- det har varit lite såhär fjäder i hatten om man äger en CVE, om man har skapat en CVE. Så då har man automatiserat det för att man skulle bli riktigt cool och många. Och då har det blivit lite dålig kvalitet på en del. Men, men. Nog om amerikanska rättsvä-- eller myndigheter kanske? 
+
+Kanske. Ska vi gå över till AMD? 
+
+Ja, varför inte? 
+
+AMD, de har ju processorer. 
+
+Det har de. 
+
+Du har hört talas om- 
+
+Ryzen. 
+
+Flera stycken har de gjort. 
+
+Hördu, jag köra om Zen. 
+
+Nej. 
+
+Nähä. 
+
+Är det något nytt? 
+
+Är inte det en... 
+
+Hypervisor? 
+
+Ja, precis. 
+
+Nej, nej, inte med x med z. 
+
+Z så klart. Nej, Zen. Jag har inget bra på MD. 
+
+Jaha, men det är mikro... Vad fan heter det? Processorarkitekturen som är i... 
+
+Pass. 
+
+Ryzen och deras serverchipparna. 
+
+Ah, nej. Inte min för långt ner. 
+
+Jag tror mina kids bara gamear på sina Ryzen. 
+
+Ja, de kör AMD ändå. Coolt. Det finns fördelar med det om man ska hålla på med AI. 
+
+Vi tar bort ordet Zen från det här. Vi säger AMD-processorer. Vi förenklar. Vi säger AMD-processorer. 
+
+Är det en spekulativ attack? 
+
+Nej, nej, nej, nej. 
+
+Inte? Va? Det trodde jag. 
+
+Det är, det är, det är, det är, jag vet inte vad jag ska säga old fashion, men det är mer... Det är mer... 
+
+Mic code problem. 
+
+It's just all fucked up. Det finns en funktion med... 
+
+Den klassiska. 
+
+Med att du kan patcha mikrokoden och... 
+
+Det här har jag läst. 
+
+Och mikrokoden är ju alltså det som... 
+
+Det här var Google, var det inte det? 
+
+Ja, precis. 
+
+Den har jag läst. 
+
+Google Zero... 
+
+Zero Chaos tänkte jag säga, men det är det inte alls det. 
+
+Zero Day... Nä vad heter den? 
+
+Zero Day in the Shit... Nej, det är det inte. 
+
+Nej, det är inte det. Project Zero är det. Google Project Zero. 
+
+Så heter de, ja. Google Project Zero. 
+
+Det är kul bara hur associationer gick. Säljer du exploit som det heter? Det är något du bör erkänna. Jag läste faktiskt den här KB en och sedan bara nope. 
+
+Men, men, men, men okej. Men du kan alltså prata med processorn. Och då kan du säga till processorn att... 
+
+Nu ska du göra det här. 
+
+I stället för att köra den mikrokoden som du hade när du startade upp och som du fick från biosen och sådant. Eh, då vi bot upp. Så kan du inte ersätta mikrokoden och istället köra den mikrokoden som jag har skickat till dig här. 
+
+Men är det en tillfällig ersättning eller är det liksom typ skriberera den här nya mikrokoden istället? 
+
+Eh, det är ungefär samma hooks som en operativsystemskernel kan ha när operativsystemet patchar processorn vi bot upp. Som att det-- så att om, om... Säg till exempel att Linux bootar och Linux har lite hotfixen till processorn. 
+
+Jaha, så menar du. 
+
+Så kan den slänga in dem även om UEFI inte har patchat processorn tillräckligt väl. 
+
+Okej, ja. Du svarar nästan i slutet där. Det vill säga, det är bara-- det är en, det är en tillfällig fix. Sen behöver göra varje boot tillstånd- -satt, vi har gjort den på riktigt i UEFI. Ja, precis. 
+
+Dumt nog tänker jag. Eh, då är det ju bra om signaturschemat för mikrokodsuppdateringar är, är bra. 
+
+Ja. 
+
+Eh, och Google har ju inte släppt all the details nu- Så de har ju inte, de har ju inte gett oss exploitkoden för hur vi signerar våra egna malicioussa...- 
+
+Slå i opar. Ja, det tycker jag var fegt. 
+
+Däremot så har de... Däremot så har de släppt en exempel. Så de, de har gett oss en mikrokodsuppdatering som för arkitekturerna Zen 1 till arkitekturen Zen 4, vilket det är väldigt många av de processorerna som folk har i sina maskiner hemma- 
+
+Mm. 
+
+Så patchar den och när du ber processorn om ett slumptal så får du siffran fyra tillbaka. 
+
+Oh, snygg! Snygg patch. 
+
+Så det... Jag vet inte, äh... Jag vet inte, äh... Vad är-- är det en XKCD-referens eller vad är det? 
+
+Att det är fyra menar du? Ja, du tänker så. 
+
+Var inte det från XKCD? Ja, det kanske det är. Ja, det pass- 
+
+Jaha, du menar den här fyra, fyra, fyra, fyra, fyra. Vad gör han? Han fixar slumptal. Hur vet du att det är slumptal? Nej, det vet vi inte. 
+
+Var inte det en XKCD? Ja, det kan det nog vara. Det där låter bekant. 
+
+Men om det är det, så är du ju fan geni. 
+
+Det är roligt, det. Det är roligt på riktigt. 
+
+Jag, jag, jag kan prata så ska jag googla. 
+
+Jag panikgooglar också samtidigt. Men, men, ja, jag såg den där, men det var över min förmåga. Så jag, jag tänker Peter kommer ju nappa på det här. 
+
+Ja, men en icke-persistent patchning av din processor så att den börja göra annat än vad den skall. 
+
+Ja, det är typiskt jätteobra. 
+
+Sen har vi, eh, två korta om, eh... Det är väl Google som har Gemini, deras AI? 
+
+Eh, säkert. Ja, men det är, det är... 
+
+Du är väl vår AI-expert Jesper? 
+
+Ja, men allting som har med Microsoft att göra liksom skyr jag som döden. 
+
+Vi sa just Google dock. 
+
+Goog-- Ja, sant. Allting som har med Google att göra. Nej, men jag är ju väldigt mycket för att hålla min skit lokalt. 
+
+Men... 
+
+Nej, ingen koll på Google sa jag. 
+
+Men kan nån säga något kort? Vad, vad är en secondary prompt injection? 
+
+Eh, oj, bra fråga. Förmodligen att man har bett, att den, att det är någon reasoning historia, att den har frågat någon annan om hjälp. 
+
+Ja, eh... 
+
+Men det som är kraftfullt nu det är ju att aggregera flera AI, det vill säga att jag använder Claude och ChatGTP-- GPT för att komma framåt. 
+
+Men prompt injection är ju att du försöker göra så att du får lov att skriva vad, vad en ska göra. Att du får bli den som promptar- 
+
+Exakt. 
+
+-AI:s livsuppgift. 
+
+Och det, det är ju klassiskt såhär att man, vad är en prompt? Jo, man ber innan man har ställt första frågan så ger man AI-modellen regler om hur man vill att den ska svara. 
+
+Mm. 
+
+Så typiskt, kan du göra en obegränsad prompt injection så kan du väldigt mycket sa till AI vad dess uppgift är. 
+
+Mm. 
+
+En second order det borde ju vara då att om du har nån fråga på detta, fråga den här grejen. Ja, precis. Och en secondary prompt injection är till exempel att du ber AI att gå ut med en agent och summera till exempel ett textdokument ute på internet. 
+
+Exakt, och det här har vi ju nu nya tjänster för som har blivit mer avancerade som gör att du kan till exempel research, heter det va? I GPT. ChatGPT har släppt en som heter rese-research som är två och ett halvt tusen kronor i månaden. Då kan den göra research åt dig. Så det är såhär, en kompis till mig bad den summera topp fem trådarna på familjeliv. Eh, och så kommer den tillbaka- 
+
+Men det är ändå värt två och ett halvt tusen i månaden. 
+
+Herregud ja. Och det blir ju kanonkul. 
+
+Men, men secondary prompt injection är alltså att det är i dokumentet som du ber att summeras så har du lagt in grejer som har ändå fått för sig att det här är en prompt de ska exekvera. 
+
+Ja. 
+
+Då har man ju kommit fram till att det var ju dumt med, med second order prompt injection så att... Man har ju i flera, flera av de här AI:erna har byggt in olika sorters skydd som ska då göra att man inte bör exekvera instruktioner som finns i, i, i dokument som man ber AI att summera och liknande. Eh, men, eh, då var det några glada människor som kom på att om man istället för att säga att du ska göra en massa grejer när, när dokumentet läses, så i dokumentet står det istället att vänta tills nästa gång som användaren säger ja, eh, säger yes, då gör allt det här. Och det visade sig bara, bara, bara be den, vänta med att göra nånting. 
+
+Fan vad märkligt! 
+
+Så, så kringgick du hela det här skyddet som var byggt liksom. 
+
+Neurala nät, no one understands them. Men det, det, alltså... Jag har ju en pre-prompt som är jättelång och det är väldigt lätt att be, be de flesta modellerna om dumheter om man bara pretextar lite i början. Den har ju ingen direkt idé om vad som är rätt och fel. Den gör, den gör bara en gissning om vad som är rätt och fel. 
+
+Uppenbarligen är den ju ganska d-- Ha... Det är fortfarande ett problem att skilja- 
+
+Den är tillmötesgående. 
+
+Det är fortfarande ett problem att skilja mellan vad som är, liksom, ren data i kontext versus instruktion. Det är, det är fortfarande en krånglig grej för VMware. 
+
+Kan jag i viss mån förstå att den tycker det är jobbigt för jag menar, den jobbar ju bara med ord. Bokstäver, statistiskt sammansatta bokstäver. 
+
+Exakt. Eh, men Google Tag för att byta samtalsämne, det är, då borde vi veta vad Tag stod för. Det var Threat Assessment Group kanske. Det är alltså ett team på Google som, ja, de försöker väl göra lite vad Recoded Future och andra försöker göra. De försöker, eh, förstå, vad är ondskan ute på internet och så. Och det som är coolt eller unique selling point för Google Tag, det är ju det att de har, de har ju möjlighet att få veta grejer från Google om vad som händer och så. Så de har ju lite mer privilegierad dataåtkomst än kanske andra. 
+
+Är det här kopplat till Gemini på något sätt? 
+
+Ja, de, de har släppt en rapport om hur olika nation state och APT-grupper och så ut-utnyttjar Gemini. Eh, och det fanns ett par stycken intressanta findings. Den ena är att ryska grupper verkar jättekraftigt undvika Google Gemini, vilket du antingen kan då välja att tro att de är rädda för att Google ser dem eller att de älskar ChatGPT, eller att de utvecklar sina egna AIs istället för och... Sådär. 
+
+Det är ju snor-- gissningsvis egna. 
+
+Ja, men, men, men... 
+
+If they use Google, even if they use chatgpt, it has less significance it seems. 
+
+Ja, men ryssarna är väldigt duktiga på att utn- äh, på att undvika det. Däremot iranska hotaktörer älskar att använda Googles tjänster. Äh, och sen så var det lite olika hotaktörer från blandade länder som använder det och så. Och vad de konstaterar är det är de ser inte att nation state-aktörer gör nånting som är superunikt. Du kan inte se att APT-grupperna gör banbrytande grejer inom AI-missbruk. 
+
+Men det är enda de, den enda data de har är Iran då? 
+
+Nej, de har från flera olika länder, men Iran är de som absolut är. De är de största Google-användarna av APT-grupperna var kontentan. 
+
+Var svårt att köpa grafikkort i Iran. 
+
+Ja, men, äh, eftersom man inte Google gör så många grejer för att du inte ska få skriva exploits och sånt, så, så blir det, blir det ju väldigt påtagligt att man ser att de frågar om... Många, många ber ju om hjälp med att skriva phishing och sånt, men och hjälp med att skriva falska resuméer ser de mycket. Men, men sen så är det, det är mycket hjälp med att lösa IT-problem. Om jag har de här rättigheterna, hur ska Python-koden se ut för att läsa ut det här? Och sådär. Så att ja, väldigt mycket hjälp med sin programmering och där man undviker att explicit be om att göra ondska, utan man istället bara ber om att lösa delproblemen till ens ondskefulla kod. 
+
+Rimligt? 
+
+Ja, varför inte? 
+
+AI, bra grejer. Sen har vi två korta man-in-the-middle. Vi hade Open SSH, hade en man-in-the-middle. 
+
+Jag såg den idag, men jag hann inte läsa den. Den är jag nyfiken på. 
+
+Mm, äh, vi kan börja med att den berör inte en normal standarduppsättning av SSH. 
+
+Skönt. 
+
+Men om du är en SSH-användare som använder att hostnycklarna fås från DNS:en. 
+
+Mhm. 
+
+Så att du antingen har satt, det finns nån parameter, jag kommer inte ihåg vad den heter, men som säger att hostnyckelverifiering görs mot DNS. 
+
+Så att publik nyckel ligger i det som ett DNS-rekord? 
+
+Ja. 
+
+Coolt. Är inte det såhär att DNSSEC har väl något liknande? 
+
+Ja, precis. Det är någon- 
+
+Det är en grej, det har jag inte kört. 
+
+Äh, så det gör ju till exempel att om du använder det här så behöver du inte fundera på... Du behöver inte host filer och sånt liksom, utan du vet ju alltid om du pratar med rätt server. Äh, men det är två olika CVAR och om du kombinerar dem två så blir effektivt, effektivt så blir det minnes, servicegrunka gör att den här delen av koden som kollar att du får rätt nyckel, den bara släpper igenom. Jag klarar inte av att göra requestet och ta reda på hur det låg till. 
+
+Men du behöver vara DNS-men in the middle då, eller? 
+
+Nej. Du kan koppla bort hela den funktionen genom att äh, få till en minnesläcka. Alltså du har... Den ena CVN är att i vissa felfall så bara du faller igenom koden och vilken nyckel som helst godtas. Den andra CVN att du kan försätta servern i ett dåligt läge där det här felet blir sannolikt. Så både de två, för, för jag läste det först och blev lite förvirrad för att de verkade liksom inte vara samma sak. Men sen fick jag en förklaring här. Okej, men den ena CVN som verkar orelaterad sedan då som är service. Det primära use caset är att man har letat efter buggar som gör det första buggen mer sannolikt att den inträffar. Så det är lite speciella då. 
+
+Ja, det var en väldigt speciell setup då. 
+
+Ja, precis. Så du måste kunna vara i ett läge du kan fucka med minnet och du måste vara i ett läge där du kan, att någon kör denna konfiguration. Den sista lilla grejen, Marvel Rivals. 
+
+Det är ett spel? 
+
+Mm, det är coolt och det är animerat. 
+
+Fan, det hörde jag idag. Det här är väl det som, är det li-- det som tar över efter Valorant och Overwatch? Är det så? 
+
+Pass. 
+
+Ja, säger jag. Alla de där är väl färgglada och folk springer runt och hoppar. Det är min summering av... 
+
+Teitei Counterstrike, men med massa jävla abilities. 
+
+Ja, äh... 
+
+Wow! 
+
+Det är liksom, du har en automatvapen och du är magiker samtidigt. 
+
+Mäktigt. 
+
+Ja, typ så. 
+
+Ah, äh... 
+
+Marvel Rivals i alla fall. 
+
+Själva spelet, Marvel Rivals, det här är våran connection till ungdomarna är att vi vet att Marvel Rivals existerar. 
+
+Jag gamear. 
+
+Jag med, men bara ett spel. 
+
+Okej, vilket då? 
+
+Call of Duty Warzone. 
+
+Det är fan inte bra längre tycker inte jag. 
+
+Det är skit, det har aldrig varit bra på typ tre år. 
+
+Ja, okej. 
+
+Blir bara arg, men jag spelar det ändå. 
+
+Marvel Rivals i vart fall. 
+
+Ja! Klockan är mycket, ni som får stå ut med det här. Vi har spelat in i många timmar nu. 
+
+Den har en man-in-the-middle där... Det finns någon typ av shop där du kan välja grejer och vilka gujjer in och du kan göra någonting. 
+
+Du kan köpa skins garanterat. 
+
+Den kommer i någon halvsunkig krypterad blobba över HTTP om jag fattat det rätt. 
+
+Kan du ändra priserna? 
+
+Nej, men alltså... 
+
+Hur är det med- 
+
+Jag sa PP, men jag menade Python. Sorry. 
+
+Du sa inte något om du sa HTTP. 
+
+Ja, okej. 
+
+Blobba över HTTP. 
+
+Det går jättebra för mig. Blobban är i vart fall en krypterad Python-grunka. Det finns ingen signering eller säkerhet på det. 
+
+Python, det känns också konstigt. 
+
+Ja, men det sitter någon jävla Python-interpreter någonstans, gömd in i spelet. 
+
+Det är det här jag menar. 
+
+Okej, men vad kan jag göra då? Nu är jag man-in-the-middle så jag kan ändra på den. 
+
+Ja. 
+
+Vad händer då? 
+
+Du byter vilken kod som exekverar. Du kan typ poppa kalk eller någonting. 
+
+Wow! Men, men, men var det bara shoppen det här handlade om? Det var inte, det var inte hela spelet? 
+
+Nej, det centrala är ju i vart fall att den koden körs ju när du startar spelat. 
+
+Ah, okej. 
+
+Så men, men, men. 
+
+Så det är coolare än bara göra bus i spelet, utan du får, du får execution på burken. 
+
+Man poppar kalk. 
+
+Men du måste ju, du måste ju typ äga ett Wi-Fi eller någonting. Du måste ju på något sätt tvinga folk att... 
+
+Privilegerad nätverksposition. 
+
+Ja, du måste vara i en privilegierad nätverksposition. 
+
+Utanför fullsträckskrypterings-realm. 
+
+Precis, det är inte fullsträcks krypterat. 
+
+Och den går utanför, det är ingen HTTPS-tunnel då heller? 
+
+Nähä, nä. 
+
+Det är ju det här med certifikaten. 
+
+Men, men, men det är en icke-standard och fuskering. Så att det, om du kör Wireshark så kan det tydligen... Det blir ganska uppenbart att det kommer någon mystisk HTTP-kommunikation, men exakt vad som går i den är inte helt uppenbart. 
+
+Den är krypterad med F7 eller nåt. 
+
+Men det finns en snubbe som har visat grundgrejerna, säger att det är inrapporterat och visar hur han poppar nånting. 
+
+Jag har konsulterat Reddit nu och då har vi fått de tydliga svaren. From a technical level, it's incredibly hard to get computer remotely if you're not on the same network unless you have software application, bla bla bla bla. 
+
+Kommentar med två. But I have hackers in my walls. 
+
+Vad sa du? 
+
+I have hackers in my walls. Och sen sparar du ut i go reddit-fashion. 
+
+Ah men, jag såg nån, det var nån annan, nån sån där mer etablerad säkerhetsyoutuber som- 
+
+Etablerad säkerhets... 
+
+Contradiction in terms. 
+
+Som eh... Han orkade liksom inte göra hela vägen, men han, han kom så långt att han konstaterade, ah, den här processen skriver över ett pytonskript. Det, det, det verkar vara en korrekt, eh, det som sägs. 
+
+This is probably bad. 
+
+Men det är lite roligt med de här spelen och sånt. Och typ det är många spel och sånt du kan få kartor och annat från olika såhär, så att... Det är lite roligt med den här halv-- För om du går via Steam eller någonting så känns det ändå som att du får grejerna på ett riktigt sätt. Men, men om det sitter massa grejer där det är ganska- 
+
+Fast det är bara launchen tänker jag. 
+
+Ganska sunkig säkerhet kring hur du startar grejerna. 
+
+Jag gillar ju, jag gillar ju de här hårdvaruhacksen som finns. Det vill säga shoffa in en dongel, läser alla pixlar på skärmen. Du får aimbot deluxe. Svårt att göra någonting åt det. 
+
+Det har varit två riktigt bra talk. Var det inte ett på Security Fest och ett på Secte tror jag. 
+
+Sjukt inspirerande ju. 
+
+Ja, som är riktigt roligt om du vill- 
+
+Bara tracka pixas liksom. Som ett, det ser ut som ett tennbord och mus. Det är ju en uppförsbacke att leta reda på som gameutvecklare. Men ja, spännande. 
+
+Och det jobbiga är ju att det, nu är det ett jävla sidospår här, men det är ju på riktigt ett problem i många spel. Alltså med wallhacks och så vidare. För det är fan inte roligt att gå in i CS, casual är det väl, där det är så jävla många cheaters. Så det är, det är bara tråkigt liksom. Alltså det är svårt nog i ett normalt game när man, nån är pixel perfect sniper som kan banan utantill, liksom Dust 2 utantill. 
+
+Det var ju något avslutande reportage om... 
+
+Exakt, det var en- 
+
+Escape from Tarkov var det va? Där det... Där det var någon som började underchecka cheaters som lärde sig hur de betedde och sånt och sprang runt med cheat och kollade runt. 
+
+Ja, just det. Wobbling. 
+
+Mer eller mindre varenda server så satt det liksom en armada med cheaters liksom. 
+
+Jag vart jag sugen på Escape from Tarkov, men jag har två stycken stora hinder. Det ena är, jag tror det är ett rysst spel. De ska inte få mina pengar. Och sen är det dessutom så att, ehh, liksom inlärningskurvan är ju brant. Det är så, folk som är så sjukt duktiga i det spelet. Och som rookie så är det ju helt rökt länge. 
+
+Och det är inte skill-based då? 
+
+Jo, herregud, ja. Men jag menar återigen du behöver spela länge för att kunna alla kombinationer liksom. Jag menar, de duktiga är ju sådana här. Nu tänker jag lite på Day Z i och för sig, det är lite samma sak, men ja, de är ganska lika. Alltså, det är mycket sån, du behöver hämta en dieselcontainer här och ett kikarsikte här och med hjälp utav en spik så kan du göra om dem till en motorsåg. Alltså, det är sån här kombos liksom. Vänta nu, en spik och ett kikarsikte gör dem till en motorsåg? Jag hittar ju givetvis på, men jag menar det är, det är väldigt- 
+
+Annars var det ganska coolt när man kräver nivå på det här. 
+
+Det är väldigt såna specifika, eh, recept kan vi väl kalla det. Eh, ja. Men jag har faktiskt inte spelat varken Escape från Tarkov eller Day Z, så jag, jag har bara sett på Youtube-filmer om det så jag ska inte utsätta mig. 
+
+Och inga av de här hade med Marvel Rivals att göra? 
+
+Nej, jag har inte spelat Marvel Rivals. 
+
+Inte jag heller. 
+
+Jag har spelat Overwatch jättelite. Jag har spelat Valiant ganska mycket. Jag testade även ett nytt... Var det Valve som gav sig in i det här i samma... Fan, det är inte Marvel Rivals det. Nej, det heter något annat. De håller på med någon beta-grej som jag testade när jag var på DreamHack i november. Men det gick jag inte igång på det heller. Jag är old school. CS2 är good enough. Jag skulle vilja gilla Call of Duty, meeen, fan, jag gillar det inte riktigt. Det är för mycket, det är för stökigt. Jag gillar den här, vad heter den? Heter den Warzone? Den som är också lite såhär survival mode. 
+
+Warzone, det är det jag spelar. Det är Battle Royale, hundrafemtio pers i varje hörn som bara dödar varandra. 
+
+Ja, men det tycker jag är det enda modet som jag tycker är okej. 
+
+Det och Resurgence spelar vi. 
+
+Ah. Men spelar du singel eller? 
+
+Nej, nej, nej. Det är jag och fyra kompisar. 
+
+Alltså ni kör fyra stycken i en squad? 
+
+Ja, vi är så dåliga. Men det är kul ändå. 
+
+För det finns i alla fall singelmode förut, eeeh... 
+
+Ja exakt. 
+
+Förut så var det ju så, var du singel så var du körd också, för du mötte squads hela tiden liksom. 
+
+Men det finns ju one versus one också. 
+
+Ja, men det kör jag emellanåt. Warzone, singelmode, men det går så jävla fort. Eh, så jag hinner inte med. Och just det här liksom, det är ju medvetet. Du springer, springer, springer och så dör du och så respawnar du och så springer, springer, springer och så dör du och så respawnar du. Det är inte mitt mode riktigt, det är inte så jag spelar. Jag är mer rädd om mitt liv. 
+
+Dessutom menar man att du har reaktionsbaserade grejer. Om vi antar att vi skulle köpa bästa datorn och hela kittet, så vi är ju över trettio liksom. Så vi har ju, alltså reaktionsförmågan är vi ju körda på. 
+
+It's going down. 
+
+Min enda chans är ju att gå på skill, det vill säga försöka tänka lite. Istället för att bara springa, springa, springa hela tiden. 
+
+Man sätter dig i ögonbindel. Jag, jag spelade en gång typ nåt Street Fighter-aktigt eller nånting mot, mot barnet till en person som jag och Mattias känner och kanske Jesper också. Men det gick ju så jävla dåligt för mig och så helt plötsligt så började gå bra för mig. Jag bara såhär bang, bang, bang tryckte på den här knappen hur mycket som helst tänkte jag sådär, helvete vad kul, nu går det äntligen går bra till mig. Och då tittar jag på det lilla barnet och det hade lagt undan sin fjärrkontroll. Så då och då kunde jag klara mig. 
+
+Jag har ju annars en spelupplevelse med Peter där Peter springer åt fel håll hela tiden, dör hela tiden och tycker att det går svinbra för han kollar på min gubbe. Länge höll det på. 
+
+Star Wars eller? 
+
+Nej, det var stick figure game. 
+
+Första gången vi var på Secte och var väldigt berusade. 
+
+Peter var, var bra. Men med de orden tänker jag att vi summerar det här ostrukturerade avsnittet. 
+
+Mycket bra sagt. Vi som har pratat i dag. Vi heter Mattias Jidhage och vi heter Jesper Larsson. 
+
+Så är det faktiskt. 
+
+Och Peter Magnusson. 
+
+Svaret fyra från din funktion. 
+
+Mmm. Ha det bra! Hej! 
+
+Hej!
+

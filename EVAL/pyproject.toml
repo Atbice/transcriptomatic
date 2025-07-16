@@ -1,0 +1,30 @@
+[project]
+name = "whisper-live-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bert-score>=0.3.13",
+    "deepgram-sdk>=4.1.0",
+    "dotenv>=0.9.9",
+    "elevenlabs>=1.59.0",
+    "evaluate>=0.4.3",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "google-cloud>=0.34.0",
+    "google-cloud-speech>=2.32.0",
+    "influxdb-client>=1.49.0",
+    "jiwer>=3.1.0",
+    "levenshtein>=0.27.1",
+    "matplotlib>=3.10.3",
+    "nltk>=3.9.1",
+    "numpy>=1.26.4",
+    "openai>=1.82.0",
+    "pandas>=2.2.3",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.1.0",
+    "stanza>=1.10.1",
+    "websockets>=15.0.1",
+    "whisper-live>=0.6.3",
+]

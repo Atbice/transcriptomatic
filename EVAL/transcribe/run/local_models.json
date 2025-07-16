@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "name": "KBLab/kb-whisper-tiny",
+      "use_this_model": false
+    },
+    {
+      "name": "KBLab/kb-whisper-base",
+      "use_this_model": false
+    },
+    {
+      "name": "KBLab/kb-whisper-small",
+      "use_this_model": false
+    },
+    {
+      "name": "KBLab/kb-whisper-medium",
+      "use_this_model": false
+    },
+    {
+      "name": "KBLab/kb-whisper-large",
+      "use_this_model": false
+    },
+    {
+      "name": "tiny",
+      "use_this_model": false
+    },
+    {
+      "name": "small",
+      "use_this_model": false
+    },
+    {
+      "name": "medium",
+      "use_this_model": false
+    },
+    {
+      "name": "large-v3",
+      "use_this_model": false
+    },
+    {
+      "name": "large-v3-turbo",
+      "use_this_model": true
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+Jag minns att vi hade en QA-person då som ibland gick i taket över det här för att det var så här, nu har du ju gjort massa ändringar, hur vet du att det här funkar? Och det här smögs alltid med, liksom lite för QA-personen.
+
+Du lyssnar på Developers, podden där du får följa med oss, Sofia och Madde, på allt inom mjukvaruutveckling.
+
+Vi träffar spännande gäster, testar nya teknologier, söker inspiration och tar upp aktuella ämnen. Nej jag vet inte varför det har blivit så svårt att starta podden. Vi startar såhär. Vi är stela. Nej men det är bara så här jag har slut på saker och säga känns det som.
+
+Fast vi har en massa saker att säga. Men de kanske är såhär rants utanför techvärlden. Ja, eller?
+
+Ja, nej jag vet inte. Jag var såhär, du bara frågade, har du något att säga? Ja men jag hade kalas för min ettåring idag. Det är inte heller så intressant att prata om. Ska inte bara hoppa direkt in och tacka våra stjärnsupportrar på Patreon så sen snackar vi om vad vi ska snacka om.
+
+Jo, jag
+
+måste spara luft i mina lungor för det så mycket technyheter att såhär... Jag vet inte ens hur jag ska orka läsa igenom det här.
+
+Okej men då kör vi och tar och tackar våra stjärnsupportrar på Patreon. Det är alltså de som stöttar oss med 100 kronor eller mer per månad som får sitt namn uppläst här.
+
+Och det är Alicia, Anders Nylund, Björn Jonsson, Dag Rönnell, Kajetan Kazimierczak, Lars Nyström, Molly Haglund, Oskari, Per Nåtby, Selim Hjorthall, Stygg Hest och Tomas Nilsson
+
+Tack så mycket till er och tack till alla andra som stöttar oss på Patreon och på alla andra olika sätt som ni supportar oss.
+
+Ja, det var någon som köpte merch häromdagen.
+
+Blev jag så här glad när det droppar in lite då och då. Exakt. Och
+
+ibland ser jag någon på jobbet som har vår merch som inte går fram och skryter om det varje dag utan bara så här, ja men jag har er merch. Ja, fint. Ja. Nej men låt oss hoppa in i nyheter. Du har använt Create React App, eller hur? Jag vet ju det.
+
+Du vet att jag har. Men det är så här kanske inte alla som har gjort det. Om man är ganska ny så kanske man redan vet att man inte bör använda Create React App, jag vet inte. Eller om man inte är frontend-utvecklare. Eller om man inte är frontend-utvecklare. Men vad ska vi säga då? Create React App var... Alltså jag vet inte, för att det fanns det kom nog typ precis när jag började jobba med React, så att det kändes som en game changer, men jag vet inte hur pass mycket game changer det var.
+
+Det kom 2016, och det tog bort så mycket av krånglet med att hålla på med all boilerplate-kod för att konfigurera ett helt React-projekt, du vet såhär Webpack-configs och Babel-configs, du måste ju, du har ju ändå haft... Du har väl haft projekt där ni inte har Create React App, där ni har fått hålla på med allt jox?
+
+Ja, precis. Då var det helt enbyggd webpack och... Det var ju nice för att där är vissa saker i Create React App som inte kommer med automatiskt till exempel server-side-rendering och lite sånt som vi då behövde i den applikationen. Men ja, det är jobbigt att underhålla det också. Sen kan man ju ejecta sin Create React App och yada yada yada, också så att man kan ju komma runt det.
+
+Ja
+
+då hamnar man i något helvete mellanstadies Ja, det är nästan ännu värre Ja, men jag minns att du har klagat på typ så här vi åh skulle migrera till Webpack 5 och bla bla bla och det tog jättelång tid ja. Det tog bort mycket av helvetet som innebär av att jobba med frontend. Ge er inte in i det, för det är inte så jättemycket bättre nu, ska jag säga.
+
+Jag ska spela på den ranten. Men... Det var i alla fall, jag skulle säga att det var synonymt med att starta ett React-projekt. Alltså det var så här, det är självklart att när du startar ett React-projekt, självklart använder du Create React App för att sätta upp allting. Och man ser det, jag ser det fortfarande idag när folk lämnar in sin typ kod till tech-intervjuer, att folk fortfarande använder det.
+
+Det är sån vana man har. Även nu, alltså med vitt och sånt. Ja, jag tror att vissa vet inte, alltså vissa har inte hört om att, ja i alla fall det de inte har hört om är att React-teamet slutade rekommendera det för ett tag sedan och det blev väl så här, man slutade maintaina det projektet och man började rekommendera, ja det är det här som jag ska gå in på som är tjafset här.
+
+Åh alltid kul med tjafs. Ja, så det har varit tjafs. Som du säger, Create React App så här, har inte haft, har ju inte haft stöd för allting som är mer modern webb idag. Så det är inte chockerande att det läggs ner. Men det hände drama under 72 timmar efter att de offentliggjorde att det verkligen ska läggas ner helt. Så jag ska sammanfatta dramat.
+
+React-teamet gjorde ett blogginlägg där de uppmanade utvecklare att överge Create React App och att man ska gå över till Next.js, React Router, eller till och med bygga ett eget Ramverk från grunden inte rekommenderat inte rekommenderat, men liksom, det är ett alternatic. det är de här liksom sakerna du kan göra men jag vet att de har varit såhär men håll inte på att bygga det från grunden så de har väldigt såhär, använd typ Next.js jag tror att du har sett det kanske på hemsidan när man går in så är det såhär använd Next.js eller gats kanske de också rekommenderar men och nästan ingen nämnde Alltså, det heter vitt.
+
+Men de flesta tror jag säger vite. Det folk som inte snackar franska. Ja, så att någon kommer hata att vi säger vite. Men hur säger du det? Jag säger vitt Du
+
+säger
+
+vitt. Jag har ju läst franska i
+
+fyra år, men ja. Jaha. Fancy baguette.
+
+Ja, okej Men vissa kallar det vitt Ja, i alla fall. Vitt är jättepopulärt ibland React-utvecklare.
+
+Typ alla som körde Create React App, som filerade på att Det inte var toppen längre. Gick över till vitt. Det var svinenkelt att gå över till det. Toppen liksom. Men ingen typ nämnde att ås här. Ett alternativ är att du går över till vitt. Det är jätteenkelt. Så att många utvecklare blev väldigt arga Och menade att React-teamet var partiska.
+
+Mot vitt Och. Jag förstår inte hur communityt faktiskt arbetar. Jag skulle säga att de flesta har ju gått över till WIT istället för att migrera alltid till Next.js. Det är ju en mycket svårare idé. det känns mycket
+
+mer... Alltså visst det är kanske bra om du ska bygga någonting stort och robust liksom. Men det kom. Men det är ju mycket mer du får på köpet som du kanske inte behöver alltid.
+
+Ja.
+
+Nej, så de var så här... De gick ju till och med så långt att de anklagade React-teamet för att vara köpta av... Det var någon som skrev såhär bygg framework. Men vadå?
+
+Alltså eller vem, vem ligger bakom Next.js egentligen?
+
+Det är ett företag som heter Versel. Jaha. Folk kanske hört om det i olika sammanhang. De har ju såhär cloud-tjänster.
+
+Ja hausting
+
+skulle jag vilja säga. Hosting. Haust.
+
+Exakt De kör hosting, de bygger Next.js. Grejen är typ såhär... Nu kan jag vara ute på djupt vatten så insatt är jag inte det nån många i React-teamet som bidrar eller så här som har gått in och börjat jobba i Furnix js-projektet och liksom vice versa nånting. De är väldigt sammankopplade så det blir lite så här, det blir väldigt färgat.
+
+Jag håller faktiskt med om det. Så det här twitterstjaffset höll på i några dagar och det var ganska underhållande i alla fall när man såg posterna från det. Men till slut lugnade det ner sig och React-teamet uppdaterade sitt blogginlägge och hade lite mer så här balanserade, nyanserade rekommendationer inklusive hur man kommer igång med vitt.
+
+Mm-hmm. Utan att behöva byta till liksom ett ramverk som Next.js. Så nu är freden återställd men i alla fall, lite drama men jag hoppas att ni har fått budskapet med er att sluta använda Create React App. Det är liksom officiellt
+
+Dött ja men allt är kul med lite drama men det var ju fint att löste sig, att de blev vänner till slut ja frid och fröjd på
+
+jorden nästa grej inte så relevant för oss för oss utvecklare kanske men Amazon du vet såhär alla stora företag har ju jobbat med AI alltså LLMs släppt någonting för att vara relevanta i AI Amazon har ju inte gjort det nej
+
+Men
+
+de gör ju så mycket annat. Alltså
+
+Ja.
+
+Jag
+
+tänker de har ju hela AVS som är typ en av de världsledande cloud providers och sånt Behöver man verkligen doppa fingrarna i alla syltburkar?
+
+Absolut, absolut. Har du Har du Har du Azure, AVS eller Google Cloud så håvar du in pengar på att inte göra någonting i princip. Absolut, de har haft olika typer av LLM-tjänster i det  Men de, de har ändå liksom inte riktigt varit med i gamet som någon som gör modeller, eller hur?
+
+Nej nej nej
+
+Jag vet att de har haft, vad heter den här, Code Whisper, men ändå de har ju sin assistent Alexa. Och det är väl där man förväntar sig att någon slags utveckling ska ske. Och nu äntligen så har de rullat ut Alexa Plus. Eller i alla fall presenterat det, jag vet inte. Jag tror att man kan signa upp det och det finns olika erbjudanden om du har Prime eller inte.
+
+Det är väl spännande. Alltså alla de här Siri och Alexa är helt värdelösa. Du kan ju i princip inte göra någonting förutom att sätta på musiken eller släcklampan. Men samtidigt med det sagt så... Är liksom såhär miljoners miljoner människor som ändå interagerar med Alexa. Och säger starta musiken. Eller släck lampan.
+
+Så att jag vet inte vad det kommer leda till du vet. Men det är väldigt många användare som de introducerar features för. Och det kanske kommer utvecklas. Så man kommer förstå hur folk använder det mer och mer. Men ja, som vanligt hade de en demo där de visade helt såhär. Exempel som är helt... Det är ingen som gör så här i verkligheten Det var typ så här...
+
+Nu kan du använda AIt för att beställa en Uber åt din kompis när din kompis kommer till flygplatsen. Gud, vad krångligt scenario.
+
+Alltså det enda jag vill... Kunna med typ Siri är öppna min anteckning som heter handlingslista och lägg till smör när jag står med händerna fulla och bakar och insett smör till slut.
+
+Det går,
+
+men det är skitjobbigt att säga det.
+
+Ja men den fattar inte handlingslista. Alltså nej
+
+Jag har i alla fall inte lyckats. Vi hoppas att den är bättre, men jag är ju väldigt trött på de här exemplen som ingen i världen någonsin skulle göra. Folk beställer sin Uber själv. Den liksom... Inte ett verkligt case, men det visar att de ger sig ändå in i det här ja men, ai agenter, alltså försöker göra någon slags agent som alla andra håller på med.
+
+Vi får se vad som händer där. Någonting som är mer roligt för oss, Visual Studio Code, känner du till och använt kanske? Aldrig hört. Jag vet inte, det är väl så här... Du vet väl typ alla vad det är nästan, eller? Det tror jag nog. Man har inte jobbat med något väldigt obskyrt språk men det är en IDE för, används kanske oftast av, alltså nu vågar jag inte säga det.
+
+Det känns som att förresten JavaScript-människor använder Visual Studio Code.
+
+Alltså min sambo frågade mig, typ när han började plugga så här, vad är skillnaden på Visual Studio och Visual Studio Code? Så sa jag typ såhär, ja men Visual Studio det är typ för backend.net och Visual Studio Code är typ för frontend.
+
+Alltså så om man ska hårdra det. Så har han sagt det på sin lia och då hade de skrattat åt mig. Och typ såhär nej det har hon absolut inte sagt. Och jag bara såhär, vadå. Det var väl en rimlig, för någon som är ganska ny, alltså utan vi är precis närmare pluggare, det väl inte så dum förklaring eller?
+
+Ja
+
+Men vad menar du om att, eller hur hade du fel?
+
+Ja, nej jag vet inte. Alltså klart du kan köra andra saker i Visual Studio Code också. Ja men det är hemskt
+
+och du gör inte det. Nej
+
+exakt.
+
+Ja,
+
+nej side note i alla fall.
+
+Jag avskynar folk föreslår det. Alltså förlåt min chef, du är bäst, men liksom... Han var såhär, nej men behöver du verkligen, vad var det jag skulle ha, IntelliJ?
+
+IntelliJ. För java, behöver du verkligen IntelliJ? Det, det går ju att köra i Visual Studio Code. Jag bara så här, jag tänkte inte sitta med ett sådant fullfledged språk när jag har en fullfledged IDE och sitta i Visual Studio Code med skitextensions.
+
+Nej, jag är benägen att hålla med.
+
+Ja, men det för att vi är färgade av Visual Studio som har allt, liksom.
+
+Okej vi har förklarat vad det är nu på ett dåligt sätt och folk skrattar säkert antagligen igen Men i alla fall, de har ett väldigt populärt tema. Man kan ha väldigt många olika teman i den här IDEn som heter Material. Och, och det är ju för att man har upptäckt inte, misstänksam kod. Så Material Theme var ett väldigt väldigt populärt tema.
+
+Det hade mer än sex miljoner användare. Och det är inspirerat av Googles Material Design. Men nu är det alltså helt bort
+
+jaha. Men vadå, alltså, teman det är ju typ bara lite JSON. Vad kan man slänga in för farlig kod där i? Ställ inga frågor. Famous last words liksom. Nej, nej men jag bara så här funderar men visst det är klart har man ont uppsåt så kan man ju lyckas göra det med det mesta.
+
+Jag är så oskyldig och naiv och bara, hur skulle man kunna göra det i ett tema? Men ja...
+
+Ja alltså bra fråga jag aldrig byggt ett tema. Någon som har byggt ett tema vet ju såklart vad det är. Men den ändrar väl inte bara... Eller, ändrar man bara liksom färg Liksom color, black? För det de sa var i alla fall att... Det de sa var att det fanns...
+
+Alltså det fanns mycket typ kod som gör, som har onödiga beroende till saker. De körde några så här child-processer i VS Code. Vilket var väldigt märkligt för ett vanligt tema. Jag vet inte. Så det är
+
+i alla borta. Då kan jag tipsa om världens bästa tema som jag använder på rubbet. Och det är ju Nord. Jag tycker det är så snyggt Ja
+
+just
+
+det, det använder du.
+
+Vad
+
+använder jag? Jag använder typ Sublime någonting koffe eller något sånt där. Det är lite såhär
+
+brun-orange typ va? Eller Sublime associerar jag med orange i alla fall.
+
+Ja men det, det, det är ett färgglatt tema, men det är lite såhär... Det är lite mognare skulle jag säga. Jag vet inte, det är bara skönt för ögonen. Det är inte så skrikigt men det är ändå färgglatt. Ja ok.
+
+Får göra, om någon vill så kan vi göra ett avsnitt om alla teman vi har. Och alla vår uppsättning. Och allting som vi använder. Men då får ni önska det. Annars kommer jag tycka det är pinsamt. Entropic.  Också AI-stuff. De har släppt en ny version av sin populära LLM. Version 3.7. Alltså Claude då? Just den här modellen heter Sonnet.
+
+Ja, men det gör väl alla Claude-modeller? Ja, som används... Jag vet inte om Claude är det fina namnet. Jag fattar inte. Det kanske är som... Entropic är som OpenAI. Och sen har du ChatGPT som är Claude. Och sen är Sonnet själva modellnamnet som typ O1. Förmodligen. Ja, ja förmodligen. Alltså jag orkar inte, jag orkar inte tjejgissa saker här.
+
+För det blir alltid fel saker. Men det låter jätterimligt. I alla fall det har kommit en ny version av den. Och just Sonnet 3.5 har... Ja, ofta enligt de flesta benchmarks toppat ligan i att vara en bra kodassistent och generera kod. Den dök upp i juli 2024 men enligt Anthropic så ska 3.7 vara ännu bättre.
+
+Inte jättekonstigt att det ska vara bättre men det ska vara bättre på kodning och specifikt frontend-utveckling. Och det, som en del av det här så satsar man också på ett verktyg som heter Claude Code. Som är en AI-agent som konkurrerar med liknande lösningar som typ Devin och andra sådana här AI-verktyg.
+
+Är
+
+det bara
+
+jag som tycker att Claude Code inte var ett bra namn? Jag tyckte alls att det ligger bra i munnen.
+
+Ja, alltså Claude överhuvudtaget Ja, det blev lite, det blev lite äckligt. äckligt? Claude code
+
+Ja, claude ja, jag vet inte Det låter som en butler Men det. Ja faktiskt det hade det kunnat vara. Alla dem låter lite så Jag vet inte Det är ingen som har lyckats med ett produktnamn här alltså Gemini kanske är det minst äckliga Vadå, är chat-GPT äckligt? Nej, men det är bara så dåliga produktnamn. O1, eller vilken modell ska jag använda idag? O1, eller O3 Mini, eller 4O, det är så dålig bara så här, ja produktpresentation.
+
+Med det sagt då också ska dom, de pratar om att ja vi vet att är jobbigt Du ska inte behöva sitta och välja bland liksom sex modeller utan de ska typ automatisera det. När du skriver en prompt så väljer de den bästa modellen för det du vill göra. Det vore asbra. I alla fall den tidiga versionen Sonnet 3.5, den blev ju jätte framgångsrik.
+
+De flesta IDEs med så här generativ AI-funktioner började använda den. Och... Men för GitHub Copilot, som du använder i Visual Studio, så dröjde det med stödet för det. Då hann andra IDEs som typ Cursor, Windsurf... Plocka upp användare i och med att de tilläts Sonnet 3.5. Men den här gången så har alla stora utvecklingsverktyg inklusive GitHub Copilot redan lovat stöd för 3.7.
+
+På tal om GitHub Copilot så släpper GitHub Copilot sin Code Review-funktion. Det ska bli spännande för det du och jag pratat om. Du vet att, ja men, så här... En AI som kanske kan kolla igenom din pull request. Ja, det är ju skitbra.
+
+Alltså att kunna ha åtminstone en första granskning innan man skickar upp den.
+
+För att ha en peer.
+
+Eller hur? Jag har inte testat den och jag fick mejl precis typ tror igår att min Copilot-licens har uppgraderats med den här funktionen För jag har liksom, vi betalar för det på jobbet. Så det ska bli jätteintressant att testa. Så vad den gör är att den ger feedback på pull requests, typ går igenom och hittar uppenbara buggar.
+
+Den summerar ändringarna, den föreslår vilka tester du kan ha, den rättar stavfel. Vi så klagade på stavfel för något avsnitt sen.
+
+Men ja det är jäkligt coolt. Sen tänker jag att den lär ju inte fatta kontexten särskilt bra. Alltså själva featuren du implementerar hur det hänger ihop. Alltså det borde den ju inte kunna.
+
+Men allt annat sånt här, att det ska vara stavfel och liknande. Skriver den tester åt den också? Eller bara säger den typ så här, du borde testa detta För det har ju varit skjutnice om den bara, du borde testa det här här har du ett unitest
+
+jag vet inte om får testa det stod bara att den föreslår tester så jag vet faktiskt kanske inte är för bra för oss sant ja Nej men ingen aning men det låter ju som ett bra tillägg men som du säger den, den kanske inte kan skriva en bra pull request sammanfattning åt den för att den saknar kontext det blir kanske såhär, jag har ändrat detta jag har ändrat detta, okej men det är inte intressant om jag inte vet varför du ändrade detta är det typ för dåligt på att använda bra domänsspråk
+
+ja det är också ett ja Kan man känna att man borde bli bättre på det.
+
+Ja, och vidare till Google. Vi måste ju nämna alla stora aktörer, eller hur, innan vi är klara. Google släpper sin kodassistent Gemini Code Assist gratis för privatpersoner. Tidigare så kostade den 22,8 dollar i månaden. Va? Otroligt. är särkonstigt. Specifikt. De hoppas väl på att råka in fler användare. Det här har de gjort med liksom alla sina AI-verktyg Först så ville de att alla skulle betala för det, men ingen ville betala för det, så nu försöker de tvinga oss att använda det i alla appar istället för att nu har de så här, okej ingen vill betala för det, men vi vill ju ha folks data, så att Låta oss bara tvinga dem att använda det typ släppa det fritt.
+
+Ja, som sagt, jag vet inte hur många gånger man har hört det här med att om någonting är gratis så betalar du ändå någonting och oftast är det din data. Exakt.
+
+Ja, nej men så vi får se om de hinner i kapp Copilot och Cursor då. För företag kostar Gemini Code Assist fortfarande dock 54 dollar i månaden. Det är ganska dyrt.
+
+Eller vad kostar Copilot? För företag vet jag faktiskt inte. Det är antagligen också dyrare. För det är typ såhär, din data processas bara på en dedikerad server som de inte har tillgång till De får inte träna på din data. Så där förstår jag att man får betala. Men alltså den... Eller ja, vänta, här står det.
+
+Jag vet inte, det här är ju priser i dollar, det kan ju vara annorlunda på vår marknad Men här står det att Gemini Code Assist kostar 54 och GitHub Code Pilot Enterprise kostar 39 dollar. Så den är dyrare. Men ja,
+
+det var nyheterna. Ja, men tack för den här genomgången Väldigt bra påläst Så jag slipper läsa nyheter.
+
+Ja, varsågod. Jag kommer tänka på bara så här, vi borde ju ha tagit upp någonting om allting som har varit med Firefox. Har du hört någonting om det? Ja men jag orkar inte prata mer så jag dricker vatten så får du
+
+berätta.
+
+Jag har inte alls förberett någonting men jag har läst lite om det. De har ju uppdaterat sina terms and conditions nu och i princip första versionen sa ju mer eller mindre vi kommer samla in all data du matar in i liksom inputfält eller i alltså vad du skriver vad du surfar och rubbet.
+
+De ska väl förmodligen också göra någon form av... AI-träning eller något kan jag gissa. De har ju blivit uppköpta också. Så att det är ju mer. Men folk har ju slagit bak ut nu. Och letar efter alternativa browsers. Det finns ju typ såhär LibreWolf. Till exempel vet jag som är en fork av Firefox. Om man nu vill fortsätta använda Firefox.
+
+Men inte sälja ut sin själ. Sen finns det ju en massa andra alternativ. Är man fine med att köra på Chromium. Så förespråkar ju både du och jag Arc. Mm. Och ja nej, det finns ju tusentals alternativ Brave och massa obskyra alternativ som jag knappt ens har hört talas om Ja
+
+det där är tråkigt för jag har inte hört om dem att de erbjuder att du kan betala någonting och få slippa undan det för att jag förstår att folk behöver tjäna pengar och som privatperson, alltså jag vill inte heller betala 200 spänn för att använda en browser men Att de kunde ha haft en modell så här, betala, jag vet inte, 20 spänn i månaden.
+
+Så hade nog väldigt många gjort det.
+
+Ja, kanske. Jag hörde, jag vet inte, jag har inte faktagranskat detta nu. Men att en stor anledning att de har mindre pengar är för att Google har slutat supporta dem. Google har ju supportat ganska många browsers. Mot att då få ha Google som default sökmotor. Och nu när de inte längre får göra det, i och med de här lagarna som trätt i kraft, så det är EU som har förstört detta
+
+skiter de
+
+i att supporta för att då får de inte ut någonting av det.
+
+Okej
+
+Så det är vårat fel, europeerna? Ja,
+
+exakt skyll på det.
+
+Okej ja men då ska jag inte säga något. Fan vad de måste vara trötta på oss i USA.
+
+Mm. Vi fick ju en lyssnafråga också som vi kan ta och bränna av kanske. Jag tänker den är inte så jättelång. Det är från vår vän Kajetan Kazmierczak som vars namn ni har hört många gånger.
+
+Mm.
+
+Han frågar så här. Hur löser man bäst konflikten mellan att vara lite av en scout och... Och alltid lämna koden i bättre skick än när man fann den, det vill säga fixa eventuella småsaker när man ser dem, uppdatera paket, fixa felstavningar och så vidare. Och att bara sträcklösa det som finns i en Jira-ticket och inget annat.
+
+Flera arbetsplatser har, fullt förståeligt kanske, en policy om att  en PR endast får innehålla lösningen på en feature eller bugg och inget annat. Men samtidigt vill man ju inte att koden ska förfalla för att det inte finns tickets i Jira för något litet man precis har hittat. Och att skapa en ticket, få den prioriterad och kanske återkomma till den senare är ju rätt omständigt om det handlar om till exempel namnet på en lokal variabel som är felstavad.
+
+Har ni råkat ut för det elementet?
+
+Alltså, det jag bara reagerade först på var att flera arbetsplatser har en policy där man... Där en PR endast får innehålla lösningen. Och ingenting annat. Jag har aldrig varit med
+
+om det. Inte jag heller faktiskt. Jag har liksom inte hört det som att det skulle vara ett problem på det sättet.
+
+Att, ja man bara får göra det. Sen kan jag förstå att man inte vill trycka in hur mycket som helst Man får ju ha lite sunt förnuft då. Men ibland så är det ju... ja, ibland blir det ju att man måste... Lägga ihop vissa saker. Det har jag i alla fall gjort mig skyldig till.
+
+Ja, ja men, ja men jag definitivt var med att folk diskuterar det här i ett team.
+
+Men aldrig att det funnits en strikt policy.Nej. Jag tycker bara
+
+det låter helt sjukt att man ska behöva göra en ticket av det och få den prioriterad och liksom att den ska gå igenom hela den här ordinarie processen. Det känns som någonting man borde diskutera fram. Alltså Jag vet inte, kanske någonting att ta upp på ett retro och säga det här.
+
+Att jag vill kunna lösa småsaker. För att jag är helt med på det här scout-tänket. Jag tycker det är klockrent. Alltså så här, ser man någonting som bör fixas och om det bara är ett stavfel eller någon lintgrej som har blivit fel eller någonting. Då har jag bara gjort det i samma PR. Om det är relaterat till det kontextet.
+
+Mm.
+
+Ja Men om man ser att det kanske är en funktion som skulle behöva refaktureras för att den är lite otydlig. Man kanske vill bryta upp det jättelånga till lite olika variabler och sånt. Då kanske det är mer liksom okej Kanske ska jag göra det till eget. Men då hade jag ändå bara gjort det i en egen PR och inte ja skickat in den samtidigt.
+
+Ja det är väl här det kan bli tjaffs så att man är oense. För att jag... Ja jag jag tycker att man ska städa upp när det är ett stavfel. Men jag förstår absolut problematiken att du behöver refakturera en funktion. Eller typ så här du ändrar kanske en massa stavfel. Du ändrar saker som känns små Men i och med att koden inte har tester så kan du ha faktiskt...
+
+Jag vet, jag introducerar någonting till stavfel och det liksom upptäcks inte förrän har tryckt ut det jag vet inte.
+
+Det skulle ju kunna vara till exempel om man använde så här magic strings. Alltså att du, istället för att du har en konstant eller någonting eller en enum så... Och jämför du ett strängvärde och så har du plötsligt bytt strängvärdet.
+
+Och det är ju mycket lättare att detta trillar mellan stolarna om man bara gör lite under radarn. Det blir ingen spårbarhet och du inte har en ticket att koppla dig till på det sättet.
+
+Nej för jag har jobbat med en utvecklare. Som jag har väldigt stor respekt för. Men som var väldigt snabb och upptäckte att shit, det här behöver göras om.
+
+För att man behöver underhålla sin kod. Man ser en halvt år senare och bara, men vad fan är det jag har skrivit? Men som kände att det var en bra idé att passa på. Och kanske gjorde en till PR då ens. Alltså försökte vara ändå så här noga att det skulle vara lätt att kodreviewa. Men... Jag minns att vi hade en QA-person då som ibland gick i taket över det här.
+
+För att det var så här, nu har du ju gjort massa ändringar. Hur vet du att det här funkar? Och det här smögs alltid mer liksom lite för QA-personen. För att den här utvecklaren visste ju att QA-personen skulle fråga. Och så var det också störigt för vissa som utvecklare. Ibland kom det... En väldigt stor, det här är bara refakturering, jag bara gör om hela strukturen.
+
+Jag gör det mer kanske funktionellt, eller jag vill inte att det ska vara funktionellt för det är så svårläst. Och då att sitta och granska det som kollega utan en ticket. Alltså det var ändå så här, det kunde vara svårt.
+
+Ja men det känns som en lite större grej Man kanske kan ha någon slags, liksom är det mer en...
+
+Två minuters jobb implementera och mer än femton minuter att testa, ja då får det bli en ticket av det. Sen vet jag inte, jag har ändå varit Scrum Master och jag skulle inte bli ett sur om någon utvecklare la upp en ticket och bara drog in den i typ developing och körde. Ja tycker jag också är nice. Det låter som onödig bromskloss att man ska sitta och prioritera upp det och vidare och sen Prioriteras det inte upp och så glömmer man bort den om det ändå så litet att man gör det i samband så bara kör liksom, ja
+
+enda gången skulle vilja lägga dig i någon prio backlog är att om det är ett större arbete ja
+
+Ja, det är en dags arbete eller en halvdag ens, då snackar vi.
+
+Nej, då kan du inte bara smyga in den lite sådär.
+
+Ja, precis. För då sitter du ändå och har prioriterat ner någonting annat. Alltså man får ändå, man man behöver ändå vara transparent mot alla i teamet och ha respekt för POn vars ansvar är att du vet se till att det mest prioriterade jobbas på Det är säkert helt okej för POn men man behöver liksom lyfta det och prata om det och det kan vara sjukt störande som utvecklare.
+
+Man är såhär, ni måste göra det här, det går ganska snabbt det tar bara en halv dag. Men de vill ändå ha lite koll och förstå vad som händer och varför ni lägger tid på det här.
+
+Ofta brukar man ju lägga in lite padding för typ maintenance tasks och sånt. När man gör, ja sprint planning och sånt. Så att jag tycker ändå att utrymmet borde finnas där.
+
+Det håller jag med om. Men vad tror du...
+
+Säger du? Nej, men jag känner igen ett scenario och det är så här... Det här stör mig faktiskt väldigt mycket bland saker som stör mig. Jag borde skriva upp det här någonstans. Så att vi kan göra ett avsnitt om saker som stör mig med andra utvecklare. Säg att det är så här...
+
+Ja men det tar 20% av din sprinttid att göra det här än eller ens 50 alltså. Och så säger vi att nej men det här tar lite längre tid, är det lugnt att vi lägger in den här backloggen? Och den här utvecklaren säger nej jag vill göra det nu. Eller säger det här kommer inte ta så lång tid. Så det de gör istället är att de tycker det här är rätt roligt arbete.
+
+Så de sätter sig på kvällarna och gör det här. Och påstår sen även om du har varit med om det men jag har varit med om det flera gånger från olika personer det är så roligt att de gör det på kvällen
+
+men det ändå någon som ska jobba med det sen och testa det granska det ja men
+
+de personerna är oftast nej men det är inga problem för någon och jag har suttit och gjort det här själv och hur kan du inte vara typ du vet, hur kan inte alla bara vara tacksamma att jag sitter och gör det här på min fritid Men jag vill inte ha det så, jag vill inte att det sitter folk och kodar hela nätterna, jag hade gjort det någon gång så här, men då försöker jag liksom, jag vill inte att folk ska se att jag har gjort det, det ska inte stressa teamet att här sitter någon och kodar på kvällarna av intresse, då har du på mig ett hobbyprojekt då, det stör mig.
+
+Och definitivt har vi folk som lyssnar som gör så här. Jag tror jag har gjort så någon gång också.
+
+Jag känner mig lite smått träffad.
+
+Jag är träffad själv också någon gång. Men det finns vissa som är väldigt så. Alltså med större grejer. Så att de inte förstår att det är stort. Och de insisterar på. De låter inte den här pull requesten vara i draft.
+
+Att så här, för det är fine. Gör det på kvällen Lägg upp en pull request. Och skapa en ticket. Lugna ner folk. Preppa dem lite. Jag vet att det är störigt. Men gör det här extra arbetet för folk. Så att du inte bara trycker in saker. Åtminstone det. Någonting. Ja bara kommunikation typ. Men ja. Vad ville du säga?
+
+Jag skulle säga.  
+
+Tror du det är en bra idé att man har någon generell typ förbättringsticket alltså som man kan koppla till? Och att man då, för de flesta verktyg kan du ändå skriva en kommentar till alltså kopplingen till din ticket från din PR. För då löser man ju lite det här att man måste gå in och du skapa en ticket och du ska alltså. Det är ändå lite extra overhead som blir ganska mycket om du bara ska fixa något litet stavfel eller liknande.
+
+Eller blir det bara en liksom slasktratt
+
+nej alltså stavfel absolut samma pull request alltså som sagt när det inte är, när det inte är så här farliga stavfel att man ändå råkar ta sönder något jag tycker det ska vara refakturering i PRen men jättegärna att det är en egen kommitt Du vet, här har jag gjort arbetet och här har jag städat upp.
+
+Absolut. Men prata
+
+om att man kunde ha en ticket som är generell, som du kopplar till. Som bara slasktrattar allting. Ja, men typ. Alltså så här, det här är den här sprintens förbättringsticket. Hit kan du koppla liksom små grejer. Jag vet inte själv om jag gillar det riktigt nämligen, men jag funderar på att det skulle kunna vara en lösning.
+
+Ja, men är det så smått? Alltså då tycker jag att det ska vara kopplat till... Alltså då kan det ändå vara på den originalticket, men absolut, är någonting såhär, åh så råkade jag se en helt annan fil, att det var någonting? Ja, jag vet inte, å ena sidan blir det såhär men gud vad bajsnödig man ska vara, man kan inte ens fixa någonting litet utan att man ska skapa en ticket.
+
+Men å andra sidan är det inte så jobbigt att göra det. Bara såhär klicka på det plus och skriva en titel. Och vad man fixar det typ.
+
+Det beror på hur mycket du ska skriva. Alltså vissa är ju superstrikta att du ska skriva liksom, given when then, och typ as a developer eller, nej det är det man inte ska skriva, as a developer.
+
+As a customer, you want to bla bla bla.
+
+Refactor the system liksom. Det
+
+är det som är så, ja.
+
+Det är bajsnödigt. Ja, nej det ska man inte göra. Nej men jag vet inte, vad vi har i vårat team och det har vi haft i andra team är att vi har en feature, eller epic i Jira, som heter typ såhär, technical improvements step ideas, och kommer du på någonting så kan du lägga in en task där
+
+ja, för framtida grejer, eller så när du ser någonting, nu, nu, nu så har du en feature och lägger den under liksom. Ja. Ja så hade
+
+vi också mitt senaste team. Där kunde det vara verkligen högt och lågt.
+
+Ja, man måste rensa ut de här också, har jag märkt. För ibland ligger det bara saker som ingen någonsin tar upp.
+
+Men jag tycker det är schysst att skriva en rad så här. För det är för en själv. För man själv minns inte. Jag har skapat den här ticketen för ett halvt år sedan. Och det finns bara en titel som är så här, refactor, blablabla, service. Ja. Och så bara, men vad är det jag vill reflekturera i den? Alltså varför?
+
+Och så är det ingen annan som kan plocka upp den.
+
+Nej, man ska inte önska så mycket man glömmer.
+
+Alltså har vi svarat Ketan ens? Frågan
+
+var ju, har ni råkat ut för det dilemmat?
+
+Ja, eller jag har absolut haft diskussioner.
+
+Jo. Sen har jag, alltså de senaste sju åren har jag jobbat i samma projekt. Och där var vi liksom, där hade turen att ha väldigt förstående PO så.
+
+Men absolut att det ändå ibland dyker upp då man måste prioritera det mot något annat. Men en sista sak jag tänkte på kanske. För han nämnde ju också typ så här, uppdatera paket till exempel. Mycket kan man ju faktiskt automatisera. Man kan ju ha typ så här. Det pendlar bort och sånt för att uppdatera paket då blir det ju inte lika mycket att du själv måste hitta tiden och trycka in det och såhär, nu kommer jag ihåg att jag läste någonstans i någon tråd när vi pratade om Linters att Keita sa att han hatade Linters, jag blev såhär chockad hur kan man hata Linters det är ju ett bra sätt att kunna undvika att man behöver göra sådana reflektureringar
+
+ja nej men det är mycket som går att automatisera och Är det en breaking change.
+
+Ja men då får man ha. Jag vet att vissa team hos oss. Där de får in breaking changes. De har typ så här. En person som är ansvarig Att ta hand om breaking change. Varje vecka. Så att alla vet att. Den här veckan är det Madeleine som kommer. Ja ja. Att titta Breaking change duty. Ja. Faktiskt. Så det är ju ett sätt. Det är sjysst.
+
+Men jag tänker också. I allt det här. Så får man väl ta in lite så här. Hur. Kritiskt är vårat system alltså har du många miljoner användare och att såhär går det ner på grund av ett stav fel så är det liksom, du förlorar så extremt mycket på det så kanske man bör fundera
+
+på att
+
+eller om är en bank eller
+
+någonting liksom och sånt där det kan vara jättestora implikationer om någonting händer eller ja Andra kritiska system
+
+det kommer hända fel men det kan nog vara skönt att om det sker ett fel på grund av något stavfel man gjorde det är ändå såhär att du hade en ticket att du skrev varför du gjorde det det kan nog kännas lite bättre än att Att man gjorde så pass bara rätt att man bara kunde
+
+hellre det än att det kommer fram att man har smugit om någonting och så har det blivit fel då är det ju lite skämmigt alltså då står man ju där med ja
+
+ja typ att man såhär bypassade policies eller folk som är såhär du vet har en buddy som alltid godkänner ens pull request alltså sånt
+
+måste stå i skamvrån
+
+Ja, när man får fundera på hur viktigt ens system är.
+
+Ja. Hoppas det var en intressant diskussion i alla fall. Och med ett annat så var ju det en nyhet och intressanta. Absolut.
+
+Men ja, vi hörs nästa vecka då.
+
+Det gör vi
+
+Ha det bra allihopa
+
+Hej då.

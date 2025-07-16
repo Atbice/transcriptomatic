@@ -1,0 +1,2248 @@
+1
+00:00:00,000 --> 00:00:05,000
+ Jag tror verkligen att om du knappar runt i det du utvecklar lokalt med tangentbordet
+
+2
+00:00:05,000 --> 00:00:15,580
+ Och se till att liksom du kan komma åt allting, du kan fylla i allting och du öppnas någon modal eller någonting så sitter fokus rätt och du hamnar inte plötsligt bakom modalen.
+
+3
+00:00:15,720 --> 00:00:25,719
+ När den stängs så är du kvar där du var. Du behöver inte navigera genom hela grålet igen och att liksom bara kunna slå igång en skärmläsare i 45 sekunder och bara liksom, men det känns som att det
+
+4
+00:00:30,000 --> 00:00:33,520
+ som att det mekar känns för mig, då mekar det förmodligen hyfsat sens för andra.
+
+5
+00:00:33,520 --> 00:00:37,000
+ Målet är inte att man ska täcka 100% av alla problem som kan uppstå,
+
+6
+00:00:37,000 --> 00:00:41,000
+ utan det är bara att få de lågtängande frukterna, helt enkelt.
+
+7
+00:00:41,000 --> 00:00:48,000
+ Kanske majoriteten av det som finns i någon läskig lång kravlista som är två kilometer lång.
+
+8
+00:00:48,000 --> 00:00:50,880
+ Då kanske majoriteten av det är redan löst.
+
+9
+00:00:50,880 --> 00:00:58,439
+ Hej och välkomna till Kådesnack. Jag heter Fredrik som vanligt och idag har jag med mig Johan.
+
+10
+00:00:58,439 --> 00:01:00,679
+ Hej Johan. Hej. Vem är du? Vad gör du?
+
+11
+00:01:00,679 --> 00:01:09,680
+ Jag är en utvecklare som jobbar på SBAB till vardags, där sitter jag sedan relativt nyligen i ett ny startat designsystemteam.
+
+12
+00:01:09,680 --> 00:01:14,040
+ Men jag har varit där i ett antal år nu. Jag tror att vi är inne på det sjundeåret.
+
+13
+00:01:14,040 --> 00:01:18,000
+ Så jag har gjort lite annat under min tid. Jag tror att det är mitt tredje tim.
+
+14
+00:01:18,000 --> 00:01:21,640
+ Eller jag vet att det är mitt tredje tim.
+
+15
+00:01:30,000 --> 00:01:37,560
+ Men ja, precis. Så det är lite det som vi sitter med och vi jobbar ganska mycket också med tillgänglighet.
+
+16
+00:01:37,560 --> 00:01:41,799
+ För det kommer ett nytt tillgänglighetskrav eller tillgänglighetsdirektiv just nu.
+
+17
+00:01:41,799 --> 00:01:44,799
+ Jag har ett designsystemteam nu, vad är det så?
+
+18
+00:01:44,799 --> 00:01:47,799
+ Ja, hur kom du till det?
+
+19
+00:01:47,799 --> 00:01:50,799
+ Har du varit på designspåret och kommit in på det teamet?
+
+20
+00:01:50,799 --> 00:01:52,799
+ Jag kommer från ett annat spännande håll.
+
+21
+00:02:00,000 --> 00:02:11,520
+ Jag har väl varit intresserad av designspåret lite grann, en gång i tiden för en femton år sedan så tror jag att jag trädde in utvecklingsvärlden ifrån att ha lekt lite grann med design.
+
+22
+00:02:30,000 --> 00:02:36,400
+ Jag tycker att i de allra flesta tillfällen tycker jag att den tekniska biten av det är det mest intressanta.
+
+23
+00:02:36,400 --> 00:02:44,599
+ Men lite bakgrund kring det är att vi, ja, vi har ju på jobbet och så är vi väl just nu så är vi cirka 20-25 stycken utvecklingsteam.
+
+24
+00:02:44,599 --> 00:02:51,000
+ Jag har fått lite siffror här, 135 stycken utvecklare och testare, där jag tror att det är ett par stycken.
+
+25
+00:02:51,000 --> 00:02:59,000
+ Ja, och det är, jag vet inte, men majoriteten är utvecklare då, och vi sitter och jobbar på lite olika sätt och det ändrar ju sig lite över tid också.
+
+26
+00:02:59,000 --> 00:03:04,120
+ Det är en tendens att bli lite utdaterade och man kanske kopierar en lösning som
+
+27
+00:03:04,120 --> 00:03:09,960
+ man gjorde det där och sen så klistrar man in det i en ny öppen och så gör man ändringarna där och så blir det ju inkonsekvent i släppt.
+
+28
+00:03:09,960 --> 00:03:15,740
+ Så det har väl egentligen fler så det började i 2018, hur många år sedan det nu är.
+
+29
+00:03:15,740 --> 00:03:18,240
+ Det börjar bli en typ på år sen.
+
+30
+00:03:18,240 --> 00:03:20,240
+ Precis, jag skulle säga tre.
+
+31
+00:03:20,240 --> 00:03:25,120
+ Ja, jag skulle också säga att det var 20-20 ändå samma år.
+
+32
+00:03:25,120 --> 00:03:27,120
+ Ja, men exakt, exakt.
+
+33
+00:03:27,120 --> 00:03:30,400
+ Nej, men så då började vi lite inofficellt helt enkelt.
+
+34
+00:03:30,400 --> 00:03:33,599
+ Ett gäng utvecklade som satt i lite olika utvecklingsteam.
+
+35
+00:03:33,599 --> 00:03:40,599
+ Vi lyckades få att vi kunde sitta typ en eftermiddag veckan eller sådant och ta det och programmera lite grann.
+
+36
+00:03:40,599 --> 00:03:43,599
+ Rent från allas eget intresse så att säga?
+
+37
+00:04:00,000 --> 00:04:11,960
+ Ja, man hade ju sett det här behovet. Sedan dess har vår design och UX-avdelning också växt ganska rejält, men på den tiden var det inte lika många.
+
+38
+00:04:11,960 --> 00:04:20,959
+ Vi hade under rätt nära dialog med dem och de såg om några det här problemet. Det kändes verkligen som att det finns ingen röd tråd någonstans.
+
+39
+00:04:20,959 --> 00:04:22,959
+ Vi får ringa er och allt vad man nu gör.
+
+40
+00:04:22,959 --> 00:04:31,360
+ Så vi började i den änden egentligen och bara försöka liksom såhär, vi vet inte nödvändigtvis vad som är rätt, vad som ser rätt ut, men det viktigaste är kanske att det ser likadant ut.
+
+41
+00:04:31,360 --> 00:04:37,500
+ Ja, vi gjorde ju ett litet bibliotek, egentligen, som vi distribuerade med en intern NPM registry.
+
+42
+00:04:37,500 --> 00:04:46,620
+ Och sen så visste vi då att det kan ju, om vi fokuserar mer på API-it och inte tänker så mycket på att skylta med några detaljer kring luckenfil,
+
+43
+00:04:46,620 --> 00:04:52,100
+ så kan vi ju ändå ganska flexibelt uppdatera det över tid när vi vet mer om vad som är rätt visuellt.
+
+44
+00:04:52,100 --> 00:05:00,160
+ Så det var så det började och det har jag egentligen hållit på så sedan dess fram till Q2 i 2024.
+
+45
+00:05:00,160 --> 00:05:04,759
+ Så första april där i krokarna så satte vi officiellt igång ett team.
+
+46
+00:05:04,759 --> 00:05:09,040
+ Men det här projektet har ju levt, eller projektet, jag vet inte vad man ska kalla det,
+
+47
+00:05:09,040 --> 00:05:14,839
+ Det har ju levt lite inofficiellt, så det har ju varit så här periodvis har man hunnit jobba lite mer på det.
+
+48
+00:05:14,839 --> 00:05:16,839
+ Och periodvis har man inte hunnit jobba någonting alls på det.
+
+49
+00:05:16,839 --> 00:05:22,120
+ Men det har ju ändå varit i användning hos ett antal team sedan 2018.
+
+50
+00:05:22,120 --> 00:05:26,240
+ Så då var det helt enkelt en PM-paket med Ui-komponenter då?
+
+51
+00:05:26,240 --> 00:05:27,800
+ Ja, exakt.
+
+52
+00:05:27,800 --> 00:05:31,300
+ och ganska begränsad dokumentation i en slutning till det då.
+
+53
+00:05:31,300 --> 00:05:36,459
+ Så sättet som det skiljer sig idag är ju att vi det är ju ett helhetsgrepp mer kring
+
+54
+00:05:36,459 --> 00:05:40,360
+ Designsystem omfattar ju mer än bara kod och design egentligen också.
+
+55
+00:05:40,360 --> 00:05:45,240
+ Man kan ju dra det till att det kan handla om copywriting, bildmanier och alla möjliga grejer.
+
+56
+00:05:45,240 --> 00:05:50,899
+ Och där har vi ju inte riktigt en röstning för ännu, men på sikt så hoppas vi att vi ska kunna centralisera det.
+
+57
+00:05:50,899 --> 00:05:54,399
+ Även om vi inte själva står för innehållet nödvändigtvis så ska man inte behöva liksom...
+
+58
+00:05:54,399 --> 00:05:56,399
+ Ja, men vart finns det här?
+
+59
+00:05:56,399 --> 00:05:56,899
+ Ja, just det.
+
+60
+00:06:30,000 --> 00:06:35,160
+ kan ha en samlingsplats där man hittar ja men både dokumentation och
+
+61
+00:06:35,160 --> 00:06:38,680
+ relevant information som utvecklar och designar men man kanske kan hitta till
+
+62
+00:06:38,680 --> 00:06:42,560
+ relaterade resurser också även om inte de är skrivna därom. Ja för det var en
+
+63
+00:06:42,560 --> 00:06:48,560
+ med liknande utmaningar, bygger en del användare upplevelser i fronten av applikationer.
+
+64
+00:06:48,560 --> 00:06:52,399
+ Det kommer precis, och ett helt gäng team som gör saker som är nere i allvar.
+
+65
+00:06:52,399 --> 00:06:55,519
+ Det skulle nog se ut att fungera ganska exakt likadant, i många fall.
+
+66
+00:06:55,519 --> 00:06:57,060
+ Ja, inte alla, men många.
+
+67
+00:06:57,060 --> 00:07:01,660
+ Men just det här med kopit till exempel, det känns som att det beror lite på.
+
+68
+00:07:01,660 --> 00:07:06,860
+ Alltså, jag tror att en intressant grej som vi kanske kan komma in på är hur vi arbetar och samarbetar med
+
+69
+00:07:06,860 --> 00:07:11,899
+ vår UX och designavdelning nu och de som är faktiskt dedikerade resurser i vårt nya team då.
+
+70
+00:07:11,899 --> 00:07:12,899
+ Men just det.
+
+71
+00:07:12,899 --> 00:07:16,899
+ Historiskt så känns det som att det inte är helt ovanligt att det blir lite vattenfalligt.
+
+72
+00:07:16,899 --> 00:07:17,399
+ Ja.
+
+73
+00:07:17,399 --> 00:07:21,600
+ Vi kanske sitter i en pipeline där man har så mycket i pipelineen att utveckla.
+
+74
+00:07:21,600 --> 00:07:25,120
+ Sitter liksom helt fokuserade på det och då blir det lite så att typ
+
+75
+00:07:25,120 --> 00:07:30,399
+ Affärsanalytiker och UX-are kanske då springer före på nästa grej.
+
+76
+00:07:30,399 --> 00:07:33,759
+ Och så blir det lite mer av en överlämning än vad man kanske skulle önska alla gånger.
+
+77
+00:07:33,759 --> 00:07:38,759
+ Då är det ju ganska klassiskt då att man till exempel sämre, men vad händer om det blir fel då?
+
+78
+00:07:38,759 --> 00:07:39,759
+ Ja, just det.
+
+79
+00:07:39,759 --> 00:07:46,560
+ Om man nu försöker skicka in det här och det inte funkar, för någon downstream tjänst är nere, då är det också så här.
+
+80
+00:08:30,000 --> 00:08:35,279
+ så kvämt och att man behöver inte vara expert på copywriting, utan att hitta lite resurser.
+
+81
+00:08:35,279 --> 00:08:41,519
+ Sen räcker det kanske en bra bit på vägen, men jag tror att man kan fånga en del
+
+82
+00:08:41,519 --> 00:08:48,519
+ lågtängande frukter på att vi kommer framåt utan att vi behöver fråga någon annan avdelning och hjälp.
+
+83
+00:08:48,519 --> 00:08:55,519
+ Ja, det är jätteintressant att utmana det med kommunikationen och någon flöden av att få saker gjorda och ta tid.
+
+84
+00:08:55,639 --> 00:08:58,639
+ Som du sa precis i början, det är väldigt lätt att man har med dig läget att...
+
+85
+00:08:58,639 --> 00:09:03,840
+ Ibland blir det lite gjort och sen går det en jättelång period och ingenting händer för att man har 17 andra saker som
+
+86
+00:09:03,840 --> 00:09:07,840
+ kanske både är och framför allt bedöms som viktigare just då.
+
+87
+00:09:07,840 --> 00:09:15,600
+ att komponentpibliotek. Sen finns det ju delar av tillgängligheten om hur ett helt flöde hänger ihop som är svårt att bara automatisera.
+
+88
+00:09:15,600 --> 00:09:20,960
+ Men det är ju en av de grejerna som jag tror fick organisationen att liksom komma med på.
+
+89
+00:09:20,960 --> 00:09:29,960
+ Nu startar vi ett team kring det. Jag har nog personligen velat ha ett team kring det i alla de här åren nu, men nu har det egentligen skett.
+
+90
+00:09:30,000 --> 00:09:42,600
+ För det är ju så, att tillgänglighet är ju viktigt, men jag vet inte, man har kanske inte riktigt insett det, eller att man har tänkt att det är viktigt, men det måste ju också konkurrera med andra projekt.
+
+91
+00:09:42,600 --> 00:09:51,559
+ Och vad finns det ju i bankvärlden, så är det ju massor av regulatoriska grejer och det är kanske stora systembyten och då är det ju ibland svårt.
+
+92
+00:09:51,559 --> 00:09:54,559
+ Ja, det här är viktigt, tyvärr. Vi hinner inte.
+
+93
+00:09:54,559 --> 00:09:57,440
+ Nej precis, det är fortfarande bara näst viktigast.
+
+94
+00:09:57,440 --> 00:10:09,240
+ Ja, ja men exakt. Och det kanske är liksom, jag tror att vår, asså drivet av vår UX-avdelning då så har vi ändå, jag tror att det var, jag har skrivit ner lite siffror och lite information här.
+
+95
+00:10:09,240 --> 00:10:21,240
+ 2019 började vi jobba lite mer dedikerat med tillgänglighet, men då har vi ju samarbetspartners som experter på det som kommer in och hjälper oss och så gör man en typ av analys överkyn, över våra flöden.
+
+96
+00:10:21,240 --> 00:10:32,799
+ Men då blev det lite mer punktinsatser, så jag tror inte vi lärde oss tillräckligt mycket för att ta det vidare nödvändigtvis, utan man gjorde någon review och så åtgärde man lite fel där.
+
+97
+00:10:32,799 --> 00:10:42,799
+ Men jag tror inte vi lär oss mindsetet hur vi ska utveckla tillgängligt, utan det drevs nog mest av en skild där, liksom, individer, typ jobbskälar, i de olika timmen.
+
+98
+00:10:42,799 --> 00:10:49,799
+ Så det vi försöker göra nu tillsammans med det här projektet som då drivs parallellt som är tillgärdighetsprojektet egentligen.
+
+99
+00:10:49,799 --> 00:11:00,799
+ Det är ju att försöka få lite mer långsiktighet i det, och inte se det som ett projekt som tar slut, utan att vi måste få in det i vårt arbetssätt mer och process.
+
+100
+00:11:00,799 --> 00:11:07,799
+ Ja precis. Och det är själva teamet för designsystem. Hur stort är det ungefär?
+
+101
+00:11:07,799 --> 00:11:13,940
+ Ja, just nu är vi samma uppställning sedan start.
+
+102
+00:11:14,080 --> 00:11:20,220
+ Två utvecklare är vi, som har varit med och inofficiellt petat på det här projektet.
+
+103
+00:11:30,000 --> 00:11:32,519
+ Tidsresurs som är liksom på design systemet.
+
+104
+00:11:33,080 --> 00:11:37,919
+ Två av dem har lite andra åtaganden också, men sedan är vi en produktägare.
+
+105
+00:11:38,320 --> 00:11:43,639
+ Och det tillkom ju i samband med att vi startade teamet och tycker jag är kanon, för det är inte
+
+106
+00:11:44,519 --> 00:11:46,960
+ man är inte nödvändigtvis alltid så bra på det som utvecklade.
+
+107
+00:11:47,000 --> 00:11:48,000
+ Nej, men det är ju det.
+
+108
+00:11:48,120 --> 00:11:51,399
+ Designer. Man verkar skillnaderna när man har en bra produktägare på plats.
+
+109
+00:12:00,000 --> 00:12:06,000
+ Jag sa, ja, vad mycket mer rakt på sak, tydligtvis att grejen blev plötsligt.
+
+110
+00:12:06,000 --> 00:12:07,000
+ Ja, nej men exakt.
+
+111
+00:12:07,000 --> 00:12:09,000
+ Kan ni en hål ibland?
+
+112
+00:12:09,000 --> 00:12:12,000
+ Jo, jag har gjort det en gång kanske.
+
+113
+00:12:12,000 --> 00:12:14,879
+ Ja, jag har nog också kanske gjort det en eller två gånger kanske.
+
+114
+00:12:14,879 --> 00:12:19,759
+ Och sen en teamchef har vi. Så vi är väl, ja, vad blir det? Typ 5.
+
+115
+00:12:30,000 --> 00:12:40,000
+ Vi har ju kvar det här som hade tagits fram in officiellt innan, men vi har ju inte så mycket legacy, utan det är ju väldigt mycket green field egentligen.
+
+116
+00:12:40,000 --> 00:12:43,000
+ Man får ta reda på ganska intressanta grejer.
+
+117
+00:12:43,000 --> 00:12:48,480
+ Vi vet att vi vill göra underlättare för våra utvecklare och designkollegor framförallt.
+
+118
+00:12:48,480 --> 00:12:54,279
+ Det övergripande målet handlar om att vi vill bidra till att det blir effektivare produktutveckling.
+
+119
+00:12:54,279 --> 00:12:59,679
+ Sen så vill vi ju göra den här gamla, det som startade initiativet från början,
+
+120
+00:12:59,679 --> 00:13:05,179
+ att se till att det blir en konsekvent användareupplevelse och att vi följer våran branding
+
+121
+00:13:05,179 --> 00:13:07,299
+ Och att det ska bli lätt att göra det rätt på det.
+
+122
+00:13:07,299 --> 00:13:09,299
+ Och sen är det ju då tillägglighet som är.
+
+123
+00:13:09,299 --> 00:13:18,100
+ Men det som är intressant är att vi har ju fått liksom upptäcka hur ska vi jobba i den här konstellationen och med den här produkten.
+
+124
+00:13:18,100 --> 00:13:19,500
+ För det blir ju en intern produkt.
+
+125
+00:13:19,500 --> 00:13:20,259
+ Ja, jag vet.
+
+126
+00:13:20,259 --> 00:13:24,539
+ Och det är ju väldigt kul, eftersom du har dina slutanvändare in till dig.
+
+127
+00:13:30,000 --> 00:13:36,139
+ Det är väldigt mycket feedback, men då har vi fått prova oss fram och vi jobbar lite grann i kvartal då.
+
+128
+00:13:36,139 --> 00:13:39,460
+ och in i nästa kvartal och så kanske vi skruvar på något annat.
+
+129
+00:13:39,460 --> 00:13:45,019
+ Men på senaste kvartalen så har vi i alla fall, vi jobbar i två stycken arbetsmöten
+
+130
+00:13:45,019 --> 00:13:51,019
+ här i vecka där vi försöker sitta hans son och jobba tillsammans, både utvecklarna och uexa.
+
+131
+00:13:51,019 --> 00:13:56,419
+ Och det gör ju att det här samarbetet är mycket tätare än vad det var åtminstone
+
+132
+00:14:00,000 --> 00:14:06,000
+ de timmen jag var med innan. Då känns det som att man kan ta vissa beslut som träffar både våran
+
+133
+00:14:06,000 --> 00:14:12,000
+ liksom kodbas och våran i det här fallet figma då och det känns som att det har varit väldigt värdefullt så.
+
+134
+00:14:12,000 --> 00:14:19,200
+ Så ni jobbar. Arbetsmöten, två stycken och sen så jobbar man mer på varsitt håll resten av.
+
+135
+00:14:19,200 --> 00:14:25,200
+ Ja, jag tror att det är lite... Det är ju lite spegla väl hur utvecklingsteammen jobbar också.
+
+136
+00:14:25,200 --> 00:14:32,200
+ Nu har jag... Vi jobbar inte med de vanliga produkterna på samma sätt, så jag kan väl inte svara exakt för hur...
+
+137
+00:14:32,200 --> 00:14:40,519
+ Genom snittse upplevelsen i utvecklingstim men man är ju autonoma så man får ju liksom vi vill ju jobba agilt och så alla
+
+138
+00:14:40,519 --> 00:14:48,519
+ En av team har väl i princip nån sin egen twist på vad det innebär med ceremonier, vissa kör någon kamban-variant och andra kör sprintar.
+
+139
+00:14:48,519 --> 00:14:53,519
+ Ja, men visst, det finns alla. Vad som passar just där timmet. Känner jag igen också.
+
+140
+00:14:53,519 --> 00:14:54,519
+ Ja, men precis.
+
+141
+00:14:54,519 --> 00:15:03,519
+ Vad äger eller driver eller kontrollerar era tim och andra tim?
+
+142
+00:15:03,539 --> 00:15:11,899
+ Jag tänker såhär, att ni gör en del komponenter förstår jag ju, här kommer en standard komponent för att göra den här saken.
+
+143
+00:15:12,009 --> 00:15:23,529
+ blir det då att man drar in nya komponenter som tillhör det inom situationstecken ett annat team förut eller hur funkar flödet mellan er och övriga team.
+
+144
+00:15:23,610 --> 00:15:29,750
+ Dels så fanns det ett antal komponenter som vi då förvaltar vidare och utvecklar.
+
+145
+00:15:30,000 --> 00:15:40,000
+ Det andra handlar ju om att försöka snappa upp vilka behov vi har och att inte nödvändigtvis komma i allt för lång tid utan att försöka vara lyhörda och snabbrölja.
+
+146
+00:15:40,000 --> 00:15:43,039
+ Men komponenter är väl en ganska central del i det.
+
+147
+00:15:43,039 --> 00:15:46,399
+ Vi har fokrat ganska mycket på dokumentationen kring det också.
+
+148
+00:15:46,399 --> 00:15:57,399
+ Men jag tycker personligen lite grann att det är en lite first-class-citizen i den leveransen också, så att det inte bara såhär, det finns en hink med komponenter, varsågås, där figure du det ut.
+
+149
+00:16:00,000 --> 00:16:08,559
+ Utan att man får försöker liksom ändå ha det i vårt tanke och det i och med det så får vi ju liksom bygga vår egen pipeline med
+
+150
+00:16:08,559 --> 00:16:09,840
+ hur vi levererar vår produkt.
+
+151
+00:16:09,840 --> 00:16:12,639
+ typ bibliotek, som man lyfter in via MPN.
+
+152
+00:16:12,639 --> 00:16:13,340
+ Just det.
+
+153
+00:16:13,340 --> 00:16:15,840
+ Och sen så består den i tillägg av dokumentation.
+
+154
+00:16:15,840 --> 00:16:24,840
+ Det har ju också varit en annan lite kul grej, för det har inte nödvändigtvis funnits en färdig pipeline för det, för de andra teamen har inte riktigt haft det i behovet.
+
+155
+00:16:30,000 --> 00:16:34,519
+ Där har man ju fått vara med och bygga upp det i enligt de behovet man har.
+
+156
+00:16:34,519 --> 00:16:39,080
+ Det blir lite andra saker att tänka på där med att det här ska ju versionshanteras.
+
+157
+00:17:00,000 --> 00:17:07,000
+ vi försöker ju förhålla oss till semantisk versionshantering och att man ska kunna
+
+158
+00:17:07,000 --> 00:17:12,000
+ medlita på att saker och ting funkar och om någonting har breakats så ska man få reda på det
+
+159
+00:17:12,000 --> 00:17:17,160
+ Bank här och sen så finns det nåt externt semäst där för nåt enda mål.
+
+160
+00:17:17,160 --> 00:17:20,640
+ Så jag tror i nuläget så så är det mycket fokus på tillgänglighet.
+
+161
+00:17:20,640 --> 00:17:25,880
+ Så jag tycker att det är lite intressant och spännande att jag vet inte riktigt exakt hur det kommer se ut.
+
+162
+00:17:25,880 --> 00:17:30,880
+ Vi kommer försöka se till att lyssna på våra användare och formade därefter.
+
+163
+00:17:30,880 --> 00:17:33,279
+ Ja, det är väl då det blir bäst också?
+
+164
+00:17:33,279 --> 00:17:38,720
+ Ja, och tillgängligheten, om vi ska gå in lite mer i detalj på det så är det ju...
+
+165
+00:17:38,720 --> 00:17:44,559
+ För de som mentuellt inte vet det då, så är det ju en ny lag, så den trädde vi kraften 28 juni.
+
+166
+00:17:44,559 --> 00:17:49,839
+ Och det här vet jag att de som har varit drivande, de har ju sagt ja, men förr eller senare så dyker det där datumet upp.
+
+167
+00:17:49,839 --> 00:17:52,579
+ För fem år sedan så kändes det som jättelund bort.
+
+168
+00:17:52,579 --> 00:17:53,720
+ Ja, visst precis.
+
+169
+00:17:53,720 --> 00:17:58,480
+ Men nu är det ju all hands on deck, så se till att vi liksom...
+
+170
+00:17:58,480 --> 00:17:59,720
+ Och det är väl en...
+
+171
+00:17:59,720 --> 00:18:08,039
+ Man kan väl säga att det är väl en vidare utveckling av de lagkraven som redan gäller för offentlig sektor
+
+172
+00:18:08,039 --> 00:18:17,799
+ Så man har varit inne på myndigheter och sjukvård och så där så har ju de redan mycket av de här kraven och nu uttökas det till att gälla privata aktörer också.
+
+173
+00:18:17,799 --> 00:18:18,799
+ Ja okej.
+
+174
+00:18:18,799 --> 00:18:24,279
+ Så från ett visst håll kan man se det som en breddning av nåt som redan fanns.
+
+175
+00:18:24,579 --> 00:18:30,019
+ Ja, och sen är det väl också en gräns, vilka som omfattar sig också lite.
+
+176
+00:18:30,019 --> 00:18:37,700
+ Det är lite luddigt och här vill jag brasklappa lite grann också. Jag har försökt känna att jag har noga lunda koll på det här.
+
+177
+00:18:37,700 --> 00:18:41,299
+ Men det känns som att när det gäller alla de här, bara ta det jag säger men det är passat.
+
+178
+00:18:41,299 --> 00:18:42,099
+ Ja, men exakt.
+
+179
+00:18:42,099 --> 00:18:45,500
+ Påstår att så här funkar det och sen kanske jag har missat någon per graf.
+
+180
+00:18:45,500 --> 00:18:50,859
+ Men precis allt det här är vår uppfattning utifrån det som vi har hört och sett och så där.
+
+181
+00:18:50,859 --> 00:18:53,059
+ Vi är inte lagtolkade.
+
+182
+00:18:53,059 --> 00:18:56,900
+ Nej, jag har försökt koka ner det till pragmatiskt. Vad är det som gäller?
+
+183
+00:18:56,900 --> 00:18:57,400
+ Just det.
+
+184
+00:19:00,000 --> 00:19:11,000
+ Typer av tjänster som omfattas av det här och det kommer ju på sikt att utökas till flera så träffas man inte av det här i nuläget så kommer man säkert inte göra det.
+
+185
+00:19:11,000 --> 00:19:21,000
+ Det betyder i praktiken att det finns en europeisk standard som är till för tillgänglighet och inkluderande i EU.
+
+186
+00:19:21,000 --> 00:19:26,640
+ Och en av aspekterna, de allmänna kraven som man omfattas av, det är ju de här WCAG
+
+187
+00:19:26,640 --> 00:19:31,359
+ Just som är någon sorts spes som spesar upp, det ska funka helt enkelt.
+
+188
+00:19:31,359 --> 00:19:33,960
+ Jag mår färgcontraster och allt vad det är.
+
+189
+00:19:33,960 --> 00:19:40,960
+ Sen finns det lite branschspecifika krav som beroende på manär för bransch så kan det vara extra saker som man måste tänka på.
+
+190
+00:19:40,960 --> 00:19:45,960
+ I vårt fall då som bank så omfattas vi av begripligt språk.
+
+191
+00:19:45,960 --> 00:19:50,480
+ Det betyder att det ska vara lätt att ta till sin hållet.
+
+192
+00:19:50,480 --> 00:20:00,480
+ Det ska inte minns att det finns möjlighet att om nånting står på massa faktärmer så ska man ju också kunna se det på något sätt som går att begripa även om man inte nödvändigtvis är i finansbranschen.
+
+193
+00:20:00,480 --> 00:20:02,480
+ Det är faktiskt ett underbart krav.
+
+194
+00:20:02,480 --> 00:20:04,480
+ Ja, men jag tycker det också.
+
+195
+00:20:04,480 --> 00:20:11,119
+ Sen är det ju så att de bästa lösningarna för det här är ju lika tillgängliga för alla från början.
+
+196
+00:20:11,119 --> 00:20:13,759
+ Så att det inte blir någonting man bara lägger ett lager på lager.
+
+197
+00:20:13,759 --> 00:20:17,759
+ Ja men okej, vill du ha lite mer tillgänglighet för att slå på det här läget?
+
+198
+00:20:17,759 --> 00:20:28,039
+ Och sen är det lite administrativa krav, så omfattas man av det här direktivet så måste man också arbeta med dokumentation och rapportera sina tillgänglighetsbrister.
+
+199
+00:20:28,039 --> 00:20:33,039
+ Och då finns det nånting som kallas för en tillgänglighetsredogörelse som man behöver ha då.
+
+200
+00:20:33,039 --> 00:20:44,039
+ Och det är typ en listning någonstans på sin sida som hålls uppdaterad på det här är de bristerna som finns, typ förklara varför och länka om det finns något mer tillgängligt alternativ och lite sånt där då.
+
+201
+00:20:44,039 --> 00:20:52,039
+ Och sen tror jag också att man behöver nog ha en kommentarsfunktion så att användare av din tjänst ska kunna rapportera in det här om de stött på något.
+
+202
+00:20:52,039 --> 00:20:57,960
+ Vi är medvetna om vad vi klarar och inte klarar och att vi jobbar på det.
+
+203
+00:21:00,000 --> 00:21:12,000
+ Det kommer till vad det får för påföljder, ifall man inte uppfyller de här kraven, så tillgönglighetsredogörelsen är nog en ganska viktig del i det, men vi är medvetna om det och vi är på bollen.
+
+204
+00:21:12,000 --> 00:21:21,000
+ Just det, lite sådana här, jag fan var att det fanns någon slags relaterad känsla i vissa delar, när GDPR var på tapeten och höll på att införa.
+
+205
+00:21:21,000 --> 00:21:34,000
+ Det fanns ju jättestora stränga påföljder, men det fanns också en ton av att visar du att du jobbar aktivt med det här och rapporterar när ni har problem, så kommer det, men det gäller att visa en rätt anda också.
+
+206
+00:21:34,019 --> 00:21:38,019
+ Ja, men exakt. Det är så tålka i år, eller?
+
+207
+00:21:38,019 --> 00:21:47,019
+ Ja men precis. Det känns lite som att även om jag tror att man förväntas väl vara compliant med det här när 28 juni inträder
+
+208
+00:21:47,019 --> 00:21:50,859
+ så går det ju säkert samman. Vi har inte hunnit helt enkelt.
+
+209
+00:21:50,859 --> 00:21:54,700
+ Ja, men om man kan visa. Det här är det viktigaste i det här sammanhanget.
+
+210
+00:21:54,700 --> 00:21:57,460
+ Det kan visa att vi har tagit det och att vi håller på med resten.
+
+211
+00:21:57,460 --> 00:21:58,619
+ Ja, men exakt, exakt.
+
+212
+00:21:58,619 --> 00:22:01,180
+ Och sen kanske man kan komma till den punkt inom sen.
+
+213
+00:22:01,180 --> 00:22:02,180
+ Vilka omfattas då?
+
+214
+00:22:02,180 --> 00:22:09,180
+ Det tycker jag verkar lite svårt. I vissa branscher känns det tydligt.
+
+215
+00:22:09,180 --> 00:22:12,779
+ E-handel är en av dem som omfattas av det här.
+
+216
+00:22:12,779 --> 00:22:15,099
+ Ja, det är rätt lätt att veta om man är i hand eller inte.
+
+217
+00:22:15,099 --> 00:22:18,059
+ Exakt, och banktjänster är också... Det känns också rätt lätt.
+
+218
+00:22:18,059 --> 00:22:23,339
+ Men sen är det elektroniska kommunikationstjänster, och det finns lite exempel.
+
+219
+00:22:30,000 --> 00:22:42,319
+ Telestyrelsen har de nån sorts introduktion till EUs tillgänglighetsdirektiv och då säger de elektroniska kommunikationstjänster som till exempel uppkoppling och abonnemang,
+
+220
+00:22:42,319 --> 00:22:48,279
+ Telefonsamtal, E-post, SMS, chat, videosamtal, tjänster. Det kan säkert vara fler.
+
+221
+00:22:48,279 --> 00:22:50,279
+ Ja, jag tänker det.
+
+222
+00:22:50,279 --> 00:22:52,279
+ Det kan bli ganska brett.
+
+223
+00:22:52,279 --> 00:22:56,279
+ Ja men exakt. Och sen såhär, streamingtjänster, mediertjänster typ. Det är väl en av dem.
+
+224
+00:22:56,279 --> 00:23:01,279
+ Och sen så är det vissa tjänster för personstransporter.
+
+225
+00:23:01,279 --> 00:23:03,279
+ Vissa tjänster.
+
+226
+00:23:03,279 --> 00:23:07,279
+ Ja, så vi lämnar utrymme för tolkning.
+
+227
+00:23:07,279 --> 00:23:17,519
+ Banktjänsten nämnde vi och så e-böcker behöver vara tillgängliga och e-handelstjänster. Det är ju en ganska stor sektor som omfattas.
+
+228
+00:23:17,519 --> 00:23:24,160
+ Sen tror jag att det är vissa fysiska, om man har betalningsterminaler eller olika typer av automat
+
+229
+00:23:30,000 --> 00:23:38,200
+ Så tror jag att de också är omfattas med för att jag läste någonstans att det har man liksom en sån fysisk grej ute.
+
+230
+00:23:38,200 --> 00:23:45,480
+ Så tror jag att det finns någon regel kring att om den står där idag så kan den stå kvar tills den är en viss ålder eller någonstans.
+
+231
+00:23:45,480 --> 00:23:52,480
+ Försöka liksom utbilda sig om man omfattas eller inte, men jag skulle väl förespråka att man kanske ändå tänker på tillgälligheten.
+
+232
+00:23:52,480 --> 00:24:00,359
+ För mig har det varit lite grann. Jag har inte riktigt varit så bra att tänka på tillgängligheten historiskt.
+
+233
+00:24:00,359 --> 00:24:06,759
+ Men ju mer man har fokuserat på det så har det låst upp lite grann. Det är typ ett nytt gränsnitt i din app.
+
+234
+00:24:06,759 --> 00:24:08,759
+ Ja, det är det som är så spännande.
+
+235
+00:24:08,759 --> 00:24:23,759
+ När du får in vana att jag har kortkommandot för att starta skärmläsaren, jag kan de vanliga navigeringssätten, då får du helt plötsligt ett nytt gränsligt för din app som du kan se till och få en bra användare upplevelse på.
+
+236
+00:24:30,000 --> 00:24:38,519
+ För mig är det motiverande. Jag tycker det är jättekul att det kan vara helt förfälligt.
+
+237
+00:24:38,519 --> 00:24:41,400
+ Det finns jättemånga roliga exempel när det är så här.
+
+238
+00:24:41,400 --> 00:24:43,400
+ Vårt att veta vad, vad är det då?
+
+239
+00:24:43,400 --> 00:24:45,400
+ Ja, men exakt, exakt.
+
+240
+00:24:45,400 --> 00:24:53,400
+ Så jag tycker att det känns som att det är viktigt utan tvekan, men det är också någonting som jag tycker är roligt.
+
+241
+00:24:53,400 --> 00:25:01,079
+ Det känns som att man har låst upp en ny, liten dimension här i sitt utvecklande och vad man levererar när det gäller bra användare och upplevelse.
+
+242
+00:25:01,079 --> 00:25:07,220
+ Ja men exakt, exakt. Man får lite trevlig incitament och bygga saker på mig genom tänkta sätt.
+
+243
+00:25:07,269 --> 00:25:16,269
+ Man gjorde första versionen av sin web-applikation och så är allting en div med olika styling på.
+
+244
+00:25:16,269 --> 00:25:17,269
+ Ja men exakt.
+
+245
+00:25:17,269 --> 00:25:25,470
+ att ha en AHF, en vanlig länk, ibland är det inte bara bra för att för tillgänglighet är faktiskt ganska bra för alla att se att
+
+246
+00:25:25,470 --> 00:25:28,470
+ Här är en vanlig länk, den funkar som en vanlig länk, den ser ut som en vanlig länk.
+
+247
+00:25:28,470 --> 00:25:33,589
+ Nej men exakt alla sådana grejer och det går att navigera och har vi gjort det bra och navigera med
+
+248
+00:25:33,589 --> 00:25:37,829
+ skärmläsare så blir det ofta bra att navigera med tänk på ordet också eller bara kunna tabba
+
+249
+00:25:37,829 --> 00:25:42,829
+ och saker i en vettig ordning är ju väldigt nyttigt för precis alla.
+
+250
+00:26:00,460 --> 00:26:06,460
+ Jag tror att man, du har ju säkert använt olika system även om de är webbaserade där man bara säger, men för alla de här
+
+251
+00:26:06,460 --> 00:26:15,460
+ tangentboards, liksom alltså att tabba, att navigera med liksom olika sorters kortkommandon eller navigera, alltså piltajenter och så vidare, det bara funkar.
+
+252
+00:26:15,460 --> 00:26:16,460
+ Ja.
+
+253
+00:26:16,460 --> 00:26:23,579
+ Det är ju en trevlig överraskning, och det skulle ju lika gärna kunna vara defaulten.
+
+254
+00:26:23,579 --> 00:26:29,019
+ Ja, men exakt. Det borde vara lite jobb att sabba till.
+
+255
+00:26:29,099 --> 00:26:32,859
+ Ja, men jag tror att för vår del, så en av våra...
+
+256
+00:26:32,859 --> 00:26:41,019
+ Det som vi försöker bidra med när det gäller utvecklingen är att alla kanske inte ska behöva vara tillgänglighetsexperter för att vi ska kunna leverera ett bra resultat.
+
+257
+00:26:41,019 --> 00:26:46,019
+ dels baka in det när det finns och går, men också uppmana kanske till att man har det
+
+258
+00:26:46,019 --> 00:26:51,519
+ Mindsetet, men redan när du sitter i lokala utveckling, trycker igång skärmlässan.
+
+259
+00:26:51,519 --> 00:26:57,660
+ Jag tror att man behöver gå nån liten crash course i hur skärmläsan funkar, för den kan vara ganska överväldigare när man sätter igång den.
+
+260
+00:26:57,660 --> 00:27:03,059
+ Ja, man har ju hört när den drar igång på 180 km i timmen,
+
+261
+00:27:03,059 --> 00:27:05,500
+ Spottar du massor av information?
+
+262
+00:27:05,500 --> 00:27:07,500
+ Ja visst, det är så. Profsen använder den.
+
+263
+00:27:07,500 --> 00:27:11,500
+ Ja, och man kan ju ställa in den precis så som man vill.
+
+264
+00:27:11,500 --> 00:27:17,339
+ Jag tror att en av de viktigaste, nu sitter jag på Mac, det är säkert lite olika bron på vilken och då använder jag en inbyggda voiceover.
+
+265
+00:27:17,339 --> 00:27:24,900
+ Men jag tror att den viktigaste tangenten är kontrolltangenten, för den får den att bara vara tyst. Den pausar upp lästningen.
+
+266
+00:27:24,900 --> 00:27:28,400
+ Så när du sätter igång den och du bara liksom vill få så här nu måste jag tänka.
+
+267
+00:27:29,279 --> 00:27:32,099
+ Då kan man alltid trycka in kontroll innan man gör sin nästa grej.
+
+268
+00:27:32,099 --> 00:27:38,799
+ Men jag tror att det nog inte är mer än kanske fem, sex, sju stycken kommandon.
+
+269
+00:27:38,799 --> 00:27:46,799
+ Man behöver kunna för att kunna använda den effektivt nog för att fånga mycket av de lågt hängande frukterna.
+
+270
+00:28:00,000 --> 00:28:14,000
+ Och då kanske det också är så här, gör man det redan i den lokala utvecklingen, då kanske majoriteten av det som finns inom läskillång, kravlista, som är två kilometer lång, då kanske majoriteten av det är redan löst.
+
+271
+00:28:14,000 --> 00:28:19,400
+ Jag tror verkligen att om du knappar runt i det du utvecklar lokalt med talentbordet
+
+272
+00:28:30,000 --> 00:28:43,500
+ Och se till att liksom du kan komma åt allting, du kan fylla i allting och du öppnas någon modal eller någonting så sitter fokus rätt och du hamnar inte plötsligt bakom modalen när den stängs så är du kvar där du var.
+
+273
+00:28:43,500 --> 00:28:49,880
+ Du behöver inte navigera genom hela jordet igen och att liksom bara kunna slå igång en skärmlässare i 45 sekunder och bara liksom.
+
+274
+00:28:49,880 --> 00:28:59,880
+ som man själv inte kan nu. Men jag tror målet är inte att man ska täcka hundra procent av alla problem som kan uppstå, utan det är bara att få de lågtängande frukterna.
+
+275
+00:29:00,000 --> 00:29:02,000
+ Går du att använda?
+
+276
+00:29:02,000 --> 00:29:03,000
+ Ja precis.
+
+277
+00:29:04,000 --> 00:29:08,000
+ Ett snabbt och jättestort tack till alla som stöttar oss på koffi.
+
+278
+00:29:08,000 --> 00:29:11,000
+ Du kan bli en av dem genom att syrpa in på ko-bindersrackfi.com
+
+279
+00:29:11,000 --> 00:29:14,000
+ snestrackkodsnack och slänga iväg antingen en en gångsumma
+
+280
+00:29:14,000 --> 00:29:16,000
+ eller ett månadsvis stöd.
+
+281
+00:29:16,000 --> 00:29:21,319
+ Stöder du oss på nivån kaffedrickare för 5 euro eller mer i månaden så får du ett gäng trevla klistemärken i bryolådan.
+
+282
+00:29:21,319 --> 00:29:26,440
+ Stöder du oss på nivån Barista för 10 euro eller mer i månaden så får du dessutom förutom klistermärkena.
+
+283
+00:29:26,440 --> 00:29:28,279
+ Ett stort tack precis här.
+
+284
+00:29:28,279 --> 00:29:32,880
+ Tusen tack till Michelle, Albin Groen, Anders Ligel, Brother Ingo och Tobbe Lundberg.
+
+285
+00:29:32,880 --> 00:29:37,039
+ Alla ni som stöter oss hjälper till att göra podden möjlig, och ju fler ni blir, desto bättre podd kan vi göra.
+
+286
+00:29:37,039 --> 00:29:42,319
+ Ibland har vi sponsorer i podden, men det är faktiskt ett stöd som gör att vi börjar kunna täcka kostnaderna för podden varje månad.
+
+287
+00:29:42,319 --> 00:29:46,240
+ Vill du stödas på andra sätt så går du naturligtvis utmärkt och resencerar podden i din podspelare.
+
+288
+00:29:46,240 --> 00:29:50,740
+ Sätter betyg eller en skärna, oavsett om det är Spotify, Apple-spodkast eller nån helt annan app.
+
+289
+00:29:50,740 --> 00:29:53,740
+ Eller berätta helt enkelt om ett avsnitt för nån som du tror skulle gilla på den.
+
+290
+00:29:53,740 --> 00:29:56,940
+ Och just nu har jag precis släppt det till ett nytt sätt att stötta.
+
+291
+00:29:56,940 --> 00:29:58,940
+ Vi har ett klistermärke till försäljning.
+
+292
+00:29:58,940 --> 00:30:06,740
+ I kofferbutiken finns ett trepack klistermärken om livet som Agile logförare, framhinproviserat i en mildt urspårade diskussionstråd häromveckan.
+
+293
+00:30:06,740 --> 00:30:12,420
+ Vi ser ett stöd för alla sejfutörare där ute och på den där sköna känslan i magen av att bidra till kodesnacks fortsatt ta resa.
+
+294
+00:30:12,420 --> 00:30:15,940
+ Men kom ihåg, du är en fantastisk person, oavsett om du stöttar oss, eller ej?
+
+295
+00:30:15,940 --> 00:30:17,140
+ Nej, oj, jag an...
+
+296
+00:30:17,140 --> 00:30:27,019
+ Jag antar att det fortfarande gäller att man får ett mycket gratis att säga vad man använder, standardkomponenter också istället för att finna sina egna.
+
+297
+00:30:27,019 --> 00:30:30,019
+ Ja, du tänker på sådär inbyggda element i...
+
+298
+00:30:30,019 --> 00:30:35,019
+ Ja, men precis. Det känns som en sån grej som fortfarande driv för bevinning i mina.
+
+299
+00:30:35,019 --> 00:30:49,019
+ Massor de flöder med gärna väljer dem att gör inte din egen e-kättning för en knapp eller något i onödan, utan se till att det verkligen, verkligen behövs och då har du rätt mycket att implementera om det ska bli lika tillgängligt som en standard standard.
+
+300
+00:30:49,019 --> 00:30:53,220
+ Ja ja, om du går div-hållet och försöker återståpa.
+
+301
+00:30:53,220 --> 00:30:55,339
+ Nej, men så är det i definitivt.
+
+302
+00:30:55,339 --> 00:31:00,819
+ Det finns ju många, liksom inbyggda element som är mer semantiska så man kan luta sig mot och så.
+
+303
+00:31:00,819 --> 00:31:16,819
+ Men sen är det ju lite så... Ja, det beror lite på. När det kommer till de här tillgänglighetskraven, så just WCAG, kanske specifikt då, så jobbar man ju i olika nivåer, då är det liksom A, AA och AAA.
+
+304
+00:31:16,819 --> 00:31:23,220
+ Och jag tror om jag inte minns fel här får kanske nån få rätta mig om jag har fel.
+
+305
+00:31:23,220 --> 00:31:26,700
+ Men jag tror att den här nivån som man ska uppnå är dubbel A.
+
+306
+00:31:26,700 --> 00:31:30,039
+ Det kan hända att det skiljer sig lite beroende på vilket typ av problem det är, men
+
+307
+00:31:30,539 --> 00:31:32,839
+ triple A är då den högsta ambitionsnivån och
+
+308
+00:31:33,400 --> 00:31:37,000
+ Jag menar, det kan man ju lika gärna sikta på då, men...
+
+309
+00:31:37,000 --> 00:31:38,000
+ Ja, men precis.
+
+310
+00:31:38,000 --> 00:31:39,000
+ Orimligt.
+
+311
+00:31:39,000 --> 00:31:46,000
+ Jag har kollat lite på vk och vc några gånger och det känns som att den högsta nivån kan vara ganska utmanande ganska ofta.
+
+312
+00:31:46,000 --> 00:31:51,440
+ Jag tror att det är säkert att du har en balans där, så att man inte, liksom.
+
+313
+00:31:51,440 --> 00:31:57,759
+ Ja, men av var väl ofta ganska rimlig. Man kan se så här.
+
+314
+00:31:57,759 --> 00:32:02,259
+ Ja men det här förstår jag ju, dels vad jag ska göra och varför och dels hur jag kommer dit, och sen dubbel och vad...
+
+315
+00:32:02,259 --> 00:32:06,259
+ Ja, men det här är samma, fast mer ambitiöst på något sätt.
+
+316
+00:32:06,259 --> 00:32:09,859
+ Och sen så tripplar jag såhär nu. Oj, nu kan det bli mycket.
+
+317
+00:32:09,859 --> 00:32:17,359
+ Ja, nej men exakt. Jag tror att det som du säger stämmer ju hundra procent att liksom återuppfinna inte hjulet, om man inte måste.
+
+318
+00:32:17,359 --> 00:32:24,059
+ Jag vet inte när det kommer till de komponenterna som vi levererar så försöker vi ju inte återuppfinna hjulet.
+
+319
+00:32:24,059 --> 00:32:29,059
+ Även om det är en komponent som inte nödvändigtvis går att bygga, den finns inte i Browsen.
+
+320
+00:32:29,059 --> 00:32:33,660
+ Det kanske är en lite mer interaktiv komponent som kräver...
+
+321
+00:32:33,869 --> 00:32:48,869
+ Nu finns det ju liksom ett inputfält för datum, men vi kanske behöver ha ett sätt att man ska kunna ange en range av datum och vi vill ha det som en liksom en bra upplevelse som man får om man ska boka en flygbiljett eller hotell natt eller något sånt där.
+
+322
+00:32:48,869 --> 00:32:49,869
+ Exakt.
+
+323
+00:33:00,000 --> 00:33:11,000
+ Och då måste man ju gå lite utanför vad som finns inbyggt, och det som vi försöker tänka på där, som jag väl kanske skulle uppmana ifall det är någon annan som sitter med liknande utmaningar.
+
+324
+00:33:11,000 --> 00:33:18,000
+ kan vi ändå säga ja det kanske är rimligt för oss att bara gå på den lösningen men då settet vi tänker på det då är att sätta
+
+325
+00:33:18,000 --> 00:33:22,759
+ som ett eget interface av hur skapit ser ut.
+
+326
+00:33:22,759 --> 00:33:25,440
+ Och det kan vi säkert inspireras av hur det ser ut där.
+
+327
+00:33:25,440 --> 00:33:29,759
+ Men även om det är näst in till en äthetmattning så är det en explicit.
+
+328
+00:33:30,000 --> 00:33:36,640
+ Vi lägger in det för att då blir det liksom inte ett implicit beroende på just den komponenten,
+
+329
+00:33:36,640 --> 00:33:41,160
+ Då skulle vi ju sedan kunna se så här, men vill vi bygga en custom eller behöver vi bygga en custom?
+
+330
+00:33:41,160 --> 00:33:46,240
+ Eller finns det kommer en ny aktör eller något nytt bibliotek som fungerar ännu bättre?
+
+331
+00:33:47,059 --> 00:33:55,059
+ Så det är väl en av de nyckelstrategierna som vi försöker tillämpa att liksom var det en är för komponent så är liksom API ett
+
+332
+00:33:55,430 --> 00:34:01,569
+ Det är lite helhet liksom. Det försöker vi se till att vi har en uppfattning om hur vi...
+
+333
+00:34:01,569 --> 00:34:09,969
+ Det är svårt att säkerställa att det blir så, men är det intuitivt, är det flexibelt?
+
+334
+00:34:09,969 --> 00:34:16,969
+ Är det flexibelt för att vi kanske vill ändra våra lösningar under huvudet på sikt?
+
+335
+00:34:16,969 --> 00:34:22,769
+ Precis. Jag har en kollega som jobbar med rätt mycket med våra komponenter.
+
+336
+00:34:22,769 --> 00:34:28,369
+ Vi har ett litet sånt projekt också som han har ju sagt exakt samma grej så här men vi ska se till och
+
+337
+00:34:28,369 --> 00:34:35,050
+ slå in det för att vi använder det i en bibliotek nu ganska mycket, men hans ambition är att
+
+338
+00:34:35,050 --> 00:34:40,329
+ Allting som vi har som gemensamma komponenter ska vara inslaget precis så att vi inte blir beroende av bibliotek.
+
+339
+00:34:40,329 --> 00:34:47,769
+ För just nu sitter vi stenort fast i det en del, framförallt en del äldre projekt, att det är så här katastrofer för att uppdatera en medie.
+
+340
+00:34:47,769 --> 00:34:55,969
+ Exakt, och jag menar att det skulle väl, även om du då tar den approachen så kanske majoriteten av biblioteket ändå använder någonting som färdigt.
+
+341
+00:34:55,969 --> 00:35:01,969
+ Men då är det i alla fall så förlitar du det helt och hållet på deras API. Då sitter du lite händerna på dem också.
+
+342
+00:35:01,969 --> 00:35:05,570
+ Nu har vi gjort en ny major uppdatering som bräcker en massa grejer.
+
+343
+00:35:05,570 --> 00:35:13,570
+ Då har man åtminstone en chans att motverka det genom att säga kan vi då, om vi nu inte bara kan byta komponent
+
+344
+00:35:13,570 --> 00:35:21,090
+ Tillsammans med det kan vi åtminstone se till att vårat api som vi till handahåller går att mappa om till vad som är ändrat liksom.
+
+345
+00:35:21,090 --> 00:35:23,250
+ Så det tycker jag.
+
+346
+00:35:30,000 --> 00:35:38,360
+ hur vi försöker snappa upp behoven ifrån organisationen, så jag tror ju, och där har vi ju i samband med UX också,
+
+347
+00:35:38,360 --> 00:35:42,360
+ Det som är intressant med våra täta samarbete är att man kommer från olika perspektiv.
+
+348
+00:35:42,360 --> 00:35:48,360
+ Från kodsidan så har vi ett visst perspektiv och särskilt när det gäller version samtierade kod.
+
+349
+00:35:48,360 --> 00:35:51,360
+ Det finns vissa spelregler helt enkelt.
+
+350
+00:35:51,360 --> 00:35:52,360
+ Ja, precis.
+
+351
+00:35:52,360 --> 00:35:58,360
+ På design-sidan så kanske det inte riktigt har varit lika känsligt med sånt, utan det är liksom...
+
+352
+00:36:00,340 --> 00:36:12,340
+ Då har vi behövt närma oss varandra och synka sig i mellan, så vi kan inte springa före alla gånger på design sidan eller bara göra en ändring, för det är inte riktigt så det funkar på kod sidan.
+
+353
+00:36:12,340 --> 00:36:13,340
+ Det är precis.
+
+354
+00:36:30,300 --> 00:36:47,300
+ En annan grej som vi försöker vara i synk kring, det är ju att man vill ju att det ska vara konsekvent och därmed så vill man att det ska finnas vissa constraints kanske så att det inte är så att vi kan göra på helt olika sätt fler kappar.
+
+355
+00:36:47,300 --> 00:36:49,300
+ Ja, det där är intressant, ja.
+
+356
+00:36:49,300 --> 00:36:51,300
+ bara lite större än vad man tror ändå.
+
+357
+00:36:51,300 --> 00:36:53,300
+ Ja, någonstans är det alltid nånting.
+
+358
+00:36:53,300 --> 00:36:57,300
+ Ja, men det är så trist när du sitter där i din app och så är det så här...
+
+359
+00:36:57,300 --> 00:37:01,219
+ Jag behöver måla lite utanför linjerna, men det går inte.
+
+360
+00:37:01,219 --> 00:37:05,699
+ Då får jag liksom, då får jag bara kasta ut allt och göra det helt från scratch.
+
+361
+00:37:05,699 --> 00:37:09,019
+ Precis, det blir ju inte hållborta heller.
+
+362
+00:37:09,159 --> 00:37:17,400
+ Nej, men på så sätt så ser vi att en viss flexibilitet behöver ändå finnas i alla komponenter.
+
+363
+00:37:17,400 --> 00:37:23,539
+ Och så settetvis är det typ att det är lite med high-level-komponenter och lite med low-level-komponenter.
+
+364
+00:37:23,539 --> 00:37:28,920
+ Och det finns ju en härans massa namn på sådana typer av atomic design eller vad som helst.
+
+365
+00:37:30,000 --> 00:37:38,800
+ Vi försöker tänka lite enklare på det, att en high level component är ett lite mer specifikt använder ett use case.
+
+366
+00:37:38,800 --> 00:37:44,039
+ använda det med ett ganska begränsat hopp i. Det är ganska mycket opinions inbakade.
+
+367
+00:37:44,599 --> 00:37:49,559
+ Men det gör ju också att det är ganska flexibelt för oss att se till att det fortsätter att funka, utan
+
+368
+00:37:49,559 --> 00:37:54,320
+ större ändringar och sen vart efter vi märker att då kan vi lösa kanske 80 procent av ett visst behov.
+
+369
+00:37:54,960 --> 00:38:00,360
+ Sen så kommer vi till de andra behoven och då kan vi liksom utifrån det vi vet då så kan vi börja bryta
+
+370
+00:38:00,360 --> 00:38:05,940
+ ner till lite mer olevel komponenter och då kanske man kan liksom då kommer ofta de
+
+371
+00:38:05,940 --> 00:38:11,860
+ insikterna om liksom api design som hade vi tagit det här valet så hade vi ju kanske kunna
+
+372
+00:38:11,860 --> 00:38:15,980
+ stödja, utan att man går alltför långt ner i framtida behov vi inte vet att vi har.
+
+373
+00:38:15,980 --> 00:38:19,300
+ Så vissa sådana där grejer blir ändå tydliga.
+
+374
+00:38:19,300 --> 00:38:27,300
+ rent intuitivt så känns det som att det här valet hade varit flexibelt även om vi ser framför oss att vi vill göra lite annorlunda också i framtiden.
+
+375
+00:38:27,300 --> 00:38:34,300
+ Om man säger high level i det här fall, är det typ en avancerad datumväljare som vi pratade om innan?
+
+376
+00:38:34,380 --> 00:38:43,059
+ –Är det en high level eller loll? –Ja, det är svårt med att dra gränserna också.
+
+377
+00:38:43,059 --> 00:38:58,539
+ Jag skulle se det som tänkte på tabeller, till exempel, och vi har inte supermånga tabeller ännu i biblioteket, men jag tar det som ett exempel, för där kan man se framför sig att en low-level version av sådana komponenter kan mapa väldigt nära hur det funkar i html.
+
+378
+00:39:00,000 --> 00:39:12,199
+ Du jobbar med rows och header och olika typer av celler och så vidare, men en high-level-komponent kanske tar en lista av data som den kan mappa om till det där huvuden.
+
+379
+00:39:12,199 --> 00:39:18,119
+ Många use cases så räcker det och då är det ganska närgissat så då kan du använda en komponent, skicka in datan som du kanske måste bara
+
+380
+00:39:18,840 --> 00:39:21,340
+ Skruva lite grann på, så det passar.
+
+381
+00:39:21,340 --> 00:39:22,340
+ Och sen så får du en tabell.
+
+382
+00:39:22,340 --> 00:39:32,340
+ Och i stället för att säga, visst, då ska jag liksom göra typ 88 rader kod här för att bara göra min tabell med liksom att mappa igenom saker och så vidare.
+
+383
+00:39:32,340 --> 00:39:33,340
+ Just det.
+
+384
+00:39:33,340 --> 00:39:47,340
+ Ett annat exempel är att när man jobbar med inmatningsfält i formulär så består de underhuvuden av rätt nära elementen i browser som input och så vidare.
+
+385
+00:39:47,340 --> 00:39:57,340
+ Vi har till exempel en komponent som är en textfield då, och då kombinerar ju den själva inputfältet med ett sätt att sätta en label på den och ett ämne till valideringsfel.
+
+386
+00:40:00,000 --> 00:40:03,780
+ Så sköt ju den om kopplingarna där, sin semellan under huvuden.
+
+387
+00:40:03,780 --> 00:40:09,280
+ Så att labeln blir associerad med inputfältet och valideringsfelet också.
+
+388
+00:40:09,280 --> 00:40:12,239
+ Utan att du som konsument behöver liksom säga, men hur var det nu?
+
+389
+00:40:12,239 --> 00:40:14,239
+ Just det, just det.
+
+390
+00:40:14,239 --> 00:40:22,639
+ Så det är det jag tänker på, men det är ju, jag tror att vi har stött på många gånger att man bara såhär, men är det här en higher level abstraction?
+
+391
+00:40:22,639 --> 00:40:26,840
+ Men ja, till slut så kanske man hamnar i någon atomic design ändå.
+
+392
+00:40:26,840 --> 00:40:33,840
+ Ja, men jag kanske borde dock. Det är en ständig utmaning att få till den där balansen.
+
+393
+00:40:33,840 --> 00:40:35,840
+ Ja, men här kan jag göra en jättefin komponent.
+
+394
+00:40:35,840 --> 00:40:39,159
+ Men jag behöver skicka in 300 saker till den för att den ska funka.
+
+395
+00:40:39,159 --> 00:40:41,639
+ Kan jag tänka om i det här så jag slipper det?
+
+396
+00:40:41,639 --> 00:40:48,480
+ Då kanske man på en sån här level, och det är ju också, jag vet inte vem det var som hade ett sånt talk någon gång, men att som pratade just om
+
+397
+00:40:48,480 --> 00:40:54,559
+ i design på någon konferens som man har ju sett exempel på en reakt komponent då som liksom har typ
+
+398
+00:40:54,860 --> 00:41:01,000
+ 38 props för att man har byggt på vartefter.
+
+399
+00:41:01,000 --> 00:41:06,679
+ Just det, vi måste stödja det här också. Då är det ju bättre att separera det till helt olika komponenter.
+
+400
+00:41:06,679 --> 00:41:10,280
+ Så att det blir lättare att underhålla över tid.
+
+401
+00:41:10,280 --> 00:41:24,960
+ Så det är väl lite av de tankarna och det är mycket av det är common sense men delar av det har man ju liksom på något sätt absorberat under de här åren som ändå stött lite mot det här, även om det inte har varit ens huvudsakliga arbetsgiften.
+
+402
+00:41:30,000 --> 00:41:39,719
+ Det finns ett stort värde också att få, som du säger, kommandsänds grejer, att få dem uttalade och utskrivna.
+
+403
+00:41:39,719 --> 00:41:46,320
+ Lite annorlunda ägare, men det här är väl kommelsen, så har man plötsligt dragit iväg på två spår igen, fast det är inte avsikten.
+
+404
+00:41:46,320 --> 00:41:52,719
+ En utmaning är att jag som jag nämnde där så vi två som är utvecklade i timmet just nu har ju jobbat med det här innan.
+
+405
+00:41:52,719 --> 00:41:57,519
+ Så frågan är vad som är inne i våran ryggmärg och vad som...
+
+406
+00:42:00,000 --> 00:42:06,139
+ Jag tror att det kan finnas en utmaning är att försöka få ner det här på ett enkelt och överskådligt sätt.
+
+407
+00:42:06,400 --> 00:42:08,960
+ Det här är ett mindset som vi tillämpar.
+
+408
+00:42:09,219 --> 00:42:10,500
+ För det blir ju svårt.
+
+409
+00:42:10,500 --> 00:42:17,019
+ vart lämnar det ena gärna hälvan på oss två och vart möter det nån dokumentationssida någonstans.
+
+410
+00:42:17,019 --> 00:42:18,739
+ Det där har vi säkert ett jobb att göra.
+
+411
+00:42:30,000 --> 00:42:42,760
+ Om man ser till framtiden att man skulle omborda nån ny eller nån försvinner och så vidare så försöka de grundprinciperna som man på något sätt luta sig mot nu som säkert kan ändras också såklart.
+
+412
+00:42:42,760 --> 00:42:46,760
+ när vi tar fram komponenter och liksom vad vi inte tar fram egentligen.
+
+413
+00:43:00,000 --> 00:43:18,000
+ Och lyckas man få ner sånt i text eller bilder, vilket material det är, då har man ju något som är väldigt, väldigt nyttigt, som du sa innan. Alltså allt man levererar är inte bara komponenter, utan det där informationen runt omkring kan ju vara supervärdefull, även om det kan vara svår att få fattig ibland.
+
+414
+00:43:18,000 --> 00:43:29,000
+ Man kan ju, det betyder ju att liksom jobba man i något annat än React och jobba man i mobilappen, eller jobba man i något av de andra bolagen som ingår i samma koncern.
+
+415
+00:43:29,000 --> 00:43:34,000
+ Så kan man inte nödvändigtvis ta del av komponenterna, för de är ju liksom React-specifika.
+
+416
+00:43:34,000 --> 00:43:35,000
+ Just det.
+
+417
+00:43:35,000 --> 00:43:50,000
+ Så då blir ju riktlinjer och design-token sånt blir ju desto viktigare och sen så är ju såklart också jätteintressant att fundera på hur skulle vi kunna brygga gapet mellan olika ranverk och kanske till och med olika plattformar.
+
+418
+00:44:00,000 --> 00:44:16,000
+ Hitels-teamet har ju varit verksamt i tre kvartal ungefär nu, så vi har inte känt att det känns inte så pragmatiskt att liksom börja gå utanför till något römbärksagnostiskt när så stor procentandel av allihopa ändå sitter, liksom natively mer react.
+
+419
+00:44:16,000 --> 00:44:21,440
+ Ja, och det kanske inte skriver generellt dokument för alla typer av gränssnitt i...
+
+420
+00:44:21,440 --> 00:44:26,000
+ Nej men exakt, ser man det håller man sig på webben och tänker att så, men hur kan vi stödja?
+
+421
+00:44:26,000 --> 00:44:31,159
+ Vi kanske inte vill och kommer att jobba med React i en massa år fram.
+
+422
+00:44:31,159 --> 00:44:38,360
+ Det kanske vi gör, men då kommer man ju onäkligare att tänka på sånt som webb-komponens och webb-komponens.
+
+423
+00:44:38,360 --> 00:44:45,780
+ Där är det också lite svårt, för när man läser en webb-komponens så är det också ganska polariserad.
+
+424
+00:44:45,780 --> 00:44:47,320
+ Ja, det har jag verkligen.
+
+425
+00:44:47,320 --> 00:44:51,320
+ Use the platform gänget, och så hör man library eller framework authors.
+
+426
+00:45:00,000 --> 00:45:12,000
+ Jag tycker det blir lite svårt, för det känns som att det är därför jag har varit lite försiktig med att skynda mig in i det, för det känns som att jobba i huvudsak med React.
+
+427
+00:45:12,000 --> 00:45:24,000
+ Så bra på pappret, men är det så bra i praktiken? Man kommer till alla komplexa detaljer som kärr och dom, hur lirar ramverken och domen egentligen?
+
+428
+00:45:24,000 --> 00:45:29,239
+ Många av ramverken går en annan väg när det gäller hur de renderar appar.
+
+429
+00:45:29,320 --> 00:45:30,599
+ Ja, precis.
+
+430
+00:45:30,599 --> 00:45:39,280
+ Som är lite mer... Vad är det man kallar det? Lazy, rendered, medans domen traditionellt är eagerly rendered.
+
+431
+00:45:39,280 --> 00:45:50,280
+ Samspelade verkligen. Jag har nog inte helt satt mig fullständigt in i det men det är definitivt nånting som vi har lust att titta på lite sen.
+
+432
+00:45:50,280 --> 00:45:56,440
+ Och det kan ju hända att delar av utbudet av komponenter fungerar kanon som webb-komponets, om de är liksom längre...
+
+433
+00:45:56,440 --> 00:46:02,340
+ De är ganska enskilda, det är liksom ingen komponent som rappar en massa annat, utan det kanske är typ en date picker.
+
+434
+00:46:02,340 --> 00:46:07,500
+ Eller nånting som är liksom en leaf-node typ i hierarchien av alla.
+
+435
+00:46:07,500 --> 00:46:09,019
+ Ja, det stämmer.
+
+436
+00:46:09,019 --> 00:46:14,900
+ Nej, det känns inte nödvändigtvis som en silver bullet, men vi vill ändå utforska det.
+
+437
+00:46:14,900 --> 00:46:22,420
+ Det är ju, jag tror att tittar man i ekosystemet bara i Sverige av andra designsystem och det gör vi ju själva mycket också.
+
+438
+00:46:22,420 --> 00:46:27,019
+ Det finns ju arbetsförmedlingen och SI har vi inspirerats ganska mycket om.
+
+439
+00:46:27,019 --> 00:46:29,019
+ Ja, så de kan vara surfa in och titta på.
+
+440
+00:46:29,070 --> 00:46:36,070
+ Ja, SCI har, jag tror att de relativt nyligen har gjort ett omtag på sin, jag vet inte, det är något sådant, SCI-design eller något sånt.
+
+441
+00:46:36,070 --> 00:46:41,550
+ Så de har gjort ett bra arbete och det kan man hämta mycket inspiration från.
+
+442
+00:46:41,550 --> 00:46:48,750
+ Men jag ska inte svära på hur de gör kring det, men vissa andra kör ju hundra procent webbkomponens.
+
+443
+00:46:48,750 --> 00:46:58,750
+ Ja de gör det. Det funkar säkert jättebra men jag tror att vi får utforska det i framtiden helt enkelt och se vad det är.
+
+444
+00:47:00,000 --> 00:47:09,599
+ Men sen vet jag inte, det är ju liksom inte helt otänkbart att landskapet ändrar sig lite grann, eller när AI är på stort intåg och utvecklingen går så pass snabbt som det gör.
+
+445
+00:47:09,599 --> 00:47:14,639
+ Så du sade ju precis innan vi började spela in här att det kan ju mycket väl komma att påverka.
+
+446
+00:47:14,820 --> 00:47:15,820
+ Ja.
+
+447
+00:47:15,820 --> 00:47:20,820
+ Var ni bygger och vad man gör och hur och det var en sån grej som jag inte hade slagit av för du inte sa det.
+
+448
+00:47:20,820 --> 00:47:22,820
+ Nej jag vet inte om jag hade slagit av det själv.
+
+449
+00:47:22,820 --> 00:47:30,820
+ För några veckor sen heller, men vi har pratat lite mer om det, för det har ju säkert inte gått någon förbi att det händer saker på AI.
+
+450
+00:47:30,820 --> 00:47:37,219
+ Kanske från utveckla perspektiv så har man ju traditionellt, man kanske tänkt på såhär, men vad betyder det här för mig?
+
+451
+00:47:37,219 --> 00:47:48,599
+ Ja, det är det här för mitt yrke, men om man bortse från det så tänker jag liksom att våra användare som vi bygger tjänster och appar för idag, hur ser deras interaktion med de apparna ut i framtiden?
+
+452
+00:47:48,599 --> 00:47:53,199
+ Delar av det kommer ju säkert att övergå till att vara någon sorts assistent.
+
+453
+00:47:53,199 --> 00:48:00,199
+ Man kanske pratar och ber om eller kattar eller nånting, så vissa sådana här stora komplexa flöden.
+
+454
+00:48:00,199 --> 00:48:06,340
+ Deklarationer eller du ska ansöka om bolån eller vad det nu är. Det kan ju vara ganska omfattande och komplexa formulär.
+
+455
+00:48:06,340 --> 00:48:15,340
+ Det kanske är nånting som skulle vara jättebra som ett chattflöde i framtiden för då kan du ställa frågor under tiden om det är nånting som du undrar.
+
+456
+00:48:15,769 --> 00:48:21,429
+ Men sen tror jag i personligen att vi kommer ju säkerligen att ta kvar grafiska gränssnitt för diverse grejer.
+
+457
+00:48:21,429 --> 00:48:29,230
+ Men det är också så att i våran interna produkt och dess framtid så blir det ju någonting som man har kommit under funn, men det här måste vi ändå tänka på.
+
+458
+00:48:29,230 --> 00:48:32,110
+ Hur ser framtiden ut kring det?
+
+459
+00:48:32,110 --> 00:48:33,110
+ Ja, just det.
+
+460
+00:48:33,110 --> 00:48:34,110
+ Vart är vi på väg?
+
+461
+00:48:34,110 --> 00:48:35,110
+ Just det.
+
+462
+00:48:35,110 --> 00:48:37,469
+ Det finns ju liksom vad är det de kallar det?
+
+463
+00:48:37,469 --> 00:48:38,469
+ Computer vision.
+
+464
+00:48:38,469 --> 00:48:39,469
+ Ja.
+
+465
+00:48:39,469 --> 00:48:44,070
+ Det är typ att datorn tar skärmdumpar och faktiskt navigerar.
+
+466
+00:48:44,070 --> 00:48:49,070
+ Då behöver vi ju ändå ha ett gränssnitt som är ju bara bra då, om det är tydligt och tillgängligt.
+
+467
+00:48:49,070 --> 00:48:52,070
+ Ja men exakt, tillgängligheten lönnar sig igen.
+
+468
+00:48:52,070 --> 00:49:02,070
+ Ja, det är klart, måste vi kunna finnas någon aspekt där det blir andra interaktioner så att man kanske vill presentera saker på andra sätt.
+
+469
+00:49:02,070 --> 00:49:08,869
+ Det kanske för ett annat behov av visningskomponenter som kan visas uttagna ur sitt sammanhang.
+
+470
+00:49:08,869 --> 00:49:14,269
+ Det är inte så att vi har jättestor formulär, men jag vill presentera resultatet och då är resultatkomponenten, men jag har inte resten av...
+
+471
+00:49:14,269 --> 00:49:16,389
+ –Exakt. –Informationer runtomkring.
+
+472
+00:49:16,389 --> 00:49:21,269
+ Man kanske vill integrera inåtningsfält i den här flödet också,
+
+473
+00:49:21,269 --> 00:49:26,349
+ istället för att allt hela tiden ska vara en fritext och typ en GPT-rapper.
+
+474
+00:49:26,349 --> 00:49:30,070
+ Så känns det som att det kanske är en mix av båda värdena.
+
+475
+00:49:30,070 --> 00:49:34,670
+ Men jag tycker det är svårt att veta vart vi är på väg och det är väldigt spännande att se.
+
+476
+00:49:34,670 --> 00:49:42,389
+ Och det är väl lite så som vi snackade om innan att man får försöka vara snabb på att inte sitta inlåst i.
+
+477
+00:49:42,389 --> 00:49:45,389
+ Så nu jobbar vi med det här i två år och sen så ser vi hur det blir när det är ute.
+
+478
+00:49:45,389 --> 00:49:48,389
+ Så man är snabb rörlig och håller örat mot rälsen.
+
+479
+00:49:48,389 --> 00:49:54,389
+ Ja, exakt, exakt. Det är nästan mer intressant när man tänker så också, när man inser att det kan komma sådana grejer.
+
+480
+00:49:54,760 --> 00:49:59,260
+ Finns fler aspekter att tänka på än bara de som man har framför sig precis nu?
+
+481
+00:49:59,260 --> 00:50:05,400
+ Ja nej men exakt och det tror jag väl gäller som man går in på temat med AI och utveckling också
+
+482
+00:50:05,639 --> 00:50:07,639
+ Där tycker jag också att det är lite svårt att veta.
+
+483
+00:50:07,639 --> 00:50:11,639
+ Precis som i webbkomponenten är det också ganska polariserande åsikter om det.
+
+484
+00:50:11,639 --> 00:50:15,880
+ Det är liksom all in eller all out, och vem ska man tro på?
+
+485
+00:50:15,880 --> 00:50:21,039
+ har de som är åt ena hållet eller andra hållet ett incitament, kanske, så sig eller så.
+
+486
+00:50:30,000 --> 00:50:48,000
+ Ja visst. Ja, jag själv har ju, vi har ju använt AI, framför allt under en längre stund nu för dokumentation, för att försöka hitta ett konsekvent och professionellt språk, men också liksom såhär, lite bland kanvas grej, att man får, vi ska dokumentera en knapp, eller vi ska dokumentera en komponent som gör det här.
+
+487
+00:50:48,000 --> 00:50:53,000
+ Man har ju fått den här wow-faktorn och sen har den på något sätt efterföljts av en...
+
+488
+00:50:53,000 --> 00:51:00,000
+ Ja, den kör fast och man bråkar med den här AI-in för att komma framåt.
+
+489
+00:51:00,000 --> 00:51:06,960
+ Men ju mer man fortsätter, ju mer ute på hallucinationer och så, det blir det.
+
+490
+00:51:06,960 --> 00:51:09,760
+ Ja, men exakt, exakt. Det är lite grann väldigt på beskrivning.
+
+491
+00:51:09,760 --> 00:51:18,880
+ Men den har ju kommit till omgångar också. Nu finns det ju ännu bättre integration mellan en AI-agent och en editor, till exempel.
+
+492
+00:51:30,000 --> 00:51:35,199
+ Det har också blivit en wow-faktor, men det känns också som att man kommer till.
+
+493
+00:51:35,199 --> 00:51:42,400
+ Man förstår ju att när den har den här chain of thought-grejen, att den kan promta sig själva, prova outcomes och så vidare,
+
+494
+00:51:42,400 --> 00:51:45,699
+ så förstår man ju att resultatet blir mer träffsäkert.
+
+495
+00:51:45,699 --> 00:51:53,699
+ Det har gått två dagar, en lilla honeymoon-facen är över, men då stötter man på de här frikonerna och där tar det stopp.
+
+496
+00:51:53,699 --> 00:51:58,260
+ Ja men exakt, det tar stopp på ungefär samma stil som sist.
+
+497
+00:51:58,260 --> 00:52:00,099
+ Fast på en liten...
+
+498
+00:52:00,099 --> 00:52:02,599
+ Nej, jag känner dem väldigt fyrt så också.
+
+499
+00:52:02,599 --> 00:52:07,699
+ Och samtidigt så pratar jag ju med folk, men vi genommedlar dem som verkligen, det känns som att de
+
+500
+00:52:07,699 --> 00:52:13,099
+ verkligen hittat arbetssätt ihop med AI som verkligen funkar för dem och de blir
+
+501
+00:52:13,099 --> 00:52:25,099
+ Genuint mycket snabbare på att göra saker och jobba på det sättet och det kanske är ett sätt som inte alls passar mig för att jag är gammaldags och vill sitta och titta på koden utan det blir störd av förslag vi inte i eller.
+
+502
+00:52:25,099 --> 00:52:29,099
+ Nej men om man vill ju... Alltså det är henne utav de grejerna som jag tycker är tråkigast med det.
+
+503
+00:52:30,000 --> 00:52:34,460
+ Jag vill ju prov, för jag tror också att i någon grad så kommer väl det här...
+
+504
+00:52:34,460 --> 00:52:40,760
+ Man kommer väl nästan att vara så illa tvungen att använda det för att behålla en viss produktivitet kanske.
+
+505
+00:52:40,760 --> 00:52:43,920
+ Sen så tror jag inte att man behöver liksom förlita sig på det helt och hållet.
+
+506
+00:52:43,920 --> 00:52:57,400
+ Precis, det är frågan. Men jag tänker så som för min del. Jag jobbar ju vim. Jag älskar ju det att skriva.
+
+507
+00:53:00,000 --> 00:53:02,480
+ Ja, jag tycker det är det i sig, det är så kul.
+
+508
+00:53:02,480 --> 00:53:07,679
+ Men den, liksom när man jobbar i terminalen så, det är inte nödvändigtvis så att det är inte där
+
+509
+00:53:07,679 --> 00:53:10,159
+ Ja, okej, men ska jag testa nåt nödigt här för att prova?
+
+510
+00:53:10,159 --> 00:53:13,159
+ Men liksom, jag tror jag delar din åsikt där.
+
+511
+00:53:13,159 --> 00:53:17,860
+ Men jag vill ju typ sitta utan distraktioner och bara liksom få göra det som för det ger mig glädje, liksom.
+
+512
+00:53:17,860 --> 00:53:21,860
+ Ja, och samtidigt är det ju onöjligen så att när jag har
+
+513
+00:53:21,860 --> 00:53:24,440
+ Co-pilot påslagen när vi kör studiecode.
+
+514
+00:53:24,440 --> 00:53:25,139
+ Mm.
+
+515
+00:53:25,139 --> 00:53:34,139
+ Jag vill ju kanske egentligen inte ha så mycket av intelligensen, men däremot att den ibland funkar som en väldigt smartare auto-komplettering.
+
+516
+00:53:34,139 --> 00:53:35,679
+ Ja, spara tid helt enkelt.
+
+517
+00:53:35,679 --> 00:53:37,460
+ Det sparar mig ju lite tid, då då.
+
+518
+00:53:37,460 --> 00:53:40,900
+ och hjälper med att hålla avsluta en grej och samtidigt hålla en tanke i huvudet.
+
+519
+00:53:40,900 --> 00:53:48,820
+ Så det är väldigt balansgång. Det är både störande och lite hjälpsamt samtidigt.
+
+520
+00:53:48,820 --> 00:53:50,820
+ Ja, men exakt.
+
+521
+00:53:50,820 --> 00:53:53,380
+ Men det kan vara mycket frustrerande också.
+
+522
+00:53:53,380 --> 00:53:54,659
+ Ja, jag visste.
+
+523
+00:53:54,659 --> 00:54:01,380
+ Jag menar menar mer cyniska humar så kan jag tänka om att om tillräckligt många går tillräckligt hårt in på AI
+
+524
+00:54:01,400 --> 00:54:15,900
+ Ja, i utvecklingen så kan vi vara några andra som sitter i taran och känna storkoan på att vi skriver väldigt pålite små saker med minsta möjliga kod som är hantverksmässigt skriven, mycket mer förutsägbar.
+
+525
+00:54:15,900 --> 00:54:24,820
+ Ja, men precis. Det är väl också en av aspekten att både när det gäller att producera kod kanske är en aspekt i sig, men att säga alla de här bildgenereringarna.
+
+526
+00:54:24,820 --> 00:54:28,420
+ Det är ju det som att du får samma resultat när du har samma fråga.
+
+527
+00:54:30,000 --> 00:54:34,519
+ Det blir lite svårt. Vad är det egentligen som kommer ut? Det kommer säkert att funka.
+
+528
+00:54:34,519 --> 00:54:37,679
+ Men det är där i den ballparken.
+
+529
+00:54:37,679 --> 00:54:40,880
+ Ja, precis. Det är som att prata med någon drömgenerator.
+
+530
+00:54:40,880 --> 00:54:44,400
+ Så tror man att det är samma sak plötsligt allting runt och kring ändå.
+
+531
+00:54:44,400 --> 00:54:45,400
+ Exakt, exakt.
+
+532
+00:54:45,400 --> 00:54:52,300
+ Men jag tror att det kommer väl att vara viktigt att fortsätta vara nyfiken på det i alla fall, så att man inte frånskriver det helt och hållet.
+
+533
+00:54:52,300 --> 00:54:54,300
+ Nej men precis.
+
+534
+00:54:54,300 --> 00:55:04,300
+ Jag använder det till en rimlig grad där det känns som att det är gynnaren och inte att man bara till slut sitter och men det kanske är vändigt att vi är på väg.
+
+535
+00:55:04,300 --> 00:55:10,300
+ Nej, precis. Vi stämmer av igenom två år och ser vad som faktiskt händer.
+
+536
+00:55:10,300 --> 00:55:14,119
+ Är det något mer vi borde få med innan vi avslutar för idag?
+
+537
+00:55:14,119 --> 00:55:15,119
+ Jätteintressant.
+
+538
+00:55:15,119 --> 00:55:16,440
+ Ja, men jag tror inte det.
+
+539
+00:55:16,440 --> 00:55:19,239
+ Jag tror vi har varit inom det mesta som jag har tankarna.
+
+540
+00:55:19,239 --> 00:55:24,239
+ Det är väl i så fall, jag tror att det finns några länkar som vi kanske skulle kunna lägga in i någon beskrivning för en avsnitt eller så.
+
+541
+00:55:24,239 --> 00:55:30,380
+ Ja, men exakt. Jag lägger in massor av länkar, inklusive till SCI-designsystem också.
+
+542
+00:55:30,380 --> 00:55:32,300
+ Jag tycker att det är ett tydligt samtant att de har gjort en
+
+543
+00:55:32,940 --> 00:55:34,980
+ sight for the design system som
+
+544
+00:55:35,500 --> 00:55:40,360
+ Alltså den visar ju bara komponenter men den känns samtidigt 100% SJ så de har ju verkligen
+
+545
+00:55:40,619 --> 00:55:43,440
+ De har lyckats få till en enligt känsla på det på ett ganska
+
+546
+00:55:44,199 --> 00:55:44,980
+ Stiligt sätt
+
+547
+00:55:45,219 --> 00:55:50,980
+ Det är också lite power move och läggas in till din system publikt.
+
+548
+00:55:50,980 --> 00:55:58,179
+ Det känns som att vi hade säkert också kunnat tänka oss att göra det i framtiden, men vi har inte vågat göra det ännu.
+
+549
+00:55:58,179 --> 00:56:02,699
+ Det har inte tillräckligt ett tillräckligt skiltfönster, väl enligt material kanske?
+
+550
+00:56:02,699 --> 00:56:06,039
+ Nej, jag kan helt förstå rätselnvanget.
+
+551
+00:56:06,150 --> 00:56:15,150
+ Men som sagt, vi länkar in sånt också om du och om du kommer på några fler grejer som vi borde länka med så tar vi med dem också som folk massivt tittar på.
+
+552
+00:56:15,150 --> 00:56:18,150
+ Ja men då så, tack så jättemycket Johan för att du ville vara med.
+
+553
+00:56:18,150 --> 00:56:21,150
+ Ja, ja, tack för att jag fick vara med.
+
+554
+00:56:24,530 --> 00:56:27,010
+ Tack för att just du vill lyssna på kodsnack.
+
+555
+00:56:27,010 --> 00:56:30,690
+ Om du vill stödja oss, varför inte tipsa en bekant om podden?
+
+556
+00:56:30,690 --> 00:56:35,610
+ Eller lämna en recension i till exempel iTunes eller något annat ställe där går att sätta butik på boddar.
+
+557
+00:56:35,610 --> 00:56:39,289
+ Du kan också stödja oss genom att köpa oss en kop-kaffe på koffee.
+
+558
+00:56:39,289 --> 00:56:41,969
+ koobindeseqfi.com sned seggådsnack.
+
+559
+00:56:41,969 --> 00:56:46,250
+ Alla pengar går direkt till att göra på den bättre och trevligare.
+
+560
+00:56:46,250 --> 00:56:54,050
+ Du kan också hänga i vår släckkanal. Länk finns på kodessnack.se, precis som alla andra länkar och alla andra info kopplat till varje avsnitt.
+
+561
+00:56:54,050 --> 00:57:00,730
+ Sist men inte minst finns det också en länk till vår spreadjobbutik där du kan köpa tröjor och andra prylar med kodsnacktryck.
+
+562
+00:57:00,730 --> 00:57:03,730
+ Och igen. Tusen tack för att du lyssnade. I hash.
+

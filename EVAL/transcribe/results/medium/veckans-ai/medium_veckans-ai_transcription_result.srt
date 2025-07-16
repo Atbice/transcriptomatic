@@ -1,0 +1,1808 @@
+1
+00:00:00,530 --> 00:00:02,529
+ Så att du ska slippa.
+
+2
+00:00:02,740 --> 00:00:04,740
+ Hur är läget med dig, Fredrik?
+
+3
+00:00:04,740 --> 00:00:06,740
+ Jag mår bra.
+
+4
+00:00:06,740 --> 00:00:13,660
+ Jag är lite sur på AI för tillfället, men livet i övrigt är fantastiskt.
+
+5
+00:00:14,119 --> 00:00:24,120
+ Härligt. Man blir lite nyfiken på att du blir sur på AI som om det vore en din fud eller så.
+
+6
+00:00:24,120 --> 00:00:27,120
+ Jag har grävat med AI om ekonomi.
+
+7
+00:01:00,000 --> 00:01:06,140
+ Det verkar inte alltid krävas jättemycket kompetens för att kasta upp något på nätet som man tar betalt för.
+
+8
+00:01:06,400 --> 00:01:15,099
+ Det är kanske anledningen till att jag är lite irriterad på AI-stort idag.
+
+9
+00:01:15,359 --> 00:01:16,640
+ Men det går säkert över.
+
+10
+00:01:16,640 --> 00:01:27,640
+ Jag fattar, det är ju också, vi hör ju till en ovanlig del av AI-nyttjarna, alltså de som typ hoppar på allt.
+
+11
+00:01:30,000 --> 00:01:38,000
+ Vi är lite som de här som klickar på alla länkar i alla mejl, så att vi kommer få göra en liten översyn.
+
+12
+00:01:38,000 --> 00:01:46,000
+ Vi försöker radera kontot på alla AI-tjänster som jag testar och försöker komma ihåg och stänga av subscription.
+
+13
+00:01:46,000 --> 00:01:49,000
+ Men vi får ta in en konsult och vi gör en översyn.
+
+14
+00:01:49,000 --> 00:01:54,000
+ Jag är ganska säker på att båda våra datorer har någon slags digital variant av Ebola, minst.
+
+15
+00:01:54,000 --> 00:01:58,099
+ Troligtvis. Har du några nyheter idag?
+
+16
+00:01:59,379 --> 00:02:00,900
+ Ja, en
+
+17
+00:02:00,900 --> 00:02:07,040
+ Lite ett sorgligt besked för vissa kanske, det är att det här företaget Humane
+
+18
+00:02:07,299 --> 00:02:12,680
+ som gjorde AI-pinnen som kom förra våren tror jag.
+
+19
+00:02:12,939 --> 00:02:17,539
+ De kastar in handduken och säljer sina kvarvarande tillgångar till HP.
+
+20
+00:02:17,750 --> 00:02:23,750
+ Just det, en AI-pin som man sätter på kroppen på något sätt och så lyssnar på allt man säger och ser allt man ser.
+
+21
+00:02:23,750 --> 00:02:34,750
+ Och jag tror att marknadsföringen har gått ut lite på att man ska göra sig kvitt sitt skärmberoende och så ska man få den här fina A-hjälpen ändå.
+
+22
+00:03:30,000 --> 00:03:36,139
+ för din första lansering eller produkt i efterhand, då har det väntat för länge med lanseraren.
+
+23
+00:03:36,400 --> 00:03:38,960
+ Så jag tror, och det är väl det vi ser också att
+
+24
+00:03:39,460 --> 00:03:41,259
+ det är helt sjuka grejer som släpps där.
+
+25
+00:03:41,520 --> 00:03:43,300
+ Och det är bara, vad åker med?
+
+26
+00:03:43,560 --> 00:03:46,379
+ Ja, verkligen. Nu kommer jag tänka på Wodler. Kommer du ihåg Wodler?
+
+27
+00:03:46,639 --> 00:03:47,139
+ Ja.
+
+28
+00:03:47,659 --> 00:03:49,960
+ Det var väl en förlaget till Netflix.
+
+29
+00:03:50,219 --> 00:03:53,300
+ Ja, exakt. En tjänst som var jättebra i det,
+
+30
+00:03:53,560 --> 00:03:54,819
+ streama video, men
+
+31
+00:04:00,139 --> 00:04:04,479
+ Tyvärr ni var lite tidigare för att folk hade fortfarande 28-8 modem.
+
+32
+00:04:04,740 --> 00:04:09,599
+ Fast den kom jag ihåg och den var inte särskilt. Jag hade en period när jag
+
+33
+00:04:09,599 --> 00:04:21,600
+ Det var jättejobbigt men då hade jag faktiskt Wodler som sällskap och jag tyckte tjänsten fungerade helt klockrent, det var bara att man hade glömt detaljerna att de måste ha bra filmer i sitt utbud.
+
+34
+00:04:30,300 --> 00:04:48,300
+ Okej men det var det men jag kommer ihåg att jag fick en sån här, jag fick en sån här förhandsinvite till Wodler och tänkte såhär fan det här kommer bli grymt men jag hade ju alldeles för dålig uppkoppling så att ja den var lite tidig men den var bra och sen så var det ett jättefult namn men okej
+
+35
+00:04:48,300 --> 00:04:53,300
+ Vi kommer väl kanske köpa ett par Metas, den här Ray-Ban Wearables.
+
+36
+00:04:53,300 --> 00:04:54,839
+ Den är ju väldigt populär.
+
+37
+00:04:55,339 --> 00:04:55,860
+ Ja.
+
+38
+00:04:56,379 --> 00:04:59,180
+ Men det kan jag uppskatta ändå
+
+39
+00:05:00,000 --> 00:05:10,000
+ Ray-Ban, skitsnygga glasögon. Att man utgår från vad folk vill ha på sig snarare än vad som går att göra.
+
+40
+00:05:10,000 --> 00:05:15,000
+ Och det märker man också att meta de försöker gå den vägen.
+
+41
+00:05:30,000 --> 00:05:49,000
+ Nu vet jag att Zuckerberg hade ju, de har den här prototypen som kostar typ hundratusen kronor att tillverka så den kommer vi inte att se men att man börjar i den ämnen såhär, okej vad vill folk ha på sig och så ser vi hur mycket teknik vi kan få in i det snarare än att vi gör asfula grejer som ingen vill ha.
+
+42
+00:05:49,000 --> 00:05:53,720
+ sluta fungerar den 28 februari så att njut de här de sista den sista veckan.
+
+43
+00:05:53,959 --> 00:06:01,959
+ Ja, men det stod att vissa funktioner kommer ändå att funka, typ som att den berättar om batteriet på ett östlut.
+
+44
+00:06:01,959 --> 00:06:06,959
+ Berättar om batteriet på väg att börja brinna, som också varit ett fall.
+
+45
+00:06:06,959 --> 00:06:12,959
+ Ja, just det. Ja, men det är värt 8 000, 7 000 bara det att ha sådant produkt.
+
+46
+00:06:12,959 --> 00:06:14,240
+ Lifesaver.
+
+47
+00:06:14,500 --> 00:06:15,519
+ Ja verkligen.
+
+48
+00:06:15,519 --> 00:06:25,920
+ Ja, men kul. Jag, min nyhet är GROCK 3 har släppts, alltså det träskmonstret GROCK.
+
+49
+00:06:25,920 --> 00:06:26,920
+ Ja.
+
+50
+00:06:30,000 --> 00:06:42,000
+ Elon Musk språkmodeller har släppt en ny variant som ska vara ungefär lika smart som de smartaste OpenAI-modellerna.
+
+51
+00:06:42,000 --> 00:06:44,000
+ Så det är det som jag har varit inne på på Mashable.
+
+52
+00:06:44,000 --> 00:06:47,000
+ Grock 3 är just as good as its rivals,
+
+53
+00:06:47,000 --> 00:06:51,000
+ but not good enough to make you cancel your chat-GPT-subscription.
+
+54
+00:06:53,000 --> 00:06:55,000
+ Så att, ja.
+
+55
+00:06:55,000 --> 00:06:57,000
+ Spännande.
+
+56
+00:06:57,000 --> 00:07:02,000
+ Jag låter kanske lite trött när jag pratar om det här,
+
+57
+00:07:02,269 --> 00:07:12,910
+ Men vi har blivit lite bortskämda för att nu finns det ju ett många jätte, jätte välfinansierade stor tech-bolag
+
+58
+00:07:30,000 --> 00:07:36,639
+ som håller på och kämpar med sina Frontier Models, som de kallas.
+
+59
+00:07:36,639 --> 00:07:41,639
+ Alltså de här modellerna som pushar gränsen för vad som är möjligt
+
+60
+00:07:41,639 --> 00:07:48,040
+ och precis hur smart en maskin kan vara typ.
+
+61
+00:07:48,040 --> 00:07:51,439
+ Men de kommer ju med nya grejer varenda vecka.
+
+62
+00:08:00,000 --> 00:08:09,000
+ Det är intressant, det känns som att de mäter olika LLM-sens intelligens
+
+63
+00:08:09,079 --> 00:08:14,199
+ genom hur svåra och komplexa mattetal de kan lösa.
+
+64
+00:08:30,000 --> 00:08:39,000
+ de är helt värdelösa på att stava rätt och sådant i bilder och där tänker jag att man
+
+65
+00:08:39,000 --> 00:08:44,000
+ skissar målet ganska mycket genom att det kanske inte är kvantfysik som folk är ute efter utan
+
+66
+00:08:44,000 --> 00:08:48,000
+ att de bara klarar det mest basala.
+
+67
+00:09:00,000 --> 00:09:05,039
+ att generera text. Och det är kommer du ihåg eller?
+
+68
+00:09:07,799 --> 00:09:10,120
+ Ja, vad hette de? De där du gjorde din logga?
+
+69
+00:09:10,740 --> 00:09:20,740
+ Nej, nej det var design.com, den var ju också bra, ja den klarade du på ett sätt, det är också på något sätt men
+
+70
+00:09:20,759 --> 00:09:28,759
+ Ideogram heter den. Ideogram. Den genererar ju, det är text i bilgenerator som fixar text också.
+
+71
+00:09:30,000 --> 00:09:41,279
+ Sedan så har vi character.ai som fixar att hålla ihop en konsekvent karaktär under en längre period.
+
+72
+00:09:41,279 --> 00:09:43,279
+ Just det.
+
+73
+00:09:43,279 --> 00:09:53,279
+ Cool för att de här två grejerna att generera text i bild och det här med karaktärer, det fixar ju inte de här Frontier Models.
+
+74
+00:10:00,000 --> 00:10:11,000
+ Klåda har ju en helt fantastisk liten funktion där man kan fånga en tonalitet genom att ladda upp texter och så där.
+
+75
+00:10:11,000 --> 00:10:16,000
+ Och den håller den i ett tag, men sen glömmer den bort det.
+
+76
+00:10:16,000 --> 00:10:22,000
+ Och så man märker, det smyger sig på bara, vänta nu, nu tycker jag inte att du har den där tonalitet som jag bad om.
+
+77
+00:10:22,000 --> 00:10:24,000
+ Den är så svendig på allmänhet.
+
+78
+00:10:30,080 --> 00:10:38,080
+ Ja men i processen så har den släppt den här karaktären då eller toleriteten.
+
+79
+00:10:38,080 --> 00:10:45,080
+ Det uppenbarligen går att fixa. Ideogram och character har ju fixat det, även om de säkert har något att göra.
+
+80
+00:10:45,080 --> 00:10:53,519
+ Det är ju väldigt intressant, vi som börjar skrapa på ytorna var ju inte alls kan så mycket på själva grundläggande tekniken.
+
+81
+00:10:53,820 --> 00:11:00,460
+ Men också det här exempelet vi har sett när vi har testat, att det är fel antal fingrar och sånt.
+
+82
+00:11:00,480 --> 00:11:10,480
+ Man tycker det borde vara en jätte enkel sak för dem att ställa in när du gör människor har fem fingrar. Gör inte sex fingrar.
+
+83
+00:11:12,159 --> 00:11:28,159
+ Nej, men det är lite konstigt och jag tror att de är så jäkla, de lägger så mycket krut på de här att utveckla nya modeller, jag fattar det för att de har ett mål och det är AGI alltså, Artificiell generell intelligens där.
+
+84
+00:11:30,000 --> 00:11:44,000
+ Och den som kommer fram dit först vinner typ, men på vägen så vore det ju kul om de inte skulle glömma oss vanliga konsumenter som vill generera fram människor med fem fingrar.
+
+85
+00:11:44,000 --> 00:11:48,000
+ Ja, med tryck på t-shirtet.
+
+86
+00:11:48,000 --> 00:11:54,139
+ Ja, det var väl nyheterna. Nu har vi batchat de storbolagen, exakt.
+
+87
+00:12:00,000 --> 00:12:06,139
+ De kan få bättre sig, jag vågar inte säga någonting då, kommer säkert förstöra mig på något sätt.
+
+88
+00:12:06,399 --> 00:12:12,539
+ Har du någon tjänst som du vill visa?
+
+89
+00:12:12,799 --> 00:12:15,360
+ Jag har en tjänst, jag vill inte visa den.
+
+90
+00:12:16,379 --> 00:12:19,460
+ Vi har ju pratat om det
+
+91
+00:12:19,960 --> 00:12:26,360
+ när man testar massa tjänster så har jag
+
+92
+00:12:27,049 --> 00:12:33,190
+ Jag upptäckte att det vore bra om det fanns motsvarande App Store för AI-tjänster
+
+93
+00:12:33,450 --> 00:12:36,769
+ som är sanktionerade av någon
+
+94
+00:12:36,769 --> 00:12:41,889
+ högre makt, ungefär som Apple eller OpenAI.
+
+95
+00:12:41,889 --> 00:12:50,090
+ För att det är så fruktansvärt lätt att skapa en AI-tjänst och bara stoppa ut den där ute.
+
+96
+00:13:00,000 --> 00:13:03,840
+ så finns det ett behov där ute för att det är så jäkla lätt att bara
+
+97
+00:13:04,100 --> 00:13:06,659
+ skapa konton och så sitter man och
+
+98
+00:13:07,179 --> 00:13:09,220
+ slösa sin tid på skittjänster
+
+99
+00:13:09,480 --> 00:13:11,259
+ vilket är lite det som jag gjort den här veckan
+
+100
+00:13:11,779 --> 00:13:13,320
+ Okej men
+
+101
+00:13:14,860 --> 00:13:20,480
+ Apropå det varför ska inte vi skapa en sån sida det är väl precis i linje med den här podden
+
+102
+00:13:20,480 --> 00:13:27,480
+ Men jag tänker så här, vi ska göra det, men vi ska göra det på ett sätt som inte tar en massa tid.
+
+103
+00:13:30,000 --> 00:13:41,000
+ Så att jag tänker att om vi har, vi gör någon bot som typ krollar alla våra avsnitt och skapar, det där borde man väl kunna fixa i laget.
+
+104
+00:13:41,000 --> 00:13:44,080
+ som inte är alltför
+
+105
+00:13:44,840 --> 00:13:49,440
+ tekniskt utmanande att göra så att vi kan skriva upp den på vår to-do-lista.
+
+106
+00:13:49,580 --> 00:13:59,580
+ Men bra, innan du, eller om det är en skitkänt, ska vi kanske skiter och visa en så kan du förklara vad du har upplevt i stället, eller?
+
+107
+00:14:00,000 --> 00:14:02,039
+ Nej, jag tycker att jag ska visa den.
+
+108
+00:14:02,299 --> 00:14:03,340
+ Du ska visa skit känns det?
+
+109
+00:14:03,340 --> 00:14:05,120
+ Ja, annars förstår man ju inte.
+
+110
+00:14:05,639 --> 00:14:09,480
+ Vi måste ju vara tydliga med vad som är skit.
+
+111
+00:14:09,720 --> 00:14:10,759
+ Nu börjar vi bli...
+
+112
+00:14:10,759 --> 00:14:19,000
+ Ja, och jag tänkte på det när jag sa att du testar den här. Man vill ju någonstans att alla tjänster ska lyckas som vi testar.
+
+113
+00:14:19,000 --> 00:14:24,200
+ Men vi testar tjänster, det är inte att vi säger att nu ska vi få alla tjänster att lyckas.
+
+114
+00:14:24,200 --> 00:14:27,200
+ Full disclosure.
+
+115
+00:14:27,200 --> 00:14:28,200
+ Exakt.
+
+116
+00:14:30,000 --> 00:14:38,000
+ innan du gör det. Så jag är väldigt nyfiken på hur din AI-index har gått, din day trading grej.
+
+117
+00:14:38,000 --> 00:14:40,000
+ Kan vi prata om det då?
+
+118
+00:14:42,000 --> 00:14:46,000
+ Full disclosure Fredrik, jag vill veta hur mycket pengar har du förlorat?
+
+119
+00:14:46,000 --> 00:15:00,000
+ Mest av det är för att min cortageklass, alltså priset man betalar för att köpa och sälja aktier, den är för dyr för de små belopp jag tjänar.
+
+120
+00:15:00,139 --> 00:15:08,139
+ Jag är inne på att byta strategi, antingen börja satsa lite mer pengar eller ligga kvar lite längre i de aktierna.
+
+121
+00:15:08,139 --> 00:15:13,000
+ Men hur mycket satte du in?
+
+122
+00:15:13,259 --> 00:15:14,019
+ 10.000
+
+123
+00:15:14,799 --> 00:15:20,179
+ Ja men det var ändå 10.000. Jag tyckte ändå att det låter ändå som en såhär
+
+124
+00:15:20,679 --> 00:15:21,700
+ Du borde kunna
+
+125
+00:15:21,700 --> 00:15:25,139
+ starta på 10 000 och göra din förmögenhet.
+
+126
+00:15:25,139 --> 00:15:28,500
+ Ja, men problemet är att jag ligger på en kortageklass
+
+127
+00:15:28,500 --> 00:15:31,820
+ som är minst 70 kronor per affär.
+
+128
+00:15:31,820 --> 00:15:37,960
+ Så du kan tänka att det behövs en ganska stadig uppgång varje dag.
+
+129
+00:15:37,960 --> 00:15:39,960
+ Vad blir det?
+
+130
+00:15:39,960 --> 00:15:45,240
+ 4,7 procent eller 0,7 procent i förlust.
+
+131
+00:15:45,240 --> 00:15:51,379
+ Det måste vara uppe på en bra bit över en procent för att det ska kännas värt att göra.
+
+132
+00:16:00,139 --> 00:16:12,139
+ Sen till AIs försvar så kan jag säga att de aktier köpt har på det stora hela gått upp men inte på den nivån att det har varit lönsamt än.
+
+133
+00:16:12,139 --> 00:16:14,139
+ Alltså, det här kan ju jag ändra.
+
+134
+00:16:14,139 --> 00:16:16,139
+ Okej, jag skulle kunna fixa så att jag har liksom en...
+
+135
+00:16:16,139 --> 00:16:21,139
+ men vi ska inte fastna i en cortage-diskussion, men det kan man ju ställa in också.
+
+136
+00:16:30,000 --> 00:16:39,000
+ Men du har alltså betalat, vad blir det då, sju dagar gånger 70 spänn, så 490 spänn i kortage.
+
+137
+00:16:39,000 --> 00:16:41,000
+ Ja, precis.
+
+138
+00:17:00,000 --> 00:17:05,000
+ Full disclosure. Okej, visa din dåliga AI-tjänster.
+
+139
+00:17:05,160 --> 00:17:09,680
+ Men ja, jag kan bara börja med att berätta vad det är för tjänst.
+
+140
+00:17:09,839 --> 00:17:13,799
+ Det är för folk som är väldigt stressade.
+
+141
+00:17:13,960 --> 00:17:18,359
+ De har många grejer som ligger varje dag som de måste ta tag i.
+
+142
+00:17:18,359 --> 00:17:19,900
+ Kan du känna igen dig det här Magnus?
+
+143
+00:17:20,160 --> 00:17:22,960
+ Att det var ett stort mål av skit du måste göra.
+
+144
+00:18:00,000 --> 00:18:10,000
+ Jag brukar vara duktig på gin och yang och det här, men jag har haft sjuka barn, det var framförallt det som förstör min planering lite granna.
+
+145
+00:18:10,000 --> 00:18:13,000
+ Jag kan ändå fatta.
+
+146
+00:18:13,000 --> 00:18:20,789
+ Ja, den känns som jag testat heter Before Sunset.
+
+147
+00:19:00,000 --> 00:19:06,400
+ en liten kund. Det här med mer om Anything LLM som är ett coolt en coolt tjänst.
+
+148
+00:19:06,400 --> 00:19:10,400
+ Sedan skickar jag fakturor och sedan så har jag skrivit på svenska förberedd föreläsning om AI.
+
+149
+00:19:10,400 --> 00:19:18,400
+ Och så har jag lite personliga saker. Jag och Magnus ska åka till fjällen så jag ska förbereda en handlingslista.
+
+150
+00:19:18,400 --> 00:19:26,400
+ Jag ska hjälpa ungarna med läxor och laga mat och så ska jag träna. Det är det jag ska hinna med idag i tanken.
+
+151
+00:19:26,799 --> 00:19:36,799
+ Och hur kommer du och AI in i det här? Det här bygger lite på att det är en massa to-do's som jag inte har en fast tid för.
+
+152
+00:19:36,799 --> 00:19:38,799
+ Okej.
+
+153
+00:19:38,799 --> 00:19:49,799
+ Smart balance och batch similar, det är att man parar ihop liknande uppgifter och sen task variety, switch between different tasks.
+
+154
+00:19:49,799 --> 00:19:55,799
+ Jag kan ta batch similar och klicka på den. Då ser vi att Ayn jobbar här.
+
+155
+00:19:55,799 --> 00:20:01,940
+ Vilken trevlig liten animering som kom där, det liksom spretter iväg någonting, ja.
+
+156
+00:20:01,940 --> 00:20:07,319
+ Och då ser vi att då har AR en tagsfrihet att planera exakt i vilken ordning jag ska göra här.
+
+157
+00:20:12,269 --> 00:20:15,089
+ Så det här är alltså en sorteringsapp.
+
+158
+00:20:15,089 --> 00:20:22,089
+ Den sorterar dina to-do's på ett sätt som är lite oklart, men okej.
+
+159
+00:22:30,000 --> 00:22:45,000
+ Det här livet är ju sällan så här, som vet att man kan koppla den här mot sin egen kalender och så vidare, så att fasta inbokningar i kalendern, då fattar den att den ska planera runt dem och så vidare.
+
+160
+00:22:45,000 --> 00:22:51,000
+ Men sen ska jag visa en sista funktion här också, som jag tyckte var lite rolig.
+
+161
+00:22:51,000 --> 00:22:54,000
+ Focus with Oasis.
+
+162
+00:22:54,000 --> 00:22:56,000
+ Vad är det då?
+
+163
+00:22:56,000 --> 00:23:02,000
+ Då kommer jag istället för att se hela flödet och blir alldeles stressad så kan jag få bara den här checklistan.
+
+164
+00:23:30,000 --> 00:23:41,759
+ Om man ska dela in tjänster i nice to have och neat to have så är det väl det här, det är så mycket nice to have, om det ens är nice to have som sagt.
+
+165
+00:23:41,759 --> 00:23:47,900
+ Jag tänkte säga en tredje kategori här, not nice. Jag tycker det här verkar
+
+166
+00:23:48,160 --> 00:23:48,920
+ Sortera in där
+
+167
+00:23:49,440 --> 00:23:52,259
+ Ja, och nu ska inte vi
+
+168
+00:24:00,000 --> 00:24:04,000
+ trampa stressade folk på tårna som verkligen går igång på det här.
+
+169
+00:24:04,000 --> 00:24:08,000
+ Ja, det här behöver jag. Men om det är någon som gillar det här,
+
+170
+00:24:08,000 --> 00:24:12,000
+ gå in och skaffa tjänsten och återkoppla den till mig sen
+
+171
+00:24:12,000 --> 00:24:21,220
+ att det var en snygg UX på den sidan. Det tycker jag med. De hade en bra UX-designer så det tyckte jag var något positivt.
+
+172
+00:24:22,230 --> 00:24:26,829
+ Bra, lyckades du avsluta abonnemanget?
+
+173
+00:24:26,829 --> 00:24:31,829
+ Det ska jag göra nu. Det har ändå kostat mig 120 kr.
+
+174
+00:24:31,829 --> 00:24:36,619
+ Ja okej, härligt.
+
+175
+00:24:37,859 --> 00:24:40,220
+ Fredrik kan du fixa din mick.
+
+176
+00:24:40,880 --> 00:24:42,180
+ Bara så att den...
+
+177
+00:24:42,549 --> 00:24:44,049
+ Ja, yes.
+
+178
+00:25:00,000 --> 00:25:10,000
+ lösningar för ett gäng som man ska hålla. Och då gick jag igenom såhär allt jag vet om chat-KPT typ och kom på att säga
+
+179
+00:25:10,000 --> 00:25:17,000
+ men jag kan rätt mycket om hur det funkar och jag vet vissa trix som
+
+180
+00:25:18,000 --> 00:25:22,000
+ ganska eller som kanske inte alla vet. Så jag tänkte börja med eftersom vi har
+
+181
+00:25:22,000 --> 00:25:27,319
+ så många lyssnare nu för tiden och alla är väl på olika nivå men men jag tänkte i
+
+182
+00:25:30,000 --> 00:25:33,759
+ i alla fall delar med mig av fem snabba om chat-klippet ger till att börja med.
+
+183
+00:26:01,579 --> 00:26:18,579
+ Okej, den första grejen som jag har, det är egentligen att chat-QPT kan skapa Excel och PowerPoint, alltså filerna.
+
+184
+00:26:18,579 --> 00:26:24,220
+ Och så ofta kanske att GPD skapar det mesta att spara i Word eller PDF.
+
+185
+00:26:24,720 --> 00:26:27,799
+ Så det är en ganska bra grej att tjäna till.
+
+186
+00:26:28,059 --> 00:26:29,579
+ Blir det bra också?
+
+187
+00:26:31,380 --> 00:26:33,420
+ Kan man inte riktigt säga?
+
+188
+00:26:34,400 --> 00:26:36,400
+ Jag gjorde en...
+
+189
+00:26:36,400 --> 00:26:38,400
+ Okej.
+
+190
+00:26:38,400 --> 00:26:40,400
+ Nu blev det något knas här.
+
+191
+00:26:40,400 --> 00:26:50,400
+ Jag gjorde en liten fråga, jag sa till den att skapa en presentation med två bilder om AGi.
+
+192
+00:26:50,400 --> 00:27:03,400
+ Och det den gör då, eftersom den är textmodell till att börja med, så då beskrev den såhär, bild 1, vad är AI, och sen så säger den bildinnehåll och speaker notes.
+
+193
+00:27:30,000 --> 00:27:33,559
+ Man får göra resten själv.
+
+194
+00:27:33,559 --> 00:27:41,279
+ Det är som att du skulle ha en 14-årig Prao-lev som du ber göra en PowerPoint.
+
+195
+00:28:00,000 --> 00:28:08,000
+ om du nu vill jobba med det. Så då kan man liksom gå in och lägga till, göra om de här på olika sätt.
+
+196
+00:28:08,000 --> 00:28:13,000
+ Men visste du testat Kandas integration mot ChatKPT också?
+
+197
+00:28:13,000 --> 00:28:23,000
+ Ja precis, den är inte jättebra kan jag säga, så att den vill jag inte presentera här.
+
+198
+00:28:30,180 --> 00:28:47,180
+ Sen så som du ser här så bad jag den skapa en bild som inspireras av detta i renässansstil och jag tycker inte DALL-E, alltså chatkriptesbildgenereringsfunktion, är speciellt bra för att vara ärlig.
+
+199
+00:29:00,000 --> 00:29:04,599
+ Och då kan det vara bra eftersom det är svårt att reda fram bra bilder.
+
+200
+00:29:05,380 --> 00:29:08,180
+ Kan det vara bra att veta att om man klickar på en bild så här
+
+201
+00:29:08,700 --> 00:29:11,779
+ så nu klickar jag på den, då kommer den upp i ett lite annat läge.
+
+202
+00:29:12,039 --> 00:29:13,819
+ Och då finns det en liten
+
+203
+00:29:14,160 --> 00:29:19,519
+ en liten ikon som ser ut som en pensel med en pil runt
+
+204
+00:29:19,519 --> 00:29:21,839
+ och väljer man den
+
+205
+00:29:21,839 --> 00:29:27,980
+ Då kan man faktiskt gå in och prompta om bara en liten grej.
+
+206
+00:29:30,019 --> 00:29:41,539
+ Om jag vill säga att jag vill byta ut den här mot en groda, byt ut denna mot en groda skriver jag.
+
+207
+00:29:41,539 --> 00:29:42,819
+ funkar i Photoshop nu egentligen.
+
+208
+00:29:44,599 --> 00:29:45,880
+ Ja exakt, exakt.
+
+209
+00:29:45,960 --> 00:29:59,259
+ Sen så tror jag eventuellt att Photoshop ser lite bättre, men då ska vi se, och ja.
+
+210
+00:29:59,259 --> 00:30:02,259
+ Den jobbar eller vad händer?
+
+211
+00:30:02,259 --> 00:30:05,259
+ Jag tycker inte att jag ser att den jobbar ens.
+
+212
+00:30:05,470 --> 00:30:09,390
+ Försöker jag?
+
+213
+00:30:10,849 --> 00:30:24,769
+ Och då jobbar den här och nu ska de byta ut roboten mot en groda och det gjorde han som du ser.
+
+214
+00:30:24,769 --> 00:30:26,769
+ Men han har också gjort an hela bilden.
+
+215
+00:30:30,000 --> 00:30:49,000
+ Det tänkte jag försvara chat-klippeterat, den gjorde precis tvärtom mot vad den gjorde, skitsamma, nu får de skämmas i chat-klippeterat, men den funkar ibland, alltså den funkar säkert hälften av gångerna, så att den finns det i alla fall.
+
+216
+00:30:49,000 --> 00:30:55,140
+ På tal om att hålla karaktär i längre tid.
+
+217
+00:30:56,420 --> 00:30:57,440
+ Ja exakt.
+
+218
+00:30:58,220 --> 00:30:59,740
+ Med tanke på hur
+
+219
+00:31:00,180 --> 00:31:11,180
+ Hur mycket pengar de har lagt i det här så är det ändå rätt ofta. Man får ju vara ganska snäll och gulla lite med chatkripte ibland för att det ska bli som man vill.
+
+220
+00:31:11,180 --> 00:31:18,180
+ Men okej, där kan man göra. Ni får testa själva.
+
+221
+00:31:30,000 --> 00:31:40,000
+ Du kan välja olika modeller. Sam Altman har ju sagt att de hatar den, alltså jag hatar den också.
+
+222
+00:31:40,000 --> 00:31:44,000
+ Varför ska jag behöva välja modeller? Kan den inte göra det själv på ett sätt?
+
+223
+00:31:44,000 --> 00:31:47,000
+ Det kommer i nästa release tror jag.
+
+224
+00:31:47,000 --> 00:31:50,319
+ Att den automatiskt fattar vilken modell som är bäst för prompten.
+
+225
+00:31:50,579 --> 00:31:53,920
+ Ja, den kommer att försvinna under säkert det här halvåret.
+
+226
+00:31:54,349 --> 00:32:00,349
+ Chatt-GPT 4.0 med schema-lagda aktiviteter, det kanske vi har gått igenom i borg.
+
+227
+00:32:00,349 --> 00:32:06,609
+ Men bara lite snabbt, man kan då be chat-KPT påminna en om olika saker.
+
+228
+00:32:30,000 --> 00:32:44,000
+ Ja exakt. Och sen det här är också så här, för oss så är det här superbasic, men det är nog inte det för alla märkte jag när jag presenterade det här sist, men du kan också ladda upp filer.
+
+229
+00:33:00,140 --> 00:33:08,140
+ Så du kan ladda upp en lokalfil, ladda upp en bild på dig, ingenting funkar med chatkapitet nu.
+
+230
+00:33:08,140 --> 00:33:14,140
+ Du kan ladda upp ett PDF-dokument och be den göra saker med det.
+
+231
+00:33:14,140 --> 00:33:20,140
+ Samma ställe som Excel eller fråga om dokumentets innehåll och sådär.
+
+232
+00:33:20,140 --> 00:33:28,140
+ Jag är precis som AI, jag klarar inte av fem, fyra eller sex.
+
+233
+00:33:28,140 --> 00:33:33,900
+ Okej, fyra tips. Okej, men jag säger ett tips till då, så att det blir fem.
+
+234
+00:33:33,900 --> 00:33:39,220
+ Då kan jag nämligen skriva det i podden eller beskrivningen.
+
+235
+00:33:39,220 --> 00:33:42,619
+ Okej, mitt tips, nästa tips, det är det här.
+
+236
+00:34:30,000 --> 00:34:39,000
+ hur ska Chatt-GPT tilltala dig och sådär, så man kan, det kan man skriva i här.
+
+237
+00:34:39,000 --> 00:34:48,000
+ Och här kan man också, här kan man också hitta Chatt-GPTs minne under inställningar
+
+238
+00:34:48,000 --> 00:34:59,280
+ och nu ska vi se, anpassning och minne. Så hantera minnen och som du ser
+
+239
+00:34:59,280 --> 00:35:05,280
+ har Chatt-GPT lärt sig en hel del av mig här under de åren som jag använt det
+
+240
+00:35:05,280 --> 00:35:09,539
+ Men, men, vi får kärta.
+
+241
+00:35:09,539 --> 00:35:13,539
+ Has an interest in hummingbirds.
+
+242
+00:35:19,539 --> 00:35:21,539
+ Okej, här kan man i alla fall...
+
+243
+00:35:21,539 --> 00:35:25,539
+ Vi ska gå in på incognito-mode när vi ska chocka upp det här.
+
+244
+00:36:27,000 --> 00:36:31,000
+ Men jag kommer sammanfattare till fem när jag sammanfattar det här sen.
+
+245
+00:36:31,000 --> 00:36:35,000
+ Det är skönt att jag kan dra ner dig i min AI-blues idag också.
+
+246
+00:36:35,000 --> 00:36:40,000
+ Ja, exakt. Sluta med det. Nu ska jag visa något riktigt coolt här.
+
+247
+00:36:40,269 --> 00:36:48,269
+ Jag försökte hitta den som verkade bäst, och den heter då alltså Deep Nostalgia.
+
+248
+00:36:48,269 --> 00:36:50,269
+ Oh, hit me baby.
+
+249
+00:36:50,349 --> 00:36:56,349
+ Deep nostalgia AI, turn old photos into videos, bring image to life.
+
+250
+00:36:57,449 --> 00:37:00,769
+ Så att jag gick in, här får man också pröjsa först.
+
+251
+00:37:01,030 --> 00:37:03,849
+ Jag tror att det kan ha varit den där jag testade.
+
+252
+00:37:03,960 --> 00:37:07,960
+ Det ska bli jättespännande att se om den är bättre än den jag gjorde.
+
+253
+00:37:07,960 --> 00:37:13,840
+ Jag tog ett basic abonnemang, 15,90 dollar per månad.
+
+254
+00:37:30,000 --> 00:37:39,280
+ Det där vill man inte ens lära sig av, så där vill man inte ha det.
+
+255
+00:37:39,280 --> 00:37:43,280
+ Här finns det lite olika grejer.
+
+256
+00:37:43,280 --> 00:37:59,280
+ Free tools, magic tools, alltså free tools det är såhär, gör ditt foto bättre. Enhanced photo, du kan skapa färger till svartvita foton och sådant där, jag har inte testat dem.
+
+257
+00:37:59,869 --> 00:38:06,789
+ Sedan har vi magic tools och här finns det lite olika grejer. Det finns väldigt mycket olika tools här i alla fall.
+
+258
+00:38:30,000 --> 00:38:36,000
+ Så jag har faktiskt gjort lite olika som jag tänkte demonstrera nu faktiskt.
+
+259
+00:38:36,000 --> 00:38:41,000
+ Och för er som lyssnar så är det här en videopod som finns på Spotify.
+
+260
+00:38:41,000 --> 00:38:44,000
+ Vi finns på alla andra plattformar också, men då är det bara audio.
+
+261
+00:38:44,500 --> 00:38:56,000
+ Så för er som sitter i bilen nu, då kommer det här. Ni får skip forward om ni vill, för nu kommer en del video här, men vi ska försöka förklara sig i bästa förmåga.
+
+262
+00:38:56,000 --> 00:39:03,519
+ Så jag skriver här my videos, eller klicka på den, och här har jag nu rätt många videos.
+
+263
+00:39:04,750 --> 00:39:14,750
+ Så då började jag ju med de uppenbara, alltså jag har ju ganska gamla släktingar, eller de finns ju inte längre, de som är föddes på 1800-talet och så där.
+
+264
+00:39:14,960 --> 00:39:22,960
+ Men jag hade en väldigt gammal pappa så att min farfar han föddes typ så här på 1800, han föddes typ så här 1875.
+
+265
+00:39:23,300 --> 00:39:30,300
+ Så det finns ju bara bilder, svartfintar var såklart.
+
+266
+00:39:30,730 --> 00:39:38,730
+ Så att jag började egentligen med att, här är en bild på min farfar när han står 1919 i Brasilien.
+
+267
+00:39:38,730 --> 00:39:45,730
+ Ja, verkligen. Han står vid en stor trappa. Jag tror att han bodde i det där huset.
+
+268
+00:39:45,730 --> 00:39:48,730
+ Det känns som om Mussolini skulle kunna bo där.
+
+269
+00:39:48,840 --> 00:39:55,840
+ Ja verkligen, verkligen, han var well off, duktig på det han gjorde tror jag.
+
+270
+00:40:30,000 --> 00:40:50,300
+ Och sen så, jag borde ju visa det också, jag visar det här, så att man droppar en bild sådär, den får vara max 4,5 MB, vilket var ett problem och det måste vara JPG, PNG, alltså de vanliga.
+
+271
+00:40:50,300 --> 00:40:56,300
+ Det får alltså inte vara HAKE, som är det filnamnet som...
+
+272
+00:40:56,300 --> 00:40:58,300
+ Vad gör vi ens här under?
+
+273
+00:40:58,300 --> 00:41:05,980
+ Så du kan göra fem sekunder eller tio sekunder, så det är ganska straightforward.
+
+274
+00:41:05,980 --> 00:41:12,119
+ Så att jag hoppar tillbaka till mina videos och så ska du få se min gamla farfar komma
+
+275
+00:41:13,659 --> 00:41:16,219
+ Come to life, så jag klickar på play nu
+
+276
+00:41:16,619 --> 00:41:22,849
+ Och då ser du, att, ja vad var det du såg?
+
+277
+00:41:22,849 --> 00:41:26,849
+ Jag kommer att köra igen, för jag såg väldigt hackigt.
+
+278
+00:41:30,349 --> 00:41:34,349
+ Just det. Vad gör han där med sin hatt?
+
+279
+00:41:34,349 --> 00:41:37,929
+ Han stoppade in ett papper och var på hatten.
+
+280
+00:41:38,190 --> 00:41:42,030
+ Som är en ganska vanlig förutsättning 1920.
+
+281
+00:41:42,139 --> 00:41:44,139
+ Ja, verkligen.
+
+282
+00:41:44,139 --> 00:41:46,139
+ Det var lite kul. Han rörde sig.
+
+283
+00:41:46,139 --> 00:41:50,139
+ Han bild på min farmor som sitter och spelar piano.
+
+284
+00:41:50,139 --> 00:41:52,139
+ Och...
+
+285
+00:41:52,960 --> 00:41:56,239
+ Det blir fint, eftersom jag sitter här.
+
+286
+00:41:56,239 --> 00:41:59,119
+ Så att nu så sätter jag igång den här.
+
+287
+00:42:01,599 --> 00:42:03,599
+ Det där var ju coolt.
+
+288
+00:42:03,710 --> 00:42:09,989
+ Det är coolt, men det är inte absolut som i farmor.
+
+289
+00:42:09,989 --> 00:42:17,190
+ Nej, det började, jag vet inte, kanske, men inte, nej, till slut så blev hon ju någon slags, hon blev asiatisk i slutet.
+
+290
+00:42:17,190 --> 00:42:25,190
+ Det var väl det som hände när jag testade den här tjänsten förut, att jag skickade upp på min gammel gammel mormor
+
+291
+00:42:25,190 --> 00:42:30,989
+ Och så blev det så här att hon fick någon slags nästan nazist-symboler och så var det en helt annan kvinna.
+
+292
+00:42:30,989 --> 00:42:34,190
+ Ja, just det. Men jag tycker ändå att den har blivit bättre.
+
+293
+00:42:34,190 --> 00:42:36,190
+ Ja, men verkligen.
+
+294
+00:42:36,190 --> 00:42:42,329
+ Om vi kollar här, det här är från när mina föräldrar gifte sig.
+
+295
+00:42:46,469 --> 00:42:48,469
+ Jag tycker det där är coolt.
+
+296
+00:42:48,469 --> 00:42:50,469
+ Det där är coolt.
+
+297
+00:42:50,469 --> 00:42:52,469
+ Man ser att det är nisser.
+
+298
+00:42:52,469 --> 00:42:58,869
+ Precis, han förvandlas ju litegrann till Cornelius Friesvik här när han vände sig om.
+
+299
+00:42:58,869 --> 00:43:05,010
+ Men jag tyckte också att det här är häftigt. Jag har inte skickat det till min mamma, jag vågar inte riktigt.
+
+300
+00:43:30,000 --> 00:44:00,000
+ Och här är en bild på min farfar och min pappa och hans syskon som sitter på en flotte i skön Ullvättern, 30-tal jag har någonting och ja det blir ju, det är coolt och vattnet är ju fantastiskt, man ser hur det glittrar och så att det här var ju, det här var ju coolt, sen så lyckades jag inte hela tiden, utan det här var ju
+
+301
+00:44:00,000 --> 00:44:08,000
+ Make the two people in the photo hug each other, och jag har ju sett exempel på det på Instagram och så där.
+
+302
+00:44:08,429 --> 00:44:14,929
+ Och det är ju jättefin funktion om man får dem funka. För här är en bild på min pappa och sen en bild på min son.
+
+303
+00:44:14,929 --> 00:44:20,429
+ Och de har aldrig träffats. För min pappa dog ju innan min äldsta son föddes.
+
+304
+00:44:30,000 --> 00:44:36,679
+ Och då kan man liksom, enligt den här ska man ju kunna få dem att kramas då.
+
+305
+00:44:36,679 --> 00:44:41,679
+ Så att jag laddar upp två bilder och sen så trycker jag på play.
+
+306
+00:44:41,679 --> 00:44:50,170
+ Kommer en annan man och kramar en insåd? Det var inte riktigt det du var ute efter.
+
+307
+00:45:00,000 --> 00:45:10,449
+ alls. Sen så gav jag upp där. Men sen så fanns det en
+
+308
+00:45:10,449 --> 00:45:15,489
+ kyss-funktion. Make the two people in the picture kiss.
+
+309
+00:45:15,489 --> 00:45:19,489
+ Det var lite svårt att hitta bilder som inte var hejk, så jag be om ursäkt.
+
+310
+00:45:19,489 --> 00:45:22,489
+ Det här var den enda jättemycket bild vi hade på dig.
+
+311
+00:45:22,489 --> 00:45:24,489
+ Men när vi tör ju hit...
+
+312
+00:45:24,489 --> 00:45:27,289
+ Jag ska anläggna det här så att man vet
+
+313
+00:45:27,289 --> 00:45:29,289
+ Jag hittar ju skitsnygg bild på mig.
+
+314
+00:45:29,289 --> 00:45:31,289
+ Som inte alls är agenererad, eller?
+
+315
+00:46:00,000 --> 00:46:02,320
+ Och sedan så bredvid Fredrik var jag en bild på mig.
+
+316
+00:46:02,320 --> 00:46:08,559
+ Och sedan så vände jag mig om och sedan så dyker upp en man i min bild och som jag, som jag drar kyssor.
+
+317
+00:46:11,840 --> 00:46:21,840
+ Men det måste man ändå säga, alltså rörelsen där du vänder dig, den är bra.
+
+318
+00:46:21,840 --> 00:46:25,840
+ Det är ju jag. Sådär ser jag ut.
+
+319
+00:46:25,840 --> 00:46:33,360
+ Okej, jag vill nog inte titta på när jag kyssar den här okända mannen, det är ju dig som jag har tänkt att vi skulle se.
+
+320
+00:46:33,360 --> 00:46:34,900
+ Ja, nu är det mig du som vill kyssta.
+
+321
+00:46:35,239 --> 00:46:44,239
+ Ja exakt, jag tänkte att man skulle kunna ladda upp tjejer där men det blir lite problematiskt då med rörlig bild när man kyssrar en tjej som inte är sin fru då.
+
+322
+00:46:44,239 --> 00:46:50,239
+ Så jag håller mig till dig och mig.
+
+323
+00:46:50,239 --> 00:46:52,019
+ Det är fri jakt på mig så att säga.
+
+324
+00:46:54,340 --> 00:46:55,360
+ Sådär, nu...
+
+325
+00:46:55,619 --> 00:46:56,639
+ Nu testar vi igen.
+
+326
+00:46:57,389 --> 00:47:01,389
+ Men det där har de, tycker jag.
+
+327
+00:47:02,809 --> 00:47:04,809
+ Det där var det inte va?
+
+328
+00:47:04,809 --> 00:47:11,210
+ Den där, det såg inte ut som på exemplen, men det är väldigt...
+
+329
+00:47:12,150 --> 00:47:20,150
+ Det är kanske ingen scen, eller ingen kyss jag skulle använda när det är en slutscen i en Hollywoodfilm.
+
+330
+00:47:30,000 --> 00:47:34,360
+ Men ja, vardagsrealism är väl
+
+331
+00:47:34,599 --> 00:47:39,480
+ från sätt att vi befinner oss i olika miljöer som inte riktigt lyckas gifta ihop.
+
+332
+00:47:39,719 --> 00:47:44,840
+ Nej, men det ändå lyckas på lite granna. Så det jag tyckte...
+
+333
+00:48:30,000 --> 00:48:35,250
+ Jag får skit för att jag är djurplågare av mina barn, okej.
+
+334
+00:48:35,250 --> 00:48:43,190
+ Men sen så fortsätter jag med ninjaversionen av det här
+
+335
+00:48:43,190 --> 00:48:45,190
+ så jag tänkte att min farfar skulle bli ninja.
+
+336
+00:48:45,190 --> 00:48:47,190
+ Ja, coolt.
+
+337
+00:49:00,050 --> 00:49:19,340
+ Ja, det ser ut såhär, så att han går från att stå vid sin stora trappa där till att bli någon slags kung fu champion från Japan.
+
+338
+00:49:19,340 --> 00:49:21,380
+ av alla som var med på Svenska Examen.
+
+339
+00:49:21,380 --> 00:49:32,250
+ Ja, det blir inte jättebra, men det är roligt att se folk som slåss, så där var väl kanske en topp.
+
+340
+00:49:33,639 --> 00:49:37,400
+ Och sen slutligen då då, så har jag en fin bild på dig här.
+
+341
+00:49:37,400 --> 00:49:39,400
+ Nu var jag ju därifrån.
+
+342
+00:50:00,000 --> 00:50:02,000
+ Såg du det eller?
+
+343
+00:50:02,000 --> 00:50:05,000
+ Nej, den hänger inte i till mer.
+
+344
+00:50:05,000 --> 00:50:08,699
+ Du får nu köra igen.
+
+345
+00:50:08,699 --> 00:50:12,199
+ Okej.
+
+346
+00:50:12,199 --> 00:50:16,570
+ Men nu ser jag bara en bild på dig.
+
+347
+00:50:16,570 --> 00:50:18,570
+ Okej.
+
+348
+00:50:30,000 --> 00:50:32,000
+ Jag vet inte om du ser det här.
+
+349
+00:50:32,000 --> 00:50:34,000
+ Nu ser jag det.
+
+350
+00:50:34,000 --> 00:50:36,000
+ Jag ser ungefär.
+
+351
+00:50:36,000 --> 00:50:38,000
+ Och jag har helt andra tänder än vad jag hör.
+
+352
+00:50:38,000 --> 00:50:40,000
+ Såklart.
+
+353
+00:50:40,000 --> 00:50:42,000
+ Du blir en helt annan människa.
+
+354
+00:50:44,000 --> 00:50:46,000
+ Så det var väl egentligen det.
+
+355
+00:50:46,019 --> 00:50:48,019
+ Kan ni gå in här?
+
+356
+00:50:48,639 --> 00:50:56,059
+ Lätt värt tycker jag, 180 spänn, att få se dem här. Det är ju ändå folk som har försvunnit från den här världen.
+
+357
+00:51:00,000 --> 00:51:18,000
+ Som en sån här tjänst, jag vet inte om jag har pratat om det i podden, men ett problem som majoriteten av alla AI-tjänster har är ju churn, att de har inga problem att få folk som signar upp, men stannar du månad två i en sån här tjänst vann du på hjärtat?
+
+358
+00:51:18,619 --> 00:51:20,619
+ Nej, nej aldrig. Jag har redan sagt det upp.
+
+359
+00:51:20,619 --> 00:51:22,619
+ Hoppas jag.
+
+360
+00:51:24,619 --> 00:51:26,619
+ Så att, ja det hade jag inte.
+
+361
+00:51:30,000 --> 00:51:33,059
+ skillnader i framtiden att man slutar med de här
+
+362
+00:51:33,840 --> 00:51:34,860
+ subscription modellerna
+
+363
+00:51:35,119 --> 00:51:36,400
+ och betalar på ett annat sätt?
+
+364
+00:51:39,619 --> 00:51:45,760
+ Jag tror, det brukar alltid, jag tycker alltid man brukar se det till att ta typ flygbranschen. Kommer du ihåg när
+
+365
+00:51:45,760 --> 00:51:53,760
+ SAS erbjöd inte enkelresor, de var tvungna att boka tur och retur.
+
+366
+00:52:00,000 --> 00:52:10,000
+ Men jag tycker liksom alla affärsmodeller som inte tänker på kunden i första hand, där det bara är såhär oförståeligt varför man skulle betala, ha det här som en SAS-tjänst liksom.
+
+367
+00:52:30,000 --> 00:52:32,559
+ Bra tjänst för att skapa AI-avatarier.
+
+368
+00:52:33,579 --> 00:52:36,400
+ Och jag brukar ju alltid gå in och titta på
+
+369
+00:52:36,659 --> 00:52:38,699
+ Labs. Både Hagen och
+
+370
+00:52:38,960 --> 00:52:41,780
+ Eleven Labs har något som heter Labs eller Studio
+
+371
+00:52:42,039 --> 00:52:47,400
+ där man kan hitta deras nya beta-grejer som de
+
+372
+00:52:47,659 --> 00:52:48,679
+ håller på att testa.
+
+373
+00:52:48,949 --> 00:52:57,949
+ Och då fanns det, vi har ju testat Interactive Avatar där du träffar en avatar.
+
+374
+00:52:57,949 --> 00:52:59,949
+ Det var där utanför Vivica typ.
+
+375
+00:52:59,949 --> 00:53:03,949
+ Ja, just det. Som Zoom-möte medan sådär.
+
+376
+00:53:04,960 --> 00:53:06,960
+ Hej Magnus!
+
+377
+00:53:30,460 --> 00:53:32,460
+ Låt oss prata om det.
+
+378
+00:53:32,460 --> 00:53:56,130
+ Det var ganska roligt, men då såg jag en ny funktion igår, Videopodcast, så lite snyggare uttal sådär och då klickar man på den ändå, då skickar man in en pdf här bara.
+
+379
+00:54:00,000 --> 00:54:03,059
+ Alltså vad var det som hände och sånt där?
+
+380
+00:54:03,320 --> 00:54:06,139
+ Alltså vad var det som hände?
+
+381
+00:54:11,000 --> 00:54:12,280
+ Men
+
+382
+00:54:13,059 --> 00:54:14,599
+ Jag laddar upp den
+
+383
+00:54:14,599 --> 00:54:19,079
+ och då får man välja vilken avatar man vill använda sig av.
+
+384
+00:54:19,079 --> 00:54:22,139
+ Man kan inte använda sin egen än så länge.
+
+385
+00:54:23,679 --> 00:54:24,699
+ Vill du...
+
+386
+00:54:24,780 --> 00:54:29,780
+ Jag har fixat två videopodcasts, en på svenska och en på engelska. Du får höra den på svenska först då.
+
+387
+00:54:29,780 --> 00:54:30,780
+ Ja, vad kul.
+
+388
+00:54:31,340 --> 00:54:34,900
+ Väldigt. Då kör vi.
+
+389
+00:54:34,900 --> 00:54:41,619
+ Alltså, har du hört om Magnus Powes och hans oh shit-ögonblick? Berätta mer.
+
+390
+00:54:41,619 --> 00:54:44,960
+ Nej, faktiskt inte. Nej, faktiskt inte. Berätta mer.
+
+391
+00:54:44,960 --> 00:54:51,099
+ Jo, han satt på sitt kontor i Värmland, hade precis lanserat sin textplattform och så släpper OpenAI-chat-GPT.
+
+392
+00:54:51,630 --> 00:54:53,670
+ Det vände upp och ner på allt för honom.
+
+393
+00:54:53,670 --> 00:54:56,489
+ Oj, det måste ha känts som en rejäl kalldusch.
+
+394
+00:54:56,750 --> 00:54:58,789
+ Ja, verkligen. Men han gav inte upp.
+
+395
+00:54:58,789 --> 00:55:03,389
+ Istället han pivotade och integrerade AI-N i sin tjänst. Det kräver mod.
+
+396
+00:55:03,389 --> 00:55:07,389
+ Imponerande. Jag tvekade han inte. Det måste ha varit en risk.
+
+397
+00:55:07,389 --> 00:55:14,050
+ Jo, säkert. Men det är som att stå på stranden och se en tsunami komma mot en. Man kan inte ignorera det.
+
+398
+00:55:14,309 --> 00:55:15,070
+ Nej, sant.
+
+399
+00:55:15,070 --> 00:55:17,789
+ Men många är rädda för att AI ska ta deras jobb.
+
+400
+00:55:17,789 --> 00:55:24,510
+ Absolut, men det är som med alla teknologiska språng, vi förlorade hästskötare men fick bilmekaniker.
+
+401
+00:55:24,510 --> 00:55:26,809
+ Bra poäng, men tror du alla kan anpassa sig?
+
+402
+00:55:26,809 --> 00:55:28,809
+ Det är en utmaning.
+
+403
+00:55:28,809 --> 00:55:32,090
+ Kanske är det vårt ansvar att hjälpa varandra att utvecklas.
+
+404
+00:55:32,090 --> 00:55:33,630
+ Men kreativiteten då?
+
+405
+00:55:33,710 --> 00:55:36,710
+ Om Ari kan skapa konst och musik, varför kallar du det?
+
+406
+00:56:00,780 --> 00:56:10,780
+ Men svenskan är lite konstig, och kadensen, de har verkligen inte lyckats med det som Google har lyckats med i Notebook.
+
+407
+00:56:10,780 --> 00:56:17,780
+ Det här med att det verkligen låter som en podcast. Det här är inte framme alls, men det är ju väldigt underhållande.
+
+408
+00:56:30,000 --> 00:56:34,239
+ samma fil. Så vi kör igång.
+
+409
+00:56:34,800 --> 00:56:39,320
+ Så har du noterat hur AI just kind of exploded
+
+410
+00:56:39,320 --> 00:56:40,320
+ onto the scene lately?
+
+411
+00:56:41,400 --> 00:56:43,559
+ It's like we went to sleep and woke up in a new world.
+
+412
+00:56:43,960 --> 00:56:45,599
+ Absolut. It's been quite a ride.
+
+413
+00:56:45,599 --> 00:56:48,960
+ Vad är ditt största uttryck från den här plattformen?
+
+414
+00:56:48,960 --> 00:56:52,239
+ Det var som om vi jobbade på vår egen revolutionerande plattform.
+
+415
+00:56:52,239 --> 00:56:56,239
+ Och så kom ChatGPT och ändrade spelet helt.
+
+416
+00:56:56,239 --> 00:56:59,000
+ Du menar när OpenAI släppte ut det och skedde industrin?
+
+417
+00:56:59,000 --> 00:57:02,440
+ Exakt. Vi hade just lagt ut vår textplattform för att fekta och sånt,
+
+418
+00:57:02,440 --> 00:57:05,039
+ och vi kände att vi hade att pivota snabbt.
+
+419
+00:57:05,119 --> 00:57:08,320
+ Så du beslutade att integrera AI i stället för att tävla mot det?
+
+420
+00:57:08,320 --> 00:57:13,400
+ Yes, we did. It's like trying to reinvent the wheel when you could build a better vehicle with the new tech.
+
+421
+00:57:13,400 --> 00:57:17,800
+ Make sense. Do you think people understand how transformative AI will be?
+
+422
+00:57:17,800 --> 00:57:24,480
+ Honestligen är jag inte säker på det, bara ungefär 29% har använt generativ AI, men snart blir det lika vanligt som elektricitet.
+
+423
+00:57:24,480 --> 00:57:26,920
+ Det är både fascinerande och lite skrämt.
+
+424
+00:57:30,000 --> 00:57:33,599
+ Do you think we're maybe normalizing these tech miracles too quickly?
+
+425
+00:57:33,599 --> 00:57:38,000
+ Exactly. We get amazed at first, but then we start nitpicking minor issues.
+
+426
+00:57:38,000 --> 00:57:40,000
+ Är du blown away?
+
+427
+00:57:40,000 --> 00:57:50,000
+ Nej, men som med allt annat så ser man ju, alltså det här är liksom första utkastet, det här kommer ju bli otroligt på sikt.
+
+428
+00:57:50,429 --> 00:57:56,570
+ Absolut. Var det inte kul att den killen blev, började prata mer indisk direkt?
+
+429
+00:57:56,570 --> 00:58:00,769
+ Men jag tyckte han var behaglig på ett obehagligt sätt, om man kan säga så.
+
+430
+00:58:00,769 --> 00:58:03,449
+ Ja, på det här lobotomerat sätt.
+
+431
+00:58:03,449 --> 00:58:08,570
+ Nej, men du vet någon som har jobbat som management konsult och sedan åker och går kloster i
+
+432
+00:58:08,570 --> 00:58:11,889
+ 12 år och sen kommer tillbaka föreläsare om det.
+
+433
+00:58:12,190 --> 00:58:17,190
+ Alltså, den känslan, och det är ju kul att...
+
+434
+00:58:17,190 --> 00:58:20,869
+ I want to tell you about what happened in the celibacy.
+
+435
+00:58:20,869 --> 00:58:29,050
+ Det där tyckte jag ändå rörde om i Grytan. Det var kul.
+
+436
+00:58:29,570 --> 00:58:31,869
+ Ja, det var kul.
+
+437
+00:58:31,869 --> 00:58:38,010
+ Och svenskan kom ju alltid lite på efterkälkel, men det var ju underhållande om inte annat.
+
+438
+00:58:38,010 --> 00:58:42,849
+ Så jag skrattade högt även när jag gjorde det där själv. Så det kan jag tipsa om.
+
+439
+00:58:42,849 --> 00:58:43,869
+ Gå in på Hayden.
+
+440
+00:58:44,650 --> 00:58:46,949
+ Jag tror inte ens man behöver ha någon
+
+441
+00:58:47,469 --> 00:58:49,769
+ subscription utan man kan göra det här själv.
+
+442
+00:58:50,269 --> 00:58:51,809
+ Så det är bara att gå in och göra.
+
+443
+00:58:52,659 --> 00:58:57,940
+ Det var det som jag hade. Har du något mer, Fredrik?
+
+444
+00:58:57,940 --> 00:59:01,519
+ Nej, jag tror inte det. Jag tar nya tagit nästa vecka och ska försöka
+
+445
+00:59:02,300 --> 00:59:03,820
+ bli blown away då istället.
+
+446
+00:59:04,440 --> 00:59:09,199
+ Det låter bra. Jag vill slå slag för våra AI-föreläsningar.
+
+447
+00:59:09,199 --> 00:59:14,239
+ Hör av er om ni är intresserade av att vi kommer och kör en inspirationsföreläsning på en eller tre timmar.
+
+448
+00:59:15,000 --> 00:59:17,719
+ Vi gör också sådana här AI-assistenter så hör av er.
+
+449
+00:59:17,719 --> 00:59:21,519
+ Gå in på veckans.ai om ni vill ha kontaktuppgifter.
+
+450
+00:59:21,519 --> 00:59:25,519
+ Annars så säger vi ha det bra.
+
+451
+00:59:25,519 --> 00:59:26,519
+ Gud vad svårt.
+
+452
+00:59:26,519 --> 00:59:28,519
+ Ha det bra! Vi ses nästa vecka, hej!
+

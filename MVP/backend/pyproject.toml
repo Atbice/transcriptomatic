@@ -1,0 +1,42 @@
+[project]
+name = "a-trans"
+version = "0.1.0"
+description = "A transcription system with AI agents analysis using the Six Thinking Hats methodology"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "fastapi>=0.115.11",
+    "numpy>=2.2.4",
+    "sqlalchemy>=2.0.39",
+    "torch>=2.6.0", # Removed +cu122
+    "transformers>=4.49.0",
+    "uvicorn>=0.34.0",
+    "agno>=0.1.0",
+    "openai>=1.68.2",
+    "python-dotenv>=1.0.1",
+    "azure-ai-inference>=1.0.0b9",
+    "aiohttp>=3.11.15",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu122"
+url = "https://download.pytorch.org/whl/cu122"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu122", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }, # Use CUDA on Linux/Windows
+    { index = "pypi", marker = "sys_platform == 'darwin'" }, # Use PyPI (CPU) on macOS if needed
+    { index = "pypi", marker = "sys_platform != 'linux' and sys_platform != 'win32' and sys_platform != 'darwin'" } # Default to PyPI for other OS (likely CPU)
+]
+# Add torchvision and torchaudio if they are used and need CUDA versions
+# torchvision = [
+#     { index = "pytorch-cu122", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+#     { index = "pypi", marker = "sys_platform == 'darwin'" },
+#     { index = "pypi", marker = "sys_platform != 'linux' and sys_platform != 'win32' and sys_platform != 'darwin'" }
+# ]
+# torchaudio = [
+#     { index = "pytorch-cu122", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+#     { index = "pypi", marker = "sys_platform == 'darwin'" },
+#     { index = "pypi", marker = "sys_platform != 'linux' and sys_platform != 'win32' and sys_platform != 'darwin'" }
+# ]

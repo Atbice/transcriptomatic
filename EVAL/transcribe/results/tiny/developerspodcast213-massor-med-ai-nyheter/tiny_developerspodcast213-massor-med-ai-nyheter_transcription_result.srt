@@ -1,0 +1,2116 @@
+1
+00:00:00,000 --> 00:00:06,400
+ Jag minns att vi hade en kubba person då som ibland gick i taket över här.
+
+2
+00:00:06,400 --> 00:00:10,759
+ För att det var sär. Nu har du gjort massändringar.
+
+3
+00:00:11,449 --> 00:00:13,449
+ Hur vet du att det här funkar?
+
+4
+00:00:13,449 --> 00:00:18,449
+ Och där är det här smöks allt det med, liksom lite för kuba-persona.
+
+5
+00:00:24,960 --> 00:00:26,960
+ Du lyssnar på det välpers.
+
+6
+00:00:26,960 --> 00:00:32,359
+ På den där du får följa med oss, så fjärmade på allting om mjukföretveckling.
+
+7
+00:00:32,359 --> 00:00:38,759
+ Vi träffar ståndande gäster, testa nya teknologier, så krinsperktion och tar upp aktuella ämnen.
+
+8
+00:00:40,600 --> 00:00:43,600
+ Även, det var förblit så svårt att starta på den.
+
+9
+00:00:44,450 --> 00:00:47,450
+ Vi visste att vi vill ställa.
+
+10
+00:00:47,719 --> 00:00:51,060
+ Den här med det basar jag slitt på saker du säger känns det som
+
+11
+00:00:51,429 --> 00:00:58,429
+ Vad ska vi ha med oss av kurser, men de kanske visar rents utanför tecker världen.
+
+12
+00:00:58,990 --> 00:01:00,310
+ Ja, eller?
+
+13
+00:01:00,310 --> 00:01:01,869
+ Annävet inte.
+
+14
+00:01:01,890 --> 00:01:08,290
+ Jag var så här, du bara frågar, har du något att säga, jag har med jag hade källas för min ett åring i dag. Det är inte alls intressant och pratar.
+
+15
+00:01:08,290 --> 00:01:13,409
+ Ska vi inte bara hoppa adraktivna och säga, tacka våra skärnsupporter på Patreon, så sen snakar vi om de ska snacka om.
+
+16
+00:01:13,409 --> 00:01:18,030
+ Jo, jag måste spara lufta mina lugn för det som vilket teknligheter att särg.
+
+17
+00:01:18,140 --> 00:01:21,140
+ Jag händer så hur jag skolkar läsa igenom där.
+
+18
+00:01:21,140 --> 00:01:25,799
+ Okej, men då kör vi i och tar att tacka våra skärnsupporter på Patreon.
+
+19
+00:01:25,879 --> 00:01:31,879
+ Det är alltså de som stötter oss med hundra kronor eller mer på månader som får sitt namn uppläst här.
+
+20
+00:01:31,879 --> 00:01:37,680
+ Och det är Alicia Anders Nyland, Björn Jonsson, dagarnell, kan jag tänka sig mer tjack.
+
+21
+00:01:37,680 --> 00:01:44,680
+ Lars Nyström, Malihagdund och Skärri, Pannotby, Selim Jothel, Styghist och Thomas Nilsson.
+
+22
+00:01:44,680 --> 00:01:49,739
+ Tack så mycket till er och tagit till alla andra så stättar oss på Patreon och alla andra.
+
+23
+00:01:49,739 --> 00:01:54,340
+ –och olika sätt som nu supportar oss. –Ja, det var någon som sjupte mörkshärmda.
+
+24
+00:01:54,340 --> 00:01:57,340
+ Blöa färglad. När det är bra färgligt är det då.
+
+25
+00:01:57,340 --> 00:01:58,379
+ Exakt.
+
+26
+00:01:58,379 --> 00:02:03,579
+ Och ibland ser de på jobbet som har vår mörks som inte går fram och skriter om det var ju avutambaser.
+
+27
+00:02:03,579 --> 00:02:04,900
+ Men jag har det här mörks.
+
+28
+00:02:04,900 --> 00:02:11,060
+ Det är en av insint, men råt oss hoppa in i nyheter.
+
+29
+00:02:12,060 --> 00:02:14,379
+ Du har en vänkrätsräkt av hur?
+
+30
+00:02:14,379 --> 00:02:27,259
+ Ja, jag vet ju det. Det vet jag att jag har, men det är så här, det kanske är inte alla som har gjort om man är ganska ny, så kanske man redan vet att man inte börjar använda kreaturek där.
+
+31
+00:02:27,259 --> 00:02:31,860
+ Eller om man inte är framtidensvecklare, eller om man inte är framtidensvecklare.
+
+32
+00:02:31,860 --> 00:02:35,259
+ Men jag skulle säga det här är så kvarträkta var.
+
+33
+00:02:35,919 --> 00:02:45,919
+ Asså jag vet inte att det fanns det kom nog till precis när jag började jobba med reakt, så det känns det som en game changer,
+
+34
+00:02:45,919 --> 00:02:49,919
+ Men jag vet inte hur passmick är gein kändsjö. Det var det komtvått sen 16.
+
+35
+00:02:50,189 --> 00:02:56,330
+ Ja, och du tog bort mycket av krånglet med hålla på med all bojlöpligt kod för att
+
+36
+00:02:56,330 --> 00:03:02,889
+ Det komfigurerera ett helt reakt projekt och väbpäck, konfig som baber, konfig.
+
+37
+00:03:03,069 --> 00:03:05,069
+ Du måste inte ha ändå haft.
+
+38
+00:03:05,469 --> 00:03:09,509
+ Då har vi haft projekt där ni inte har skerjökt av den är hotst.
+
+39
+00:03:09,509 --> 00:03:11,509
+ Har du två melddjuchs?
+
+40
+00:03:11,509 --> 00:03:17,509
+ Ja, precis då var det helt enbyggt på webpack och det var ju en nice,
+
+41
+00:03:17,509 --> 00:03:21,430
+ Där är visst att saker kreatraktar som inte kommer med automatiskt exempel
+
+42
+00:03:21,430 --> 00:03:27,569
+ server siderendering och lite samt som vi då behöver det i den applicationen, men
+
+43
+00:03:27,569 --> 00:03:30,129
+ Det är jobbigt underhållare också.
+
+44
+00:03:30,129 --> 00:03:34,289
+ Sen kan man ju i dekta sin kreaturekta bojad i alla jävla jävla jävla också så att man kan ju kunna
+
+45
+00:03:34,289 --> 00:03:39,169
+ Och då har man när man är att hälvete mellan stadig och så är det en huvudrade.
+
+46
+00:03:39,189 --> 00:03:46,849
+ Jag menar minst att klagat på att du sa och skrua migrera till webpack för mobla, blabla, blabla, har du tog jättela och tid.
+
+47
+00:03:46,849 --> 00:03:52,210
+ Jag vill inte gå åt mycket av hälvättet som innebär av att jobba med framtand.
+
+48
+00:03:52,210 --> 00:03:56,210
+ Här är inte in det referer, så jättemycket bättre nu ska jag säga.
+
+49
+00:03:56,210 --> 00:04:01,610
+ Det började på den röntan, men det var alla fall.
+
+50
+00:04:01,879 --> 00:04:08,919
+ Jag skulle säga att det var syn och nivt med att starta ett projekt, att det var så är det vassar. Det är självklart att när det var så att man gjorde.
+
+51
+00:04:08,919 --> 00:04:12,500
+ Ja, skulle du starta ett verkprojekt själv för att använda det och kreatt,
+
+52
+00:04:12,500 --> 00:04:14,800
+ reakt upp för ett sätt upp allting.
+
+53
+00:04:14,800 --> 00:04:21,839
+ Och man ser fortfarande i dag när folk lämnar insin till kod till tecken.
+
+54
+00:04:21,839 --> 00:04:25,839
+ Det är ju bara att få fortfarande användare i det som var när man har.
+
+55
+00:04:25,839 --> 00:04:28,839
+ Även ju, alltså med ditt och sånt.
+
+56
+00:04:30,000 --> 00:04:40,000
+ Ja, jag tror att vissa vet inte, alltså vissa är inte hört om att ära fall, det är de inte hört om ära att
+
+57
+00:04:40,000 --> 00:04:44,560
+ Inmedstutad du rekommendera det för ett tag sedan och det blir väl så här.
+
+58
+00:04:44,829 --> 00:04:51,230
+ Man slutade maintaina det projektet om man började rekommend.
+
+59
+00:04:51,230 --> 00:04:55,589
+ Ja, det är det här som jag ska gå in på, som jag kövs ett här.
+
+60
+00:04:55,589 --> 00:04:57,389
+ Allt är kydme käfs.
+
+61
+00:04:57,389 --> 00:05:00,990
+ Ja, så det har varit käfs.
+
+62
+00:05:00,990 --> 00:05:08,029
+ Som du säger kräckligt, väktapsar, har inte haft stödfälting som är mer modernväbb i dag.
+
+63
+00:05:08,050 --> 00:05:12,050
+ Så det är inte sjukerande att det är like snyr.
+
+64
+00:05:12,050 --> 00:05:20,050
+ Men det händer dra matuppsönder skjutigt två timmar efter att de offentljorde att det verkligen ska lägga snyr helt.
+
+65
+00:05:20,579 --> 00:05:22,579
+ Så jag ska sammanfatta dra mat.
+
+66
+00:05:22,850 --> 00:05:31,490
+ Räktimet gjorde ett bra guillegit där de uppmanade utveckla att övriga kräterräktap och att man ska gå över till neckstias.
+
+67
+00:05:31,540 --> 00:05:37,420
+ Bäktvaltter eller tjernar med bygget i ett bra verk från grunden.
+
+68
+00:05:37,629 --> 00:05:51,470
+ Inte rekommenderat, inte rekommenderat, men det är där de här sakerna duker är där, men jag vet att de har varit här, men håller inte påbyggare från grunden, men de är så de är väldigt använtutnexis.
+
+69
+00:05:51,470 --> 00:05:54,870
+ Jag tror att där sätter kanske på hämstid och när man går in så är det så här.
+
+70
+00:05:54,920 --> 00:05:58,920
+ Men exi är det ganska mycket som också rekommenderar.
+
+71
+00:05:58,920 --> 00:06:00,920
+ Men...
+
+72
+00:06:00,920 --> 00:06:01,920
+ Och...
+
+73
+00:06:01,920 --> 00:06:09,639
+ Nöstan ingen nämnde, alltså det heter vitt, men de flesta tröser vitt är viss.
+
+74
+00:06:09,639 --> 00:06:11,439
+ Jag tog som inte snakka franske.
+
+75
+00:06:12,199 --> 00:06:15,800
+ Så jag kommer ha att vi ser vidare.
+
+76
+00:06:16,279 --> 00:06:18,240
+ Men, hur ser du det?
+
+77
+00:06:18,240 --> 00:06:20,519
+ Jag säger vitt. Du ser vitt.
+
+78
+00:06:20,519 --> 00:06:23,079
+ Ni har ju lösat för att vi ska ge i fyra år, men ja.
+
+79
+00:06:23,079 --> 00:06:26,579
+ Åh, fänzi, vad gick?
+
+80
+00:06:26,920 --> 00:06:31,120
+ Ja, okej, men vi så kallar ävdigt.
+
+81
+00:06:31,120 --> 00:06:42,360
+ Ja, eller fall, vitt är jättepopelar som bland rektetvecklare, typ alla som körde krägträgtapp, som fyrerar på att det inte var toppen längre gick över till vitt.
+
+82
+00:06:42,360 --> 00:06:46,199
+ Det var svyn enkelt att göva till det toppen liksom.
+
+83
+00:06:46,199 --> 00:06:52,439
+ Och men ingen typ nämda att särra om man öttar att han har tyvärr att du går över tydligt. Det är jätte enkelt.
+
+84
+00:06:52,439 --> 00:07:03,839
+ Så att många utvecklar blev lite arja, och menade att vi aktymet var partiska mot vitt och förstår inte hur kommunitet faktiskt arbetar.
+
+85
+00:07:03,839 --> 00:07:06,240
+ Jag skulle säga att de flesta har ju gått över till vitt.
+
+86
+00:07:06,240 --> 00:07:08,240
+ Det städer för att migrera allting till 90.
+
+87
+00:07:08,240 --> 00:07:12,240
+ Jäs, det är ju min smäcka mer, alltså vist.
+
+88
+00:07:12,350 --> 00:07:15,370
+ Det kanske är bra om du ska bygga någonting stort roboost,
+
+89
+00:07:15,370 --> 00:07:19,629
+ liksom men det kommer alltså det är mycket mer att du får på köpet som du kanske inte behöver alltid.
+
+90
+00:07:21,529 --> 00:07:28,449
+ Nej, så de var så här, domik ut hur men så raktat de anklagar i reaktilmet för att vara köpda av...
+
+91
+00:07:29,110 --> 00:07:30,910
+ Nej, så sker vi så.
+
+92
+00:07:30,910 --> 00:07:32,509
+ Av Big Framework.
+
+93
+00:07:34,110 --> 00:07:34,910
+ No, ro.
+
+94
+00:07:34,910 --> 00:07:39,910
+ Alltså, eller vem lägger bakom, ni kan sitta i sinklun.
+
+95
+00:07:40,019 --> 00:07:42,899
+ Det är ett företagsmete för säll.
+
+96
+00:07:42,899 --> 00:07:45,779
+ För att kanske hörde om det olika sammangidom.
+
+97
+00:07:45,779 --> 00:07:48,300
+ Möjsa kloudtjänster och halvstig.
+
+98
+00:07:48,300 --> 00:07:49,100
+ Vad är det?
+
+99
+00:07:49,100 --> 00:07:50,100
+ Hållst.
+
+100
+00:07:50,100 --> 00:07:51,100
+ Hållstig.
+
+101
+00:07:51,100 --> 00:07:54,180
+ Nu kör de hosting, de bygger nexias.
+
+102
+00:07:54,180 --> 00:07:55,980
+ Grädd i typ så här.
+
+103
+00:07:55,980 --> 00:07:58,579
+ Nu kan jag vara ut på ett vattas, så insatt det äntet.
+
+104
+00:08:00,000 --> 00:08:11,360
+ Men det är nog många i vekt timet som bidrar, eller som har gått innebär att jobba i färnekst i språsäkter.
+
+105
+00:08:11,360 --> 00:08:15,199
+ Men de är väldigt sammankopplade, så det blir lite särre.
+
+106
+00:08:15,860 --> 00:08:18,939
+ Det blir väldigt färgad, jag håller för gist med om det.
+
+107
+00:08:19,689 --> 00:08:26,050
+ Så här är ett vitterkäffsett hur på en avaddar och det är ganska underhållande eller fall när man såg på sternar från det.
+
+108
+00:08:26,050 --> 00:08:35,049
+ Men det slutlundar ner sig och reactivmet uppsattierade sitt bra glägga och hade lite mer så här.
+
+109
+00:08:35,049 --> 00:08:38,250
+ Balanserade, nejonserad rekommendationer,
+
+110
+00:08:38,710 --> 00:08:47,169
+ inklusive hur man kommer ihåg med vitt, utan vi har bjudat till liksom ett bra verksam nektiges.
+
+111
+00:08:47,440 --> 00:08:51,440
+ Så nu freden återställ men är fall.
+
+112
+00:08:51,899 --> 00:08:57,179
+ Lite dröma, men jag hoppas att ni har fått budskapet med er, så du tar med det här kreaturekta.
+
+113
+00:08:57,179 --> 00:09:07,620
+ Det är det som officiellt dött, men alltid kul med lite drama, men det var ju inte att till att se att de blev vänner till slut, jag har frid och frid på jorden.
+
+114
+00:09:08,340 --> 00:09:14,899
+ Nästa grej är inte så relevant för oss utvecklar kanske, men är man sån.
+
+115
+00:09:15,009 --> 00:09:24,210
+ Vi vet så här. Vi pärla stora företag har jobbat med AI, eller läms, släpp nånting, för att vara relevanta i AI.
+
+116
+00:09:24,210 --> 00:09:26,730
+ Men så har vi inte gjort det.
+
+117
+00:09:26,730 --> 00:09:27,730
+ Nej.
+
+118
+00:09:27,730 --> 00:09:28,730
+ Men om jag är så mycket annat.
+
+119
+00:09:30,110 --> 00:09:38,110
+ Ja, jag tänkte att man är hela avs som är typ en av de världerande cloud provider så sånt behöver man verkligen
+
+120
+00:09:38,110 --> 00:09:39,909
+ Fingärna är alla siltburg.
+
+121
+00:09:40,909 --> 00:09:42,110
+ Absolut. Absolut.
+
+122
+00:09:42,110 --> 00:09:46,909
+ Och så har du... har du... har du äscher av jäs eller går i klaud?
+
+123
+00:09:46,909 --> 00:09:49,909
+ Så det håller var int pengar på att det inte gör någonting i bezyb.
+
+124
+00:09:49,909 --> 00:09:54,710
+ Absolut, de har haft olika typer av eller lämkjänster i D.
+
+125
+00:09:54,710 --> 00:10:01,210
+ Men de är inte riktigt varigt med geimett som någon som gör modellare eller hur?
+
+126
+00:10:01,210 --> 00:10:05,730
+ Nej, men det är vet om att ha haft en här kodwisper.
+
+127
+00:10:06,289 --> 00:10:10,289
+ Men ändå, de har ju sina sistentare leksar.
+
+128
+00:10:10,289 --> 00:10:14,289
+ Och det vill där man förväntar sig ett nomsar i straxutveckling ska ske.
+
+129
+00:10:14,289 --> 00:10:16,950
+ och nu äntligen så har han rullat ut
+
+130
+00:10:16,950 --> 00:10:20,029
+ eller frösser, det är fallpräsenterat, det är ju inte-
+
+131
+00:10:20,029 --> 00:10:22,029
+ Jag tror att man kan säga nu.
+
+132
+00:10:22,029 --> 00:10:24,029
+ Det finns olika erbjudande om de där.
+
+133
+00:10:24,029 --> 00:10:30,029
+ Primer, lintet, de spännande, så alla de här ciria och lexar i helt värderlösar.
+
+134
+00:10:30,029 --> 00:10:35,029
+ Nu kan vi inte göra någonting förutom att uppsätta på musiken eller steklampan.
+
+135
+00:10:35,029 --> 00:10:43,029
+ Men samtidigt med det sagt så är det som samt miljoner människor som ändå inträgerar med
+
+136
+00:10:43,029 --> 00:10:52,529
+ och säger starta musiken eller släcklampan så jag vet inte vad det kommer leda till.
+
+137
+00:10:52,529 --> 00:10:57,529
+ Men det är väldigt många av vändare som de intruserar features för
+
+138
+00:10:57,529 --> 00:11:01,889
+ Och det kanske kommer utveckla så man kan förstå hur folk använder det mer och mer.
+
+139
+00:11:02,899 --> 00:11:07,899
+ Men jag, de, som varit hade de en d-moderam, som visade helt särg.
+
+140
+00:11:08,399 --> 00:11:13,039
+ Exempel som är helt ting som gör så här är verkligheten, det var typ så här nu.
+
+141
+00:11:13,039 --> 00:11:15,440
+ Nu kan du...
+
+142
+00:11:15,490 --> 00:11:24,289
+ Vi ser använda avit för att beställa en uber åt din kompis när din kompis kommer till flygplatsen.
+
+143
+00:11:24,559 --> 00:11:26,559
+ Det var krångligt scenario.
+
+144
+00:11:26,929 --> 00:11:32,889
+ Så det enda jag vill kunna med typ sidrig är öppna min antekning som
+
+145
+00:11:32,889 --> 00:11:39,929
+ med det handlingslista och lägg till smör när jag står med händerna fulla och bakar och insamötsligt.
+
+146
+00:11:39,929 --> 00:11:43,129
+ Men det skit jag vitt att säga det.
+
+147
+00:11:43,129 --> 00:11:48,129
+ Men den fattar inte handlingslista, alltså när jag har fannt lyckats.
+
+148
+00:11:48,129 --> 00:11:53,090
+ När vi hoppas att den är bättre, är det väldigt trött för de exemplar som så ingen i världen någon så skulle göra,
+
+149
+00:11:53,090 --> 00:11:57,690
+ folk bestära sig nu på själv, den liksom inte att verklighetskismen.
+
+150
+00:11:57,690 --> 00:12:07,190
+ Det visar att de ger känden in i det här, men av i agenter, alltså försöker göra någon slags agenter som alla andra håller på med.
+
+151
+00:12:07,190 --> 00:12:13,330
+ Vi får se vad som händer där, något som är mer roligt för oss, vi ska studio kod,
+
+152
+00:12:13,330 --> 00:12:17,330
+ Sjönnerutil och avvänt kanske aldrig hört.
+
+153
+00:12:17,330 --> 00:12:19,330
+ Jag vet inte att du är utsärt
+
+154
+00:12:19,330 --> 00:12:24,309
+ Det är ju ett väldigt typ alla varje nästan eller tror jag nog.
+
+155
+00:12:24,309 --> 00:12:32,110
+ Om man inte jobba med något väldigt obskitspråk, men det är en ID för användskärsje ofta stav.
+
+156
+00:12:32,730 --> 00:12:34,730
+ Nu våg inte se det.
+
+157
+00:12:34,909 --> 00:12:38,909
+ Det känns som att förläste jag och skript människor av, men det vill känns till rekord.
+
+158
+00:12:39,279 --> 00:12:42,299
+ Alltså min samb och frågar mig typ när han börjar plugga,
+
+159
+00:12:42,299 --> 00:12:45,299
+ Särg, vad jag skinnar på viss och studio och viss och studio kod.
+
+160
+00:12:46,299 --> 00:12:50,299
+ Så sa jag tipsar, järmen, viss och studio, det är typ förbackend.net.
+
+161
+00:13:00,269 --> 00:13:02,669
+ och vi just det är det kod ett typ för fronten.
+
+162
+00:13:02,669 --> 00:13:09,149
+ Asså så om man ska hårdhar såra en sakt det på sin gaya och det här har de skrat attott med.
+
+163
+00:13:09,149 --> 00:13:10,110
+ Och det var inte.
+
+164
+00:13:10,110 --> 00:13:12,509
+ Nej, det har honny ny sakt.
+
+165
+00:13:12,509 --> 00:13:13,509
+ Och jag basar.
+
+166
+00:13:13,509 --> 00:13:14,909
+ Då är jag.
+
+167
+00:13:14,909 --> 00:13:17,509
+ Det hittar vi väl att denna får någon som jag ska ny.
+
+168
+00:13:17,509 --> 00:13:21,029
+ Så klart du kan kära andra saker, det visste du ju kod också?
+
+169
+00:13:21,029 --> 00:13:23,269
+ Ja, men det här viskt att du gör inte det.
+
+170
+00:13:23,269 --> 00:13:27,029
+ Nej, nä, nä, nä, nä, signa åt det allfatt.
+
+171
+00:13:27,029 --> 00:13:34,629
+ Jag har vinner folk för slår det, alltså flot min skif du är bäst, men ni som
+
+172
+00:13:34,629 --> 00:13:38,350
+ Vad säger jag behöver du verkligen när och vad det skulle ha
+
+173
+00:13:38,350 --> 00:13:44,750
+ IntelliG, för jag var öververklarande IntelliG, det går ju att göra det vi ska styra kord, och vad ser det.
+
+174
+00:13:44,889 --> 00:13:51,049
+ Jag tänkte inte sitta med ett full-fledgtsbråk när jag har en full-fledgts ID.
+
+175
+00:13:51,049 --> 00:13:55,049
+ Och sånt där vi ska styra koven nu, skit extensions.
+
+176
+00:13:56,049 --> 00:13:59,049
+ Nej, jag benägen hålla mig.
+
+177
+00:13:59,049 --> 00:14:03,750
+ Ja, men det är för att du fler reda av visualstudio som har allt liksom.
+
+178
+00:14:05,210 --> 00:14:11,710
+ Okej, vi har förklarat varierna på dåligt sätt och folk skrattar så jag kan ta ur den igen.
+
+179
+00:14:11,919 --> 00:14:16,559
+ Men alla fall, de har ett väldigt populärt tema.
+
+180
+00:14:16,559 --> 00:14:24,559
+ Man kan ha väldigt många olika tämmer den här ID in som heter en material och det är för att man
+
+181
+00:14:24,559 --> 00:14:31,940
+ men det upptäggt inte, missting som koder är som att tera att det är ju en var väldigt
+
+182
+00:14:31,940 --> 00:14:38,940
+ är det mer än 6 miljoner användare och det inspirerade av googelsmaterialt sig
+
+183
+00:14:38,960 --> 00:14:40,960
+ Men nu är det alltså helt bort.
+
+184
+00:14:40,960 --> 00:14:42,960
+ Ja, men vad röja, alltså.
+
+185
+00:14:43,259 --> 00:14:45,820
+ Temen. Det är typ av lite Jason.
+
+186
+00:14:46,669 --> 00:14:52,049
+ Vad kan man slänga för fall i kordar i eller ställningar för att gå in i släst börja.
+
+187
+00:14:52,049 --> 00:14:59,090
+ Nej, men jag bara särer för en delar, men viste klar ha man ont upp sådant så kan man ju lyckas göra det med det mesta.
+
+188
+00:14:59,090 --> 00:15:02,090
+ Jag är så urgiv lumerade på hyskliga makarnas.
+
+189
+00:15:02,269 --> 00:15:08,429
+ Jag är det i temat, men jag är bra fråga, jag är aldrig viktigt i temat.
+
+190
+00:15:08,429 --> 00:15:11,429
+ Nå som är viktigt tema vet ju så kört vad det är.
+
+191
+00:15:11,429 --> 00:15:13,590
+ Men den endrar väl inte bara...
+
+192
+00:15:14,750 --> 00:15:15,309
+ Eller...
+
+193
+00:15:15,309 --> 00:15:21,309
+ En drar man bara liksom färg, liksom kollar, black, för det är lite romsavare för att
+
+194
+00:15:22,000 --> 00:15:31,440
+ Det är fanns mycket typ kåd som jag är som har oner, det är beroende att det saker.
+
+195
+00:15:31,649 --> 00:15:38,370
+ De körde några särskild processer i VS Code, vilket var väldigt märkligt för att vara nyttema.
+
+196
+00:15:39,090 --> 00:15:42,289
+ Jag vet inte. Så det är förborta.
+
+197
+00:15:43,409 --> 00:15:48,210
+ Och kan tipsa om med vännen spesta tema som jag använder på rubet och det är nord.
+
+198
+00:15:48,529 --> 00:15:49,649
+ Jag tycker det är så snigt.
+
+199
+00:15:49,970 --> 00:15:51,490
+ Jag visste att jag använder du.
+
+200
+00:15:51,490 --> 00:15:57,889
+ Men det gör jag, men det är just typ så bläj med någonting koffelna, så där det lite här.
+
+201
+00:15:59,169 --> 00:16:00,970
+ Bryn och rann forttiva.
+
+202
+00:16:02,429 --> 00:16:05,429
+ Det blir så blivit, men så ser jag med ranskjädda fall.
+
+203
+00:16:05,639 --> 00:16:09,639
+ Men det är det ett fejglatt tema, men det är lite särre.
+
+204
+00:16:09,820 --> 00:16:12,820
+ Det är lite mogenare som är sida.
+
+205
+00:16:12,820 --> 00:16:17,820
+ Det var skönt för ögonen, det är så skrykigt, men det är ändå färgligt.
+
+206
+00:16:17,820 --> 00:16:18,820
+ Ja, klar.
+
+207
+00:16:18,960 --> 00:16:25,100
+ För att om någon vill så kan vi göra ett avsnitt om alla temat vi har och alla vår uppsättning.
+
+208
+00:16:26,379 --> 00:16:27,659
+ Allting som är avvänder.
+
+209
+00:16:28,179 --> 00:16:29,200
+ Men då får ni enskade det.
+
+210
+00:16:29,200 --> 00:16:31,200
+ Förnars kommer jag tycker att det är en samt.
+
+211
+00:16:31,200 --> 00:16:36,000
+ En tråpik också avgisterf.
+
+212
+00:16:36,000 --> 00:16:37,799
+ De har sträppde en ny version av sin.
+
+213
+00:16:37,799 --> 00:16:43,200
+ på flöra eller dem är version 3.7 som bygglår nu då eller?
+
+214
+00:16:45,000 --> 00:16:49,200
+ Det just den här, alltså modellan heter somnet.
+
+215
+00:16:49,399 --> 00:16:51,000
+ Ja, men det är väl alla som väl.
+
+216
+00:16:51,200 --> 00:16:52,600
+ Ja, som används.
+
+217
+00:16:52,600 --> 00:16:57,419
+ Jag vet inte omkladet att det är fina namnett, det är ju ört att det är inte.
+
+218
+00:17:00,000 --> 00:17:08,799
+ Vi kanske är som en tropik som OpenEI och sedan har du chatkiveteret som är klart och sedan är sånt att själva
+
+219
+00:17:08,799 --> 00:17:13,160
+ Modell namnet som det är ovan förmålen.
+
+220
+00:17:13,160 --> 00:17:20,359
+ Jag har inte skjissa saker här för det är framtid fel sakit, men det låter jätte rimligt.
+
+221
+00:17:20,359 --> 00:17:26,500
+ jag fallade kommit en ny nivergion av den och just som ett tre på ett fem har
+
+222
+00:17:30,000 --> 00:17:41,000
+ Jag ofta enligt de flesta bensmars toppat liggan i att vara en bra kod-assistent och generera kod.
+
+223
+00:17:41,000 --> 00:17:45,619
+ 24, men en liten trappek så ska jag träd på utskåva ännu bättre.
+
+224
+00:17:45,859 --> 00:17:50,720
+ Det är inte jättekonstigt att det ska vara bättre om det ska vara bättre på kordning och
+
+225
+00:17:50,720 --> 00:17:59,599
+ specifikt framtid utveckling och det som en del av det här så satsa man också på ett verktyg som heter
+
+226
+00:17:59,599 --> 00:18:05,039
+ klad kod som en alläggen som konkurrerar med liknande öllastningar som
+
+227
+00:18:05,039 --> 00:18:08,059
+ typ det vin och andra snarare av i växtrig.
+
+228
+00:18:08,720 --> 00:18:11,980
+ Även som tycker klart kod inte var ett bra nann.
+
+229
+00:18:12,279 --> 00:18:14,279
+ Titt allt släger bra munnen.
+
+230
+00:18:15,640 --> 00:18:18,140
+ Ja, så klarade vi taget.
+
+231
+00:18:18,140 --> 00:18:19,640
+ Ja, det blev lite...
+
+232
+00:18:19,640 --> 00:18:21,640
+ Det blev lite ekligt.
+
+233
+00:18:21,640 --> 00:18:24,200
+ En slånd kold.
+
+234
+00:18:25,480 --> 00:18:28,119
+ Kold.
+
+235
+00:18:30,269 --> 00:18:38,589
+ Ja, jag vet inte. Det låter som en butler, men det har faktiskt tagit för alla de glåta lite.
+
+236
+00:18:38,589 --> 00:18:43,069
+ Så jag vet inte det ingen som är lyckats för ett produkt namn här, alltså.
+
+237
+00:18:43,759 --> 00:18:46,119
+ Vår är det så att gäbt i ekit?
+
+238
+00:18:46,119 --> 00:18:52,279
+ Nej, det är inte bara så toliga produkten, så är det ju att det är ju van eller vilken modell ska jag använda i dag.
+
+239
+00:18:52,279 --> 00:18:54,160
+ och 1, eller..
+
+240
+00:18:54,299 --> 00:18:56,940
+ 3, minni eller..
+
+241
+00:18:57,420 --> 00:18:58,980
+ 4, eller..
+
+242
+00:19:30,000 --> 00:19:37,440
+ Ja, produkspräsentation med det sagt också, ska de prata om att jag vill veta till jobbet.
+
+243
+00:19:37,440 --> 00:19:43,519
+ Du ska inte bara sitta och välja bland x6 modeller, utan de ska automatisera det att när du skriver in prom,
+
+244
+00:19:43,519 --> 00:19:45,680
+ så väljer de den vesta modellen för det.
+
+245
+00:19:45,680 --> 00:19:48,160
+ Du vill göra det våra astra.
+
+246
+00:19:48,160 --> 00:19:54,319
+ Eller fall, den tidiga versionen, som ett trevpunkt fem, den blev ju jättefragen om sryk.
+
+247
+00:19:54,319 --> 00:19:56,119
+ och att stöd för att ske på en tog.
+
+248
+00:19:56,119 --> 00:20:03,359
+ Ta de gittar på kop-violet så stäpper de gittar på kop-violet sin koder-review-funktion.
+
+249
+00:20:03,359 --> 00:20:09,500
+ Det skriver det spännande, för det är ju att du har pratat om du är ett sådant, men så är det en avall som kanske
+
+250
+00:20:09,500 --> 00:20:11,500
+ Nu kan kolla igenom de på luckost.
+
+251
+00:20:11,500 --> 00:20:13,500
+ Så att jag har ju på luckost.
+
+252
+00:20:13,710 --> 00:20:19,109
+ Alltså att kunna ha att missa den första granskning innan man skickar upp den för att ha den uppeer.
+
+253
+00:20:19,109 --> 00:20:20,410
+ Eller hur?
+
+254
+00:20:20,410 --> 00:20:31,769
+ Jag har inte testat dem. Jag fick mail precis typ tror igår att min kopar eller sedan så har du uppredeats med här funktionen, för jag blir som vid betala för att jobbet.
+
+255
+00:20:32,299 --> 00:20:34,500
+ Så jag ska bli jätteintressant och testa.
+
+256
+00:20:34,500 --> 00:20:37,700
+ Så var den gör ett en herfid bakpå på du kosts.
+
+257
+00:20:37,700 --> 00:20:41,079
+ Typp och går igenom och hittar upp en bara buggar.
+
+258
+00:20:41,079 --> 00:20:44,880
+ Den sumierar ändringarna, den föreslår vilket tester du.
+
+259
+00:20:44,880 --> 00:20:47,180
+ Du kan ha den rättare stav fel.
+
+260
+00:20:47,450 --> 00:20:50,450
+ Vi så klagar det på stafer från att ta snitsen.
+
+261
+00:20:51,170 --> 00:20:53,609
+ Men jag är väldigt kort.
+
+262
+00:20:53,609 --> 00:20:57,970
+ Sen tänker jag att den lär ju inte fattar kontexten i sig själv bra.
+
+263
+00:20:57,970 --> 00:21:03,109
+ Alltså själva fikern du implementerar hur det hänger ihop.
+
+264
+00:21:03,109 --> 00:21:07,730
+ alltså det är borde inte kunna men allt annat som här liksom att det ska jag
+
+265
+00:21:07,839 --> 00:21:11,440
+ Vad står för de liknande skriberen tester också?
+
+266
+00:21:11,619 --> 00:21:16,259
+ Eller bara säger inte att du borde testa detta, för jag har varit sjutni som den bara.
+
+267
+00:21:16,259 --> 00:21:19,299
+ Du borde testa här det här. Här har du ett unitest.
+
+268
+00:21:19,480 --> 00:21:24,480
+ Jag vet inte att vi får testa. Det är ett stor battering som före slår tester.
+
+269
+00:21:25,009 --> 00:21:27,009
+ Så jag vet inte att jag inte är bra församt.
+
+270
+00:21:28,009 --> 00:21:29,009
+ Ja...
+
+271
+00:21:30,000 --> 00:21:40,000
+ Men ingen aning, men det är det låt ut som ett bra till dig, men som du ser, den kanske inte kan skriva en bra på uppgöst
+
+272
+00:21:40,000 --> 00:21:45,000
+ sammanfattning åten för att den saker jag kontekst blir i kurser.
+
+273
+00:21:45,000 --> 00:21:51,000
+ Jag har ändrat detta, jag har ändrat detta och det är inte intressant om jag inte vet vad för du har ändrat detta.
+
+274
+00:21:51,000 --> 00:21:55,660
+ Är det så bann för dålig på att använda bra de mänspråk?
+
+275
+00:21:55,660 --> 00:22:00,660
+ Det är också att kan man känna att man går in bli bättre på det.
+
+276
+00:22:01,059 --> 00:22:06,059
+ Och vidare att i Google, men måste ju nämna alla stora aktörer eller hur inna vi klara.
+
+277
+00:22:06,059 --> 00:22:10,539
+ Guggelsläpper sin kordassistent Gemini Code Assist.
+
+278
+00:22:10,539 --> 00:22:17,480
+ Grattis för privatpersoner, tidigare så kostar det den 22,8.
+
+279
+00:22:17,619 --> 00:22:19,619
+ Dolare i månaden.
+
+280
+00:22:19,619 --> 00:22:24,220
+ Och troligt att särg konstigt och så fikt.
+
+281
+00:22:24,220 --> 00:22:26,779
+ Då hoppas vi på att trocka in flera av vandare.
+
+282
+00:22:27,049 --> 00:22:30,809
+ Det här är ju ett mer liksom alla sänna av i väktig.
+
+283
+00:22:30,809 --> 00:22:35,170
+ Först så är det om att alla ska betala för det, men ingen vill det betala för det, så nu försöker de
+
+284
+00:22:35,440 --> 00:22:38,920
+ Tving oss använder det alla, var det stället för att ni var också okej.
+
+285
+00:22:38,920 --> 00:22:41,920
+ Ingen vi betarar för hur vi har foksdata sådant.
+
+286
+00:22:42,380 --> 00:22:45,980
+ Låt oss på att tvinga de användare typ i säpper och flytt.
+
+287
+00:22:45,980 --> 00:22:53,980
+ Ja, som sagt, jag vet inte hur man går om man har hört det här, man att om nånting är gratis så betalar du ändå nånting ofta ser av Indata.
+
+288
+00:23:00,660 --> 00:23:10,660
+ Ja, men så är det för sig om de hinder i kapp, kopp, hjälvete och kurser då för företagkostar
+
+289
+00:23:10,660 --> 00:23:12,660
+ Det är ett nytt.
+
+290
+00:23:12,660 --> 00:23:14,660
+ Ja, eller vad kostar koppailat.
+
+291
+00:23:14,660 --> 00:23:17,660
+ För företag vet jag vad i sinter.
+
+292
+00:23:17,660 --> 00:23:19,980
+ Det anta är det också dyrar för det typ ser.
+
+293
+00:23:19,980 --> 00:23:26,779
+ Din data processas bara på en dedikirad server som de inte har tillgång till de
+
+294
+00:23:26,779 --> 00:23:35,779
+ lite trannar på din data, så det är förstået man får betala med så den eller har
+
+295
+00:23:35,779 --> 00:23:37,779
+ har vänta när man har ståre.
+
+296
+00:23:37,779 --> 00:23:43,220
+ Jag vet inte att det här är prisare i dollar, det kiva annan lundar på vår marknader
+
+297
+00:23:43,220 --> 00:23:52,220
+ Men här står jag att gärna i kordasist kostar 24 och i tabkopar jag ett enterprise kostar 39.
+
+298
+00:23:53,039 --> 00:23:55,039
+ Så den är dyrare.
+
+299
+00:23:58,039 --> 00:24:00,039
+ Men ja, det var nyheterna.
+
+300
+00:24:00,339 --> 00:24:02,839
+ Och, men tack för den här gärna gången.
+
+301
+00:24:02,839 --> 00:24:06,839
+ Det är lite bra hållaste jag såligt beläsa med hjärtor.
+
+302
+00:24:06,839 --> 00:24:08,240
+ Ja, men jag är så god.
+
+303
+00:24:08,259 --> 00:24:13,079
+ Jag kommer att tänga på vad vill borde jag ta upp en ting om allting som varrt med 5-fox.
+
+304
+00:24:13,079 --> 00:24:14,660
+ Har du hört nåt ting om det?
+
+305
+00:24:14,769 --> 00:24:17,329
+ Ja, men jag har inte pratat mer.
+
+306
+00:24:17,329 --> 00:24:20,650
+ Nej, jag tror inte alls den så får du berätta.
+
+307
+00:24:20,650 --> 00:24:26,650
+ Jag är inte alls förbättna om ting med jag läst lite om de har ju uppdaterat sina term sen kondicens nu.
+
+308
+00:24:26,730 --> 00:24:30,890
+ Och i princip första av honen sa ju mer eller mindre.
+
+309
+00:24:30,890 --> 00:24:33,769
+ Vi kommer samla in all datad du matar in.
+
+310
+00:24:33,849 --> 00:24:39,609
+ Inputfält eller i vad du skriver över så är det för rubet.
+
+311
+00:24:39,720 --> 00:24:44,599
+ De ska utfordla också göra de får man av i tränningen låtkän och gissa.
+
+312
+00:24:44,599 --> 00:24:48,099
+ Ja, det är de här blit uppköpt också, och så är det ju mer.
+
+313
+00:24:48,099 --> 00:24:52,539
+ Men folk har ju slagit bakut nu och letterster alternativa browsers.
+
+314
+00:24:52,559 --> 00:24:57,480
+ Det finns utuppsar libra i golft, för att jag som är en vorka förfärfaks.
+
+315
+00:24:57,690 --> 00:25:03,089
+ Om man nu vill fortsätta, man har färg foktsman inte sälja ut sin skjäl.
+
+316
+00:25:03,089 --> 00:25:05,690
+ Så vi stymar Sandra och nativ.
+
+317
+00:25:05,769 --> 00:25:10,650
+ Jag har förändring mig att jag har på Chromium, så förståg jag borde du göra ark.
+
+318
+00:25:10,650 --> 00:25:20,650
+ och när det finns ett tusentals alternativt bra i och massa obskrivalt natursmäcknappen så har talat som.
+
+319
+00:25:20,650 --> 00:25:30,650
+ Ja, men det där är ett tråkigt för jag inte hört om de att de liksom erbjuder att du kan betala någonting och få slippa undan det.
+
+320
+00:25:30,700 --> 00:25:34,700
+ För jag förstår att folk behöver känna pengar.
+
+321
+00:25:35,609 --> 00:25:40,430
+ Och som privat versiona sig vid det eller betala två ena spän för den här bra oss.
+
+322
+00:25:40,430 --> 00:25:44,490
+ Men att de kunde ha haft en modell ser betala...
+
+323
+00:25:45,210 --> 00:25:46,049
+ Ja, ene.
+
+324
+00:25:46,049 --> 00:25:51,089
+ –Syvig i spänn i morgonadern. Så hade det nog väl i många jute.
+
+325
+00:25:51,089 --> 00:25:52,089
+ Ja, kanske.
+
+326
+00:26:00,589 --> 00:26:05,630
+ Jag hörde att jag vet inte att jag inte faktiskt är ganska detta nu, men att en stor anledning
+
+327
+00:26:05,630 --> 00:26:09,630
+ att de har mindre pengar i fatt Google slutet så portar de.
+
+328
+00:26:09,630 --> 00:26:16,509
+ Google är så på något ganska många browsers mot att då får ha Google som de är fort sakmottor.
+
+329
+00:26:16,509 --> 00:26:19,509
+ För att stå får de ett ut någonting om det är okej.
+
+330
+00:26:19,589 --> 00:26:21,589
+ Så det är vårat fel. Är det öppierna?
+
+331
+00:26:21,589 --> 00:26:23,589
+ Ja, exakt skil för det.
+
+332
+00:26:24,339 --> 00:26:29,980
+ Okej, om man då ska inte se igen att fannar om så var tröttar på oss i USA.
+
+333
+00:26:30,000 --> 00:26:38,160
+ Vi fick ju en lyssna fråga också som vi kan ta på denna avkänkö.
+
+334
+00:26:38,160 --> 00:26:40,160
+ Det tänker nog inte så jättelång.
+
+335
+00:26:40,160 --> 00:26:45,200
+ Det är från våra vänkheten käsmilcek som vars namniga hört mig om jag.
+
+336
+00:26:45,440 --> 00:26:47,440
+ Mm.
+
+337
+00:26:47,440 --> 00:26:48,960
+ Fråg jag så här.
+
+338
+00:26:48,960 --> 00:26:52,799
+ Hur löser man best konflikten mellan att vara lite av en skaot
+
+339
+00:26:52,980 --> 00:26:56,380
+ Och alltid lämnar kvården i bättre skick än när man fann den.
+
+340
+00:26:56,380 --> 00:26:59,380
+ Det vill se att fixa utväntulas måsaken när man ser dem,
+
+341
+00:26:59,380 --> 00:27:02,380
+ utattera paket, fixa fel ståningar och så vidare.
+
+342
+00:27:02,519 --> 00:27:07,420
+ Och att bara stäcklösa det som finns i juratiket och inget annat.
+
+343
+00:27:07,500 --> 00:27:17,000
+ Flera arbetsplatser har fullt förståret kanske en polissit om att en per endast får inhålla lösningen på en fyrtjö eller bugg och in i ett annat.
+
+344
+00:27:17,000 --> 00:27:23,000
+ Samtidigt vill man ju inte att koden ska få falla för att den till finns ticket sida för något lidet man precis har hittat.
+
+345
+00:27:30,180 --> 00:27:41,579
+ Och att skapa en ticket får en prioriterad och kanske jag får att det kommer till en stenare i rätt om stännigt om det handlar om till exempel namnet på en lokal varje avels med felståatt, har ni råket ut för det delen av ett.
+
+346
+00:27:42,140 --> 00:27:52,140
+ Flerar arbetsplatser har en polyssi där man där en pär är endast finna hålla av lästningen och ingenting av att.
+
+347
+00:27:52,599 --> 00:27:56,480
+ Jag har varit mer om det, men jag är heller faktiskt.
+
+348
+00:27:56,480 --> 00:28:02,619
+ Jag har liksom det här tillsammans att det skulle vara ett problem på det sättet att man bara får göra det.
+
+349
+00:28:02,619 --> 00:28:08,759
+ Sen kan ju förstå att man inte vill trycka in hur mycket som helst man får ju ha lite syn på för nu efter.
+
+350
+00:28:08,759 --> 00:28:14,920
+ Men ibland blir det att man måste lägga ihop vissa saker.
+
+351
+00:28:14,920 --> 00:28:16,920
+ Det har jag erfade upp med skyldet till.
+
+352
+00:28:16,920 --> 00:28:22,579
+ Men jag definitivt var med att folk diskutera det här i ett time.
+
+353
+00:28:22,579 --> 00:28:25,079
+ Men aldrig hade jag fått en stryck på att se.
+
+354
+00:28:25,079 --> 00:28:31,079
+ Jag tycker bara att det är helt sjukt att man ska behöva göra en ticket av det
+
+355
+00:28:31,079 --> 00:28:36,119
+ och får de prioriterad och liksom att den ska gå igenom hela den här ordnerar processen.
+
+356
+00:28:36,230 --> 00:28:41,230
+ Det är känsom någonting man borde, diskuterar fram, alltså.
+
+357
+00:28:41,500 --> 00:28:48,859
+ Jag vet inte att kanske nånting upp och drethro och säger det här att jag vill kunde läsa småsaker.
+
+358
+00:28:48,859 --> 00:28:52,660
+ För att jag helt med på det här ska jag tänka till att jag tycker är klokrint.
+
+359
+00:28:52,660 --> 00:28:58,059
+ Asså särken ser man någonting som bara fixas om det bara är liksom ett stav fel eller
+
+360
+00:28:58,140 --> 00:29:01,740
+ Ja, någon lint grej som har blivit fel och någonting.
+
+361
+00:29:01,740 --> 00:29:06,779
+ Då har jag bara gjort det samma pär om det är liksom relaterat till det här kontextet.
+
+362
+00:29:06,779 --> 00:29:12,039
+ Men om man ser att det kanske är en funktion som skriber var effektörigas för att den är lite åtgärskilt,
+
+363
+00:29:12,039 --> 00:29:16,839
+ eller man kanske vill brity upp det jättelånga till lite olika variabler och sånt.
+
+364
+00:29:17,240 --> 00:29:20,440
+ Då kan sköra mer liksom okej kanske sköra uteget.
+
+365
+00:29:20,440 --> 00:29:23,640
+ Men då har jag ändå bara gjort det med en pr och inte...
+
+366
+00:29:24,420 --> 00:29:26,420
+ Ja, jag skickade in den samt ut.
+
+367
+00:29:30,430 --> 00:29:43,630
+ Ja, det är väl här det kan bli chef, så att man är oenset, för jag, jag tycker att man ska städa upp när det är så här i ett stav fel.
+
+368
+00:29:43,630 --> 00:29:49,950
+ Du behöver en faktorerar en funktion eller uttipsar. Du ändrar kanske så man så stav fel.
+
+369
+00:29:50,829 --> 00:29:58,829
+ Jag händer du ändrösa saker som känns små, men ni är mättna koden inte att testa det, så kan du ha faktiskt inte vinna.
+
+370
+00:30:00,000 --> 00:30:05,400
+ Det är ju en intrusierna att ni inte stav fel, och det är ju så uppfekst inte för att rykta ut det, jag vet inte.
+
+371
+00:30:05,400 --> 00:30:10,000
+ Det skulle ju kunna vara till exempel om man använder så här magic strings.
+
+372
+00:30:10,000 --> 00:30:17,000
+ Ja, i säljfatt du har en konstant eller någonting i den enum så jämfört i ett stängvärd.
+
+373
+00:30:17,000 --> 00:30:20,500
+ Och så har du plötsligt bittens byggstringvärdet.
+
+374
+00:30:20,500 --> 00:30:25,380
+ Och det är mycket lättare att ett att trylla mellan stålarna ha man bara göra lite under rad.
+
+375
+00:30:25,380 --> 00:30:29,380
+ Det blir ingen sportbarhet och butta har en ticket och kopplade till på det sätt ännu.
+
+376
+00:30:30,180 --> 00:30:42,180
+ Vi har jobbat med en utvecklare, som jag har väldigt stora spektför, men som var väldigt snabbottuppsärer
+
+377
+00:30:42,180 --> 00:30:45,180
+ Det här behöver vi göra så om.
+
+378
+00:30:45,180 --> 00:30:51,339
+ För att man behöver underhålla sin kod, man ser en haft år senare obam, men det var fan, det är jag skrivitt.
+
+379
+00:30:51,339 --> 00:30:55,339
+ Men som kände att det var en bra idé att passa på.
+
+380
+00:31:01,069 --> 00:31:08,069
+ Och kanske gjorde en till p-adans, alltså försökte vara ändå sen någa att det skriver lätt och kodru vi åa.
+
+381
+00:31:08,089 --> 00:31:13,529
+ som ibland gick i taket över här, för det var så här.
+
+382
+00:31:13,529 --> 00:31:18,329
+ Nu har du gjort massändringar, hur vet du att det här funkar?
+
+383
+00:31:18,470 --> 00:31:27,970
+ Och där är det här smörags allting är liksom lite för kuba-personen för att det här utvecklar en visste ju att kuba-personen skulle fråga.
+
+384
+00:31:30,000 --> 00:31:36,000
+ Ja, och så var det också större två visar, alltså som utvecklare i bland komm det är en väldigt storband.
+
+385
+00:31:36,000 --> 00:31:38,160
+ som gör om hela strukturen.
+
+386
+00:31:38,319 --> 00:31:43,440
+ Jag gör det mer i kanske funktionellt eller jag vill inte att du ska funktionellt för i så svår läst.
+
+387
+00:31:44,220 --> 00:31:51,740
+ och då att sitta och granskare som kollega utan den ticket, alltså det var ändå så är det ju det kunde vara svårt.
+
+388
+00:31:51,759 --> 00:31:56,759
+ Ja, med det känns som en lite större grej, man kanske kan ha någon slags
+
+389
+00:31:57,289 --> 00:32:04,890
+ Som är det mer än 2 minuter så jobba implementerar och mer än 15 minuter att testa.
+
+390
+00:32:04,890 --> 00:32:06,890
+ Jag har då får det bli en tiktigt av det.
+
+391
+00:32:06,890 --> 00:32:17,890
+ Sen vet jag inte, jag är en ovaltsgrann master och jag slint vid syr om man utvecklare lupen ticket och baddroginden i typ det väloppin.
+
+392
+00:32:17,890 --> 00:32:25,210
+ Det låter som honor är bromsklass att man ska sitta och prioriterar upp till och svidar och sedan
+
+393
+00:32:25,210 --> 00:32:29,170
+ prutera stint upp och så glömmer man bort den.
+
+394
+00:32:29,170 --> 00:32:33,210
+ Ja, det är så litet att man gör det samman så bara kör liksom.
+
+395
+00:32:33,210 --> 00:32:36,589
+ Ja, ä, ä, ä, ä, ä, ä, ä, ä och ä skulleure liksom väl lägga dig,
+
+396
+00:32:36,609 --> 00:32:38,269
+ en om prida baklor reds.
+
+397
+00:32:38,450 --> 00:32:39,829
+ Om det är ett större arbete.
+
+398
+00:32:40,049 --> 00:32:40,410
+ Ja.
+
+399
+00:32:40,549 --> 00:32:50,549
+ Ja, så jag om det är liksom en dags arbet eller en halvård av ens då, då snackar vi liksom nä, då kan det inte bara smygga in där lite så det.
+
+400
+00:32:50,549 --> 00:32:55,430
+ Ja precis för då sitter det ändå och har produkteret ner nåt i annat.
+
+401
+00:32:55,430 --> 00:33:00,509
+ man får ändå man behöver ändå vara transparent mot alla i timet och har det spekt för
+
+402
+00:33:00,529 --> 00:33:06,670
+ Pion vars ansvare att det vet sig till att det mest frutierar jobba på.
+
+403
+00:33:06,690 --> 00:33:11,690
+ Vi säkert helt okej för Pen, man behöver lyfta det och prata om det och kan vara tipsar.
+
+404
+00:33:11,930 --> 00:33:14,930
+ Och det kan vara sjukstörande som utvecklare, men det ser ju.
+
+405
+00:33:14,980 --> 00:33:18,819
+ Nu måste jag göra det här, det går ganska snabbt, har bara en halv dag.
+
+406
+00:33:18,819 --> 00:33:24,460
+ Men de vill ändå ha lite koll och förstå vad som händer var för hon. Vad för ni lägger tydligt på det här.
+
+407
+00:33:25,470 --> 00:33:31,470
+ Ofta brukar man ju lägga en lite padding för utmintenens task så sånt.
+
+408
+00:33:31,809 --> 00:33:34,809
+ När han gör sprintpläning och sånt.
+
+409
+00:33:35,430 --> 00:33:38,750
+ Jag sa att jag tycker ju ändå ut, det är utrymmet borde finnas där.
+
+410
+00:33:39,119 --> 00:33:41,119
+ Det håller vi om.
+
+411
+00:33:41,119 --> 00:33:43,880
+ Jag tror det ser det.
+
+412
+00:33:43,880 --> 00:33:48,279
+ Nu, men jag känner igen ett snarje och det är särram.
+
+413
+00:33:49,099 --> 00:33:52,619
+ Och det här står, det här står med mig för att det är ett väldigt mycket.
+
+414
+00:33:52,619 --> 00:33:55,180
+ Brann saker som stämmer, både skriver upp det här någonstans.
+
+415
+00:33:55,180 --> 00:33:58,259
+ Så att vi är att avsnittom saker som stömmer med andra utvecklare.
+
+416
+00:33:58,259 --> 00:34:01,259
+ Ähm, säger att det är så här.
+
+417
+00:34:02,079 --> 00:34:06,079
+ Ja, men det tar 20 % av din sprinteri jag är det här.
+
+418
+00:34:06,079 --> 00:34:08,079
+ Enes 50, alltså.
+
+419
+00:34:08,079 --> 00:34:10,079
+ Men också säger vi att när man...
+
+420
+00:34:10,449 --> 00:34:13,949
+ Det här tar lite längre tid, det är runt att förlägga in det här bäcklogen.
+
+421
+00:34:14,000 --> 00:34:19,000
+ Det här kommer inte ta sig dem i tid.
+
+422
+00:34:19,000 --> 00:34:24,280
+ tyd. Så det är om jag har ju stället ett, de tycker det här är rätt roligt arbete.
+
+423
+00:34:24,619 --> 00:34:27,619
+ Så de sätter sig på kvällarna och gör det här.
+
+424
+00:34:27,619 --> 00:34:33,500
+ Okej, och på Storsen är vi nådavert med över med det för det gånger från olika personer.
+
+425
+00:34:33,739 --> 00:34:39,179
+ Det är så roligt att de gör det på kvällen, men det är ändå nån som ska jobba mer att det är så här att testa det.
+
+426
+00:34:39,820 --> 00:34:41,179
+ Granske det.
+
+427
+00:34:41,179 --> 00:34:45,579
+ Ja, men de personare är oftast ännu, men det är inga problem för någon.
+
+428
+00:34:45,579 --> 00:34:48,619
+ Och jag syttes gjort det här själv, och hur kan du inte vara typp.
+
+429
+00:34:49,280 --> 00:34:54,659
+ Du ett, hur kan inte alla bara vara taxa med att jag sitter och gör det här på min fritid?
+
+430
+00:34:56,309 --> 00:35:04,309
+ Men jag vill inte ha det så jag vill inte att det sitter folk och kårar gällan nättarna, alltså, jag har varit gjort det någon gång, så är det.
+
+431
+00:35:04,679 --> 00:35:07,679
+ Men då stå, då försöker jag liksom...
+
+432
+00:35:08,849 --> 00:35:11,730
+ Jag vet inte att folk ska se att jag har gjort det.
+
+433
+00:35:11,730 --> 00:35:17,730
+ Nu ska inte stressa tiden med att här sitter någon av koder och kvällarna av intresse.
+
+434
+00:35:17,730 --> 00:35:22,550
+ Då har du på med ett hopp i projekt då, det är större mig.
+
+435
+00:35:22,550 --> 00:35:25,630
+ Vad är det för en tivt tar vi folk som lyssnar som gör sig här?
+
+436
+00:35:26,320 --> 00:35:29,320
+ Jag tror jag har gjort så många gång också.
+
+437
+00:35:29,320 --> 00:35:31,320
+ Jag känner mig att det smått träffad.
+
+438
+00:35:31,559 --> 00:35:39,329
+ Jag är ju att jag är träffade själv också ett någon, men det finns vissa som är väldigt så att de är större grejer.
+
+439
+00:35:39,329 --> 00:35:42,670
+ Ja, att de inte förstår att det är stort och de är insisterar,
+
+440
+00:35:42,780 --> 00:35:45,780
+ Du hittar de låter inte när på du kastan var ju drift.
+
+441
+00:35:46,780 --> 00:35:49,780
+ Att så är det för det fijn gör det på kvällen.
+
+442
+00:35:49,780 --> 00:35:53,780
+ Legg upp en på du kast och skapa en ticket så är lugna ner folk.
+
+443
+00:35:53,780 --> 00:35:55,780
+ Jag så preppar de lite.
+
+444
+00:35:56,179 --> 00:36:04,179
+ Jag vet att det är störigt, men gör det här lilla, liksom ekstra betet för folk, så att du inte bara trycker in saker och minst om då det.
+
+445
+00:36:04,179 --> 00:36:08,579
+ Nånting, vad säkker om ni kan håndt ut.
+
+446
+00:36:08,579 --> 00:36:11,980
+ Ja, men jag vad vill du säga.
+
+447
+00:36:11,980 --> 00:36:19,659
+ Nej, jag ska säga, tror du det är en bra idé att man har någon ser generellt typ för bättringsticket.
+
+448
+00:36:19,710 --> 00:36:26,630
+ Asså som man kan då koppla till att man då från plästa verktyks kan du gända och skriva en kommentar till
+
+449
+00:36:26,630 --> 00:36:30,630
+ till att kopplingen till en ticket från de pär.
+
+450
+00:36:30,630 --> 00:36:42,630
+ För då läser man i dittare här att man måste gå in och ska skapa en ticket och du ska, så det är ändå lite extra over hem som vi ganska mycket om det baskar fixar något lite stav fel eller liknande.
+
+451
+00:37:00,429 --> 00:37:10,269
+ Eller blir det bara en slask tratt när så stav fel absolut samma på det uppgöst.
+
+452
+00:37:10,269 --> 00:37:17,429
+ Så som sagt när det inte är när det inte är följst av filen att man ändå råket har sändat.
+
+453
+00:37:17,429 --> 00:37:23,949
+ Jag tycker att jag ska vara effektorering i pärren, men jättegärna att det är ingen komit.
+
+454
+00:37:24,449 --> 00:37:26,449
+ hit kan du koppla liksom små grejer.
+
+455
+00:37:26,449 --> 00:37:31,329
+ Jag vet inte att själv om jag gillar det riktigt nämligen, men jag får det slukna vannläsning.
+
+456
+00:37:31,599 --> 00:37:35,599
+ Ja, men när det är så småt, alltså då tycker jag att det ska vara koppla till.
+
+457
+00:37:35,619 --> 00:37:39,420
+ alltså då kan det ändå vara på den original ticketa.
+
+458
+00:37:39,420 --> 00:37:45,219
+ Men absoluter är någonting så så stå råkade jag se en helt annan fyld, att det var någonting.
+
+459
+00:37:47,989 --> 00:37:49,989
+ Jag vet inte.
+
+460
+00:37:49,989 --> 00:37:50,389
+ Jag vet inte.
+
+461
+00:37:50,389 --> 00:37:51,989
+ Jag vet inte att jag är en helst över det här med gulva,
+
+462
+00:37:51,989 --> 00:37:54,989
+ bara i snörymars, jag har ginnas fixanting i lutet.
+
+463
+00:37:54,989 --> 00:37:57,309
+ utan att man så skapar en ticket.
+
+464
+00:37:58,050 --> 00:38:05,489
+ Men när man andra sidan är inte så jobbigt att göra det bara så klickar jag på det plus och skrivän till det och varför har man fixa det typ.
+
+465
+00:38:05,889 --> 00:38:11,130
+ Men det är bra på hur mycket du ska skriva, alltså vi säger så besträckte att du ska skriva liksom.
+
+466
+00:38:11,130 --> 00:38:16,130
+ Giv en when den återt assade väl loppel när det det man inte så fiv assade väl.
+
+467
+00:38:16,130 --> 00:38:19,150
+ Det är en kastemör, är ju om 2 blabla blabla blabla blabla
+
+468
+00:38:19,150 --> 00:38:21,150
+ Det är faktor det sista liksom
+
+469
+00:38:21,150 --> 00:38:23,150
+ Det är det som det så...
+
+470
+00:38:23,150 --> 00:38:24,590
+ Det är bara stödigt.
+
+471
+00:38:24,590 --> 00:38:25,989
+ Nej, det är...
+
+472
+00:38:25,989 --> 00:38:26,989
+ Oj, tjöra.
+
+473
+00:38:27,869 --> 00:38:36,789
+ Nej, men vi har ju varit timmar. Det är andra tydligt med att vi har en feature eller epic i gira som heter tipsar.
+
+474
+00:38:36,789 --> 00:38:43,829
+ teknikalen pro men stäpt ideas och komburo på någonting så kan det lägga in en täsk där.
+
+475
+00:38:44,070 --> 00:38:56,070
+ Ja, för föramtida grejer eller så så när du ser någonting nu nu, nu så har du en fikor lägga den under examen.
+
+476
+00:38:56,070 --> 00:38:59,070
+ Och då hade vi också mitt senaste tiden.
+
+477
+00:38:59,070 --> 00:39:01,070
+ Den kunde vara verkligen högt och lågt.
+
+478
+00:39:01,659 --> 00:39:04,539
+ Ja, man måste ränsa ut och mör också, migt.
+
+479
+00:39:04,539 --> 00:39:10,619
+ för man ligger bara saker som ingen nåns intör upp, men jag tycker att det är skist att skriva radser, för det är för en själv.
+
+480
+00:39:10,619 --> 00:39:16,000
+ Man själv minns inte, jag har skapat den här ticketen för ett halvt år sedan.
+
+481
+00:39:16,000 --> 00:39:21,400
+ och det finns bara en tid där som är så refekter blabba oss service.
+
+482
+00:39:21,400 --> 00:39:22,400
+ Ja.
+
+483
+00:39:22,400 --> 00:39:26,800
+ Och så bann man varje i det vill du det faktorerier och så bärsför.
+
+484
+00:39:26,800 --> 00:39:28,559
+ Och så är det ingen anst.
+
+485
+00:39:28,559 --> 00:39:30,559
+ Jag ser inget en sak jag plockade upp den.
+
+486
+00:39:30,559 --> 00:39:35,179
+ Nu är man ganska mycket man glömmer.
+
+487
+00:39:35,179 --> 00:39:41,340
+ Jag har visst vara rättigheter, men fråga, har ni råket ut för ett limmat?
+
+488
+00:39:42,539 --> 00:39:45,420
+ Ja, jag har absolut haft i Sverige.
+
+489
+00:39:45,420 --> 00:39:52,940
+ Jo, sen har jag asså de senaste 7-årn har jag jobbat i samma projekt och det var vi där vi tyder har
+
+490
+00:39:52,940 --> 00:39:58,619
+ väldigt förstående P och också, men absolut att det är ändå ibland bygger upp de
+
+491
+00:39:58,619 --> 00:40:04,300
+ så man måste prioritera mot nåt annat, men en sista sak jag tänkte på kanske.
+
+492
+00:40:04,619 --> 00:40:07,500
+ Fan en lød som dupsar, utan att tera på kättsexempel.
+
+493
+00:40:07,519 --> 00:40:11,519
+ mycket kan man faktiskt automatiserar.
+
+494
+00:40:11,539 --> 00:40:16,340
+ Man kan ju ha tips här. Det pända bort och sånt för uppdaterar paket.
+
+495
+00:40:16,340 --> 00:40:21,159
+ Då blir det ju inte lika mycket att du själv måste hitta tiden och tryck in det och så här.
+
+496
+00:40:21,159 --> 00:40:26,599
+ Nu kommer jag att jag läste nånstans i någon trån när vi pratar om lintörs att kreatens att han hattar lintörs.
+
+497
+00:40:26,599 --> 00:40:29,159
+ Det blir så här och kanske bara att du kan ha ta lintörs.
+
+498
+00:40:29,159 --> 00:40:36,079
+ Det är ju ett bra sätt att kunde under vilka som man behöver göra såna refektereringar.
+
+499
+00:40:36,079 --> 00:40:43,119
+ Ja, men det är mycket som går att automatisera och är en breaking change,
+
+500
+00:40:43,119 --> 00:40:45,880
+ Jag med då får man ha i vissa tiden.
+
+501
+00:40:45,880 --> 00:40:48,159
+ Och så därför är en breaking changes.
+
+502
+00:40:48,159 --> 00:40:55,360
+ De har utsärt en person som ansvarer är att ta hand om breaking change varje vecka, så talar vi ett att
+
+503
+00:40:55,360 --> 00:40:58,400
+ Det är en bra kvinnchen.
+
+504
+00:40:58,400 --> 00:41:00,400
+ Det är en bra kvinnchen.
+
+505
+00:41:00,400 --> 00:41:09,940
+ och faktiskt, så det är ett sådär, men jag tycker också i allt här så får man ta in lite sådär hur kritiskt
+
+506
+00:41:09,940 --> 00:41:15,380
+ är vårat system, så har du många miljoner användare
+
+507
+00:41:15,380 --> 00:41:21,699
+ och att särge går in i öppor av ett stav fel så är det liksom det förlorar så
+
+508
+00:41:21,699 --> 00:41:25,539
+ extremt mycket på det. Så kanske man börjar fundera.
+
+509
+00:41:25,539 --> 00:41:28,099
+ Ja, på att jag eller om det är med landgö.
+
+510
+00:41:28,099 --> 00:41:31,579
+ eller nånting liksom vad sånt där det kan vara jättet stora
+
+511
+00:41:31,579 --> 00:41:33,579
+ Implikationer om man inte händer.
+
+512
+00:41:33,579 --> 00:41:35,579
+ Eller, ja.
+
+513
+00:41:35,579 --> 00:41:36,579
+ Överlades sig.
+
+514
+00:41:36,599 --> 00:41:44,599
+ Jag är dyktiga kommer hända fel, men det kan nog vara skönt att se om det sker ett fel på en av något staf fel, man gjorde det.
+
+515
+00:41:44,599 --> 00:41:54,599
+ Du hade en tiktigt att du skrev varför gjorde det, så det kan nog kännas lite bättre ändå att man gjorde såpas
+
+516
+00:41:54,599 --> 00:41:59,639
+ men man bara kunde heller det det är att det kommer fram att man har smygigt om
+
+517
+00:41:59,639 --> 00:42:04,159
+ om de ting och så har blit fel. Då är det lite skämigt så då står man i ramme.
+
+518
+00:42:06,159 --> 00:42:08,360
+ Ja, typ att man särg.
+
+519
+00:42:08,599 --> 00:42:11,920
+ Vi passar de polisis eller folk som är så här.
+
+520
+00:42:11,920 --> 00:42:14,920
+ Du är ett haren bad, det är smalt i god känner.
+
+521
+00:42:14,920 --> 00:42:16,920
+ Okej, det är så så.
+
+522
+00:42:17,480 --> 00:42:18,980
+ Så är skämbrån.
+
+523
+00:42:18,980 --> 00:42:22,380
+ Ja, när man varför funderar på hur viktigt den system är?
+
+524
+00:42:22,429 --> 00:42:27,429
+ Ja, hoppas det var en intressant diskussion hjälpfall.
+
+525
+00:42:27,429 --> 00:42:30,429
+ Om ett annat så var ju den en ny heter intressanta.
+
+526
+00:42:30,429 --> 00:42:32,429
+ Absolut.
+
+527
+00:42:33,230 --> 00:42:35,469
+ Med jag, vi hörs nästa veckor.
+
+528
+00:42:35,469 --> 00:42:37,469
+ Det gör vi. Har du bra lipa?
+
+529
+00:42:37,650 --> 00:42:38,650
+ Hejdå.
+

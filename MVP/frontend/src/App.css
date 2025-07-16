@@ -1,0 +1,656 @@
+:root {
+  /* Light Mode (Default) */
+  --bg-color: #ffffff;
+  --text-color: #212529;
+  --secondary-text-color: #6c757d;
+  --border-color: #dee2e6;
+  --accent-color: #007bff;
+  --card-bg: #f8f9fa;
+  --card-border: #dee2e6;
+  --button-bg: #e0e0e0;
+  --button-text: #333;
+  --button-hover-bg: #d0d0d0;
+  --header-bg: #282c34;
+  --header-text: #ffffff;
+  --error-bg: #ffebee;
+  --error-text: #f44336;
+  --error-border: #f44336;
+  --info-bg: #e3f2fd;
+  --info-text: #1565c0;
+  --info-border: #1565c0;
+  --success-bg: #e8f5e9;
+  --success-text: #2e7d32;
+  --success-border: #2e7d32;
+  --warning-bg: #fff8e1;
+  --warning-text: #f57f17;
+  --warning-border: #ffc107;
+
+  /* Specific Hat Colors (can be adjusted for dark mode if needed) */
+  --white-hat-bg: #f0f0f0;
+  --white-hat-text: #333;
+  --red-hat-bg: #ffebee;
+  --red-hat-text: #c62828;
+  --black-hat-bg: #424242;
+  --black-hat-text: white;
+  --yellow-hat-bg: #fffde7;
+  --yellow-hat-text: #f57f17;
+  --green-hat-bg: #e8f5e9;
+  --green-hat-text: #2e7d32;
+  --blue-hat-bg: #e3f2fd;
+  --blue-hat-text: #1565c0;
+}
+
+body.dark-mode {
+  /* Dark Mode Overrides */
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --secondary-text-color: #adb5bd;
+  --border-color: #495057;
+  --accent-color: #64b5f6; /* Lighter blue for dark mode */
+  --card-bg: #1e1e1e;
+  --card-border: #343a40;
+  --button-bg: #343a40;
+  --button-text: #e0e0e0;
+  --button-hover-bg: #495057;
+  --header-bg: #1e1e1e;
+  --header-text: #e0e0e0;
+  --error-bg: #2c1d1f; /* Darker red background */
+  --error-text: #f48fb1; /* Lighter red text */
+  --error-border: #e57373; /* Slightly lighter red border */
+  --info-bg: #1a2333;
+  --info-text: #90caf9;
+  --info-border: #64b5f6;
+  --success-bg: #1c2b20;
+  --success-text: #a5d6a7;
+  --success-border: #81c784;
+  --warning-bg: #332e1b;
+  --warning-text: #ffe082;
+  --warning-border: #ffd54f;
+
+  /* Adjust hat colors if needed for better contrast in dark mode */
+  /* Example: Make black hat background slightly lighter */
+   --black-hat-bg: #555555;
+   --black-hat-text: #e0e0e0;
+   /* Example: Make yellow hat text brighter */
+   --yellow-hat-text: #ffeb3b;
+}
+
+
+body { /* Apply base styles to body */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default body margin */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App.widescreen {
+  max-width: 1200px;
+}
+
+.App-header {
+  background-color: var(--header-bg);
+  padding: 20px;
+  color: var(--header-text);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.audio-recorder {
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Keep shadow subtle */
+  border: 1px solid var(--card-border);
+}
+
+/* Settings Panel Styles */
+.settings-panel {
+  background-color: var(--success-bg);
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid var(--success-border);
+}
+
+.settings-panel h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--success-text);
+  font-size: 18px;
+}
+
+.audio-source-selector {
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+}
+
+.device-selector {
+  margin-top: 10px;
+  background-color: var(--card-bg);
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--card-border);
+}
+
+.device-selector label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: var(--text-color); /* Ensure label text color adapts */
+}
+
+.device-selector select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color); /* Use main bg or card bg? */
+  color: var(--text-color); /* Ensure select text color adapts */
+  font-size: 14px;
+}
+
+.system-audio-info {
+  background-color: var(--warning-bg);
+  border-left: 4px solid var(--warning-border);
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 0 4px 4px 0;
+  color: var(--warning-text); /* Ensure text color adapts */
+}
+
+.system-audio-info p {
+  margin: 8px 0;
+}
+
+/* Controls Styles */
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.recording-controls, .session-controls {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid var(--card-border);
+}
+
+.recording-controls h3 {
+  color: var(--success-text);
+  margin-top: 0;
+}
+
+.session-controls h3 {
+  color: var(--info-text); /* Use info color for session controls */
+  margin-top: 0;
+}
+
+.control-note {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+  color: var(--warning-text);
+  padding: 8px;
+  background-color: var(--warning-bg);
+  border-radius: 4px;
+  border-left: 3px solid var(--warning-border);
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.record-button {
+  background-color: var(--success-border); /* Use success color */
+  color: var(--bg-color); /* White text on dark green */
+}
+
+.record-button:hover {
+  background-color: var(--success-text); /* Slightly lighter green */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stop-button {
+  background-color: var(--error-border); /* Use error color */
+  color: var(--bg-color); /* White text on dark red */
+}
+
+.stop-button:hover {
+  background-color: var(--error-text); /* Slightly lighter red */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.end-session-button {
+  background-color: var(--info-border); /* Use info color */
+  color: var(--bg-color); /* White text on dark blue */
+}
+
+.end-session-button:hover {
+  background-color: var(--info-text); /* Slightly lighter blue */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+  background-color: var(--secondary-text-color) !important; /* Use secondary text color for disabled */
+  color: var(--bg-color) !important; /* Ensure text is visible */
+  cursor: not-allowed;
+  box-shadow: none !important;
+  opacity: 0.6;
+}
+
+.error-message {
+  color: var(--error-text);
+  margin: 10px 0;
+  padding: 10px;
+  background-color: var(--error-bg);
+  border-radius: 4px;
+  border-left: 4px solid var(--error-border);
+}
+
+.transcription-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.transcription {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 15px;
+  border-radius: 4px;
+  min-height: 150px;
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap; /* Keep this for basic wrapping */
+  overflow-wrap: break-word; /* Add this for better word breaking */
+  line-height: 1.5;
+  color: var(--text-color); /* Ensure text color adapts */
+}
+
+/* Agent Outputs Styles */
+.agent-outputs-container {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border); /* Add border consistent with other cards */
+  max-width: 100%;
+}
+
+.agent-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.tab-button {
+  padding: 8px 12px;
+  background-color: var(--button-bg);
+  color: var(--button-text); /* Ensure button text color adapts */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.tab-button.active {
+  border-bottom: 3px solid var(--accent-color);
+  background-color: var(--button-hover-bg); /* Make active tab slightly different */
+  font-weight: bold;
+}
+
+/* Hat color styles */
+.white-tab {
+  background-color: var(--white-hat-bg);
+  color: var(--white-hat-text);
+}
+
+.red-tab {
+  background-color: var(--red-hat-bg);
+  color: var(--red-hat-text);
+}
+
+.black-tab {
+  background-color: var(--black-hat-bg);
+  color: var(--black-hat-text);
+}
+
+.yellow-tab {
+  background-color: var(--yellow-hat-bg);
+  color: var(--yellow-hat-text);
+}
+
+.green-tab {
+  background-color: var(--green-hat-bg);
+  color: var(--green-hat-text);
+}
+
+.blue-tab {
+  background-color: var(--blue-hat-bg);
+  color: var(--blue-hat-text);
+}
+
+.tab-content {
+  background-color: var(--bg-color); /* Use main background for content area */
+  border-radius: 5px;
+  padding: 15px;
+  min-height: 250px;
+  border: 1px solid var(--border-color);
+  color: var(--text-color); /* Ensure text color adapts */
+}
+
+.agent-output {
+  transition: opacity 0.3s ease;
+}
+
+.agent-output.hidden {
+  display: none;
+}
+
+.agent-description {
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: var(--secondary-text-color);
+  text-align: right;
+}
+
+.output-text {
+  line-height: 1.6;
+  white-space: normal; /* Ensure normal whitespace handling for the container */
+  color: var(--text-color); /* Ensure text color adapts */
+  text-align: left; /* Ensure text is left-aligned */
+  overflow-x: hidden; /* Prevent horizontal scrollbars on the container */
+  /* Add word-break directly to the container as well */
+  word-break: break-all;
+}
+
+/* Apply forceful word breaking to all descendants */
+.output-text * {
+  overflow-wrap: break-word; /* Prefer breaking between words if possible */
+  word-wrap: break-word; /* Older browsers */
+  word-break: break-all; /* Force break anywhere if necessary */
+  white-space: normal !important; /* Override any inherited pre/nowrap, except for explicit pre/code */
+}
+
+/* Re-apply specific whitespace for code blocks */
+.output-text pre,
+.output-text code {
+  white-space: pre !important; /* Keep preformatting for code */
+  word-break: normal; /* Allow code blocks to scroll horizontally if needed */
+  overflow-x: auto; /* Add scroll for code blocks */
+}
+/* Ensure inline code also doesn't break excessively if not needed */
+.output-text p code,
+.output-text li code {
+   white-space: normal !important; /* Allow inline code to wrap normally */
+   word-break: break-all; /* Still allow breaking if inline code is too long */
+   overflow-x: visible;
+}
+
+/* Ensure paragraphs within output text wrap correctly */
+/* .output-text p styling is now handled by .output-text * above, */
+/* but we can keep margin if desired */
+.output-text p {
+   margin-bottom: 1em; /* Add some space between paragraphs */
+   /* Wrapping is handled by .output-text * */
+}
+
+/* Style code blocks if ReactMarkdown renders them */
+/* Styling for pre is handled above, combining with code */
+.output-text pre {
+  background-color: var(--card-bg); /* Slightly different background */
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 4px;
+  /* overflow-x and white-space handled in the combined rule above */
+}
+
+/* Styling for code is handled above, combining with pre */
+.output-text code {
+   font-family: monospace;
+   background-color: var(--card-bg); /* Consistent background */
+   padding: 0.2em 0.4em; /* Keep padding for inline code */
+   border-radius: 3px;
+   /* white-space handled in the combined rule above */
+}
+
+.no-output {
+  color: var(--secondary-text-color);
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--card-bg);
+  border-radius: 4px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: var(--secondary-text-color);
+}
+
+/* Agent Output Navigation */
+.output-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.output-navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  border: 1px solid var(--border-color);
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: var(--button-hover-bg);
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.output-count {
+  font-size: 12px;
+  color: var(--secondary-text-color);
+  background-color: var(--card-bg);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+/* Update output-text styles - This seems redundant, the main style is above */
+/* Let's remove this potentially conflicting block */
+/*
+.output-text {
+  padding: 10px;
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+*/
+
+/* Meeting Setup Styles */
+.meeting-setup {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Keep shadow */
+  margin-bottom: 20px;
+  border: 1px solid var(--card-border);
+}
+
+.meeting-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-color); /* Input background */
+  color: var(--text-color); /* Input text color */
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.create-meeting-button {
+  background-color: var(--success-border); /* Use success color */
+  color: var(--bg-color);
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.existing-meetings {
+  margin-top: 30px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+}
+
+.meetings-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.meeting-item {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.meeting-item:hover {
+  background-color: var(--button-hover-bg); /* Use hover color for item hover */
+  border-color: var(--border-color);
+}
+
+.meeting-item h4 {
+  margin: 0 0 10px 0;
+  color: var(--text-color);
+}
+
+.meeting-date {
+  font-size: 12px;
+  color: var(--secondary-text-color);
+  margin: 5px 0;
+}
+
+.meeting-agenda {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Dark Mode Toggle Button */
+.theme-toggle-button {
+  /* Position it within the header relative to .App-header if it's position: relative */
+  /* Or use absolute positioning if needed */
+  float: right; /* Simple positioning for now */
+  margin-left: 15px; /* Add some space */
+  padding: 8px 12px;
+  font-size: 12px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+/* Adjust header to accommodate button if needed */
+.App-header {
+  position: relative; /* Needed for absolute positioning of children if used */
+  /* Add padding-right if using float or absolute positioning */
+  /* padding-right: 150px; */ /* Example: Adjust as needed, maybe not needed with float */
+}

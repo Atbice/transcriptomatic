@@ -1,0 +1,1876 @@
+1
+00:00:00,000 --> 00:00:08,880
+ Jag minns att vi hade en kuva person då, som ibland gick i taket över det här för att det var så här.
+
+2
+00:00:08,880 --> 00:00:11,759
+ Nu har du gjort massor av ändringar.
+
+3
+00:00:11,759 --> 00:00:14,640
+ Hur vet du att det här funkar?
+
+4
+00:00:14,640 --> 00:00:25,070
+ Och ur det här smöks allt mer, liksom lite för kuva personen.
+
+5
+00:00:25,230 --> 00:00:30,030
+ Du lyssnar på Developers, på den där du får följa med oss, Sofia Amade,
+
+6
+00:00:30,030 --> 00:00:32,429
+ På allt inom mjukvårdutveckling.
+
+7
+00:00:32,429 --> 00:00:38,429
+ Vi träffar spännande gäster, testar nya teknologier, söker inspiration och tar upp aktuella ämnen.
+
+8
+00:00:38,429 --> 00:00:44,189
+ Jag vet inte varför det har blivit så svårt att starta på den.
+
+9
+00:00:44,189 --> 00:00:46,189
+ Vi startar så här.
+
+10
+00:00:46,270 --> 00:00:48,270
+ Vi ställer.
+
+11
+00:00:48,270 --> 00:00:52,270
+ Nej, men det är bara att säga lite på saker och säga känns det som...
+
+12
+00:00:52,270 --> 00:00:58,409
+ Fast vi har många saker att säga, men de kanske är rants utanför techvärlden.
+
+13
+00:00:58,670 --> 00:01:00,210
+ Eller?
+
+14
+00:01:00,469 --> 00:01:01,729
+ Ja, nej, jag vet inte.
+
+15
+00:01:01,869 --> 00:01:04,269
+ Jag var såhär, du bara frågar, har du något att säga?
+
+16
+00:01:04,269 --> 00:01:06,469
+ Ja, men jag hade kelas för min ettåring idag.
+
+17
+00:01:06,469 --> 00:01:07,989
+ Det är inte heller så intressant att prata om.
+
+18
+00:01:07,989 --> 00:01:13,310
+ Ska vi inte bara hoppa dragt in och så här tackar våra skänsebordrar på Patreon så sen snackar vi om vad vi ska snacka om.
+
+19
+00:01:13,310 --> 00:01:18,310
+ Jo, jag måste spara luft i mina lugvar, för det är så mycket teknik heter att såhär...
+
+20
+00:01:18,310 --> 00:01:21,310
+ Jag vet inte hur jag ska orka läsa igenom det här.
+
+21
+00:01:21,310 --> 00:01:25,909
+ Då kör vi i att ta och tacka våra stjärnsupporter på Patreon.
+
+22
+00:01:25,909 --> 00:01:31,950
+ Det är alltså de som stöttar oss med 100 kronor eller mer per månad som får sitt namn uppkläst här.
+
+23
+00:01:31,950 --> 00:01:44,750
+ Det är Alicia Anders Nylund, Björn Jonsson, Dag Grunnell, Kajetan Kazimierzak, Lars Nyström, Molly Haglund och Skari Pannotby Selle Mjorthall, Styg Hest och Thomas Nilsson.
+
+24
+00:01:44,750 --> 00:01:51,950
+ Tack så mycket till er och tack till alla andra som stöttar oss på Patreon och på alla andra olika sätt som ni supportar oss.
+
+25
+00:01:51,950 --> 00:01:54,430
+ Ja, det var någon som köpte merch häromdagen.
+
+26
+00:01:54,430 --> 00:01:56,989
+ Blir jag så här glad när det droppar in lite råd då?
+
+27
+00:01:57,250 --> 00:01:58,269
+ Exakt.
+
+28
+00:01:58,269 --> 00:02:03,709
+ Ibland ser jag nån på jobbet som har vår mörch, som inte går fram och skryter om det varje dag utan bara såhär.
+
+29
+00:02:03,709 --> 00:02:05,709
+ Men jag har en mörk, det är nice.
+
+30
+00:02:05,709 --> 00:02:07,709
+ Ja, det är nice.
+
+31
+00:02:07,709 --> 00:02:11,710
+ Nej men, det låter sig hoppa in i nyheter.
+
+32
+00:02:11,710 --> 00:02:14,710
+ Du har använt create react app, eller hur?
+
+33
+00:02:14,710 --> 00:02:16,710
+ Eller jag vet ju det.
+
+34
+00:02:16,710 --> 00:02:26,210
+ att jag har. Men det är kanske inte alla som har gjort det, om man är ganska ny så kanske man redan vet att man inte bör använda
+
+35
+00:02:30,000 --> 00:02:35,680
+ create react app. Eller om man inte är fronten utvecklare, eller om man inte är fronten utvecklare.
+
+36
+00:02:35,919 --> 00:02:42,800
+ Alltså jag vet inte, för att det fanns, det kom nog typ precis när jag började jobba med React.
+
+37
+00:02:42,800 --> 00:02:48,400
+ Så det kändes som en game changer, men jag vet inte hur pass mycket game changer det var.
+
+38
+00:03:00,000 --> 00:03:05,520
+ Det kom 2016 och det tog bort så mycket av kronlighet med att hålla på med
+
+39
+00:03:05,520 --> 00:03:10,520
+ all boilerplate kod för att konfigurera ett helt reakt projekt.
+
+40
+00:03:10,520 --> 00:03:14,360
+ Det var ett webpack konfigus och Babel konfigus.
+
+41
+00:03:14,960 --> 00:03:16,599
+ Du måste du hör en du haft.
+
+42
+00:03:16,599 --> 00:03:21,120
+ Det var ju nice, för där är vissa saker creature act-app som inte kommer med automatiskt,
+
+43
+00:03:21,120 --> 00:03:26,120
+ till exempel server-side-drendering och lite sånt som vi då behövde i den applikationen.
+
+44
+00:03:26,120 --> 00:03:30,120
+ Men det är jobbigt att underhålla det också.
+
+45
+00:03:30,120 --> 00:03:34,400
+ Sen kan man ju ejecta sin kreaturakt och göra det också så att man kan ju komma ut.
+
+46
+00:03:34,400 --> 00:03:39,840
+ Och då hamnar man i något helvete mellan stadies, så är det en helvete.
+
+47
+00:03:39,840 --> 00:03:46,240
+ Ja, jag minns att du har klagat på att vi skulle migrera till webpack 5 och blablabla har det tog jätterogitid.
+
+48
+00:03:46,240 --> 00:03:56,240
+ Det tog bort mycket av helvet som innebär av att jobba med frontend, ger inte in i det för det är inte så jättemycket bättre än nu ska jag säga.
+
+49
+00:03:56,240 --> 00:04:05,740
+ Men det var i alla fall, jag skulle säga att det var synonymt med att starta ett direktprojekt.
+
+50
+00:04:05,740 --> 00:04:14,740
+ Det var självklart att när du startade ett reaktprojekt, självklart att använda det och create reakt app för att sätta upp allting.
+
+51
+00:04:14,740 --> 00:04:25,740
+ Och jag ser det fortfarande idag när folk lämnar in sin kod till teckindivur, att folk fortfarande använder det, det är så en vana man har.
+
+52
+00:04:25,740 --> 00:04:28,740
+ Även nu, alltså med vitt och sånt.
+
+53
+00:04:28,740 --> 00:04:32,019
+ Ja, jag tror att vissa vet inte.
+
+54
+00:04:32,019 --> 00:04:38,160
+ Vissa har inte hört om att, i alla fall, det de har inte hört om är att
+
+55
+00:04:38,160 --> 00:04:44,560
+ Reaktimet slutade ju rekommenderade företag sen och det blev väl så här.
+
+56
+00:04:44,829 --> 00:04:53,149
+ Man slutade maintainar det projektet om man började där det kom en ja det är det här som
+
+57
+00:04:53,149 --> 00:04:55,149
+ som jag ska gå in på, som är chafsat här.
+
+58
+00:04:55,149 --> 00:04:57,149
+ Åh, alltid kul med chafs.
+
+59
+00:04:57,149 --> 00:05:00,149
+ Ja, så det har varit chafs.
+
+60
+00:05:00,149 --> 00:05:08,149
+ Som du säger, kräftappsar har inte haft stöd för allting som är mer modern webb i dag.
+
+61
+00:05:08,149 --> 00:05:12,149
+ Så det är inte chockerande att dela i sned.
+
+62
+00:05:12,149 --> 00:05:20,149
+ Men det hände drama under 72 timmar efter att de offentliggjorde att det verkligen ska läggas ner helt.
+
+63
+00:05:20,149 --> 00:05:23,149
+ Så jag ska sammanfatta dramat.
+
+64
+00:05:23,149 --> 00:05:28,550
+ React-teamet gjorde ett blogging-lägg där de uppmanade utvecklare att övriga Creator React app
+
+65
+00:05:28,550 --> 00:05:33,069
+ och att man ska gå över till Next.js och beaktiga Outer
+
+66
+00:05:33,149 --> 00:05:37,509
+ eller till och med bygga ett eget ravverk från grunden.
+
+67
+00:05:37,620 --> 00:05:51,620
+ Inte rekommenderat, inte rekommenderat, men det är de här sakerna du kan göra, men jag vet att de har varit såhär, men håll inte på att bygga det från grunden, så de är väldigt såhär, använt typ next yes.
+
+68
+00:05:51,620 --> 00:05:55,120
+ Jag tror att du har sett det kanske på hemsidan när man går in, så är det så här.
+
+69
+00:05:55,120 --> 00:05:59,120
+ Använd Next.js. Är det Gats? Kanske de också rekommenderar.
+
+70
+00:06:00,110 --> 00:06:10,110
+ Nästan ingen nämnde det. Det heter vitt, men de flesta tror jag är vita.
+
+71
+00:06:10,110 --> 00:06:13,110
+ De som inte snackar franska.
+
+72
+00:06:13,110 --> 00:06:18,350
+ De kommer hata att vi säger vit det, men hur säger du det?
+
+73
+00:06:18,350 --> 00:06:19,350
+ Jag säger vit.
+
+74
+00:06:19,350 --> 00:06:20,350
+ Du säger vit?
+
+75
+00:06:20,350 --> 00:06:22,829
+ Men jag har ju lätt franska i fyra år, men ja.
+
+76
+00:06:22,829 --> 00:06:26,829
+ Jaha, fensybar gigt.
+
+77
+00:06:26,829 --> 00:06:32,649
+ Ja, okej, men vissa kallar det vit, ja, i alla fall.
+
+78
+00:06:32,649 --> 00:06:38,370
+ Vit är jättepopulör till bland react-utvecklare, typ alla som kör det cracked-racked-up
+
+79
+00:06:38,370 --> 00:06:42,290
+ som föredrar på att det inte var toppen längre, gick över till vitt.
+
+80
+00:06:42,290 --> 00:06:46,250
+ Det var svinenkelt att gå över till det toppen.
+
+81
+00:06:46,250 --> 00:06:50,889
+ Men ingen typ nämnde att ett alternativ är att det går över till vitt.
+
+82
+00:06:50,970 --> 00:06:52,569
+ Det är jättekännt.
+
+83
+00:07:00,000 --> 00:07:09,000
+ Så att många utvecklare blev väldigt arga och menade att reaktimet var partiska mot vitt och förstår inte hur
+
+84
+00:07:09,000 --> 00:07:16,000
+ kommunitet faktiskt arbetar. Jag skulle säga att de flesta har ju gått över till vitt i stället för att migrera allting till nexie.
+
+85
+00:07:16,000 --> 00:07:20,000
+ Alltså det är mycket mer det du får på köpet som du kanske inte behöver alltid.
+
+86
+00:07:20,300 --> 00:07:28,600
+ De gick tydligt med så långt att de anklagade reaktimet för att vara köpta av
+
+87
+00:07:28,600 --> 00:07:32,779
+ någon som skrev såhär, av Big Framework.
+
+88
+00:07:33,720 --> 00:07:38,399
+ Men vadå? Alltså, eller vem ligger bakom?
+
+89
+00:07:38,399 --> 00:07:42,399
+ Det är ett företag som heter Versel.
+
+90
+00:07:42,399 --> 00:07:47,279
+ och folk har kanske hört om det i olika sammanhang. De har ju såhär klaudtjänster.
+
+91
+00:08:00,000 --> 00:08:02,000
+ Håsting ska man ju säga.
+
+92
+00:08:02,000 --> 00:08:04,000
+ Håsting.
+
+93
+00:08:04,000 --> 00:08:07,000
+ De kör håsting, de bygger nexis.
+
+94
+00:08:07,000 --> 00:08:09,000
+ Det är typ så här.
+
+95
+00:08:09,000 --> 00:08:11,000
+ Nu kan jag vara ute på utvatten så insatt det är inte.
+
+96
+00:08:11,000 --> 00:08:17,000
+ Men det är många rejektteamet som bidrar.
+
+97
+00:08:17,000 --> 00:08:23,000
+ Eller så här som har gått in och börjat jobba i förnextesprojektet.
+
+98
+00:08:23,000 --> 00:08:25,759
+ ganska underhållande i alla fall när man såg posterna från det.
+
+99
+00:08:30,209 --> 00:08:40,409
+ Men det slutlugnade ner sig och reaktimet uppdaterade sitt bloggillegge och hade lite mer balanserade,
+
+100
+00:08:40,409 --> 00:08:47,409
+ i gång med vitt, utan att behöva byta till ett ramverk som Nektys.
+
+101
+00:08:47,429 --> 00:08:55,750
+ Så nu är fredan återställd, men i alla fall lite drama, men jag hoppas att ni har fått budskapet med er
+
+102
+00:08:55,750 --> 00:09:05,750
+ Det är officiellt dött, men alltid kul med lite drama, men det var fint att se att de blev vänner till slut.
+
+103
+00:09:05,750 --> 00:09:07,789
+ Ja, frid och frid på jorden.
+
+104
+00:09:08,350 --> 00:09:15,350
+ Nästa grej. Inte så relevant för oss, för oss att utveckla kanske, men Amazon,
+
+105
+00:09:15,350 --> 00:09:24,350
+ Alla stora företag har jobbat med LLM släppt nånting för att vara relevanta i AI.
+
+106
+00:09:24,350 --> 00:09:26,350
+ Men så har vi inte gjort det.
+
+107
+00:09:26,350 --> 00:09:27,350
+ Nej.
+
+108
+00:09:27,350 --> 00:09:29,350
+ Men de gör ju så mycket annat.
+
+109
+00:09:30,000 --> 00:09:36,320
+ Alltså, jag tänker att de har hela AVS som är typ en av de världsledande cloud-provider och sånt.
+
+110
+00:09:36,320 --> 00:09:41,279
+ Behöver man verkligen doppa, liksom, fingrarna är alla syltburkar.
+
+111
+00:09:41,279 --> 00:09:50,279
+ Absolut, absolut. Har du Azure, AVS eller Google Cloud så behovar du in pengar på att det inte gör någonting i princip.
+
+112
+00:09:50,279 --> 00:09:54,440
+ Absolut, de har haft olika typer av LLM-tjänster i det.
+
+113
+00:09:54,710 --> 00:10:01,110
+ Men de har ändå inte riktigt varit med i gamet som någon som gör modeller eller hur?
+
+114
+00:10:01,110 --> 00:10:02,110
+ Nej, nej, nej.
+
+115
+00:10:02,110 --> 00:10:06,110
+ Jag vet de har haft, vad heter den här, Code Whisper.
+
+116
+00:10:06,110 --> 00:10:10,110
+ Men ändå, de har ju sin assistent Alexa.
+
+117
+00:10:10,350 --> 00:10:14,350
+ Det är där man förväntar sig att nån slags utveckling ska ske.
+
+118
+00:10:14,350 --> 00:10:25,350
+ Nu har han rullat ut Alexa plus, eller i alla fall presenterat det, jag tror att man kan säga upp det och det finns olika erbjudenden om det har prime eller inte.
+
+119
+00:10:25,350 --> 00:10:29,950
+ Det är väl spännande. Alla de här Siri och Alexa är helt värdelösa.
+
+120
+00:10:30,000 --> 00:10:39,360
+ Du kan ju inte göra nånting förutom att sätta på musiken eller släcklampan, men samtidigt med det sagt så är
+
+121
+00:10:39,360 --> 00:10:49,360
+ Det är en miljoners miljoner människor som ändå interagerar med Alexa och säger starta musiken eller släcklampan.
+
+122
+00:11:00,879 --> 00:11:06,379
+ Jag vet inte var det kommer leda till det, men det är väldigt många användare som de introducerar
+
+123
+00:11:06,379 --> 00:11:12,139
+ som visade helt så här exempel som helt det ingen som gör så här verkligheten.
+
+124
+00:11:12,139 --> 00:11:24,019
+ Det var typ så här, nu kan du använda AI för att beställa en uber åt din kompis när din kompis kommer till frikplatsen.
+
+125
+00:11:24,019 --> 00:11:27,019
+ Det kan vara krångligt scenario.
+
+126
+00:11:30,000 --> 00:11:37,000
+ Alltså, det enda jag vill kunna med typ Siri är öppna min antökning som heter Handlingslista
+
+127
+00:11:37,000 --> 00:11:43,000
+ och lägg till smör när jag står med händerna fulla och bakar och insatsmört.
+
+128
+00:11:43,000 --> 00:11:46,000
+ Det går, men det är skitjobbigt att säga det.
+
+129
+00:11:46,000 --> 00:11:48,000
+ Jag har fan inte lyckats.
+
+130
+00:11:48,000 --> 00:11:53,000
+ Vi hoppas att den är bättre, men jag är trött på de exemplen som ingen i världen skulle göra.
+
+131
+00:11:53,000 --> 00:12:00,500
+ Folk beställer sig nu själv, den liksom, inte ett verkligt case, men det visar att de ger sig ändå in i det här,
+
+132
+00:12:00,610 --> 00:12:07,610
+ Och i agenter, alltså försöker jag göra någon slags agent som alla andra håller på med.
+
+133
+00:12:07,610 --> 00:12:09,610
+ Vi får se vad som händer där.
+
+134
+00:12:09,610 --> 00:12:15,610
+ Något som är mer roligt för oss, Visual Studio Code, känner du till och använt kanske?
+
+135
+00:12:15,610 --> 00:12:17,610
+ Jag har aldrig hört.
+
+136
+00:12:17,610 --> 00:12:24,250
+ Ja, jag vet inte. Det är ju jättväl typ alla var det är nästan, eller tror jag nog.
+
+137
+00:12:24,250 --> 00:12:33,049
+ Man har inte jobbat med något väldigt skitspråk, men det är en id för att används kanske oftast av...
+
+138
+00:12:33,049 --> 00:12:35,250
+ Alltså nu vågar jag inte säga det.
+
+139
+00:12:35,250 --> 00:12:38,769
+ Det känns som att förrest jag har skript människor använder vi kör styr och kod.
+
+140
+00:12:39,299 --> 00:12:45,700
+ Min sambo frågade mig när han började plugga, vad är skillnaden på Visual Studio och Visual Studio Code?
+
+141
+00:12:45,940 --> 00:12:52,940
+ Så har jag typ så här, ja men Visual Studio är typ förbackend.net och Visual Studio Code är typ för fronten.
+
+142
+00:12:52,940 --> 00:12:59,940
+ Alltså om man ska hårdra det, så har han sagt det på sin lija och då har de skrattat åt mig.
+
+143
+00:13:00,000 --> 00:13:12,000
+ Och typ så, nej, det har hon typ nu sagt, och jag bara såhär, då var jag så, det gick det vara väl en rimlig för någon som är ganska ny, alltså utan var ju precis när mig pluggade, det var inte så dum förklaring, eller?
+
+144
+00:13:12,000 --> 00:13:16,000
+ Men vad menar du om att välja hur hade du fel?
+
+145
+00:13:16,000 --> 00:13:17,480
+ Ja nej jag vet inte.
+
+146
+00:13:17,480 --> 00:13:20,879
+ Alltså klart du kan köra andra saker i vicious studio code också.
+
+147
+00:13:20,879 --> 00:13:23,279
+ Ja men det är helgiskt och du gör inte det.
+
+148
+00:13:23,279 --> 00:13:25,279
+ Nej, nej, exakt.
+
+149
+00:13:25,279 --> 00:13:27,279
+ Nej, signa åt det i alla fall.
+
+150
+00:13:27,279 --> 00:13:29,639
+ Jag avskynar folk föreslår det.
+
+151
+00:13:29,639 --> 00:13:33,639
+ Alltså, förlåt min chef, du är bäst.
+
+152
+00:13:33,639 --> 00:13:39,639
+ Men liksom, jag var såhär, behöver du verkligen, vad jag skulle ha, Intelligy?
+
+153
+00:13:39,639 --> 00:13:41,879
+ För jag var, vad behöver du verkligen, Intelligent?
+
+154
+00:13:41,879 --> 00:13:45,320
+ Det går ju att köra i Vision Studio Code, det är bara så här...
+
+155
+00:13:45,320 --> 00:13:51,240
+ Jag tänkte inte sitta med ett samt fullfledged språk när jag har en fullfledged id.
+
+156
+00:13:51,240 --> 00:13:55,759
+ Och sitta i visor och styr och kov, men skit extensions.
+
+157
+00:13:55,840 --> 00:13:58,919
+ Nej, jag är benäggen att hålla med.
+
+158
+00:13:58,919 --> 00:14:03,919
+ Ja, men det är för att vi är färgade av Visual Studio som har allt, liksom.
+
+159
+00:14:04,000 --> 00:14:12,000
+ Okej, vi har förklarat var det är nu på dåligt sätt och folk skrattar säkert och antar det än igen.
+
+160
+00:14:12,000 --> 00:14:16,519
+ Men i alla fall, de har ett väldigt populärt tema.
+
+161
+00:14:16,519 --> 00:14:22,659
+ Man kan ha väldigt många olika teman när det är den här idén som heter material.
+
+162
+00:14:22,919 --> 00:14:26,500
+ Och det är för att man inte har upptäckt
+
+163
+00:14:26,759 --> 00:14:29,059
+ misstänksam kod
+
+164
+00:14:29,059 --> 00:14:33,580
+ Materialsin var ett väldigt populärt tema.
+
+165
+00:14:33,580 --> 00:14:41,259
+ Jag hade mer än 6 miljoner användare och det är inspirerat av Google's material design, men nu är det alltså helt borta.
+
+166
+00:14:41,259 --> 00:14:45,620
+ Ja, men vadå, alltså, teman, det är typ bara lite Jason.
+
+167
+00:14:46,899 --> 00:14:49,200
+ Vad kan man slänga in för farlig kod där i?
+
+168
+00:14:49,460 --> 00:14:50,740
+ Eller ställ inga frågor?
+
+169
+00:14:50,980 --> 00:14:52,019
+ Läst började jag.
+
+170
+00:14:52,019 --> 00:14:59,019
+ Nej, men jag bara såhär förnerar, men visst är det klart, har man ont uppåt så kan man ju lyckas göra det med det mesta.
+
+171
+00:14:59,019 --> 00:15:04,740
+ Jag är så orolig och nöjd. Hur skulle man kunna göra det i ett tema?
+
+172
+00:15:04,740 --> 00:15:08,340
+ Ja, alltså bra fråga, jag har aldrig vikt ett tema.
+
+173
+00:15:08,340 --> 00:15:11,419
+ Nån som har vikt ett tema vet ju så klart.
+
+174
+00:15:11,419 --> 00:15:16,820
+ Men den ändrar väl inte bara, eller ändrar man bara färg,
+
+175
+00:15:16,820 --> 00:15:18,379
+ liksom color black.
+
+176
+00:15:18,940 --> 00:15:31,700
+ För det de sa var att det fanns mycket typ kod som har onödiga beroende till saker.
+
+177
+00:15:31,700 --> 00:15:38,460
+ De körde några såhär child-processer, IVS-kod, vilket var väldigt märkligt för ett vanligt tema.
+
+178
+00:15:38,759 --> 00:15:42,759
+ Jag vet inte. Så det gör jag för borta.
+
+179
+00:15:42,759 --> 00:15:48,759
+ Då kan jag tipsa om världens bästa tema som jag använder på rubbet och det är Nord.
+
+180
+00:15:48,759 --> 00:15:49,759
+ Jag tycker det är så snyggt.
+
+181
+00:15:49,759 --> 00:15:51,759
+ Ja, just det använder du.
+
+182
+00:15:51,759 --> 00:16:00,759
+ Ja men det gör jag, det är typ sublime, någonting koffee eller något sådant där, det är lite såhär, brun och orant.
+
+183
+00:16:00,759 --> 00:16:05,279
+ eller sublime associerar med orange i alla fall.
+
+184
+00:16:05,580 --> 00:16:12,580
+ Det är ditt färglatt tema, men det är lite mognare, skulle jag säga.
+
+185
+00:16:12,580 --> 00:16:18,980
+ Det är bara skönt för ögonen, det är inte så skrikt, men det är ändå färgglatt.
+
+186
+00:16:18,980 --> 00:16:27,980
+ Om någon vill så kan vi göra ett avsnitt om alla teman vi har och alla vår uppsättning och allting som vi använder.
+
+187
+00:16:30,000 --> 00:16:33,000
+ Men då får ni önska det, för annars kommer jag att tycka att det är pinsamt.
+
+188
+00:16:34,000 --> 00:16:38,000
+ Anthropic, också AI-stuff.
+
+189
+00:16:38,000 --> 00:16:43,000
+ Det är en populära LLM, version 3.7, som bygger vidare.
+
+190
+00:16:43,000 --> 00:16:45,000
+ Alltså klård, eller?
+
+191
+00:16:45,000 --> 00:16:49,360
+ Just den här, alltså modellen heter Sonnet.
+
+192
+00:16:49,360 --> 00:16:57,360
+ Ja, men det är väl alla som används... Jag vet inte om klart, det är typ det fina namnet, bara är det... Jag fattar inte.
+
+193
+00:17:00,000 --> 00:17:09,680
+ Entropic är som OpenAI och sen har du ChatGPT som är klart och sen är sådana själva modellnamnet som typ 01.
+
+194
+00:17:09,680 --> 00:17:10,960
+ Förmodligen.
+
+195
+00:17:10,960 --> 00:17:13,519
+ Ja, ja, förmodligen.
+
+196
+00:17:13,519 --> 00:17:20,319
+ Jag orkar inte tjej gissa i saker här för det är alltid fel säkert, men det låter jätterimligt.
+
+197
+00:17:20,319 --> 00:17:32,859
+ Jag faller, jag har kommit en ny version av den och just sådana 3.5 har ofta erligt de flesta benchmarks toppat ligan
+
+198
+00:17:32,859 --> 00:17:37,740
+ i att vara en bra kodassistent och generera kod.
+
+199
+00:17:37,789 --> 00:17:45,789
+ Den dök upp i juli 2024, men enligt Anthropics ska 3.7 ännu bättre.
+
+200
+00:17:46,089 --> 00:17:53,769
+ Inte jättekonstigt att det ska vara bättre, men det ska vara bättre på kodning och specifikt frontendutveckling.
+
+201
+00:17:53,769 --> 00:18:01,490
+ Och det som en del av det här så satsar man också på ett verktyg som heter Claude Code.
+
+202
+00:18:01,490 --> 00:18:05,089
+ som är en AI-agent som konkurrerar med liknande lösningar som
+
+203
+00:18:05,089 --> 00:18:08,289
+ typ Devin och andra AI-verktyg.
+
+204
+00:18:08,400 --> 00:18:12,400
+ Det är bara som tycker att Claude Code inte var ett bra namn.
+
+205
+00:18:12,400 --> 00:18:14,400
+ Det är inte alls det ligger bra i munnen.
+
+206
+00:18:15,630 --> 00:18:18,190
+ Ja, så klarar du ut haget.
+
+207
+00:18:18,190 --> 00:18:21,529
+ Ja, det blev lite äckligt.
+
+208
+00:18:21,769 --> 00:18:22,789
+ Äckligt.
+
+209
+00:18:23,049 --> 00:18:24,589
+ Kladkod, ja.
+
+210
+00:18:26,880 --> 00:18:28,880
+ Claude.
+
+211
+00:18:28,880 --> 00:18:30,880
+ Ja, jag vet inte.
+
+212
+00:18:30,880 --> 00:18:32,880
+ Det låter som en butler.
+
+213
+00:18:32,880 --> 00:18:34,880
+ Men det är väl okej? Ja, faktiskt. Här kan det vara.
+
+214
+00:18:34,880 --> 00:18:36,880
+ Eller dem. Jag låter lite.
+
+215
+00:18:36,880 --> 00:18:40,460
+ Jag vet inte, det är ingen som har lyckats med ett produktnamn här.
+
+216
+00:18:40,460 --> 00:18:43,279
+ Gemina kanske är det minst äckliga.
+
+217
+00:18:43,279 --> 00:18:46,099
+ Våra är chat-gbt-äckligt.
+
+218
+00:18:46,099 --> 00:18:48,740
+ Nej, men jag vet ju bara så dåliga produkter.
+
+219
+00:18:48,740 --> 00:18:52,259
+ O1 eller vilken modell ska jag använda idag?
+
+220
+00:18:52,259 --> 00:18:58,660
+ O1 eller O3-mini eller 4O eller...
+
+221
+00:19:00,000 --> 00:19:04,000
+ Det är så dåligt, bara såhär produktpresentation.
+
+222
+00:19:04,000 --> 00:19:09,000
+ Men det sagt också, de pratar om att jag vill veta att det är jobbigt.
+
+223
+00:19:09,000 --> 00:19:14,359
+ bland sex modeller utan de ska typ automatisera det. När du skriver en prompt så väljer de
+
+224
+00:19:14,359 --> 00:19:18,359
+ om den bästa modellen för det du vill göra, det vore oss bra.
+
+225
+00:19:18,359 --> 00:19:24,359
+ I alla fall den tidiga versionen, Sonnet 3.5, blev jätte framgångsrik.
+
+226
+00:19:24,359 --> 00:19:29,640
+ De flesta IDs med generativ AI-funktioner började använda den.
+
+227
+00:19:30,000 --> 00:19:37,519
+ Men för GitHub Co-pilot, som det använder i Visual Studio, så drydde det med stödet för det.
+
+228
+00:19:37,519 --> 00:19:41,279
+ hand andra idéer som typ kurser och windsurf.
+
+229
+00:19:41,279 --> 00:19:46,559
+ för att plocka upp användare i och med att de tillhört sådana 3.5.
+
+230
+00:19:46,559 --> 00:19:56,019
+ Men den här gången har alla stora utvecklingsverktyg inklusiva Github Kopa i ett redan lovat stöd för 3,7.
+
+231
+00:19:56,019 --> 00:20:03,900
+ Ta dem github-co-pilots och släpp dig github-co-pilots in code-review-funktion.
+
+232
+00:20:03,900 --> 00:20:13,900
+ Det ska bli spännande, för det har du ju pratat om, du vet att en AI som kanske kan kolla igenom din pull request så att det är ju lika bra.
+
+233
+00:20:13,900 --> 00:20:19,539
+ Att kunna ha åtminstone den första granskning innan man skickar upp den för att ha en peer.
+
+234
+00:20:19,539 --> 00:20:25,680
+ Eller hur? Jag har inte testat den och jag fick mail precis typ tror igår att min
+
+235
+00:20:25,940 --> 00:20:32,079
+ KOPI-licens har uppgraderats med den här funktionen för vi betalar förra på jobbet.
+
+236
+00:20:32,259 --> 00:20:34,380
+ Så det ska bli jätteintressant att testa.
+
+237
+00:20:34,380 --> 00:20:50,380
+ Så vad den gör är att den helt feedback på puroquests, typ går igenom och hittar uppenbara buggar, den summerar ändringarna, den föreslår vilka tester du har, du kan ha, den rättar stavfel, vi såklagade på stavfel för något avsnitt sen.
+
+238
+00:20:51,160 --> 00:20:53,660
+ Men ja, det är jäkligt coolt.
+
+239
+00:20:53,660 --> 00:20:57,960
+ Sedan tänker jag att den lär ju inte fatta kontexten såhär skölt bra.
+
+240
+00:21:00,000 --> 00:21:06,720
+ Alltså, själva featuren du implementerar, hur det hänger ihop, alltså det borde ju inte kunna.
+
+241
+00:21:07,180 --> 00:21:11,380
+ Ja, varstafel och liknande, och skriver en testeråtan också.
+
+242
+00:21:11,380 --> 00:21:14,180
+ Eller bara säger en typ så här, det borde testa detta.
+
+243
+00:21:14,420 --> 00:21:19,019
+ För det har varit skjutna, det borde testa här det här, här har du ett unitest.
+
+244
+00:21:19,480 --> 00:21:27,480
+ Vi får testa. Det stod bara att den föreslår testar, så jag vet inte vad det är bra för nånting.
+
+245
+00:21:30,000 --> 00:21:35,000
+ Men ingen aning, men det låter som ett bra tillägg.
+
+246
+00:21:35,000 --> 00:21:42,000
+ Men som du säger, den kanske inte kan skriva en bra puroquest sammanfattning åt den.
+
+247
+00:21:42,000 --> 00:21:45,000
+ För att en sak har kontext, det blir kanske såhär.
+
+248
+00:21:45,000 --> 00:21:51,039
+ Jag har ändrat detta, jag har ändrat detta, okej, men det är inte intressant om jag inte vet varför du har rörat detta.
+
+249
+00:21:51,039 --> 00:21:55,759
+ Det är inte bara för dåligt på att använda bra domänsspråk.
+
+250
+00:21:55,759 --> 00:22:00,759
+ Ja, det är också att man kan känna att man borde bli bättre på det.
+
+251
+00:22:00,759 --> 00:22:06,079
+ Vi drar till Google. Vi måste nämna alla aktörer.
+
+252
+00:22:06,079 --> 00:22:13,200
+ Google släpper sin kodassistent Gemini Code Assist gratis för privatpersoner.
+
+253
+00:22:13,200 --> 00:22:24,200
+ Tidigare kostade den 22,8 dollar i månaden och otroligt särkonstigt.
+
+254
+00:22:24,200 --> 00:22:27,079
+ De hoppas vi på att råka in fler användare.
+
+255
+00:22:27,079 --> 00:22:30,759
+ Det här har de gjort med alla sina AI-verktyg.
+
+256
+00:22:30,759 --> 00:22:34,200
+ Först så gillar de att alla skulle betala för det, men ingen ville betala för det.
+
+257
+00:22:34,200 --> 00:22:40,119
+ Så nu försöker de tvinga oss använda det i alla appar istället för att nu var de sa, okej, ingen vill betala för det.
+
+258
+00:22:40,119 --> 00:22:46,119
+ Vi vill ju ha folks data, så att låt oss bara tvinga de användare typer i fritt.
+
+259
+00:22:46,119 --> 00:22:49,119
+ Ja, som sagt, jag vet inte hur många gånger man har hört det här,
+
+260
+00:22:49,119 --> 00:22:54,119
+ att om nånting är gratis så betalar du ändå nånting och ofta ser din data.
+
+261
+00:22:55,119 --> 00:22:56,119
+ Exakt.
+
+262
+00:23:00,000 --> 00:23:10,000
+ co-pilot och kurser då. För företag kostar Gemini Kodassist fortfarande dock 54 dollar i månaden.
+
+263
+00:23:10,000 --> 00:23:12,000
+ Det är viktigt.
+
+264
+00:23:12,000 --> 00:23:15,000
+ Eller vad kostar co-pilot?
+
+265
+00:23:15,140 --> 00:23:17,140
+ För företag vet jag inte.
+
+266
+00:23:30,000 --> 00:23:46,000
+ Det är antagligen också dyrare, för din data processas bara på en dedikerad server som de inte har tillgång till, de får inte träna på din data, så därför förstår jag att man får betala.
+
+267
+00:23:46,000 --> 00:23:52,140
+ 54 och Github Co-Pilot Enterprise kostar 39 dollar.
+
+268
+00:23:53,049 --> 00:23:55,049
+ Så den är dyrare.
+
+269
+00:23:56,279 --> 00:24:00,279
+ Men ja, det var nyheterna.
+
+270
+00:24:00,329 --> 00:24:06,329
+ Ja, men tack för den här genomgången, väldigt bra pålastig, jag slipper läsa nyheter.
+
+271
+00:24:06,329 --> 00:24:08,329
+ Ja, det var så god.
+
+272
+00:24:08,329 --> 00:24:14,329
+ Jag kommer att tänka på att vi borde ta upp någonting som har varit med Firefox, har du hört någonting om det?
+
+273
+00:24:14,759 --> 00:24:20,759
+ Ja men jag orkar inte prata mer. Jag dricker valtem så får du berätta.
+
+274
+00:24:20,759 --> 00:24:26,599
+ Jag har inte alls förberett nånting, men jag har läst lite om de har uppdaterat sina Terms and Conditions nu.
+
+275
+00:24:30,109 --> 00:24:37,109
+ Och i princip första versionen sa ju mer eller mindre. Vi kommer samla in all data du matar in
+
+276
+00:24:37,109 --> 00:24:43,109
+ i liksom inputfält eller i vad du skriver och vad du ser för rubbet.
+
+277
+00:24:43,109 --> 00:24:48,109
+ Ingen lot kan jag gissa. De har blivit uppköpta också, så att det är mer...
+
+278
+00:24:48,109 --> 00:24:52,609
+ men folk har ju slagit bakut nu och letar efter alternativa browsers.
+
+279
+00:24:52,609 --> 00:24:57,609
+ Det finns ju libre och olf, till exempel Betja som är en folk av Firefox.
+
+280
+00:24:57,630 --> 00:25:03,069
+ Om man nu vill fortsätta använda Firefox men inte sälja ut sin skäl.
+
+281
+00:25:03,069 --> 00:25:05,769
+ Sen finns det ju massor andra alternativ.
+
+282
+00:25:05,789 --> 00:25:10,789
+ Om man fanns med att köra på Chromium, så förespråkade jag både det och jag Ark.
+
+283
+00:25:10,789 --> 00:25:20,789
+ Och ja, nej, det finns ju tusentals alternativ, Brave och massa obskur alternativ som har knappt en så här talas om.
+
+284
+00:25:20,789 --> 00:25:30,789
+ Ja, det där är tråkigt för jag har inte hört om att de liksom erbjuder att du kan betala någonting och få slippa undan det.
+
+285
+00:25:30,789 --> 00:25:40,789
+ Jag förstår att folk behöver tjäna pengar, och som privatperson, jag vill inte heller betala 200 spänföt av en browser,
+
+286
+00:25:41,480 --> 00:25:50,480
+ Att de kunde ha haft en modell som betalade 20 g spänn i månaden, så hade de väl i många gjort det?
+
+287
+00:25:50,480 --> 00:25:52,480
+ Ja, kanske.
+
+288
+00:25:52,690 --> 00:26:01,690
+ Jag hörde, jag vet inte, jag har inte faktagranskat detta nu, men att en stor anledning att de har mindre pengar är för att Google har slutat supporta dem.
+
+289
+00:26:01,690 --> 00:26:08,690
+ Google har ju supportat ganska många browsers mot att då få ha Google som default sökmotor.
+
+290
+00:26:08,690 --> 00:26:13,009
+ Nu när de inte längre får göra det, vi är med de här lagarna som har tritt i kraft.
+
+291
+00:26:13,029 --> 00:26:15,029
+ Så det är ju som att förstöta det?
+
+292
+00:26:15,029 --> 00:26:19,029
+ Jag drar mig i att supporta för att då får de inte hit nånting av, eller?
+
+293
+00:26:19,029 --> 00:26:21,750
+ Så det är vårat fel, europeerna?
+
+294
+00:26:21,750 --> 00:26:23,789
+ Ja, exakt skilj för det.
+
+295
+00:26:24,319 --> 00:26:27,200
+ Okej, men då ska jag inte säga nåt.
+
+296
+00:26:27,200 --> 00:26:30,200
+ Fan vad det var, att vara trötta på oss i huset.
+
+297
+00:26:30,200 --> 00:26:38,079
+ Vi fick ju en lyssnarfråga också som vi kan ta och bränna av kanske.
+
+298
+00:26:38,079 --> 00:26:40,079
+ Vi tänker att det är inte så jättelång.
+
+299
+00:26:40,130 --> 00:26:45,369
+ Det är från vår vän Kajtan Kasmirčak som vars namn jag har hört många gånger.
+
+300
+00:26:45,420 --> 00:26:56,420
+ Han frågar såhär, hur löser man bäst konflikten mellan att vara lite av en scout och alltid lämna kvården i bättre skick än när man fann den?
+
+301
+00:26:56,420 --> 00:26:59,180
+ Du vill säga att fixa eventuella småsaker när man ser dem,
+
+302
+00:26:59,420 --> 00:27:02,099
+ uppdatera paket, fixa felstavningar och så vidare.
+
+303
+00:27:02,529 --> 00:27:07,529
+ Och att bara stäcklösa det som finns i giraticket och inget annat.
+
+304
+00:27:07,529 --> 00:27:17,029
+ Flera arbetsplatser har, fullt förståelse kanske, en policy om att MPR endast får inhålla lösningen på en feature eller bug och inget annat.
+
+305
+00:27:17,029 --> 00:27:23,029
+ Samtidigt vill man ju inte att koden ska förfalla för att det inte finns tickets givare för något litet man precis har hittat.
+
+306
+00:27:23,170 --> 00:27:32,170
+ Att skapa en ticket får en prioriterad och kanske jag får återkomma till en stenare i rätt omständigt om det handlar om t.ex. namnet på en lokal variabel som är felstövat.
+
+307
+00:27:32,170 --> 00:27:37,059
+ har ni råkat ut för det i det hela månaderna?
+
+308
+00:27:37,059 --> 00:27:52,299
+ Alltså, det jag bara såhär reagerar först på var att flera arbetsplatser har en pålyssig där en PR är endast få innehålla lösningen och ingenting annat.
+
+309
+00:27:52,599 --> 00:27:54,599
+ Jag har aldrig varit med om det.
+
+310
+00:27:54,599 --> 00:27:56,599
+ Inte jag heller faktiskt.
+
+311
+00:27:56,599 --> 00:28:00,599
+ Jag har inte hört det som att det skulle vara ett problem på det sättet.
+
+312
+00:28:00,599 --> 00:28:02,599
+ Att man bara får göra det.
+
+313
+00:28:02,599 --> 00:28:08,599
+ Sen kan jag ju förstå att man inte vill trycka in hur mycket som helst man får ha lite synd förnuft.
+
+314
+00:28:08,599 --> 00:28:10,599
+ Men ibland så är det ju...
+
+315
+00:28:10,599 --> 00:28:11,599
+ Ja.
+
+316
+00:28:11,680 --> 00:28:16,680
+ Ibland blir det att man måste lägga ihop vissa saker, det har jag i alla fall gjort med skylde till.
+
+317
+00:28:16,680 --> 00:28:22,680
+ Ja, definitivt vad man kan ha med att folk diskuterar det här i ett team.
+
+318
+00:28:22,680 --> 00:28:25,160
+ Men aldrig att jag får en strikt polis i.
+
+319
+00:28:25,160 --> 00:28:36,160
+ Jag tycker bara att det låter helt sjukt att man ska behöva göra en ticket av det och få den prioriterad och att den ska gå igenom hela den här ordinarna processen.
+
+320
+00:28:36,240 --> 00:28:44,240
+ Det känns som nånting man borde diskutera fram, jag vet inte, kanske nånting att ta upp på ett retro.
+
+321
+00:28:44,240 --> 00:28:51,240
+ Och säga det här att jag vill kunna lösa små saker, för jag är helt med på det här scout-tänket.
+
+322
+00:29:00,000 --> 00:29:12,240
+ Jag tycker det är klockrent. Ser man nånting som behövs fixas, om det bara är ett stav fel eller nån lint grej som har blivit fel eller nånting, då har jag bara gjort det samma på er.
+
+323
+00:29:12,240 --> 00:29:16,799
+ kanske vill bryta upp det jättelånga till lite olika variablar och sånt.
+
+324
+00:29:16,940 --> 00:29:18,940
+ Då kanske det är mer okej.
+
+325
+00:29:18,940 --> 00:29:20,440
+ Kanske ska jag göra ett eget.
+
+326
+00:29:20,440 --> 00:29:26,119
+ Men då hade jag ändå bara gjort det i en egen PR och inte skickat in den samtidigt.
+
+327
+00:29:30,000 --> 00:29:40,000
+ Ja, det kan bli chuff så att man är ONC, för jag tycker att man ska städa upp när det är ditt stav fel.
+
+328
+00:29:40,000 --> 00:29:46,000
+ Men jag förstår absolut problematiken att det behöver en fakturera en funktion.
+
+329
+00:29:46,000 --> 00:29:50,000
+ Eller det är typ så här, du ändrar kanske en massa stafel.
+
+330
+00:29:50,000 --> 00:29:54,000
+ Jag vet inte, du ändrar så här saker som känns små.
+
+331
+00:30:00,000 --> 00:30:10,500
+ Men i och med när koden inte har tester så kan du ha faktiskt inte, jag menar inte intresserad av något stav fel och det upptäcks inte fördra och tryckte ut det, jag vet inte.
+
+332
+00:30:10,500 --> 00:30:16,640
+ istället för att du har en konstant eller någonting eller en enum så jämför du ett strängvärde
+
+333
+00:30:16,640 --> 00:30:20,480
+ Och så har det ju plötsligt blivit stängvärdet.
+
+334
+00:30:20,480 --> 00:30:25,480
+ Och det är ju mycket lättare att detta trilla mellan stolarna om man bara gör lite under radon.
+
+335
+00:30:25,480 --> 00:30:28,839
+ Det blir ingen spårbarhet och blivit att ha en ticket och koppla det till på det sättet.
+
+336
+00:30:30,000 --> 00:30:40,000
+ Nej, vi har jobbat med en utvecklare, som jag har väldigt stor respekt för,
+
+337
+00:30:40,000 --> 00:30:45,440
+ som var väldigt snabb och upptäckte att det här behöver göras om.
+
+338
+00:30:45,440 --> 00:30:51,440
+ Man behöver underhålla sin kod. Man ser en halvdor sena robbar, men vad fan är det jag har skrivit?
+
+339
+00:30:51,440 --> 00:30:59,900
+ Men som kände att det var en bra idé att passa på och kanske gjorde en till PR då ens.
+
+340
+00:31:00,000 --> 00:31:03,279
+ så försökte det vara ändå såhär noga att det skulle vara lätt att koldreviua.
+
+341
+00:31:03,359 --> 00:31:07,799
+ Men jag minns att vi hade en kuva person då,
+
+342
+00:31:08,880 --> 00:31:13,519
+ som ibland gick i taket över det här för att det var såhär.
+
+343
+00:31:13,599 --> 00:31:15,440
+ Nu har du gjort massa ändringar.
+
+344
+00:31:16,480 --> 00:31:18,279
+ Hur vet du att det här funkar?
+
+345
+00:31:19,400 --> 00:31:22,920
+ Och det här smögs allt i och med liksom lite för kuva personen.
+
+346
+00:31:22,920 --> 00:31:27,920
+ För att den här utvecklaren visste ju att QA-personen skulle fråga.
+
+347
+00:31:27,920 --> 00:31:30,920
+ Och så var det också större för vissa som utvecklare.
+
+348
+00:31:30,920 --> 00:31:35,680
+ Ibland kom det en väldigt stor ordbann, men det här är bara refaktiering.
+
+349
+00:31:35,680 --> 00:31:43,680
+ Jag bara gör om hela strukturen, jag gör det mer kanske funktionellt eller jag vill inte att det ska vara funktionellt för det är så svårläst.
+
+350
+00:31:44,240 --> 00:31:48,160
+ och då att sitta av granskare som kollega utan en ticket.
+
+351
+00:31:48,160 --> 00:31:51,839
+ Det kunde vara svårt.
+
+352
+00:31:51,839 --> 00:31:58,839
+ Ja men det känns som en lite större grej, man kanske kan ha någon slags, liksom är det mer än
+
+353
+00:32:00,000 --> 00:32:06,140
+ men två minuters jobb att implementera och mer än 15 minuter att testa.
+
+354
+00:32:06,400 --> 00:32:07,940
+ Då får det bli en ticket av det.
+
+355
+00:32:09,220 --> 00:32:09,980
+ Sen vet jag inte.
+
+356
+00:32:09,980 --> 00:32:16,059
+ Master och jag skulle inte byta sur om någon utvecklare ljupen ticket och bara
+
+357
+00:32:16,059 --> 00:32:18,019
+ drog in den i typ developing.
+
+358
+00:32:19,380 --> 00:32:20,500
+ Kör du tycker också.
+
+359
+00:32:20,500 --> 00:32:28,500
+ Det låter som onare bromsklass att man ska sitta och prioritera upp till oss vidare och sen prioriteras det inte upp och så glömmer man bort den.
+
+360
+00:32:28,500 --> 00:32:33,500
+ Som det ändå är så lite att man gör det i samband så bara kör.
+
+361
+00:32:33,500 --> 00:32:39,900
+ Ja, enda gången jag skulle vilja lägga dig i någon pri och backlogg är att om det är ett större arbete.
+
+362
+00:32:39,900 --> 00:32:50,900
+ Ja, om det är en dagarbet eller en halv dag ens, då snackar vi liksom, nej, då kan du inte bara smyga in den lite svåra.
+
+363
+00:32:50,900 --> 00:32:55,339
+ Ja precis, för då sitter det ändå och har prioriterat ner något annat.
+
+364
+00:32:55,339 --> 00:33:05,539
+ Man behöver ändå vara transparent mot alla i timmet och ha respekt för peon vars ansvar är att se till att det är mest prioriterad.
+
+365
+00:33:05,539 --> 00:33:10,819
+ det jobbas på. Det är säkert helt okej för pen. Man behöver lyfta det och prata om det och det kan vara
+
+366
+00:33:10,819 --> 00:33:14,740
+ typ så här. Och det kan vara sjukt störande som utvecklar man är så här.
+
+367
+00:33:15,380 --> 00:33:17,460
+ Ni måste göra det här. Det går ganska snabbt.
+
+368
+00:33:17,500 --> 00:33:18,420
+ Ta bara en halv dag.
+
+369
+00:33:18,599 --> 00:33:24,599
+ Men de vill ändå ha lite koll och förstå vad som händer och varför ni lägger tid på det här.
+
+370
+00:33:30,880 --> 00:33:40,880
+ Ofta brukar man ju lägga in lite padding för typ maintenance tasks och sånt när man gör sprint planning och sånt.
+
+371
+00:33:40,880 --> 00:33:44,880
+ Så tycker jag ändå utrymmet borde finnas där.
+
+372
+00:33:44,880 --> 00:33:49,400
+ Men jag känner igen ett scenario och det är såhär...
+
+373
+00:33:49,480 --> 00:33:53,599
+ Det här stövar mig faktiskt väldigt mycket bland saker som stör mig.
+
+374
+00:33:53,599 --> 00:33:58,200
+ Jag borde skriva upp det här någonstans så att vi gör ett avsnitt om saker som stör mig med andra utvecklare.
+
+375
+00:33:58,200 --> 00:34:06,200
+ Säg att det tar 20% av din sprint tid att göra det här.
+
+376
+00:34:06,200 --> 00:34:08,199
+ Ännes 50.
+
+377
+00:34:08,199 --> 00:34:14,199
+ Och så säger vi att det här tar lite längre tid, det är lugnt att vi lägger in det här backloggen.
+
+378
+00:34:14,199 --> 00:34:19,639
+ Och den här utvecklaren säger att de inte vill göra det nu eller säger att det inte kommer att tas så lång tid.
+
+379
+00:34:19,639 --> 00:34:24,760
+ Så det de gör istället är att de tycker att det här är rätt roligt arbeten.
+
+380
+00:34:24,760 --> 00:34:33,760
+ Så de sätter sig på kvällarna och gör det här och påstår sen även om du har varit med, men jag har varit med fler gånger från olika personer.
+
+381
+00:34:33,760 --> 00:34:36,480
+ Det är så roligt att de gör det på kvällen.
+
+382
+00:34:36,480 --> 00:34:39,639
+ Men det är ändå någon som ska jobba med detta sen och testa det.
+
+383
+00:34:39,639 --> 00:34:41,119
+ Granskare.
+
+384
+00:35:00,000 --> 00:35:09,000
+ Alltså, de personer är oftast såhär, men det är inga problem för någon och jag har suttit och gjort det här själv och hur kan du inte vara typ, du vet,
+
+385
+00:35:09,000 --> 00:35:15,469
+ hur kan inte alla bara vara tacksamma att jag sitter och gör det här på min fritid?
+
+386
+00:35:15,469 --> 00:35:22,469
+ där på kvällarna av intresset, då har du på mig ett hobbyprojekt då, det stömer mig.
+
+387
+00:35:22,469 --> 00:35:26,469
+ Och definitivt har vi folk som lyssnar som gör så här.
+
+388
+00:35:26,469 --> 00:35:29,469
+ Jag tror jag har gjort så någon gång också.
+
+389
+00:35:29,469 --> 00:35:31,469
+ Jag känner mig lite smått träffad.
+
+390
+00:35:31,550 --> 00:35:39,230
+ Jag har ju träffat det själv också någon gång, men det finns vissa som är väldigt så större grejer.
+
+391
+00:35:39,230 --> 00:35:46,909
+ Så att de inte förstår att det är stort och de insisterar på att de låter inte den här purokosten vara i draft.
+
+392
+00:35:46,909 --> 00:35:55,909
+ För det är fine, gör det på kvällen, lägg upp en puderkvast och skapa en tikket, lugna ner folk, så präppar de lite.
+
+393
+00:35:56,179 --> 00:36:04,179
+ Jag vet att det är störigt, men gör det här lite extra arbetet för folk så att du inte bara trycker in saker och åtminstone det.
+
+394
+00:36:04,179 --> 00:36:06,179
+ Någonting.
+
+395
+00:36:06,179 --> 00:36:08,179
+ Ja, vad säger kommunikation typ?
+
+396
+00:36:08,179 --> 00:36:09,179
+ Ja.
+
+397
+00:36:09,389 --> 00:36:11,389
+ Men ja, vad vill du säga?
+
+398
+00:36:11,389 --> 00:36:29,389
+ Jag skulle säga, tror du det är en bra idé att man har någon generell typ förbättringsticket som man kan koppla till och att man från flesta verktyg kan ju ändå skriva en kommentar till kopplingen till en ticket från din PR.
+
+399
+00:36:30,460 --> 00:36:42,460
+ För då löser man ju lite det här att man måste gå in och ska skapa en ticket och det är ändå lite extra overhand som det är ganska mycket om du bara ska fixa något litet stafel eller liknande.
+
+400
+00:36:45,460 --> 00:36:48,460
+ Eller blir det bara en slasktratt?
+
+401
+00:36:48,539 --> 00:36:52,539
+ När är stafel absolut samma på request?
+
+402
+00:36:52,539 --> 00:37:00,039
+ Alltså, som sagt, när det inte är så här farligast avfylld, att man ändå råkats ändra det.
+
+403
+00:37:00,039 --> 00:37:07,079
+ Jag tycker det ska vara refakturering i PRN, men jättegör att det är en egen kommitt.
+
+404
+00:37:07,079 --> 00:37:11,320
+ Här har jag gjort arbetet och här har jag städat upp.
+
+405
+00:37:11,320 --> 00:37:16,199
+ Absolut sett. Vi pratar om att man kunde ha en ticket som är generell, som du kopplar till.
+
+406
+00:37:16,199 --> 00:37:19,320
+ Som bara slasktrattar allting.
+
+407
+00:37:19,320 --> 00:37:24,679
+ Ja men typ, alltså såhär, det här är denna sprintens förbättringsticket.
+
+408
+00:37:24,679 --> 00:37:27,000
+ Hit kan du koppla liksom små grejer.
+
+409
+00:37:27,000 --> 00:37:31,880
+ Jag vet inte själv om jag gillade det, men det skulle kunna vara en lösning.
+
+410
+00:37:31,880 --> 00:37:35,199
+ Ja men är det så smått, då tycker jag det ska vara kopplat till.
+
+411
+00:37:35,630 --> 00:37:39,630
+ Alltså, då kan det ändå vara på den originalticket.
+
+412
+00:37:39,630 --> 00:37:45,630
+ Men absolut, är det någonting så här, ooo så stråkade jag att jag ser en helt annan fil, att det var någonting?
+
+413
+00:37:47,949 --> 00:37:57,949
+ Ja, jag vet inte. En sak är att bli såhär, men gud vad bajsnördig man ska vara, man kan inte ens fixa något litet utan att man ska skapa en ticket.
+
+414
+00:38:00,000 --> 00:38:03,000
+ Men om andra sidan är det inte så jobbigt att göra det,
+
+415
+00:38:03,000 --> 00:38:08,000
+ bara klicka på det plus och skriva en titel och varför vad man fixade.
+
+416
+00:38:08,000 --> 00:38:10,000
+ Det beror på hur mycket du ska skriva.
+
+417
+00:38:10,000 --> 00:38:13,000
+ Alltså, vi säger superstrikt att du ska skriva liksom
+
+418
+00:38:13,000 --> 00:38:16,440
+ Det är det man inte ska skriva.
+
+419
+00:38:16,440 --> 00:38:21,400
+ As a customer you want to re-factor the system.
+
+420
+00:38:21,400 --> 00:38:23,320
+ Det är det som det är så.
+
+421
+00:38:23,320 --> 00:38:27,000
+ Det är vajsnödigt. Nej, det får man inte göra.
+
+422
+00:38:27,880 --> 00:38:35,039
+ Vi hör i våra team och det jag haft i andra team är att vi har en feature, eller epic, i Jira.
+
+423
+00:38:35,119 --> 00:38:39,239
+ som heter typ så här, technical improvements, debt, ideas
+
+424
+00:38:39,539 --> 00:38:56,300
+ Och kommer du på nånting så kan du lägga in en task där för framtida grejer eller så när du ser nånting nu nu nu så har du en feature och lägger den under.
+
+425
+00:38:56,920 --> 00:38:59,360
+ Ja, så hade vi också mitt senaste team.
+
+426
+00:38:59,360 --> 00:39:01,840
+ Där kunde det vara verkligen högt och lågt.
+
+427
+00:39:01,840 --> 00:39:04,480
+ Ja, man måste rensa ut dem här också, jag har märkt.
+
+428
+00:39:04,480 --> 00:39:07,079
+ För ibland ligger det bara saker som ingen nånsin tar upp.
+
+429
+00:39:07,079 --> 00:39:10,519
+ Men jag tycker att det är schysst att skriva en rad så här, för det är förrän själv.
+
+430
+00:39:10,519 --> 00:39:16,039
+ För man själv minns inte vad jag har skapat den här tycker jag för ett halvt år sedan.
+
+431
+00:39:16,699 --> 00:39:21,699
+ Och det finns bara en titel som är Refactor, bla, bla, bla, service.
+
+432
+00:39:22,260 --> 00:39:25,260
+ Och så bara, men vad är det jag vill refaktorerar i det?
+
+433
+00:39:25,260 --> 00:39:28,260
+ Alltså, varför? Och så är det ingen annan som kan...
+
+434
+00:39:28,309 --> 00:39:32,309
+ Jag ser ingen annan som kan plocka upp den.
+
+435
+00:39:32,650 --> 00:39:35,150
+ Nej, man ska inte äta mycket man glömmer.
+
+436
+00:39:35,150 --> 00:39:37,650
+ Alltså har vi svarat, Keita, men...
+
+437
+00:39:38,500 --> 00:39:41,500
+ Frågan var ju, har ni råkit ut för det limmat?
+
+438
+00:39:41,550 --> 00:39:45,550
+ Ja, eller jag har absolut haft diskussioner.
+
+439
+00:39:45,550 --> 00:39:55,550
+ De senaste sju åren har jag jobbat i samma projekt och där var vi turen och har väldigt förstående PO.
+
+440
+00:39:55,730 --> 00:40:01,869
+ Men absolut att det är ändå ibland bygger upp, då man måste prioritera det mot något annat.
+
+441
+00:40:02,210 --> 00:40:07,710
+ Men den sista saker tänkte på kanske, för han nämnde också typ såhär, uppdatera paket, till exempel.
+
+442
+00:40:07,710 --> 00:40:16,110
+ Mycket kan man ju faktiskt automatisera. Man kan ju ha typ såhär det pendlar bort och sånt för att uppdatera paket.
+
+443
+00:40:16,110 --> 00:40:20,789
+ Då blir det ju inte lika mycket att du själv måste hitta tiden och trycka in det och så här.
+
+444
+00:40:21,090 --> 00:40:26,530
+ Nu kommer jag ihåg att jag läste någonstans i nån tråd när vi pratade om Linters, så att Keten sa att han hatade Linters.
+
+445
+00:40:26,530 --> 00:40:28,969
+ Jag blir så här chockad bara, tycker jag man hatar linters.
+
+446
+00:40:28,969 --> 00:40:35,969
+ Det är ju ett bra sätt att kunna undvika att man behöver göra såna här reflektureringar.
+
+447
+00:40:35,969 --> 00:40:37,969
+ Jo.
+
+448
+00:40:38,019 --> 00:40:44,420
+ Nej, men det är mycket som går att automatisera och är en breaking change, men då får man ha...
+
+449
+00:40:44,559 --> 00:40:54,559
+ Vissa team, där de får in Breaking Changes, har en person som ansvarig att ta hand om Breaking Change varje vecka.
+
+450
+00:40:54,559 --> 00:41:00,000
+ så att alla vet att när vi kan närma det igen som kommer att titta på det.
+
+451
+00:41:00,000 --> 00:41:04,239
+ Ja, faktiskt, så det är ju ett schysst.
+
+452
+00:41:04,239 --> 00:41:11,440
+ Men jag tycker också i allt det här, så får man ta in lite hur kritiskt är vårt system.
+
+453
+00:41:11,440 --> 00:41:19,440
+ Har du många miljoner användare och går det ner på grund av ett stav fel så är det
+
+454
+00:41:19,440 --> 00:41:22,800
+ liksom det förlorar så extra mycket på det.
+
+455
+00:41:24,239 --> 00:41:25,559
+ Då kanske man bör fundera.
+
+456
+00:41:25,960 --> 00:41:33,219
+ eller om det är en bank eller nånting och sånt där det kan vara jättestora implikation om någonting händer.
+
+457
+00:41:33,219 --> 00:41:44,219
+ Ja, det kommer hända fel, men det kan nog vara skönt om det sker ett fel på en av nåt stafel man gjorde.
+
+458
+00:41:44,219 --> 00:41:56,760
+ Du hade en ticke att du skrev varför du gjorde det, så det kan nog kännas lite bättre ändå att man gjorde så pass bara rätt att man bara kunde.
+
+459
+00:42:00,000 --> 00:42:09,000
+ Hällare det än att det kommer fram att man har smugit om nånting och så har det blivit fel, då är det lite skämigt att stå om man gör det här med...
+
+460
+00:42:09,000 --> 00:42:14,440
+ bypassade polisys eller folk som är såhär, du vet, har en body som alltid godkänner
+
+461
+00:42:14,440 --> 00:42:16,320
+ en sköld och skäst alltså så.
+
+462
+00:42:16,320 --> 00:42:19,199
+ Det måste vara i skambron.
+
+463
+00:42:19,199 --> 00:42:22,480
+ Ja, när man får fundera på hur viktigt den system är.
+
+464
+00:42:24,480 --> 00:42:27,599
+ Ja, hoppas att det var en intressant diskussion iallafall.
+
+465
+00:42:28,079 --> 00:42:30,480
+ Om inte annat så var ju dina nyhet och intressanta.
+
+466
+00:42:31,280 --> 00:42:32,480
+ Absolut.
+
+467
+00:42:32,480 --> 00:42:35,480
+ Men ja, vi hörs nästa vecka då.
+
+468
+00:42:35,480 --> 00:42:37,480
+ Det gör vi. Ha det bra allihopa!
+
+469
+00:42:37,659 --> 00:42:38,659
+ Hejdå.
+

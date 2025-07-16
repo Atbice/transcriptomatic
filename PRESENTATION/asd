@@ -1,0 +1,63 @@
+Absolut! Här är ett förslag på förbättrade slides, med mer engagerande titlar, en kort introduktion till vad ASR är, och mer detaljerad information integrerad från din engelska text, allt inom ramen för tre slides:
+
+---
+
+Vad är Taligenkänning (ASR)?
+======================================
+* **Automatisk Taligenkänning (ASR)**, eller Speech-to-Text (STT), är teknologin som omvandlar mänskligt tal till skriven text.
+* Målet är att datorer ska kunna "förstå" och transkribera det som sägs.
+* Denna teknik har genomgått en dramatisk utveckling, från enkla system till dagens avancerade modeller.
+
+Taligenkänningens gryning: Från siffror till statistiska modeller
+====================================================================
+* **De första stegen (1950-tal – tidigt 1970-tal): Banbrytande system**
+    * **1952:** Bell Labs "Audrey" – Kände igen talade siffror från en enskild talare.
+    * **1962:** IBM:s "Shoebox" – Kände igen 16 engelska ord och utförde enkel aritmetik.
+    * **Kännetecken:** Mycket begränsade uppgifter (isolerade ord/siffror), talarberoende, begränsad beräkningskraft, fokus på akustiska särdrag (t.ex. formanter).
+* **Den statistiska eran (1970-tal – 2000-tal): HMM och GMM dominerar**
+    * **1970-talet:** DARPA:s SUR-program återupplivade forskningen, siktade på 1000-ords vokabulärer.
+    * **Dolda Markovmodeller (HMM):** Blev den dominerande metoden. En probabilistisk modell som ser tal som en sekvens av dolda fonetiska enheter.
+    * **Gaussiska blandningsmodeller (GMM):** Användes med HMM för att modellera distributionen av akustiska särdrag.
+    * **N-gram språkmodeller:** Kombinerades med HMM-GMM för att förutsäga sannolikheten för ordsekvenser.
+    * **Mitten av 1980-talet:** IBM:s "Tangora" – Röststyrd skrivmaskin med 20 000 ords vokabulär.
+    * **1993:** CMU:s Sphinx-II – Första talaroberoende systemet för kontinuerligt tal med stort ordförråd (LVCSR).
+    * **Kännetecken:** Datadrivet, statistiskt angreppssätt, bättre hantering av kontinuerligt tal och större vokabulärer.
+* **Djupinlärningens intåg (sent 1980-tal – tidigt 2000-tal): Hybridmodeller**
+    * **Hybrid DNN-HMM-system:** Djupa neurala nätverk (DNN) ersatte GMM för akustisk modellering, vilket förbättrade differentieringen av fonem. HMM bibehölls för temporal modellering.
+
+Revolutionen fortsätter: End-to-End-arkitekturer och språkmodellernas intåg
+=================================================================================
+* **Mot End-to-End-paradigm (tidigt 2000-tal – mitten av 2010-talet):**
+    * **Connectionist Temporal Classification (CTC) (2006):** Möjliggjorde direkt träning av RNN:er på osegmenterad sekvensdata genom att använda en "blank" symbol och summera över alla möjliga anpassningar. Eliminerade behovet av förjusterad data.
+    * **Återkommande Neurala Nätverk (RNN) & LSTM:** Förenklade ASR genom att direkt mappa tal till text och hanterade temporala beroenden bättre än tidigare DNN:er. LSTM löste problem med försvinnande/exploderande gradienter.
+* **End-to-End tar över (mitten av 2010-talet – nutid): Nya arkitekturer**
+    * **Listen, Attend, and Spell (LAS) (ca 2015-2016):** Encoder (Listener) + Uppmärksamhetsbaserad Decoder (Speller). Uppmärksamhetsmekanismen lät dekodern fokusera på relevanta ljudsegment.
+    * **Transformer-arkitekturen (ca 2017-nutid):** Förlitar sig helt på självuppmärksamhetsmekanismer för att modellera globala beroenden. Mycket parallelliserbar och utmärkt för lång kontext.
+    * **Recurrent Neural Network Transducer (RNN-T):** Naturligt lämpad för strömmande ASR tack vare monoton, ramvis bearbetning.
+    * **Kännetecken:** Förenklade ASR-pipelines (ett enda neuralt nätverk), betydande noggrannhetsförbättringar.
+* **Stora Språkmodeller (LLM) gör entré (sent 2010-tal – nutid): Förbättrad språkförståelse**
+    * **Motivering:** Övervinna språkmodelleringsflaskhalsar, utnyttja LLM:ers världskunskap och kontextuella förståelse.
+    * **Tidiga integrationsstrategier:**
+        * **N-bästa omvärdering (Rescoring):** Förtränade LLM:er (BERT, tidiga GPT:er) rangordnar hypoteser från ASR-system.
+        * **Efterbearbetning & felkorrigering:** LLM:er "rensar" eller "översätter" ASR-utdata.
+    * **Resultat:** Förbättrad hantering av sällsynta ord, kontext, tvetydigheter (t.ex. homofoner) och felkorrigering.
+
+Den moderna ASR-eran: LLM-synergi, utmaningar och visioner
+=================================================================
+* **Djupintegration av LLM (tidigt 2020-tal – nutid):**
+    * **Textbaserad:** LLM bearbetar text från ASR (t.ex. avancerad omvärdering, generativ felkorrigering - GER).
+    * **Latent representationsbaserad:** Talrepresentationer från en encoder anpassas och matas till en LLM.
+    * **Ljud-token-baserad:** Tal konverteras till diskreta semantiska eller akustiska "tokens" som LLM:er bearbetar.
+    * **Påverkan:** Ytterligare noggrannhetsförbättringar, särskilt i komplexa lingvistiska sammanhang och för domänanpassning. Förbättrad igenkänning av sällsynta ord och motståndskraft mot brus.
+* **Aktuella Utmaningar:**
+    * **Beräkningseffektivitet:** Särskilt för realtidsanvändning på enheter med begränsade resurser.
+    * **Bias och rättvisa:** Hantera och mildra bias i träningsdata och modeller.
+    * **Lågresursspråk:** Utveckla högpresterande modeller för språk med begränsad träningsdata.
+    * **Robusthet:** Förbättra prestanda i bullriga miljöer och med varierande talstilar.
+* **Framtida Riktningar och Visioner:**
+    * **Optimala integrationsstrategier:** Fortsatt forskning kring hur tal- och språkkomponenter bäst kombineras.
+    * **Parameter-Efficient Fine-Tuning (PEFT):** Effektiva metoder (t.ex. LoRA) för att anpassa stora LLM:er.
+    * **Tillförlitlighet:** Minska hallucinationer och öka modellernas pålitlighet.
+    * **Multimodal förståelse:** System som kan bearbeta och förstå information från flera källor (t.ex. ljud och video).
+    * **Konversationell AI:** Mer naturliga och kontextmedvetna dialogsystem.
+
